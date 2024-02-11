@@ -1,0 +1,71 @@
+PUT _template/cat_rating__template
+{
+  "index_patterns": [
+	"cat_rating-*"
+  ],
+  "settings": {
+	"index.number_of_replicas": "1",
+	"index.max_result_window": "50000",
+	"index.unassigned.node_left.delayed_timeout": "10m",
+	"number_of_shards": 1,
+	"index.mapping.coerce": false,
+	"index.lifecycle.name": "ilm-cat-rating", 	 
+	"index.lifecycle.rollover_alias": “cat_rating”
+  },
+  "mappings": {
+    "dynamic": "strict",
+    "properties": {
+      "comment": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword"
+          }
+        }
+      },
+      "id": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      },
+      "rating": {
+        "type": "float"
+      },
+      "ratingID": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      },
+      "status": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      },
+      "userID": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      }
+    }
+  }
+}
+
+
+}
+
