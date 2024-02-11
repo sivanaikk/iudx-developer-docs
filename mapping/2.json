@@ -1,0 +1,91 @@
+PUT <cos-prefix>__cat_domains
+{
+   "settings": {
+	"index.number_of_replicas": "1",
+  	"index.mapping.coerce": false,
+	"index.max_result_window": "50000",
+	"index.unassigned.node_left.delayed_timeout": "10m",
+ 	"number_of_shards": 1
+  },
+
+	"mappings": {
+  	"properties": {
+    	"DomainID": {
+      	"type": "text",
+      	"fields": {
+        	"keyword": {
+          	"type": "keyword",
+          	"ignore_above": 256
+        	}
+      	}
+    	},
+    	"ID": {
+      	"type": "text",
+      	"fields": {
+        	"keyword": {
+          	"type": "keyword",
+          	"ignore_above": 256
+        	}
+      	}
+    	},
+    	"datasets": {
+      	"type": "text",
+      	"fields": {
+        	"keyword": {
+          	"type": "keyword",
+          	"ignore_above": 256
+        	}
+      	}
+    	},
+    	"description": {
+      	"type": "text"
+    	},
+    	"domainId": {
+      	"type": "text",
+      	"fields": {
+        	"keyword": {
+          	"type": "keyword",
+          	"ignore_above": 256
+        	}
+      	}
+    	},
+    	"icon": {
+      	"type": "text"
+    	},
+    	"id": {
+      	"type": "text",
+      	"fields": {
+        	"keyword": {
+          	"type": "keyword",
+          	"ignore_above": 256
+        	}
+      	}
+    	},
+    	"instanceId": {
+      	"type": "text",
+      	"fields": {
+        	"keyword": {
+          	"type": "keyword",
+          	"ignore_above": 256
+        	}
+      	}
+    	},
+    	"label": {
+      	"type": "text"
+    	},
+    	"name": {
+      	"type": "text"
+    	},
+    	"sub_classes": {
+      	"type": "text",
+      	"fields": {
+        	"keyword": {
+          	"type": "keyword",
+          	"ignore_above": 256
+        	}
+      	}
+    	}
+  	}
+	}
+}
+
