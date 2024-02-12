@@ -1,6 +1,7 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
+
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const foot = require('./static/footer_col_3');
@@ -43,7 +44,8 @@ const config = {
 	themeConfig:
 		/** @type {import('@docusaurus/preset-classic').ThemeConfig} */
 
-		({
+		(
+			{
 			hideOnScroll: true,
 			navbar: {
 				title: '',
@@ -55,7 +57,7 @@ const config = {
 					{
 						type: 'dropdown',
 						label: 'Who Are You',
-						position: 'left',
+						position: 'right',
 						items: [
 							{
 								label: 'New User',
@@ -82,10 +84,21 @@ const config = {
 					//   label: 'Getting Started',
 					// },
 					{
-						href: 'https://github.com/datakaveri/iudx-developer-docs',
-						label: 'GitHub',
-						position: 'right'
-					}
+						
+							href: 'https://github.com/datakaveri/iudx-developer-docs',
+							position: 'right',
+						
+							className: "header-github-link",
+							"aria-label": "GitHub repository",
+							  
+						
+					},
+					{
+                        type: 'docsVersionDropdown',
+                        position: 'left'
+					},
+
+					
 				]
 			},
 			typesense: {
@@ -223,8 +236,17 @@ const config = {
 			//         },
 			//     ],
 			// ],
-		})
+		}),
+
+		scripts: [
+			'https://buttons.github.io/buttons.js',
+			'https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js',
+			'/js/code-block-buttons.js',
+		  ],
+		  stylesheets: ['/css/code-block-buttons.css']
+
 };
+
 
 module.exports = config;
 
