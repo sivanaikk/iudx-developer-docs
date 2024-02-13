@@ -25,36 +25,51 @@ From DAG, the components can be deployed as follows in 6 stages:
 
 ## Order of Deployment
 
-1. **Stage 1**
-    - Immudb
-    - Rabbitmq
-    - Postgresql
-    - Redis
-    - Zookeeper
-    - Elasticsearch (Deploy ELK together)
+   
+<details>
 
-2. **Stage 2**
-    - Logstash
-    - Kibana
-    - Keycloak
-    - Latest ingestion pipeline
-    - Auditing server
+<summary>Stage 1</summary>
+1. Immudb<br/>
+2. Rabbitmq<br/>
+3. Postgresql<br/>
+4. Redis<br/>
+5. Zookeeper<br/>
+6. Elasticsearch (Deploy ELK together)<br/>
+</details>
 
-3. **Stage 3**
-    - AAA server
+<details>
+<summary>Stage 2</summary>
+    1. Logstash<br/>
+    2. Kibana<br/>
+    3. Keycloak<br/>
+    4. Latest ingestion pipeline<br/>
+    5. Auditing server<br/>
+</details>
 
-4. **Stage 4**
-    - Catalogue server
+   <details> 
+<summary>Stage 3</summary>
+    1. AAA server
+   </details>
 
-5. **Stage 5**
-    - Resource Server
-    - Resource Server Proxy
-    - File server
-    - GIS server
-    - Data Ingestion server
+<details>
+<summary>Stage 4</summary>
+    1. Catalogue server
+</details>
 
-6. **Stage 6**
-    - Advance Monitoring Stack
+
+<details>
+<summary>Stage 5</summary>
+    1. Resource Server<br/>
+    2. Resource Server Proxy<br/>
+    3. File server<br/>
+    4. GIS server<br/>
+    5. Data Ingestion server<br/>
+</details>
+
+<details>
+<summary>Stage 6</summary>
+    1. Advance Monitoring Stack
+</details>
 
 ## IUDX Component Version Matrix
 
