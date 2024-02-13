@@ -29,7 +29,7 @@ From DAG, the components can be deployed as follows in 6 stages:
 <details>
 
 <summary>Stage 1</summary>
-1. [Immudb]
+1. [Immudb]<br/>
 2. Rabbitmq<br/>
 3. Postgresql<br/>
 4. Redis<br/>
