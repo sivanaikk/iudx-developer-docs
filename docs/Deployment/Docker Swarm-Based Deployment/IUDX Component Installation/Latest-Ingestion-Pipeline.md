@@ -1,7 +1,10 @@
 ---
 sidebar_position: 9
 ---
-Will be deploying using swarm stack yaml files.
+
++ The new latest ingestion pipeline is designed to ingest data asynchronously into Redis Database. This pipeline would enable the IUDX Resource Server to serve latest data for IUDX specified resources that are available in the Database.
+
++ Will be deploying using swarm stack yaml files.
 
 ### Installation
 

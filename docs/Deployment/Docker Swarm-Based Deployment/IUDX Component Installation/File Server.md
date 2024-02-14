@@ -1,8 +1,16 @@
 ---
 sidebar_position: 15
 ---
+<div style={{textAlign: 'center'}}>
 
-Will be deploying using swarm stack yaml files
+![Architecture](../../../../resources/auth/file_server_overview.png)<br/>
+
+</div>
+
++ The file server is IUDX archival, sample file data store which allows users to discovery, download and upload files. It allows data providers to upload and manage archives of data resources and its associated meta-data documents through APIs. It also allows data consumers to query the meta-data and download files as per the consent of the providers. The consumers can query the metadata and download files from the file server using HTTPs.
+
+
++ Will be deploying using swarm stack yaml files
 
 ### Installation
 
