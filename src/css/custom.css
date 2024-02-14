@@ -188,9 +188,10 @@ table.center {
     footer{
       text-align: center;
     }
-
-    .flex-parent{
-      flex-direction: column;
+    .dropdown-toggle li a {
+      color: rgba(76, 18, 17, 0.8) !important;
+      background-color: #ffffff !important;
+      background-image: none !important;
     }
   }
   .buttonless button {
