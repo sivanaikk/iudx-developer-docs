@@ -1,8 +1,15 @@
 ---
 sidebar_position: 14
 ---
+<div style={{textAlign: 'center'}}>
 
-will be deployed using swarm stack YAML files.
+![Architecture](../../../../resources/auth/rs-architecture.png)<br/>
+
+</div>
+
++ The resource server is IUDXs data discovery, data publication and data subscription portal. It allows data providers to publish their data resources in accordance to the IUDX vocabulary annotated meta-data document, data subscribers to query and subscribe for data resources as per the consent of the provider. The consumers can access data from the resource server using HTTPs and AMQPs.
+
++ will be deployed using swarm stack YAML files.
 
 ### Installation
 

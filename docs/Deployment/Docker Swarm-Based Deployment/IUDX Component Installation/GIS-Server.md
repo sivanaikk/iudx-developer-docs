@@ -1,8 +1,16 @@
 ---
 sidebar_position: 17
 ---
+<div style={{textAlign: 'center'}}>
 
-Will be deploying using swarm stack yaml files.
+![Architecture](../../../../resources/auth/gis_server_overview.png)<br/>
+
+</div>
+
+
++ The GIS interface is a resource server which defines the interactions between the consumers interested in GIS data and the upstream GIS Servers. The gis interface is IUDXs data discovery, data publication. It allows admins to publish their gis related info in accordance to the IUDX vocabulary annotated meta-data document. The consumers can access data from the gis interface using HTTPs.
+
++ Will be deploying using swarm stack yaml files.
 
 ### Installation
 

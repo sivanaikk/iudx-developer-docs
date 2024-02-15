@@ -5,7 +5,6 @@ sidebar_position: 2
 <div style={{textAlign: 'center'}}>
 
 ![Architecture](../../../../resources/auth/immudb.png)<br/>
-*IUDX Component Integration with immudb*
 
 </div>
 

@@ -1,7 +1,10 @@
 ---
 sidebar_position: 5
 ---
-Before running any API servers or monitoring stack, Zookeeper has to be running.
+
++ ZooKeeper operates as a distributed file system and exposes a simple set of APIs that enable clients to read and write data to the file system.
+
++ Before running any API servers or monitoring stack, Zookeeper has to be running.
 
 ### Installation
 

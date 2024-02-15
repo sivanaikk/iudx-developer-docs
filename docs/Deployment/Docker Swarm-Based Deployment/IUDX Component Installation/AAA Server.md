@@ -1,8 +1,15 @@
 ---
 sidebar_position: 11
 ---
+<div style={{textAlign: 'center'}}>
 
-Will be deploying using swarm stack YAML files.
+![Architecture](../../../../resources/auth/aaa_overview.png)<br/>
+
+</div>
+
++ IUDX-AAA serves as the central Authentication, Authorization, and Accounting server, managing secure access to IUDX services. 
+
++  Will be deploying using swarm stack YAML files.
 
 ### Prerequisites
 

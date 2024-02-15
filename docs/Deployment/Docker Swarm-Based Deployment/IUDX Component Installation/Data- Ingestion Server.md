@@ -1,7 +1,16 @@
 ---
 sidebar_position: 16
 ---
-Will be deploying using swarm stack yaml files
+
+<div style={{textAlign: 'center'}}>
+
+![Architecture](../../../../resources/auth/di_server_overview.png)<br/>
+
+</div>
+
++ The Data Ingestion Server is the "Ingestion Firewall and Data Cleaning Middleware" of IUDX. It enables Providers and Delegates to publish data using the IUDX API as per the data descriptor using the HTTP protocol over TLS(HTTPs).
+
++ Will be deploying using swarm stack yaml files
 
 ### Installation
 
