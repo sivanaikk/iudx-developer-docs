@@ -16,7 +16,7 @@ sidebar_position: 2
 
 ### Installation
 
-1. Navigate to the directory "[iudx-deployment/Docker-Swarm-deployment/single-node/nginx/](https://github.com/datakaveri/iudx-deployment/tree/master/Docker-Swarm-deployment/single-node/nginx)"
+1. Navigate to the directory **[iudx-deployment/Docker-Swarm-deployment/single-node/nginx/](https://github.com/datakaveri/iudx-deployment/tree/master/Docker-Swarm-deployment/single-node/nginx)**.
 
   
 
@@ -91,7 +91,7 @@ Example:-  ****
 ```bash
 docker stack ps nginx 
 ```
-#### You can check any endpoint that the nginx handles. If the application server isn’t deployed then it throws <div class="txt_color">`502: Bad Gateway`</div> error.
+#### You can check any endpoint that the nginx handles. If the application server isn’t deployed then it throws an error of <div class="txt_color">`502: Bad Gateway`</div>
 ```bash
 curl https://<api-serverdomain>/apis 
 ```
