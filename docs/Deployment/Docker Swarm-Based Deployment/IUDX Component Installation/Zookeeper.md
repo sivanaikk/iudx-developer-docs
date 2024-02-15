@@ -2,8 +2,13 @@
 sidebar_position: 5
 ---
 
-+ ZooKeeper operates as a distributed file system and exposes a simple set of APIs that enable clients to read and write data to the file system.
+<div style={{textAlign: 'center'}}>
 
+![Architecture](../../../resources/auth/zookeeper-arch.png)
+</div>
+
++ ZooKeeper operates as a distributed file system and exposes a simple set of APIs that enable clients to read and write data to the file system.
++ Zookeeper performs service discovery of APIs using the data stored in Hazelcast cache.
 + Before running any API servers or monitoring stack, Zookeeper has to be running.
 
 ### Installation

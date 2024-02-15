@@ -2,10 +2,16 @@
 sidebar_position: 3
 ---
 
+
+
+<div style={{textAlign: 'center'}}>
+
+![Architecture](../../../resources/auth/rabbitMQ-arch.png)
+</div>
+
 - RabbitMQ is utilized as a databroker in the IUDX system.
 - It facilitates the exchange of data between consumers and publishers using the AMQP streaming protocol.
 - Will be deploying using swarm stack yaml files
-
 
 ### Prerequisite
 
