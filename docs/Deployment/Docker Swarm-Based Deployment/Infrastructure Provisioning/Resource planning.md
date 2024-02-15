@@ -2,30 +2,39 @@
 sidebar_position: 1
 ---
 
+
 ## Resource Planning
 
 The resource planning for various IUDX components and the corresponding vm  is present[ here](https://docs.google.com/spreadsheets/d/1OQLVxeaQVu0W4GDeY7BMDj2kSCBcTh0oNgFFagbEKdQ/edit#gid=0) . The planned resource along with instance type values need to be added in \*.resources.yaml <a id="the-resource-planning-for-various-iudx-components-and-the-corresponding-vm-is-present-here--the-planned-resource-along-with-instance-type-values-need-to-be-added-in-resourcesyaml"></a>
 
-1. **Create VMs for Docker swarm cluster**
+**Create VMs for Docker swarm cluster:**
+1. Create VMs in cloud as per resource planning.
 
-   1. Create VMs in cloud as per resource planning.
+2. Create a Firewall group with following firewall rules
 
-   2. Create a Firewall group with following firewall rules
-        <
-        <details>   
-        <summary><mark>Inbound rules</mark></summary>
-        1. Open port 22 for SSH (add all IPs of nodes from which you want to allow SSH)<br/>
-        
-        2. For Docker swarm (only internal private network subnet where the cluster exists)<br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;a. TCP port 2377 for cluster management communications<br/>
-                 &nbsp;&nbsp;&nbsp;&nbsp;b. TCP and UDP port 7946 for communication among nodes<br/>
-                 &nbsp;&nbsp;&nbsp;&nbsp;c. UDP port 4789 for overlay network traffic<br/>
-        </details>
-        
-        <details>
-         <summary><mark>Outbound rule</mark> <br/></summary>
-           Allow ALL. To download packages and docker images.
-        </details>
+   <details>
+
+   <summary><mark>Inbound rules</mark></summary>
+
+   1. Open port 22 for **[SSH](https://en.wikipedia.org/wiki/Secure_Shell)** (add all IPs of nodes from which you want to allow SSH)<br/>
+
+   2. For Docker swarm (only internal private network subnet where the cluster exists)<br/>
+
+         &nbsp;&nbsp;&nbsp;&nbsp;a. TCP port 2377 for cluster management communications<br/>
+
+         &nbsp;&nbsp;&nbsp;&nbsp;b. TCP and UDP port 7946 for communication among nodes<br/>
+
+         &nbsp;&nbsp;&nbsp;&nbsp;c. UDP port 4789 for overlay network traffic<br/>
+
+   </details>
+
+   <details>
+
+   <summary><mark>Outbound rule</mark>  <br/></summary>
+
+   Allow ALL. To download packages and docker images.
+
+   </details>
 
 2) Add following firewall inbound rule in addition to rules mentioned above:
 
