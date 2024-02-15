@@ -60,9 +60,11 @@ Example:-  ****
 
 
    
-****
-   **<div class="txt_color">NOTE:</div>**If this needs to be tried on a local machine, you can use self signed certificates (default-ssl) and not generate certificates through acme by putting an empty array for hostnames in acme-config.json.
-****
+
+:::note
+**If this needs to be tried on a local machine, you can use self signed certificates (default-ssl) and not generate certificates through acme by putting an empty array for hostnames in acme-config.json.**
+:::
+
 7. Define Appropriate values of resources 
 
       1. CPU requests and limits
