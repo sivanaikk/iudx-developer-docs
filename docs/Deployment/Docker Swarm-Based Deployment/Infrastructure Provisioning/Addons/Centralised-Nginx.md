@@ -4,11 +4,11 @@ sidebar_position: 2
 
 
 
-### It acts as reverse proxy doing TLS termination, rate limiting for all (HTTP) public/outward facing IUDX endpoints
++ It acts as reverse proxy doing TLS termination, rate limiting for all (HTTP) public/outward facing IUDX endpoints
 
-   - Nginx will be deployed using stack yaml files.
++ Nginx will be deployed using stack yaml files.
 
-   - It does proxy for catalogue server, resource server (rs), AAA (Authorization, Authentication and Accounting), grafana and kibana.
++ It does proxy for catalogue server, resource server (rs), AAA (Authorization, Authentication and Accounting), grafana and kibana.
 
 ### Prerequisite
 
@@ -22,14 +22,14 @@ sidebar_position: 2
 
    2. Assign the node label if not assigned during swarm installation using: 
 
-   ```docker
+   ```
    docker node update --label-add nginx-node=true <node_name> 
     ```
    
 
    3. Make a copy of example-configs directory:
 
-    ```bash
+    ```
     cp -r example-configs/conf . 
     ```
 
@@ -37,7 +37,7 @@ sidebar_position: 2
 4. Make a copy of example-secrets directory:
 
    
-    ```bash
+    ```
    cp -r example-secrets/secrets . 
 
    ```
@@ -67,42 +67,42 @@ Example:-  ****
 
 7. Define Appropriate values of resources 
 
-      1. CPU requests and limits
+      - CPU requests and limits
 
-      2. RAM requests and limits
+      - RAM requests and limits
 
-      3. PID limit
+      - PID limit
 
 
 
 8. Deploy nginx stack as follows: 
 
-    ```bash  
+    ```  
     docker stack deploy -c nginx-stack.yaml -c nginx-stack.resources.yaml nginx-stack 
     ```
     - Nginx URL for respective service: **https://<service-domain-name\>**
 
-    - For more information on installation instructions, refer [here](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/Docker-Swarm-deployment/single-node/nginx)
+    - For more information on installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/Docker-Swarm-deployment/single-node/nginx)**.
 
 <details>
 <summary><div class="test_color">Testing</div></summary>
 
 #### To check if the nginx stacks are deployed and running use command:
-```bash
+```
 docker stack ps nginx 
 ```
 #### You can check any endpoint that the nginx handles. If the application server isn’t deployed then it throws an error of <div class="txt_color">`502: Bad Gateway`</div>
-```bash
+```
 curl https://<api-serverdomain>/apis 
 ```
 #### To check certificates are generated for all requested domains:
 - Exec inside the nginx-acme container:
 
-```bash
+```
 docker exec -it <nginx-container-id> /bin/bash
 ```
 - Check cert status:
-```bash
+```
 acme.sh –list
 ```
 </details>

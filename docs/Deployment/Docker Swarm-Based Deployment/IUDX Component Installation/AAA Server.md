@@ -9,7 +9,7 @@ sidebar_position: 11
 
 + IUDX-AAA serves as the central Authentication, Authorization, and Accounting server, managing secure access to IUDX services. 
 
-+  Will be deploying using swarm stack YAML files.
++    Will be deploying using swarm stack YAML files.
 
 ### Prerequisites
 
