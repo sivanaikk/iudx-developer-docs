@@ -2,7 +2,10 @@
 sidebar_position: 4
 ---
 
+<div style={{textAlign: 'center'}}>
 
+![Architecture](../../../resources/auth/postgress-arch.png)
+</div>
 - PostgreSQL is being used as a credentials and policy data store.
 - Will be deploying using swarm stack yaml files
 

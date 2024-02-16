@@ -3,6 +3,10 @@ sidebar_position: 3
 ---
 
 ### Installation
+<div style={{textAlign: 'center'}}>
+
+![Architecute](../../../../resources/auth/Mon-stack-arch.jpg)
+</div>
 
 1. Navigate to the directory **[iudx-deployment/Docker-Swarm-deployment/single-node/monitoring-stack/](https://github.com/datakaveri/iudx-deployment/tree/master/Docker-Swarm-deployment/single-node/monitoring-stack)**
 
