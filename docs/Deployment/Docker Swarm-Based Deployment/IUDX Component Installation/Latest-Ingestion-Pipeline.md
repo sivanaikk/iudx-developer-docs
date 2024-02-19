@@ -1,6 +1,10 @@
 ---
 sidebar_position: 9
 ---
+<div style={{textAlign: 'center'}}>
+
+![Architecture](../../../resources/auth/lip_server-arch.png)
+</div>
 
 + The new latest ingestion pipeline is designed to ingest data asynchronously into Redis Database. This pipeline would enable the IUDX Resource Server to serve latest data for IUDX specified resources that are available in the Database.
 
