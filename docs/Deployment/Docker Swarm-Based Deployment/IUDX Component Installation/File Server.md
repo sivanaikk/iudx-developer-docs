@@ -39,7 +39,7 @@ sidebar_position: 15
 6. Define Appropriate values of resources - 
     + CPU requests and limits, 
     + RAM requests and limits, 
-    in `file-server-stack.resources.yml` as shown in the sample file **[example-file-server-stack.resources.yml](https://github.com/datakaveri/iudx-deployment/blob/4.5.0/Docker-Swarm-deployment/single-node/file-server/example-file-server-stack.resources.yaml)**.
+    in `file-server-stack.resources.yml` as shown in the sample file **[example-file-server-stack.resources.yml](https://github.com/datakaveri/iudx-deployment/blob/5.0.0/Docker-Swarm-deployment/single-node/file-server/example-file-server-stack.resources.yaml)**.
 
     
     ```
@@ -51,5 +51,5 @@ sidebar_position: 15
 
 1. File-server api documentation can be accessed from **https://< file-server-domain >/apis**
 2. To check if the file-server are deployed and running: `docker stack ps file-server`
-3. For more information on installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/Docker-Swarm-deployment/single-node/file-server#install)**.
+3. For more information on installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/Docker-Swarm-deployment/single-node/file-server#install)**.
 4. For more information about the file-server, refer **[here](https://github.com/datakaveri/iudx-file-server#iudx-file-server)**.

@@ -8,7 +8,7 @@ sidebar_position: 3
 ![Architecute](../../../../resources/auth/Mon-stack-arch.jpg)
 </div>
 
-1. Navigate to the directory **[iudx-deployment/Docker-Swarm-deployment/single-node/monitoring-stack/](https://github.com/datakaveri/iudx-deployment/tree/master/Docker-Swarm-deployment/single-node/monitoring-stack)**
+1. Navigate to the directory **[iudx-deployment/Docker-Swarm-deployment/single-node/monitoring-stack/](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/Docker-Swarm-deployment/single-node/monitoring-stack)**
 
 2. Make a copy of sample secrets directory:
 
@@ -52,12 +52,13 @@ cp -r example-secrets/secrets .
     &nbsp;&nbsp;&nbsp;&nbsp;- https://nec-cop.iudx.org.in/auth/apis/
 </div>
 
-7. Define Appropriate values of resources -
+7. Define Appropriate values of resources in `mon-stack.resources.yaml` for grafana, prometheus, loki, promtail, blackbox as shown in sample resource-values file **[example-mon-stack.resources.yaml](https://github.com/datakaveri/iudx-deployment/blob/5.0.0/Docker-Swarm-deployment/single-node/monitoring-stack/example-mon-stack.resources.yaml)**
+
     + CPU requests and limits
     + RAM requests and limits
     + PID limit
 
-    in mon-stack.resources.yaml for grafana, prometheus, loki, promtail, blackbox as shown in sample resource-values file **[example-mon-stack.resources.yaml](https://github.com/datakaveri/iudx-deployment/blob/4.5.0/Docker-Swarm-deployment/single-node/monitoring-stack/example-mon-stack.resources.yaml)**
+    
 
 8. Deploy Monitoring stack as follows: 
 
@@ -65,7 +66,7 @@ cp -r example-secrets/secrets .
  ./install.sh
  ```
 + Grafana should now be available through nginx.
-+ For more information on installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/Docker-Swarm-deployment/single-node/monitoring-stack)**
++ For more information on installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/Docker-Swarm-deployment/single-node/monitoring-stack)**
 
 <details>
 <summary><div class="test_color">Testing</div></summary>
@@ -74,7 +75,7 @@ cp -r example-secrets/secrets .
 ```
  docker stack ps mon-stack
 ```
-+ Access the [Grafana web UI](https://logmanager-nec-cop.iudx.org.in)
++ Access the **[Grafana web UI](https://logmanager-nec-cop.iudx.org.in)**
 
 </details>
 

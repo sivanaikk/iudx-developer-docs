@@ -34,7 +34,11 @@ Redis is used as the latest-data store and will be deployed using Swarm stack YA
         └── admin-password
     ```
 
-4. Define Appropriate values of resources (CPU requests and limits, RAM requests and limits, PID limit) in `redis-rejson-stack.resources.yml` as shown in the sample file `example-redis-rejson-stack.resources.yml`.
+4. Define Appropriate values of resources in `redis-rejson-stack.resources.yml` as shown in the sample file **[example-redis-rejson-stack.resources.yml](https://github.com/datakaveri/iudx-deployment/blob/5.0.0/Docker-Swarm-deployment/single-node/redis/example-redis-rejson-stack.resources.yaml)**.
+    
+    - CPU requests and limits
+    - RAM requests and limits, 
+    - PID limit 
 
 5. Deploy Redis stack:
 
@@ -85,6 +89,6 @@ Redis is used as the latest-data store and will be deployed using Swarm stack YA
 |----------|---------------------------------|-----------------------------------|---------------------------------------|
 | default  | secrets/passwords/admin-password | Superuser                         | Used by Resource Server and Latest ingestion pipeline |
 
-For more detailed installation instructions, please refer to the documentation **[here](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/Docker-Swarm-deployment/single-node/redis#introduction).**
+For more detailed installation instructions, please refer to the documentation **[here](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/Docker-Swarm-deployment/single-node/redis#introduction).**
 
 

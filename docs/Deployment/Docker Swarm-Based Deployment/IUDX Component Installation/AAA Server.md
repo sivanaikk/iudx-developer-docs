@@ -9,7 +9,7 @@ sidebar_position: 11
 
 + IUDX-AAA serves as the central Authentication, Authorization, and Accounting server, managing secure access to IUDX services. 
 
-+    Will be deploying using swarm stack YAML files.
++ Will be deploying using swarm stack YAML files.
 
 ### Prerequisites
 
@@ -41,17 +41,18 @@ Before bringing up the authorization server, make sure Keycloak is configured wi
     keytool -genkeypair -keystore secrets/keystore.jks -storetype jks -storepass <keystore-password> -keyalg EC -alias ES256 -keypass <keystore-password> -sigalg SHA256withECDSA -dname "CN=,OU=,O=,L=,ST=,C=" -validity 360 -deststoretype pkcs12
     ```
 
-    For more information, refer **[here](https://github.com/datakaveri/iudx-aaa-server/tree/4.5.0#jwt-signing-key-setup)**.
+    For more information, refer **[here](https://github.com/datakaveri/iudx-aaa-server/tree/5.0.0#jwt-signing-key-setup)**.
 
 5. Provide a correct config file for bringing up the auth-server. Substitute appropriate values using commands mentioned in config files.
 
 6. Configure the `secrets/.aaa.env` file with appropriate values in the placeholders `<placeholder>`.
 
-7. Define appropriate values of resources 
+7. Define appropriate values of resources in `auth-stack.resources.yml` as shown in the sample file **[example-auth-stack.resources.yaml](https://github.com/datakaveri/iudx-deployment/blob/5.0.0/Docker-Swarm-deployment/single-node/auth/example-auth-stack.resources.yaml)**.
+  
     + CPU requests and limits
     + RAM requests and limits
     + PID limit
-   in `auth-stack.resources.yml` as shown in the sample file **[example-auth-stack.resources.yaml](https://github.com/datakaveri/iudx-deployment/blob/4.5.0/Docker-Swarm-deployment/single-node/auth/example-auth-stack.resources.yaml)**.
+  
 
 8. To install the authorization server stack, use the following command:
 
@@ -65,5 +66,5 @@ Before bringing up the authorization server, make sure Keycloak is configured wi
 
 1. Auth-server API documentation can be accessed from **https://< cop-domain >/aaa/apis**.
 2. To check if the auth-server is deployed and running : `docker stack ps auth`
-3. For more information on installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/Docker-Swarm-deployment/single-node/auth)**.
+3. For more information on installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/Docker-Swarm-deployment/single-node/auth)**.
 4. For more information about the auth-server, refer **[here](https://github.com/datakaveri/iudx-aaa-server#india-urban-data-exchange-iudx-authentication-authorization-and-accounting-aaa-server)**.

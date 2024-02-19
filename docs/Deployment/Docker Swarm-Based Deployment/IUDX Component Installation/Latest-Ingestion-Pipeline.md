@@ -27,12 +27,11 @@ sidebar_position: 9
 
     2. Configure the `secrets/.lip.env` file with appropriate values in the placeholders `<...>`.
 
-4. Define appropriate values of resources 
+4. Define appropriate values of resources in `lip-stack.resources.yml` as shown in the sample file **[example-lip-stack.resources.yml](https://github.com/datakaveri/iudx-deployment/blob/5.0.0/Docker-Swarm-deployment/single-node/lip/example-lip-stack.resources.yaml)**.
 
-    + CPU requests and limits
-    + RAM requests and limits
+    
     + PID limit
-    in `lip-stack.resources.yml` as shown in the sample file **[example-lip-stack.resources.yml](https://github.com/datakaveri/iudx-deployment/blob/4.5.0/Docker-Swarm-deployment/single-node/lip/example-lip-stack.resources.yaml)**.
+   
 
 5. To install the latest ingestion pipeline stack, use the following commands:
 
@@ -89,7 +88,7 @@ sidebar_position: 9
 
        6. Run the Python Scripts
 
-       7. Refer **[here](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/K8s-deployment/Charts/databroker/tests)**    for more information.
+       7. Refer **[here](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/K8s-deployment/Charts/databroker/tests)**    for more information.
 
     b. Test if the Messages have Reached the Redis
        

@@ -40,7 +40,7 @@ sidebar_position: 3
 
 1. Navigate to the below directory: 
     ```
-    sudo certbot certonly --manual --preferred-challenges dns -d <wildcard(*)**-qualified-domain-name
+    cd iudx-deployment/Docker-Swarm-deployment/single-node/databroker/
     ```
    
 2. Assign the node label if not assigned during swarm installation using: 
@@ -91,11 +91,12 @@ Folder structure for RabbitMQ secrets is as follows
         └── rabbitmq-server-key.pem
    ```
 
-8. Define Appropriate values of resources -
-    - CPU
-    - RAM
-    - PID limit 
-  in databroker-stack.resources.yaml for as shown in sample resource-values file **[example-databroker-stack.resources.yaml](https://github.com/datakaveri/iudx-deployment/blob/4.5.0/Docker-Swarm-deployment/single-node/databroker/example-databroker-stack.resources.yaml)**
+8. Define Appropriate values of resources in `databroker-stack.resources.yaml` for as shown in sample resource-values file **[example-databroker-stack.resources.yaml](https://github.com/datakaveri/iudx-deployment/blob/5.0.0/Docker-Swarm-deployment/single-node/databroker/example-databroker-stack.resources.yaml)**
+
+    + CPU requests and limits
+    + RAM requests and limits
+    + PID limit
+  
 
 9. We can deploy RabbitMQ using the following command 
     ```
@@ -245,7 +246,7 @@ This is an alternative to steps 10 and 11 of the installation. Steps 10 and 11 a
 
 ### Tests
 
-1. Navigate to the **[iudx-deployment/K8s-deployment/Charts/databroker/tests](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/K8s-deployment/Charts/databroker/tests)** directory.
+1. Navigate to the **[iudx-deployment/K8s-deployment/Charts/databroker/tests](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/K8s-deployment/Charts/databroker/tests)** directory.
 
 2. Test the publishing of messages to exchange and routing to queue through a Python script.
 
@@ -301,4 +302,4 @@ This is an alternative to steps 10 and 11 of the installation. Steps 10 and 11 a
     7. Test if the messages have reached the database and redis-latest queue. Log in to the RMQ management interface at **https://< rmq-domain-name :28041/ - goto - queues**
     .
 
- Refer **[here](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/K8s-deployment/Charts/databroker/tests)** for more detailed information.
+ Refer **[here](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/K8s-deployment/Charts/databroker/tests)** for more detailed information.

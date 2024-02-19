@@ -16,7 +16,7 @@ sidebar_position: 2
 
 ### Installation
 
-1. Navigate to the directory **[iudx-deployment/Docker-Swarm-deployment/single-node/nginx/](https://github.com/datakaveri/iudx-deployment/tree/master/Docker-Swarm-deployment/single-node/nginx)**.
+1. Navigate to the directory **[iudx-deployment/Docker-Swarm-deployment/single-node/nginx/](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/Docker-Swarm-deployment/single-node/nginx)**.
 
   
 
@@ -65,7 +65,7 @@ Example:-  ****
 **If this needs to be tried on a local machine, you can use self signed certificates (default-ssl) and not generate certificates through acme by putting an empty array for hostnames in acme-config.json.**
 :::
 
-7. Define Appropriate values of resources 
+7. Define Appropriate values of resources in in `nginx-stack.resources.yaml` for nginx as shown in sample resource-values file **[example-nginx-stack.resources.yaml](https://github.com/datakaveri/iudx-deployment/blob/5.0.0/Docker-Swarm-deployment/single-node/nginx/example-nginx-stack.resources.yaml)**
 
       - CPU requests and limits
 
@@ -82,7 +82,7 @@ Example:-  ****
     ```
     - Nginx URL for respective service: **https://<service-domain-name\>**
 
-    - For more information on installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/Docker-Swarm-deployment/single-node/nginx)**.
+    - For more information on installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/Docker-Swarm-deployment/single-node/nginx)**.
 
 <details>
 <summary><div class="test_color">Testing</div></summary>

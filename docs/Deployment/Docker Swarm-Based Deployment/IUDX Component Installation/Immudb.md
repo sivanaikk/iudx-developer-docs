@@ -40,13 +40,13 @@ sidebar_position: 2
     :::note
     Secrets are generated in the secrets/passwords directory for all users.
     :::
-5. Define appropriate values of resources-
+5. Define appropriate values of resources in immudb-stack.resources.yaml as shown in sample resource-values file **[example-immudb-stack.resources.yaml](https://github.com/datakaveri/iudx-deployment/blob/5.0.0/Docker-Swarm-deployment/single-node/immudb/example-immudb-stack.resources.yaml)**
+
     - CPU requests and limits
     - RAM requests and limits
     - PID limit
 
-    in immudb-stack.resources.yaml as shown in sample resource-values file **[example-immudb-stack.resources.yaml](https://github.com/datakaveri/iudx-deployment/blob/4.5.0/Docker-Swarm-deployment/single-node/immudb/example-immudb-stack.resources.yaml)**
-
+   
 6. Deploy Immudb stack as follows:
     ```
     cp example-immudb-stack.resources.yaml  immudb-stack.resources.yaml 
@@ -110,4 +110,4 @@ sidebar_position: 2
     docker stack ps immudb
     ```
 
-4. For more detailed installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/Docker-Swarm-deployment/single-node/immudb#introduction)**.
+4. For more detailed installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/Docker-Swarm-deployment/single-node/immudb#introduction)**.

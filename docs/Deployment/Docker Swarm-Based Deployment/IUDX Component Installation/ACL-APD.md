@@ -37,12 +37,13 @@ sidebar_position: 12
 
 5. Substitute appropriate values using commands mentioned in config files.
 
-6. Define appropriate values of resources:
+6. Define appropriate values of resources in `acl-apd-server-stack.resources.yaml` as shown in the sample file **[example-acl-apd-server-stack.resources.yaml](https://github.com/datakaveri/iudx-deployment/blob/5.0.0/Docker-Swarm-deployment/single-node/acl-apd/example-acl-apd-stack.resources.yaml)**.
+
     - CPU requests and limits
     - RAM requests and limits
     - PID limit
 
-   in `acl-apd-stack.resources.yaml` as shown in the sample file **[example-acl-apd-server-stack.resources.yaml](https://github.com/datakaveri/iudx-deployment/blob/master/Docker-Swarm-deployment/single-node/acl-apd/example-acl-apd-server-stack.resources.yaml)**.
+   
 
 
 7. To install GIS server stack, use the following command:

@@ -35,12 +35,12 @@ sidebar_position: 14
 
 5. Configure the .rs.env file, refer to example-env
 
-6. Define appropriate values of resources 
+6. Define appropriate values of resources in `rs-stack.resources.yml` as shown in the sample file **[example-rs-stack.resources.yml](https://github.com/datakaveri/iudx-deployment/blob/5.0.0/Docker-Swarm-deployment/single-node/resource-server/example-rs-stack.resources.yaml)**.
 
     + CPU requests and limits
     + RAM requests and limits
     + PID limit
-    in `rs-stack.resources.yml` as shown in the sample file **[example-rs-stack.resources.yml](https://github.com/datakaveri/iudx-deployment/blob/4.5.0/Docker-Swarm-deployment/single-node/resource-server/example-rs-stack.resources.yaml)**.
+    
 
 7. To install catalogue server stack, use the following command:
 
@@ -54,6 +54,6 @@ sidebar_position: 14
 
 1. Resource-server api documentation can be accessed from **https://< cop-domain >/rs/apis**
 2. To check if the resource-server are deployed and running: `docker stack ps rs`
-3. For more information on installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/Docker-Swarm-deployment/single-node/resource-server#install)**.
-4. For more information about the resource-server, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/Docker-Swarm-deployment/single-node/resource-server#install)**.
+3. For more information on installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/Docker-Swarm-deployment/single-node/resource-server#install)**.
+4. For more information about the resource-server, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/Docker-Swarm-deployment/single-node/resource-server#install)**.
 
