@@ -90,12 +90,12 @@ Create a static COS cat index in Elasticsearch through Kibana.
 
 5. Configure the .cat.env file, refer to example-env
 
-6. Define appropriate values of resources 
+6. Define appropriate values of resources in `cat-stack.resources.yml` as shown in the sample file **[example-cat-stack.resources.yml](https://github.com/datakaveri/iudx-deployment/blob/5.0.0/Docker-Swarm-deployment/single-node/catalogue/example-cat-stack.resources.yaml)**.
 
     + CPU requests and limits
     + RAM requests and limits
     + PID limit
-    in `cat-stack.resources.yml` as shown in the sample file **[example-cat-stack.resources.yml](https://github.com/datakaveri/iudx-deployment/blob/4.5.0/Docker-Swarm-deployment/single-node/catalogue/example-cat-stack.resources.yaml)**.
+    
 
 7. To install catalogue server stack, use the following command:
 
@@ -108,5 +108,5 @@ Create a static COS cat index in Elasticsearch through Kibana.
 
 1. cat-server api documentation can be accessed from **https://< cop-domain >/cat/apis**.
 2. To check if the cat-server are deployed and running: `docker stack ps cat`
-3. For more information on installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/Docker-Swarm-deployment/single-node/catalogue)**.
-4. For more information about the catalogue-server, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/Docker-Swarm-deployment/single-node/catalogue).**
+3. For more information on installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/Docker-Swarm-deployment/single-node/catalogue)**.
+4. For more information about the catalogue-server, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/Docker-Swarm-deployment/single-node/catalogue).**

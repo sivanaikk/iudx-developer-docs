@@ -31,11 +31,12 @@ Docker swarm stack for advance monitoring stack.
     ```
 5. Substitute appropriate values using commands mentioned in config files.
 
-6. Define appropriate values of resources:
+6. Define appropriate values of resources in `ams-stack.resources.yaml` as shown in the sample file **[example-ams-stack.resources.yaml](https://github.com/datakaveri/iudx-deployment/blob/5.0.0/Docker-Swarm-deployment/single-node/adv-mon-stack/example-ams-stack.resources.yaml)**
+    
     - CPU requests and limits
     - RAM requests and limits
     - PID limit
-    in `ams-stack.resources.yaml` as shown in the sample file **[example-ams-stack.resources.yaml](https://github.com/datakaveri/iudx-deployment/blob/master/Docker-Swarm-deployment/single-node/adv-mon-stack/example-ams-stack.resources.yaml)**.
+    
 
 
 7. To install GIS server stack, use the following command:

@@ -19,12 +19,13 @@ sidebar_position: 5
     cd iudx-deployment/Docker-Swarm-deployment/single-node/zookeeper/
     ```
 
-2. Define appropriate values for resources:
+2. Define appropriate values for resources in `zookeeper-stack.resources.yaml` as shown in the sample file **[example-zookeeper-stack.resources.yaml](https://github.com/datakaveri/iudx-deployment/blob/5.0.0/Docker-Swarm-deployment/single-node/zookeeper/example-zookeeper-stack.resources.yaml)**
+
     - CPU requests and limits
     - RAM requests and limits
     - PID limit
 
-    in `zookeeper-stack.resources.yaml` as shown in the sample file **[example-zookeeper-stack.resources.yaml](https://github.com/datakaveri/iudx-deployment/blob/4.5.0/Docker-Swarm-deployment/single-node/zookeeper/example-zookeeper-stack.resources.yaml)**
+    
 
 3. Deploy the Zookeeper stack as follows:
 
@@ -39,5 +40,5 @@ sidebar_position: 5
 1. To check if the Zookeeper stacks are deployed and running: `docker stack ps zookeeper`
     
 
-2. For more information on installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/Docker-Swarm-deployment/single-node/zookeeper#introduction)**.
+2. For more information on installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/Docker-Swarm-deployment/single-node/zookeeper#introduction)**.
 

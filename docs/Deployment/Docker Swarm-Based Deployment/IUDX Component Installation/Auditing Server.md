@@ -30,12 +30,12 @@ The rs schema needs to be created using Flyway before deploying the auditing ser
 
     2. Configure the `secrets/.auditing.env` file with appropriate values in the placeholders '**< >**'.
 
-4. Define appropriate values of resources 
+4. Define appropriate values of resources in `auditing-stack.resources.yaml` as shown in the sample file in **[example-auditing-stack.resources.yaml](https://github.com/datakaveri/iudx-deployment/blob/5.0.0/Docker-Swarm-deployment/single-node/auditing-server/example-auditing-stack.resources.yaml)**.
    
    + CPU requests and limits
    + RAM requests and limits
    + PID limit 
-   in `auditing-stack.resources.yaml` as shown in the sample file in **[example-auditing-stack.resources.yaml](https://github.com/datakaveri/iudx-deployment/blob/4.5.0/Docker-Swarm-deployment/single-node/auditing-server/example-auditing-stack.resources.yaml)**.
+   
 
 5. To install the auditing server stack, use the following command:
 
@@ -50,6 +50,6 @@ The rs schema needs to be created using Flyway before deploying the auditing ser
 1. To check if the auditing server is deployed and running:` docker stack ps auditing `
 
 
-2. For more information on installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/Docker-Swarm-deployment/single-node/auditing-server#introduction)**.
+2. For more information on installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/Docker-Swarm-deployment/single-node/auditing-server#introduction)**.
 3. For more information about the auditing-server, refer **[here](https://github.com/datakaveri/auditing-server)**.
 

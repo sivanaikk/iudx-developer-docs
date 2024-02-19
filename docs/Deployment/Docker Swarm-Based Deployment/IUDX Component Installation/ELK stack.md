@@ -95,11 +95,12 @@ RabbitMQ needs to be up for Logstash to connect.
 
 10. Deifine approriate domain for kibana in kibana/kibana.yaml
 
-11. Define Appropriate values of resources -
+11. Define Appropriate values of resources in ‘database-stack.resources.yml’ as shown in the sample file **[example-database-stack.resources.yaml](https://github.com/datakaveri/iudx-deployment/blob/5.0.0/Docker-Swarm-deployment/single-node/elk/example-database-stack.resources.yaml)**
 
     + CPU requests and limits
     + RAM requests and limits
-    in ‘database-stack.resources.yml’ as shown in the sample file **[example-database-stack.resources.yaml](https://github.com/datakaveri/iudx-deployment/blob/4.5.0/Docker-Swarm-deployment/single-node/elk/example-database-stack.resources.yaml)**
+    + PID limit
+    
 
 12. Deploy ELK stack as follows:
 
@@ -132,7 +133,7 @@ After elasticsearch is up, account generator needs to be deployed(only on clean 
 ### Tests
 
 1. Create a Test Index
-   1. Create a test index called `iudx__test-itms`. Refer [here](https://github.com/datakaveri/iudx-deployment/blob/4.5.0/K8s-deployment/Charts/elk/tests/create-index.txt) for the command.
+   1. Create a test index called `iudx__test-itms`. Refer [here](https://github.com/datakaveri/iudx-deployment/blob/5.0.0/K8s-deployment/Charts/elk/tests/create-index.txt) for the command.
 
 2. RMQ-ELK Pipeline Test
 
@@ -176,7 +177,7 @@ After elasticsearch is up, account generator needs to be deployed(only on clean 
 
        6. Run the Python Scripts
 
-       7. Refer **[here](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/K8s-deployment/Charts/databroker/tests)** for more information.
+       7. Refer **[here](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/K8s-deployment/Charts/databroker/tests)** for more information.
 
     b. Test if the Messages have Reached Elasticsearch
        1. Use the count command in Kibana console->Management-> dev tools. The count should match the number of messages published.
@@ -190,4 +191,4 @@ After elasticsearch is up, account generator needs to be deployed(only on clean 
  1. Kibana UI can be accessed from **https://< kibana-domain-name >** 
  2. Kibana is tls secured through centralised nginx.
  3. To check if the elk stacks are deployed and running: `docker stack ps database`
- 4. For more information on installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/Docker-Swarm-deployment/single-node/elk)**.
+ 4. For more information on installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/Docker-Swarm-deployment/single-node/elk)**.

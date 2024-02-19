@@ -40,11 +40,12 @@ sidebar_position: 4
         └── postgres-rs-password
     ```
 
-4. Define appropriate values of resources 
-    + CPU requests and limits
-    + RAM requests and limits) 
+4. Define appropriate values of resources in `postgres-stack.resources.yml` as shown in the sample file **[example-postgres-stack.resources.yml](https://github.com/datakaveri/iudx-deployment/blob/5.0.0/Docker-Swarm-deployment/single-node/postgres/example-postgres-stack.resources.yaml)**.
 
-    in `postgres-stack.resources.yml` as shown in the sample file **[example-postgres-stack.resources.yml](https://github.com/datakaveri/iudx-deployment/blob/4.5.0/Docker-Swarm-deployment/single-node/postgres/example-postgres-stack.resources.yaml)**.
+    + CPU requests and limits
+    + RAM requests and limits
+    + PID limit
+    
 
 5. Deploy PostgreSQL stack as follows:
 
@@ -64,7 +65,7 @@ sidebar_position: 4
     2. Clone the iudx-aaa-server repository and perform the following commands:
 
         ```
-        git clone -b 4.5.0 https://github.com/datakaveri/iudx-aaa-server.git && cd iudx-aaa-server
+        git clone -b 5.0.0 https://github.com/datakaveri/iudx-aaa-server.git && cd iudx-aaa-server
         ```
             
         1. Update `flyway.conf` with the required data as follows:
@@ -90,7 +91,7 @@ sidebar_position: 4
 7. Similarly, do the same for the resource server:
 
     ```
-    git clone -b 4.5.0 https://github.com/datakaveri/iudx-resource-server.git && cd iudx-resource-server
+    git clone -b 5.0.0 https://github.com/datakaveri/iudx-resource-server.git && cd iudx-resource-server
     ```
 
     1. Update `flyway.conf` for the resource server:
@@ -179,4 +180,4 @@ sidebar_position: 4
 | postgres           | `secrets/passwords/postgresql-password`       | Superuser                                                    | Used to set users and RBAC|
 
 
-For more information on installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/Docker-Swarm-deployment/single-node/postgres#introduction)**.
+For more information on installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/Docker-Swarm-deployment/single-node/postgres#introduction)**.
