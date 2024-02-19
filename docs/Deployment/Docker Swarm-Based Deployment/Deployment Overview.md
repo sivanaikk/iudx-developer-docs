@@ -24,7 +24,6 @@ IUDX components depend on each other and are represented below in a Directed Acy
 From DAG, the components can be deployed as follows in 6 stages:
 
 ## Order of Deployment
-[Title](../../../versioned_docs)
    
 <details>
 
@@ -78,7 +77,7 @@ From DAG, the components can be deployed as follows in 6 stages:
 |:---------------------------:|:----------------:|
 | **[Immudb](./IUDX%20Component%20Installation/Immudb.md)**                    | 1.4.1          |
 | **[Rabbitmq](./IUDX%20Component%20Installation/RabbitMQ.md)**                  | 3.11.10        |
-| **[PostgreSQL](./IUDX%20Component%20Installation/RabbitMQ.md)**                | 14.4.0         |
+| **[PostgreSQL](./IUDX%20Component%20Installation/PostgreSQL.md)**                | 14.4.0         |
 | **[Redis](./IUDX%20Component%20Installation/Redis.md)**                     | 7.0.2(redis)-2.0.9(rejson) |
 | **[Zookeeper](./IUDX%20Component%20Installation/Zookeeper.md)**                 | 3.8.0          |
 | **[Elasticsearch](./IUDX%20Component%20Installation/ELK%20stack.md)**             | 8.7.0          |

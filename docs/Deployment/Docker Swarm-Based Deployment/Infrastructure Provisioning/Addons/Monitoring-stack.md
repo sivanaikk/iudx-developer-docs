@@ -34,10 +34,12 @@ cp -r example-secrets/secrets .
         TELEGRAM_BOT_TOKEN=telegram-chat-token
     </div>
 
-****    
-<div class="txt_color">
-Please do not include comments and substitute appropriate correct values in the placeholders. If not be used as notifier, then add dummy values.
-</div>
+
+
+:::note
+
+**Please do not include comments and substitute appropriate correct values in the placeholders. If not be used as notifier, then add dummy values**
+:::
 
 ****
 
