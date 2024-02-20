@@ -24,6 +24,8 @@ Install ansible on your local machine. There are two possible ways,<br/>
 
     ```
 
+    
+
 3. Navigate to the below directory:
 
     ```
@@ -35,6 +37,7 @@ Install ansible on your local machine. There are two possible ways,<br/>
     ```
     cp example-single-node-inventory.yml inventory.yaml 
     ```
+
 :::note
 **Configure the inventory.yml, with appropriate node labels. If you do not want to do system updates comment them in the following file ‘files/packages-docker-install.sh’. If issues persist, remove ‘set -e’ flag**
 :::

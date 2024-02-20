@@ -4,6 +4,8 @@
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+
+
 const foot = require('./static/footer_col_3');
 
 /** @type {import('@docusaurus/types').Config} */
@@ -17,6 +19,7 @@ const config = {
 	favicon: 'img/icon.ico',
 	organizationName: 'IUDX', // Usually your GitHub org/user name.
 	projectName: 'IUDX', // Usually your repo name.
+	
 
 	presets: [
 		[
