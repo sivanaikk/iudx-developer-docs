@@ -42,16 +42,16 @@ Install ansible on your local machine. There are two possible ways,<br/>
 
 5. For single node setup,
 
-   1. If the execution of ansible and the docker swarm creation node are on the same node (i.e. localhost)** the command to use is as shown below: 
+   1. If the execution of ansible and the docker swarm creation node are on the same node  **   (i.e. localhost)** the command to use is as shown below: 
 
       ```ansible
-      ansible-playbook -v deploy-swarm.yml -i inventory.yml --ask-become-pass --connection=local 
+      ansible-playbook -v deploy-swarm.yaml -i inventory.yaml --ask-become-pass --connection=local 
       ```
 
-   2. If the execution of ansible and the docker swarm creation node are on different nodes (i.e. 2 different VMs with different IP address)** the command to use is as shown below: 
+   2. If the execution of ansible and the docker swarm creation node are on different nodes **(i.e. 2 different VMs with different IP address)** the command to use is as shown below: 
 
       ```ansible
-      ansible-playbook -v deploy-swarm.yml -i inventory.yml 
+      ansible-playbook -v deploy-swarm.yaml -i inventory.yaml 
       ```
 
 
@@ -66,7 +66,7 @@ The playbook **[deploy-swarm.yml](https://github.com/datakaveri/iudx-deployment/
 
 3. Overlay-net creation
 
-4. Assigning hostnames (for labels in grafana)**
+4. Assigning hostnames 
 
 5. Assigning docker node labels for placement of databroker, database, nginx, mon-stack components appropriately to the designated nodes.
 
@@ -99,7 +99,7 @@ The playbook **[deploy-swarm.yml](https://github.com/datakaveri/iudx-deployment/
    1. Run busybox container
 
       ```
-      docker run -itd –name busybox-1 –network overlay-net busybox sh 
+      docker run -itd --name busybox-1 --network overlay-net busybox sh 
       ``` 
 
    Get container IP address

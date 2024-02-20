@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Deployment Overview
 
-IUDX platform can be deployed in Docker Swarm using the scripts and Swarm code present in this directory and sub-directories. Each component is deployed as a single instance in Swarm. The components can be scaled manually. IUDX platform exposes endpoints through two ports - one for HTTPS traffic which it passes to Nginx and Nginx routes to the appropriate service; one for Rabbitmq management and AMQPS streaming. The whole system is monitored using a monitoring stack module - Prometheus for metrics, promtail and Loki for logs, and Grafana for visualization and alerting. The overall architecture of Swarm deployment is summarized in the figure below.
+IUDX platform can be deployed in Docker Swarm using the scripts and Swarm code present in this directory and sub-directories. Each component is deployed as a single instance in Swarm. The components can be scaled manually. IUDX platform exposes endpoints through two ports - one for HTTPS traffic which it passes to Nginx and Nginx routes to the appropriate service; another for Rabbitmq management and AMQPS streaming. The whole system is monitored using a monitoring stack module - Prometheus for metrics, promtail and Loki for logs, and Grafana for visualization and alerting. The overall architecture of Swarm deployment is summarized in the figure below.
 
 ![Architecture](../../../resources/auth/Overview-Deloyment-IUDX-Swarm.png)<br/>
 
@@ -21,7 +21,7 @@ IUDX components depend on each other and are represented below in a Directed Acy
 
 ![Architecture](../../../resources/auth/IUDX-Dependency-Graph.png)<br/>
 
-From Directed Acyclic Graph (DAG), the components can be deployed as follows in 6 stages:
+From Directed Acyclic Graph (DAG), the components can be deployed as following in 6 stages:
 
 ## Order of Deployment
    

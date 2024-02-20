@@ -41,7 +41,6 @@ sidebar_position: 2
    
     ```
    cp -r example-secrets/secrets . 
-
    ```
 
 5. For each nginx server configuration in conf/ direcotory that would be used (some of the config might not be used for particular deployment, in that case no need to do any changes for those configs and also no changes for error.conf, default.conf file), substitute appropriate domain name next to `server_name` directive and path of certificates (by default points to self signed certificates)<br/> For example:- If cos domain is `cos-domain.iudx.org` , then substitute it in conf/cos.conf as follows

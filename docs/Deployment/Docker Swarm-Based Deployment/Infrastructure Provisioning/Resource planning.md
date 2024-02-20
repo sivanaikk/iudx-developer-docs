@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-The resource planning for various IUDX components and the corresponding vm  is present **[ here](https://docs.google.com/spreadsheets/d/1OQLVxeaQVu0W4GDeY7BMDj2kSCBcTh0oNgFFagbEKdQ/edit#gid=0)**. The planned resource along with instance type values need to be added in **\*.resources.yaml** <a id="the-resource-planning-for-various-iudx-components-and-the-corresponding-vm-is-present-here--the-planned-resource-along-with-instance-type-values-need-to-be-added-in-resourcesyaml"></a>
+The resource planning of various IUDX components and the corresponding VM is present **[ here](https://docs.google.com/spreadsheets/d/1OQLVxeaQVu0W4GDeY7BMDj2kSCBcTh0oNgFFagbEKdQ/edit#gid=0)**. The planned resources along with instance type values need to be added in **\*.resources.yaml** <a id="the-resource-planning-for-various-iudx-components-and-the-corresponding-vm-is-present-here--the-planned-resource-along-with-instance-type-values-need-to-be-added-in-resourcesyaml"></a>
 
 **Create VMs for Docker swarm cluster:**
 1. Create VMs in cloud as per resource planning.

@@ -27,7 +27,7 @@ const config = {
 					// Please change this to your repo docs
 					editUrl:
 						'https://github.com/datakaveri/iudx-developer-docs/blob/main/',
-					lastVersion: 'current',
+					lastVersion: '5.0.0',
 					versions: {
 						current: {
 						label: 'Latest',
