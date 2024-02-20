@@ -6,6 +6,7 @@ sidebar_position: 4
 
 ![Architecture](../../../resources/auth/postgress-arch.png)
 </div>
+
 - PostgreSQL is being used as a credentials and policy data store.
 - Will be deploying using swarm stack yaml files
 
@@ -80,11 +81,16 @@ sidebar_position: 4
 
         2. Run the info command to test the configuration. Then, run the migrate command to set up the database:
 
-            ```
-            # Prerequisite: [Download](https://maven.apache.org/download.cgi) and [Install](https://maven.apache.org/install.html) Maven.
-            mvn flyway:info -Dflyway.configFiles=flyway.conf
-            mvn flyway:migrate -Dflyway.configFiles=flyway.conf
-            ```
+        <div class="txt_color">
+        Prerequisite :
+        </div>
+        
+        **[Download](https://maven.apache.org/download.cgi)** and **[Install](https://maven.apache.org/install.html)** Maven.
+
+        ```
+        mvn flyway:info -Dflyway.configFiles=flyway.conf
+        mvn flyway:migrate -Dflyway.configFiles=flyway.conf
+        ```
 
     Refer **[here](https://github.com/datakaveri/iudx-aaa-server#flyway-database-setup)** for more information.
 

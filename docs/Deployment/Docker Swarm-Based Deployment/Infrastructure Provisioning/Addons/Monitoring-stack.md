@@ -8,22 +8,24 @@ sidebar_position: 3
 ![Architecute](../../../../resources/auth/Mon-stack-arch.jpg)
 </div>
 
-1. Navigate to the directory **[iudx-deployment/Docker-Swarm-deployment/single-node/monitoring-stack/](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/Docker-Swarm-deployment/single-node/monitoring-stack)**
-
+1. Navigate to the below directory 
+    ```
+    cd iudx-deployment/Docker-Swarm-deployment/single-node/monitoring-stack/
+    ```
 2. Make a copy of sample secrets directory:
 
-```
-cp -r example-secrets/secrets . 
-```
+    ```
+    cp -r example-secrets/secrets . 
+    ```
 3. Generate required secrets using following script:
 
-```
- ./create_secrets.sh 
-```
+    ```
+    ./create_secrets.sh 
+    ```
 4. Make sure metrics targets directory on node where prometheus is deployed(should  be created by ansible script from provisioning node exporter , if not create it,  needs to be created with every restart, as its tmp directory )
-```
- mkdir /tmp/metrics-targets 
- ```
+    ```
+    mkdir /tmp/metrics-targets 
+    ```
 
 5. Configure Telegrambot for grafana's alerts as detailed here. Then appropriately define the environment file secrets/.grafana.env(create grafana.env hidden file under secrets dir) The template is defined as follow: 
 

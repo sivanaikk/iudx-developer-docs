@@ -2,7 +2,10 @@
 sidebar_position: 1
 ---
 
-1. Navigate to the directory **[iudx-deployment/Docker-Swarm-deployment/single-node/infrastructure/](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/Docker-Swarm-deployment/single-node/infrastructure)**.
+1. Navigate to the below directory 
+   ```
+   cd iudx-deployment/Docker-Swarm-deployment/single-node/infrastructure/ 
+   ```
 
 2. Install & start node-exporter. Also update targets for node-exporter and docker daemon metrics in the prometheus-node.
    ```                                                                               

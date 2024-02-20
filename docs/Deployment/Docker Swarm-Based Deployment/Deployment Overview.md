@@ -21,7 +21,7 @@ IUDX components depend on each other and are represented below in a Directed Acy
 
 ![Architecture](../../../resources/auth/IUDX-Dependency-Graph.png)<br/>
 
-From DAG, the components can be deployed as follows in 6 stages:
+From Directed Acyclic Graph (DAG), the components can be deployed as follows in 6 stages:
 
 ## Order of Deployment
    
@@ -41,18 +41,18 @@ From DAG, the components can be deployed as follows in 6 stages:
     1. Logstash<br/>
     2. Kibana<br/>
     3. Keycloak<br/>
-    4. Latest ingestion pipeline<br/>
-    5. Auditing server<br/>
+    4. Latest Ingestion Pipeline<br/>
+    5. Auditing Server<br/>
 </details>
 
    <details> 
 <summary>Stage 3</summary>
-    1. AAA server
+    1. AAA Server
    </details>
 
 <details>
 <summary>Stage 4</summary>
-    1. Catalogue server
+    1. Catalogue Server
 </details>
 
 
@@ -60,9 +60,8 @@ From DAG, the components can be deployed as follows in 6 stages:
 <summary>Stage 5</summary>
     1. Resource Server<br/>
     2. Resource Server Proxy<br/>
-    3. File server<br/>
-    4. GIS server<br/>
-    5. Data Ingestion server<br/>
+    3. File Server<br/>
+    4. Data Ingestion Server<br/>
 </details>
 
 <details>
@@ -76,20 +75,20 @@ From DAG, the components can be deployed as follows in 6 stages:
 | Component                 | Image Version  |
 |:---------------------------:|:----------------:|
 | **[Immudb](./IUDX%20Component%20Installation/Immudb.md)**                    | 1.4.1          |
-| **[Rabbitmq](./IUDX%20Component%20Installation/RabbitMQ.md)**                  | 3.11.10        |
+| **[RabbitMQ](./IUDX%20Component%20Installation/RabbitMQ.md)**                  | 3.11.10        |
 | **[PostgreSQL](./IUDX%20Component%20Installation/PostgreSQL.md)**                | 14.4.0         |
 | **[Redis](./IUDX%20Component%20Installation/Redis.md)**                     | 7.0.2(redis)-2.0.9(rejson) |
 | **[Zookeeper](./IUDX%20Component%20Installation/Zookeeper.md)**                 | 3.8.0          |
 | **[Elasticsearch](./IUDX%20Component%20Installation/ELK%20stack.md)**             | 8.7.0          |
 | **[Logstash](./IUDX%20Component%20Installation/ELK%20stack.md)**                  | 8.7.0          |
 | **[Kibana](./IUDX%20Component%20Installation/ELK%20stack.md)**                    | 8.7.0          |
-| **[Latest Ingestion Pipeline](./IUDX%20Component%20Installation/Latest-Ingestion-Pipeline.md)** | 5.0.0-8562630  |
+| **[Latest Ingestion Pipeline](./IUDX%20Component%20Installation/Latest-Ingestion-Pipeline.md)** | 5.0.0-9adc1d8  |
 | **[Auditing server](./IUDX%20Component%20Installation/Auditing%20Server.md)**           | 1.0.0-db57a99  |
-| **[AAA-server](./IUDX%20Component%20Installation/AAA%20Server.md)**                | 5.0.0-**[aded501](https://github.com/datakaveri/iudx-aaa-server/pkgs/container/aaa-depl/96914619?tag=5.0.0-aded501)**  |
-| **[Catalogue API server](./IUDX%20Component%20Installation/Catalogue-Server.md)**      | 5.0.0-**[c9d7598](https://github.com/datakaveri/iudx-catalogue-server/pkgs/container/cat-prod/105131185?tag=5.0.0-c9d7598)**  |
-| **[Resource API server](./IUDX%20Component%20Installation/Resource-Server.md)**       | 5.0.0-**[b1b40d7](https://github.com/datakaveri/iudx-resource-server/pkgs/container/rs-depl/104998888?tag=5.0.0-b1b40d7)**  |
-| **[File server](./IUDX%20Component%20Installation/File%20Server.md)**               | 5.0.0-b52a0ac  |
-| **[Data Ingestion server](./IUDX%20Component%20Installation/Data-%20Ingestion%20Server.md)**     | 5.0.0-8298bde  |
+| **[AAA-server](./IUDX%20Component%20Installation/AAA%20Server.md)**                | 5.0.0-**[70d4b4d](https://github.com/datakaveri/iudx-aaa-server/pkgs/container/aaa-depl/172028140?tag=5.0.0-70d4b4d)**  |
+| **[Catalogue API server](./IUDX%20Component%20Installation/Catalogue-Server.md)**      | 5.0.0-**[ab8dcd7](https://github.com/datakaveri/iudx-catalogue-server/pkgs/container/cat-prod/169481629?tag=5.0.0-ab8dcd7)**  |
+| **[Resource API server](./IUDX%20Component%20Installation/Resource-Server.md)**       | 5.0.0-**[28d218f](https://github.com/datakaveri/iudx-resource-server/pkgs/container/rs-depl/168389192?tag=5.0.0-28d218f)**  |
+| **[File server](./IUDX%20Component%20Installation/File%20Server.md)**               | 5.0.0-43db6ce |
+| **[Data Ingestion server](./IUDX%20Component%20Installation/Data-%20Ingestion%20Server.md)**     | 5.0.0-fa953b3  |
 | **[Advance Monitoring Stack](./IUDX%20Component%20Installation/Advance%20Monitoring%20Stack.md)**   | 4.0.0-2        |
 
 

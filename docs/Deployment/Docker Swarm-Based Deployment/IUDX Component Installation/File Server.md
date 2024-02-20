@@ -36,10 +36,12 @@ sidebar_position: 15
 
 5. Configure the .file-server.env file, refer to example-env
 
-6. Define Appropriate values of resources - 
-    + CPU requests and limits, 
-    + RAM requests and limits, 
-    in `file-server-stack.resources.yml` as shown in the sample file **[example-file-server-stack.resources.yml](https://github.com/datakaveri/iudx-deployment/blob/5.0.0/Docker-Swarm-deployment/single-node/file-server/example-file-server-stack.resources.yaml)**.
+6. Define Appropriate values of resources in `file-server-stack.resources.yml` as shown in the sample file **[example-file-server-stack.resources.yml](https://github.com/datakaveri/iudx-deployment/blob/5.0.0/Docker-Swarm-deployment/single-node/file-server/example-file-server-stack.resources.yaml)**.
+
+    + CPU requests and limits
+    + RAM requests and limits
+    + PID limit 
+    
 
     
     ```

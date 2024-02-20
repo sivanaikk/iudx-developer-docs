@@ -12,4 +12,4 @@ All IUDX component deployment files are available in the **[datakaveri/iudx-depl
     git clone -b  5.0.0 https://github.com/datakaveri/iudx-deployment
     ```
 
-This step is crucial for acquiring the essential configuration and deployment scripts needed for setting up IUDX components.
+This step is crucial for acquiring essential configuration and deployment scripts needed for setting up IUDX components.

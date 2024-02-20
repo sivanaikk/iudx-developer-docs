@@ -4,7 +4,7 @@ sidebar_position: 5
 
 
 ![Architecture](../../../resources/auth/Redis-arch.png)
-Redis is used as the latest-data store and will be deployed using Swarm stack YAML files.
+- Redis is used as the latest-data store and will be deployed using Swarm stack YAML files.
 
 ### Installation
 

@@ -2,7 +2,7 @@
 sidebar_position: 8
 ---
 
-A general instructions for all api servers below before deploying it
+Below is the general instructions for deploying all the below api servers:
 
  1. For each api servers, following services are connected internally over overlay network using below service names 
 
@@ -29,7 +29,7 @@ If the credentials in the JSON config file contain the following special charact
    - **Backslash** to be replaced with `\\`
 
 
-  Click here for the reference **[link](https://www.tutorialspoint.com/json_simple/json_simple_escape_characters.htm)**
+  Click **[here](https://www.tutorialspoint.com/json_simple/json_simple_escape_characters.htm)** for the reference
 
 
 The AAA server and Catalogue server must be HTTPS secured with proper valid certificates  on its public domain access .  This is because all other api servers connect to get some information and webclient of those servers might fail if not .

@@ -13,7 +13,7 @@ sidebar_position: 5
 
 ### Installation
 
-1. Navigate to the directory `iudx-deployment/Docker-Swarm-deployment/single-node/zookeeper/`:
+1. Navigate to the below directory:
 
     ```
     cd iudx-deployment/Docker-Swarm-deployment/single-node/zookeeper/
