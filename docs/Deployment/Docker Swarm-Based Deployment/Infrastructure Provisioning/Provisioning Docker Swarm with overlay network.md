@@ -24,7 +24,8 @@ Install ansible on your local machine. There are two possible ways,<br/>
 
     ```
 
-3. Navigate to iudx-deployment/Docker-Swarm-deployment/single-node/infrastructure/ 
+3. Navigate to the below directory:
+
     ```
     cd Docker-Swarm-deployment/single-node/infrastructure/ 
     ```
@@ -34,21 +35,23 @@ Install ansible on your local machine. There are two possible ways,<br/>
     ```
     cp example-single-node-inventory.yml inventory.yaml 
     ```
+:::note
+**Configure the inventory.yml, with appropriate node labels. If you do not want to do system updates comment them in the following file ‘files/packages-docker-install.sh’. If issues persist, remove ‘set -e’ flag**
+:::
 
-Configure the inventory.yml, with appropriate node labels. If you do not want to do system updates comment them in the following file ‘files/packages-docker-install.sh’. If issues persist, remove ‘set -e’ flag
-   a. For single node setup,
+5. For single node setup,
 
-1. If the execution of ansible and the docker swarm creation node are on the same node (i.e. localhost)** the command to use is as shown below: 
+   1. If the execution of ansible and the docker swarm creation node are on the same node (i.e. localhost)** the command to use is as shown below: 
 
-    ```ansible
-    ansible-playbook -v deploy-swarm.yml -i inventory.yml --ask-become-pass --connection=local 
-    ```
+      ```ansible
+      ansible-playbook -v deploy-swarm.yml -i inventory.yml --ask-become-pass --connection=local 
+      ```
 
-2. If the execution of ansible and the docker swarm creation node are on different nodes (i.e. 2 different VMs with different IP address)** the command to use is as shown below: 
+   2. If the execution of ansible and the docker swarm creation node are on different nodes (i.e. 2 different VMs with different IP address)** the command to use is as shown below: 
 
-   ```ansible
-    ansible-playbook -v deploy-swarm.yml -i inventory.yml 
-   ```
+      ```ansible
+      ansible-playbook -v deploy-swarm.yml -i inventory.yml 
+      ```
 
 
 
@@ -56,7 +59,7 @@ Configure the inventory.yml, with appropriate node labels. If you do not want to
 
 The playbook **[deploy-swarm.yml](https://github.com/datakaveri/iudx-deployment/blob/5.0.0/Docker-Swarm-deployment/single-node/infrastructure/deploy-swarm.yaml)** does the following things:
 
-1. Installation of docker and other packages viz., **vim, dnsutils, net-tools, iputils-ping**
+1. Installation of docker and other packages viz., **vim, dnsutils, net-tools and iputils-ping**
 
 2. Docker swarm creation over the private network 
 
@@ -102,7 +105,7 @@ The playbook **[deploy-swarm.yml](https://github.com/datakaveri/iudx-deployment/
      ```
      docker inspect busybox-1 
      ```
-   Note the IPAddress under NetworkSettings.Network.overlay-net
+   Make a note of IPAddress under **NetworkSettings.Network.overlay-net**
 
    2. On second node:
 

@@ -26,8 +26,14 @@ const config = {
 					sidebarPath: require.resolve('./sidebars.js'),
 					// Please change this to your repo docs
 					editUrl:
-						'https://github.com/datakaveri/iudx-developer-docs/blob/main/'
-				},
+						'https://github.com/datakaveri/iudx-developer-docs/blob/main/',
+					lastVersion: 'current',
+					versions: {
+						current: {
+						label: 'Latest',
+						},
+					},	
+					},
 				blog: {
 					showReadingTime: true,
 					// Please change this to your repo blog
@@ -38,6 +44,7 @@ const config = {
 					customCss: require.resolve('./src/css/custom.css')
 				}
 			}
+			
 		]
 	],
 	themes: ['docusaurus-theme-search-typesense'],

@@ -16,8 +16,10 @@ sidebar_position: 2
 
 ### Installation
 
-1. Navigate to the directory **[iudx-deployment/Docker-Swarm-deployment/single-node/nginx/](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/Docker-Swarm-deployment/single-node/nginx)**.
-
+1. Navigate to the below directory 
+    ```
+    cd iudx-deployment/Docker-Swarm-deployment/single-node/nginx/
+    ```
   
 
    2. Assign the node label if not assigned during swarm installation using: 
