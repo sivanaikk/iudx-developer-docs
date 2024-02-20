@@ -20,7 +20,7 @@ Install ansible on your local machine. There are two possible ways,<br/>
 2. Switch branch to use the 5.0.0 release
 
     ```
-    cd iudx-depoyment && git checkout 5.0.0 
+    cd iudx-deployment && git checkout 5.0.0 
 
     ```
 
@@ -33,10 +33,11 @@ Install ansible on your local machine. There are two possible ways,<br/>
 4. Copy inventory file and make appropriate modifications 
   
     ```
-    cp example-single-node-inventory.yml inventory.yaml 
+    cp example-single-node-inventory.yaml inventory.yaml 
     ```
+
 :::note
-**Configure the inventory.yml, with appropriate node labels. If you do not want to do system updates comment them in the following file ‘files/packages-docker-install.sh’. If issues persist, remove ‘set -e’ flag**
+**Configure the `inventory.yml` with appropriate node labels. If you do not want to do system updates, comment them in the following file `files/packages-docker-install.sh` . If issues persist, remove `set -e` flag**
 :::
 
 5. For single node setup,
