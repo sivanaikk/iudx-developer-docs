@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Immudb",
+  "id": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Immudb",
+  "isDocsHomePage": false,
+  "title": "Immudb",
+  "description": "Architecture",
+  "source": "@site/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Immudb.md",
+  "sourceDirName": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation",
+  "slug": "/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Immudb",
+  "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Immudb",
+  "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Immudb.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Initiating the Deployment",
+    "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Initiating the Deployment"
+  },
+  "next": {
+    "title": "RabbitMQ",
+    "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/RabbitMQ"
+  }
+}

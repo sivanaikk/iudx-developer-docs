@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Deployment/Docker Swarm-Based Deployment/Deployment Overview",
+  "id": "version-5.0.0/Deployment/Docker Swarm-Based Deployment/Deployment Overview",
+  "isDocsHomePage": false,
+  "title": "Deployment Overview",
+  "description": "IUDX platform can be deployed in Docker Swarm using the scripts and Swarm code present in this directory and sub-directories. Each component is deployed as a single instance in Swarm. The components can be scaled manually. IUDX platform exposes endpoints through two ports - one for HTTPS traffic which it passes to Nginx and Nginx routes to the appropriate service; one for Rabbitmq management and AMQPS streaming. The whole system is monitored using a monitoring stack module - Prometheus for metrics, promtail and Loki for logs, and Grafana for visualization and alerting. The overall architecture of Swarm deployment is summarized in the figure below.",
+  "source": "@site/versioned_docs/version-5.0.0/Deployment/Docker Swarm-Based Deployment/Deployment Overview.md",
+  "sourceDirName": "Deployment/Docker Swarm-Based Deployment",
+  "slug": "/Deployment/Docker Swarm-Based Deployment/Deployment Overview",
+  "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/Deployment Overview",
+  "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/versioned_docs/version-5.0.0/Deployment/Docker Swarm-Based Deployment/Deployment Overview.md",
+  "tags": [],
+  "version": "5.0.0",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "version-5.0.0/tutorialSidebar",
+  "previous": {
+    "title": "Prerequisites",
+    "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/prerequisites"
+  },
+  "next": {
+    "title": "Initiating the Deployment",
+    "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Initiating the Deployment"
+  }
+}

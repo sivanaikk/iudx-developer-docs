@@ -54,7 +54,7 @@ sidebar_position: 2
     </div>  
     <br/>
 6. For each domain that needs a certificate generated, add domain names in \[conf/acme-config.json] (./example-configs/conf/acme-config.json) 
-Example:-  ****
+    <br/>Example:-  
 
                                                                                   
    | {"hostnames": [ <br/>    "cos-domain.iudx.org",  <br/>   "databroker-domain.iudx.org"]} |
@@ -80,6 +80,8 @@ Example:-  ****
 8. Deploy nginx stack as follows: 
 
     ```  
+    cp example-nginx-stack.resources.yaml nginx-stack.resources.yaml
+
     docker stack deploy -c nginx-stack.yaml -c nginx-stack.resources.yaml nginx-stack 
     ```
     - Nginx URL for respective service: **https://<service-domain-name\>**

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Zookeeper",
+  "id": "version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Zookeeper",
+  "isDocsHomePage": false,
+  "title": "Zookeeper",
+  "description": "Before running any API servers or monitoring stack, Zookeeper has to be running.",
+  "source": "@site/versioned_docs/version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Zookeeper.md",
+  "sourceDirName": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation",
+  "slug": "/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Zookeeper",
+  "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Zookeeper",
+  "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/versioned_docs/version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Zookeeper.md",
+  "tags": [],
+  "version": "5.0.0",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "version-5.0.0/tutorialSidebar",
+  "previous": {
+    "title": "Redis",
+    "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Redis"
+  },
+  "next": {
+    "title": "ELK stack",
+    "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/ELK stack"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Data- Ingestion Server",
+  "id": "version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Data- Ingestion Server",
+  "isDocsHomePage": false,
+  "title": "Data- Ingestion Server",
+  "description": "Will be deploying using swarm stack yaml files",
+  "source": "@site/versioned_docs/version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Data- Ingestion Server.md",
+  "sourceDirName": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation",
+  "slug": "/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Data- Ingestion Server",
+  "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Data- Ingestion Server",
+  "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/versioned_docs/version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Data- Ingestion Server.md",
+  "tags": [],
+  "version": "5.0.0",
+  "sidebarPosition": 16,
+  "frontMatter": {
+    "sidebar_position": 16
+  },
+  "sidebar": "version-5.0.0/tutorialSidebar",
+  "previous": {
+    "title": "File Server",
+    "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/File Server"
+  },
+  "next": {
+    "title": "GIS-Server",
+    "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/GIS-Server"
+  }
+}

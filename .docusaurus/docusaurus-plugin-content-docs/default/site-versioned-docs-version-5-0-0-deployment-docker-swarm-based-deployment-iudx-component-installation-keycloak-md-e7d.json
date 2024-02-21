@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Keycloak",
+  "id": "version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Keycloak",
+  "isDocsHomePage": false,
+  "title": "Keycloak",
+  "description": "Keycloak is used as an Identity Manager and will be deployed using swarm stack YAML files.",
+  "source": "@site/versioned_docs/version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Keycloak.md",
+  "sourceDirName": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation",
+  "slug": "/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Keycloak",
+  "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Keycloak",
+  "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/versioned_docs/version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Keycloak.md",
+  "tags": [],
+  "version": "5.0.0",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "version-5.0.0/tutorialSidebar",
+  "previous": {
+    "title": "ELK stack",
+    "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/ELK stack"
+  },
+  "next": {
+    "title": "API Server",
+    "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/API Server"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Provider/provider_manage_delegates",
+  "id": "version-5.0.0/Provider/provider_manage_delegates",
+  "isDocsHomePage": false,
+  "title": "Manage Delegations",
+  "description": "Providers can delegate administrative tasks to pre-approved users having the delegate role. Delegates are assigned to a specific IUDX server which determines their capabilities.",
+  "source": "@site/versioned_docs/version-5.0.0/Provider/provider_manage_delegates.md",
+  "sourceDirName": "Provider",
+  "slug": "/Provider/provider_manage_delegates",
+  "permalink": "/docs/5.0.0/Provider/provider_manage_delegates",
+  "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/versioned_docs/version-5.0.0/Provider/provider_manage_delegates.md",
+  "tags": [],
+  "version": "5.0.0",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "version-5.0.0/tutorialSidebar",
+  "previous": {
+    "title": "Manage Policies",
+    "permalink": "/docs/5.0.0/Provider/provider_manage_policies"
+  },
+  "next": {
+    "title": "Manage Catalogue Items",
+    "permalink": "/docs/5.0.0/Provider/provider_register_catalogue_item"
+  }
+}

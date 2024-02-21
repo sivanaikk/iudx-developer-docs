@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Initiating the Deployment",
+  "id": "version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Initiating the Deployment",
+  "isDocsHomePage": false,
+  "title": "Initiating the Deployment",
+  "description": "All IUDX component deployment files are available in the datakaveri/iudx-deployment git repository.",
+  "source": "@site/versioned_docs/version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Initiating the Deployment.md",
+  "sourceDirName": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation",
+  "slug": "/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Initiating the Deployment",
+  "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Initiating the Deployment",
+  "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/versioned_docs/version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Initiating the Deployment.md",
+  "tags": [],
+  "version": "5.0.0",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "version-5.0.0/tutorialSidebar",
+  "previous": {
+    "title": "Deployment Overview",
+    "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/Deployment Overview"
+  },
+  "next": {
+    "title": "Immudb",
+    "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Immudb"
+  }
+}

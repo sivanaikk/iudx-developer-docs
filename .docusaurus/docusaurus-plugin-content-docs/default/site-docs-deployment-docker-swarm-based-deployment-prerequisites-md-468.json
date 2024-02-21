@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Deployment/Docker Swarm-Based Deployment/prerequisites",
+  "id": "Deployment/Docker Swarm-Based Deployment/prerequisites",
+  "isDocsHomePage": false,
+  "title": "Prerequisites",
+  "description": "Basic knowledge on the following DevOps Technologies is recommended:",
+  "source": "@site/docs/Deployment/Docker Swarm-Based Deployment/prerequisites.md",
+  "sourceDirName": "Deployment/Docker Swarm-Based Deployment",
+  "slug": "/Deployment/Docker Swarm-Based Deployment/prerequisites",
+  "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/prerequisites",
+  "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Docker Swarm-Based Deployment/prerequisites.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/Introduction"
+  },
+  "next": {
+    "title": "Deployment Overview",
+    "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/Deployment Overview"
+  }
+}
