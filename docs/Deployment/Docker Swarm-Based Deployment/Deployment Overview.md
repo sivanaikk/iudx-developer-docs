@@ -23,7 +23,11 @@ IUDX platform can be deployed in Docker Swarm using the scripts and Swarm code p
 
 IUDX components depend on each other and are represented below in a Directed Acyclic Graph (DAG).
 
+<div class="img_background">
+<div style={{textAlign: 'center'}}>
+
 ![Architecture](../../../resources/auth/IUDX-Dependency-Graph.png)<br/>
+</div></div>
 
 From Directed Acyclic Graph (DAG), the components can be deployed as following in 6 stages:
 

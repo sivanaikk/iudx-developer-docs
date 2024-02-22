@@ -770,8 +770,8 @@
               "unversionedId": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Immudb",
               "id": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Immudb",
               "isDocsHomePage": false,
-              "title": "<<<<<<< HEAD",
-              "description": ">>>>>> f91ced8c (updated md docs)",
+              "title": "Immudb",
+              "description": "Architecture",
               "source": "@site/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Immudb.md",
               "sourceDirName": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation",
               "slug": "/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Immudb",
@@ -816,7 +816,7 @@
                 "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Addons/Monitoring-stack"
               },
               "next": {
-                "title": "<<<<<<< HEAD",
+                "title": "Immudb",
                 "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Immudb"
               }
             },
@@ -920,7 +920,7 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "<<<<<<< HEAD",
+                "title": "Immudb",
                 "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Immudb"
               },
               "next": {
