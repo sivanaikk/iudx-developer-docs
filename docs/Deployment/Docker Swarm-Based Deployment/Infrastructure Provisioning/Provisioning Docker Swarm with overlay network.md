@@ -24,6 +24,8 @@ Install ansible on your local machine. There are two possible ways,<br/>
 
     ```
 
+    
+
 3. Navigate to the below directory:
 
     ```

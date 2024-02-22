@@ -1,11 +1,13 @@
 ---
 sidebar_position: 7
 ---
+<div class="img_background">
 <div style={{textAlign: 'center'}}>
 
 ![Architecture](../../../resources/auth/keycloak-arch.png)
-</div>
-Keycloak is used as an Identity Manager and will be deployed using swarm stack YAML files.
+</div></div>
+
+- Keycloak is used as an Identity Manager and will be deployed using swarm stack YAML files.
 
 ### Prerequisites
 

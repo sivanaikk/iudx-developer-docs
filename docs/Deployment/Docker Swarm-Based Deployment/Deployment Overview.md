@@ -6,7 +6,11 @@ sidebar_position: 3
 
 IUDX platform can be deployed in Docker Swarm using the scripts and Swarm code present in this directory and sub-directories. Each component is deployed as a single instance in Swarm. The components can be scaled manually. IUDX platform exposes endpoints through two ports - one for HTTPS traffic which it passes to Nginx and Nginx routes to the appropriate service; another for Rabbitmq management and AMQPS streaming. The whole system is monitored using a monitoring stack module - Prometheus for metrics, promtail and Loki for logs, and Grafana for visualization and alerting. The overall architecture of Swarm deployment is summarized in the figure below.
 
+<div class="img_background">
+<div style={{textAlign: 'center'}}>
+
 ![Architecture](../../../resources/auth/Overview-Deloyment-IUDX-Swarm.png)<br/>
+</div></div>
 
 ## Features
 

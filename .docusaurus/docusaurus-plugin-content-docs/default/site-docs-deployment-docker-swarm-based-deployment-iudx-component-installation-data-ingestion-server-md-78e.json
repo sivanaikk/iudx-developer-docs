@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Data- Ingestion Server",
+  "id": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Data- Ingestion Server",
+  "isDocsHomePage": false,
+  "title": "Data- Ingestion Server",
+  "description": "Architecture",
+  "source": "@site/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Data- Ingestion Server.md",
+  "sourceDirName": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation",
+  "slug": "/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Data- Ingestion Server",
+  "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Data- Ingestion Server",
+  "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Data- Ingestion Server.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 16,
+  "frontMatter": {
+    "sidebar_position": 16
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "File Server",
+    "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/File Server"
+  },
+  "next": {
+    "title": "Advance Monitoring Stack",
+    "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Advance Monitoring Stack"
+  }
+}

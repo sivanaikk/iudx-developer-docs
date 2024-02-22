@@ -1,10 +1,11 @@
 ---
 sidebar_position: 6
 ---
+<div class="img_background">
 <div style={{textAlign: 'center'}}>
 
 ![Architecture](../../../resources/auth/ElasticStack-arch.png)
-</div>
+</div></div>
 
 + Deploys Elasticsearch, Logstash, and Kibana. 
 + Elasticsearch is used as a meta-data and data store. Logstash acts as the data pipeline between RabbitMQ and Elasticsearch. Kibana is used for visualization and management of the ELK stack.
