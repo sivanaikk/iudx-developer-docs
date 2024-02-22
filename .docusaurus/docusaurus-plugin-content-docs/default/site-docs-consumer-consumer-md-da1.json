@@ -7,7 +7,7 @@
   "source": "@site/docs/Consumer/consumer.md",
   "sourceDirName": "Consumer",
   "slug": "/Consumer/consumer",
-  "permalink": "/docs/Consumer/consumer",
+  "permalink": "/docs/next/Consumer/consumer",
   "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Consumer/consumer.md",
   "tags": [],
   "version": "current",
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Registration",
-    "permalink": "/docs/registration"
+    "permalink": "/docs/next/registration"
   },
   "next": {
     "title": "Discover Resources",
-    "permalink": "/docs/Consumer/consumer_data_discovery"
+    "permalink": "/docs/next/Consumer/consumer_data_discovery"
   }
 }

@@ -2,14 +2,14 @@
 sidebar_position: 2
 ---
 
+
+
 <div class="img_background">
 <div style={{textAlign: 'center'}}>
 
 ![Architecture](../../../../resources/auth/immudb.png)<br/>
-</div>
 
-</div>
-
+</div></div>
 
 - Immudb is being used as an immutable database for storing the auditing and metering data.
 - Deployed as a non-clustered single instance.
@@ -65,7 +65,7 @@ sidebar_position: 2
 
         2. Monitor logs to ensure creation:
             ```
-            docker service logs tmp_immudb_config_generator -f
+            docker service logs tmp_immudb-config-generator -f
             ```
 
         3. Remove stack after successfully creation:
@@ -83,28 +83,30 @@ sidebar_position: 2
    | immudb     | secrets/passwords/admin-password | Superuser                                | Used to create dbs, set users and RBAC                    |
 
 
-### Notes
+<details>
+<summary><div class="test_color">Testing</div></summary>
 
 1. To access immudb and perform database operations such as creating indexes and tables, an immudb client deployment is required.
 
 2. Connect to immudb server using immuclient:
-    1. Login to the immuclient container.
-    2. In the container, change the directory path to `/app/immuclient`.
-
-    3. Run the command, It will prompt for a password. Upon successful login, the immudb server can be accessed:
+    - Login to the immuclient container.
+    - In the container, change the directory path to `/app/immuclient`.
+    - Run the below command, It will prompt for a password. Upon successful login, the immudb server can be accessed:
         ```
         login <user_name>
         ```
 
-    4. Test commands:
-        1. To use the created database, run**:
-            ```
-            use <database_name>
-            ```
-        2. To list tables, run:
-            ```
-            tables
-            ```
+    - To use the created database, run:
+        ```
+        use <database_name>
+        ```
+
+    - To list tables, run:
+        ```
+        tables
+        ```
+
+</details>
 
 3. To check if the immudb stacks are deployed and running, execute the command:
     ```

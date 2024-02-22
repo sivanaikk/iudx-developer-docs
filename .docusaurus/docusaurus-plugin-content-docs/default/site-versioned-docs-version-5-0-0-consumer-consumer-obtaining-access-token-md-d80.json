@@ -7,7 +7,7 @@
   "source": "@site/versioned_docs/version-5.0.0/Consumer/consumer_obtaining_access_token.md",
   "sourceDirName": "Consumer",
   "slug": "/Consumer/consumer_obtaining_access_token",
-  "permalink": "/docs/5.0.0/Consumer/consumer_obtaining_access_token",
+  "permalink": "/docs/Consumer/consumer_obtaining_access_token",
   "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/versioned_docs/version-5.0.0/Consumer/consumer_obtaining_access_token.md",
   "tags": [],
   "version": "5.0.0",
@@ -18,10 +18,10 @@
   "sidebar": "version-5.0.0/tutorialSidebar",
   "previous": {
     "title": "Discover Resources",
-    "permalink": "/docs/5.0.0/Consumer/consumer_data_discovery"
+    "permalink": "/docs/Consumer/consumer_data_discovery"
   },
   "next": {
     "title": "Data Access through APIs",
-    "permalink": "/docs/5.0.0/Consumer/consumer_data_access_APIs"
+    "permalink": "/docs/Consumer/consumer_data_access_APIs"
   }
 }

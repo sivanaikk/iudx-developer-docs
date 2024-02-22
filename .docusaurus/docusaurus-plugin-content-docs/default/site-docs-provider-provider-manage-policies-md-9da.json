@@ -7,7 +7,7 @@
   "source": "@site/docs/Provider/provider_manage_policies.md",
   "sourceDirName": "Provider",
   "slug": "/Provider/provider_manage_policies",
-  "permalink": "/docs/Provider/provider_manage_policies",
+  "permalink": "/docs/next/Provider/provider_manage_policies",
   "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Provider/provider_manage_policies.md",
   "tags": [],
   "version": "current",
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Introduction",
-    "permalink": "/docs/Provider/provider"
+    "permalink": "/docs/next/Provider/provider"
   },
   "next": {
     "title": "Manage Delegations",
-    "permalink": "/docs/Provider/provider_manage_delegates"
+    "permalink": "/docs/next/Provider/provider_manage_delegates"
   }
 }

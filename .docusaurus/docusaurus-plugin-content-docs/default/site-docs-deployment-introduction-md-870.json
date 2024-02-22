@@ -7,7 +7,7 @@
   "source": "@site/docs/Deployment/Introduction.md",
   "sourceDirName": "Deployment",
   "slug": "/Deployment/Introduction",
-  "permalink": "/docs/Deployment/Introduction",
+  "permalink": "/docs/next/Deployment/Introduction",
   "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Introduction.md",
   "tags": [],
   "version": "current",
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Manage Data Ingestion",
-    "permalink": "/docs/Delegate/delegate_register_resource_server"
+    "permalink": "/docs/next/Delegate/delegate_register_resource_server"
   },
   "next": {
     "title": "Introduction",
-    "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/Introduction"
+    "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/Introduction"
   }
 }

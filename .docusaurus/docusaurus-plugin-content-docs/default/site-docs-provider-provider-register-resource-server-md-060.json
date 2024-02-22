@@ -7,7 +7,7 @@
   "source": "@site/docs/Provider/provider_register_resource_server.md",
   "sourceDirName": "Provider",
   "slug": "/Provider/provider_register_resource_server",
-  "permalink": "/docs/Provider/provider_register_resource_server",
+  "permalink": "/docs/next/Provider/provider_register_resource_server",
   "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Provider/provider_register_resource_server.md",
   "tags": [],
   "version": "current",
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Manage Catalogue Items",
-    "permalink": "/docs/Provider/provider_register_catalogue_item"
+    "permalink": "/docs/next/Provider/provider_register_catalogue_item"
   },
   "next": {
     "title": "Introduction",
-    "permalink": "/docs/Delegate/delegate"
+    "permalink": "/docs/next/Delegate/delegate"
   }
 }

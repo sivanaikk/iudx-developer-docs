@@ -7,7 +7,7 @@
   "source": "@site/versioned_docs/version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Immudb.md",
   "sourceDirName": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation",
   "slug": "/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Immudb",
-  "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Immudb",
+  "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Immudb",
   "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/versioned_docs/version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Immudb.md",
   "tags": [],
   "version": "5.0.0",
@@ -18,10 +18,10 @@
   "sidebar": "version-5.0.0/tutorialSidebar",
   "previous": {
     "title": "Initiating the Deployment",
-    "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Initiating the Deployment"
+    "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Initiating the Deployment"
   },
   "next": {
     "title": "RabbitMQ",
-    "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/RabbitMQ"
+    "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/RabbitMQ"
   }
 }

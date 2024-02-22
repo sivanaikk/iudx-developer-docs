@@ -6,233 +6,233 @@
         {
           "name": "current",
           "label": "Latest",
-          "isLast": true,
-          "path": "/docs",
+          "isLast": false,
+          "path": "/docs/next",
           "mainDocId": "client-credentials",
           "docs": [
             {
               "id": "client-credentials",
-              "path": "/docs/client-credentials",
+              "path": "/docs/next/client-credentials",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Consumer/consumer",
-              "path": "/docs/Consumer/consumer",
+              "path": "/docs/next/Consumer/consumer",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Consumer/consumer_data_access_APIs",
-              "path": "/docs/Consumer/consumer_data_access_APIs",
+              "path": "/docs/next/Consumer/consumer_data_access_APIs",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Consumer/consumer_data_access_async",
-              "path": "/docs/Consumer/consumer_data_access_async",
+              "path": "/docs/next/Consumer/consumer_data_access_async",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Consumer/consumer_data_access_file_server",
-              "path": "/docs/Consumer/consumer_data_access_file_server",
+              "path": "/docs/next/Consumer/consumer_data_access_file_server",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Consumer/consumer_data_access_subscription",
-              "path": "/docs/Consumer/consumer_data_access_subscription",
+              "path": "/docs/next/Consumer/consumer_data_access_subscription",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Consumer/consumer_data_discovery",
-              "path": "/docs/Consumer/consumer_data_discovery",
+              "path": "/docs/next/Consumer/consumer_data_discovery",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Consumer/consumer_obtaining_access_token",
-              "path": "/docs/Consumer/consumer_obtaining_access_token",
+              "path": "/docs/next/Consumer/consumer_obtaining_access_token",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Delegate/delegate",
-              "path": "/docs/Delegate/delegate",
+              "path": "/docs/next/Delegate/delegate",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Delegate/delegate_manage_policy",
-              "path": "/docs/Delegate/delegate_manage_policy",
+              "path": "/docs/next/Delegate/delegate_manage_policy",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Delegate/delegate_register_catalogue_item",
-              "path": "/docs/Delegate/delegate_register_catalogue_item",
+              "path": "/docs/next/Delegate/delegate_register_catalogue_item",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Delegate/delegate_register_resource_server",
-              "path": "/docs/Delegate/delegate_register_resource_server",
+              "path": "/docs/next/Delegate/delegate_register_resource_server",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Deployment/Docker Swarm-Based Deployment/Deployment Overview",
-              "path": "/docs/Deployment/Docker Swarm-Based Deployment/Deployment Overview",
+              "path": "/docs/next/Deployment/Docker Swarm-Based Deployment/Deployment Overview",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Addons/Centralised-Nginx",
-              "path": "/docs/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Addons/Centralised-Nginx",
+              "path": "/docs/next/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Addons/Centralised-Nginx",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Addons/Monitoring-stack",
-              "path": "/docs/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Addons/Monitoring-stack",
+              "path": "/docs/next/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Addons/Monitoring-stack",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Addons/Provisioning Node-exporter and docker daemon metrics",
-              "path": "/docs/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Addons/Provisioning Node-exporter and docker daemon metrics",
+              "path": "/docs/next/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Addons/Provisioning Node-exporter and docker daemon metrics",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Provisioning Docker Swarm with overlay network",
-              "path": "/docs/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Provisioning Docker Swarm with overlay network",
+              "path": "/docs/next/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Provisioning Docker Swarm with overlay network",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Resource planning",
-              "path": "/docs/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Resource planning",
+              "path": "/docs/next/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Resource planning",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Deployment/Docker Swarm-Based Deployment/Introduction",
-              "path": "/docs/Deployment/Docker Swarm-Based Deployment/Introduction",
+              "path": "/docs/next/Deployment/Docker Swarm-Based Deployment/Introduction",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/AAA Server",
-              "path": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/AAA Server",
+              "path": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/AAA Server",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/ACL-APD",
-              "path": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/ACL-APD",
+              "path": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/ACL-APD",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Advance Monitoring Stack",
-              "path": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Advance Monitoring Stack",
+              "path": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Advance Monitoring Stack",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/API Server",
-              "path": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/API Server",
+              "path": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/API Server",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Auditing Server",
-              "path": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Auditing Server",
+              "path": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Auditing Server",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Catalogue-Server",
-              "path": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Catalogue-Server",
+              "path": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Catalogue-Server",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Data- Ingestion Server",
-              "path": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Data- Ingestion Server",
+              "path": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Data- Ingestion Server",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/ELK stack",
-              "path": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/ELK stack",
+              "path": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/ELK stack",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/File Server",
-              "path": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/File Server",
+              "path": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/File Server",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Immudb",
-              "path": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Immudb",
+              "path": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Immudb",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Initiating the Deployment",
-              "path": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Initiating the Deployment",
+              "path": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Initiating the Deployment",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Keycloak",
-              "path": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Keycloak",
+              "path": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Keycloak",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Latest-Ingestion-Pipeline",
-              "path": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Latest-Ingestion-Pipeline",
+              "path": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Latest-Ingestion-Pipeline",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/PostgreSQL",
-              "path": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/PostgreSQL",
+              "path": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/PostgreSQL",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/RabbitMQ",
-              "path": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/RabbitMQ",
+              "path": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/RabbitMQ",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Redis",
-              "path": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Redis",
+              "path": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Redis",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Resource-Server",
-              "path": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Resource-Server",
+              "path": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Resource-Server",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Zookeeper",
-              "path": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Zookeeper",
+              "path": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Zookeeper",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Deployment/Docker Swarm-Based Deployment/prerequisites",
-              "path": "/docs/Deployment/Docker Swarm-Based Deployment/prerequisites",
+              "path": "/docs/next/Deployment/Docker Swarm-Based Deployment/prerequisites",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Deployment/Introduction",
-              "path": "/docs/Deployment/Introduction",
+              "path": "/docs/next/Deployment/Introduction",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Provider/provider",
-              "path": "/docs/Provider/provider",
+              "path": "/docs/next/Provider/provider",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Provider/provider_manage_delegates",
-              "path": "/docs/Provider/provider_manage_delegates",
+              "path": "/docs/next/Provider/provider_manage_delegates",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Provider/provider_manage_policies",
-              "path": "/docs/Provider/provider_manage_policies",
+              "path": "/docs/next/Provider/provider_manage_policies",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Provider/provider_register_catalogue_item",
-              "path": "/docs/Provider/provider_register_catalogue_item",
+              "path": "/docs/next/Provider/provider_register_catalogue_item",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Provider/provider_register_resource_server",
-              "path": "/docs/Provider/provider_register_resource_server",
+              "path": "/docs/next/Provider/provider_register_resource_server",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "registration",
-              "path": "/docs/registration",
+              "path": "/docs/next/registration",
               "sidebar": "tutorialSidebar"
             }
           ]
@@ -240,213 +240,213 @@
         {
           "name": "5.0.0",
           "label": "5.0.0",
-          "isLast": false,
-          "path": "/docs/5.0.0",
+          "isLast": true,
+          "path": "/docs",
           "mainDocId": "client-credentials",
           "docs": [
             {
               "id": "client-credentials",
-              "path": "/docs/5.0.0/client-credentials",
+              "path": "/docs/client-credentials",
               "sidebar": "version-5.0.0/tutorialSidebar"
             },
             {
               "id": "Consumer/consumer",
-              "path": "/docs/5.0.0/Consumer/consumer",
+              "path": "/docs/Consumer/consumer",
               "sidebar": "version-5.0.0/tutorialSidebar"
             },
             {
               "id": "Consumer/consumer_data_access_APIs",
-              "path": "/docs/5.0.0/Consumer/consumer_data_access_APIs",
+              "path": "/docs/Consumer/consumer_data_access_APIs",
               "sidebar": "version-5.0.0/tutorialSidebar"
             },
             {
               "id": "Consumer/consumer_data_access_async",
-              "path": "/docs/5.0.0/Consumer/consumer_data_access_async",
+              "path": "/docs/Consumer/consumer_data_access_async",
               "sidebar": "version-5.0.0/tutorialSidebar"
             },
             {
               "id": "Consumer/consumer_data_access_file_server",
-              "path": "/docs/5.0.0/Consumer/consumer_data_access_file_server",
+              "path": "/docs/Consumer/consumer_data_access_file_server",
               "sidebar": "version-5.0.0/tutorialSidebar"
             },
             {
               "id": "Consumer/consumer_data_access_subscription",
-              "path": "/docs/5.0.0/Consumer/consumer_data_access_subscription",
+              "path": "/docs/Consumer/consumer_data_access_subscription",
               "sidebar": "version-5.0.0/tutorialSidebar"
             },
             {
               "id": "Consumer/consumer_data_discovery",
-              "path": "/docs/5.0.0/Consumer/consumer_data_discovery",
+              "path": "/docs/Consumer/consumer_data_discovery",
               "sidebar": "version-5.0.0/tutorialSidebar"
             },
             {
               "id": "Consumer/consumer_obtaining_access_token",
-              "path": "/docs/5.0.0/Consumer/consumer_obtaining_access_token",
+              "path": "/docs/Consumer/consumer_obtaining_access_token",
               "sidebar": "version-5.0.0/tutorialSidebar"
             },
             {
               "id": "Delegate/delegate",
-              "path": "/docs/5.0.0/Delegate/delegate",
+              "path": "/docs/Delegate/delegate",
               "sidebar": "version-5.0.0/tutorialSidebar"
             },
             {
               "id": "Delegate/delegate_manage_policy",
-              "path": "/docs/5.0.0/Delegate/delegate_manage_policy",
+              "path": "/docs/Delegate/delegate_manage_policy",
               "sidebar": "version-5.0.0/tutorialSidebar"
             },
             {
               "id": "Delegate/delegate_register_catalogue_item",
-              "path": "/docs/5.0.0/Delegate/delegate_register_catalogue_item",
+              "path": "/docs/Delegate/delegate_register_catalogue_item",
               "sidebar": "version-5.0.0/tutorialSidebar"
             },
             {
               "id": "Delegate/delegate_register_resource_server",
-              "path": "/docs/5.0.0/Delegate/delegate_register_resource_server",
+              "path": "/docs/Delegate/delegate_register_resource_server",
               "sidebar": "version-5.0.0/tutorialSidebar"
             },
             {
               "id": "Deployment/Docker Swarm-Based Deployment/Deployment Overview",
-              "path": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/Deployment Overview",
+              "path": "/docs/Deployment/Docker Swarm-Based Deployment/Deployment Overview",
               "sidebar": "version-5.0.0/tutorialSidebar"
             },
             {
               "id": "Deployment/Docker Swarm-Based Deployment/Introduction",
-              "path": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/Introduction",
+              "path": "/docs/Deployment/Docker Swarm-Based Deployment/Introduction",
               "sidebar": "version-5.0.0/tutorialSidebar"
             },
             {
               "id": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/AAA Server",
-              "path": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/AAA Server",
+              "path": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/AAA Server",
               "sidebar": "version-5.0.0/tutorialSidebar"
             },
             {
               "id": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/ACL-APD",
-              "path": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/ACL-APD",
+              "path": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/ACL-APD",
               "sidebar": "version-5.0.0/tutorialSidebar"
             },
             {
               "id": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Advance Monitoring Stack",
-              "path": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Advance Monitoring Stack",
+              "path": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Advance Monitoring Stack",
               "sidebar": "version-5.0.0/tutorialSidebar"
             },
             {
               "id": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/API Server",
-              "path": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/API Server",
+              "path": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/API Server",
               "sidebar": "version-5.0.0/tutorialSidebar"
             },
             {
               "id": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Auditing Server",
-              "path": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Auditing Server",
+              "path": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Auditing Server",
               "sidebar": "version-5.0.0/tutorialSidebar"
             },
             {
               "id": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Catalogue-Server",
-              "path": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Catalogue-Server",
+              "path": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Catalogue-Server",
               "sidebar": "version-5.0.0/tutorialSidebar"
             },
             {
               "id": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Data- Ingestion Server",
-              "path": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Data- Ingestion Server",
+              "path": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Data- Ingestion Server",
               "sidebar": "version-5.0.0/tutorialSidebar"
             },
             {
               "id": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/ELK stack",
-              "path": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/ELK stack",
+              "path": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/ELK stack",
               "sidebar": "version-5.0.0/tutorialSidebar"
             },
             {
               "id": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/File Server",
-              "path": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/File Server",
+              "path": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/File Server",
               "sidebar": "version-5.0.0/tutorialSidebar"
             },
             {
               "id": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/GIS-Server",
-              "path": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/GIS-Server",
+              "path": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/GIS-Server",
               "sidebar": "version-5.0.0/tutorialSidebar"
             },
             {
               "id": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Immudb",
-              "path": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Immudb",
+              "path": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Immudb",
               "sidebar": "version-5.0.0/tutorialSidebar"
             },
             {
               "id": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Initiating the Deployment",
-              "path": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Initiating the Deployment",
+              "path": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Initiating the Deployment",
               "sidebar": "version-5.0.0/tutorialSidebar"
             },
             {
               "id": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Keycloak",
-              "path": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Keycloak",
+              "path": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Keycloak",
               "sidebar": "version-5.0.0/tutorialSidebar"
             },
             {
               "id": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Latest-Ingestion-Pipeline",
-              "path": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Latest-Ingestion-Pipeline",
+              "path": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Latest-Ingestion-Pipeline",
               "sidebar": "version-5.0.0/tutorialSidebar"
             },
             {
               "id": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/PostgreSQL",
-              "path": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/PostgreSQL",
+              "path": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/PostgreSQL",
               "sidebar": "version-5.0.0/tutorialSidebar"
             },
             {
               "id": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/RabbitMQ",
-              "path": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/RabbitMQ",
+              "path": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/RabbitMQ",
               "sidebar": "version-5.0.0/tutorialSidebar"
             },
             {
               "id": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Redis",
-              "path": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Redis",
+              "path": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Redis",
               "sidebar": "version-5.0.0/tutorialSidebar"
             },
             {
               "id": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Resource-Server",
-              "path": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Resource-Server",
+              "path": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Resource-Server",
               "sidebar": "version-5.0.0/tutorialSidebar"
             },
             {
               "id": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Zookeeper",
-              "path": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Zookeeper",
+              "path": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Zookeeper",
               "sidebar": "version-5.0.0/tutorialSidebar"
             },
             {
               "id": "Deployment/Docker Swarm-Based Deployment/prerequisites",
-              "path": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/prerequisites",
+              "path": "/docs/Deployment/Docker Swarm-Based Deployment/prerequisites",
               "sidebar": "version-5.0.0/tutorialSidebar"
             },
             {
               "id": "Deployment/Introduction",
-              "path": "/docs/5.0.0/Deployment/Introduction",
+              "path": "/docs/Deployment/Introduction",
               "sidebar": "version-5.0.0/tutorialSidebar"
             },
             {
               "id": "Provider/provider",
-              "path": "/docs/5.0.0/Provider/provider",
+              "path": "/docs/Provider/provider",
               "sidebar": "version-5.0.0/tutorialSidebar"
             },
             {
               "id": "Provider/provider_manage_delegates",
-              "path": "/docs/5.0.0/Provider/provider_manage_delegates",
+              "path": "/docs/Provider/provider_manage_delegates",
               "sidebar": "version-5.0.0/tutorialSidebar"
             },
             {
               "id": "Provider/provider_manage_policies",
-              "path": "/docs/5.0.0/Provider/provider_manage_policies",
+              "path": "/docs/Provider/provider_manage_policies",
               "sidebar": "version-5.0.0/tutorialSidebar"
             },
             {
               "id": "Provider/provider_register_catalogue_item",
-              "path": "/docs/5.0.0/Provider/provider_register_catalogue_item",
+              "path": "/docs/Provider/provider_register_catalogue_item",
               "sidebar": "version-5.0.0/tutorialSidebar"
             },
             {
               "id": "Provider/provider_register_resource_server",
-              "path": "/docs/5.0.0/Provider/provider_register_resource_server",
+              "path": "/docs/Provider/provider_register_resource_server",
               "sidebar": "version-5.0.0/tutorialSidebar"
             },
             {
               "id": "registration",
-              "path": "/docs/5.0.0/registration",
+              "path": "/docs/registration",
               "sidebar": "version-5.0.0/tutorialSidebar"
             }
           ]

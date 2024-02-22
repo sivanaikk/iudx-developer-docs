@@ -7,7 +7,7 @@
   "source": "@site/docs/Delegate/delegate_register_resource_server.md",
   "sourceDirName": "Delegate",
   "slug": "/Delegate/delegate_register_resource_server",
-  "permalink": "/docs/Delegate/delegate_register_resource_server",
+  "permalink": "/docs/next/Delegate/delegate_register_resource_server",
   "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Delegate/delegate_register_resource_server.md",
   "tags": [],
   "version": "current",
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Manage Catalogue Items",
-    "permalink": "/docs/Delegate/delegate_register_catalogue_item"
+    "permalink": "/docs/next/Delegate/delegate_register_catalogue_item"
   },
   "next": {
     "title": "IUDX Overview",
-    "permalink": "/docs/Deployment/Introduction"
+    "permalink": "/docs/next/Deployment/Introduction"
   }
 }

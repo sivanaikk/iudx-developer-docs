@@ -7,7 +7,7 @@
   "source": "@site/docs/Deployment/Docker Swarm-Based Deployment/prerequisites.md",
   "sourceDirName": "Deployment/Docker Swarm-Based Deployment",
   "slug": "/Deployment/Docker Swarm-Based Deployment/prerequisites",
-  "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/prerequisites",
+  "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/prerequisites",
   "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Docker Swarm-Based Deployment/prerequisites.md",
   "tags": [],
   "version": "current",
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Introduction",
-    "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/Introduction"
+    "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/Introduction"
   },
   "next": {
     "title": "Deployment Overview",
-    "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/Deployment Overview"
+    "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/Deployment Overview"
   }
 }

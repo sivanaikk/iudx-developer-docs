@@ -7,7 +7,7 @@
   "source": "@site/versioned_docs/version-5.0.0/Consumer/consumer_data_access_async.md",
   "sourceDirName": "Consumer",
   "slug": "/Consumer/consumer_data_access_async",
-  "permalink": "/docs/5.0.0/Consumer/consumer_data_access_async",
+  "permalink": "/docs/Consumer/consumer_data_access_async",
   "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/versioned_docs/version-5.0.0/Consumer/consumer_data_access_async.md",
   "tags": [],
   "version": "5.0.0",
@@ -18,10 +18,10 @@
   "sidebar": "version-5.0.0/tutorialSidebar",
   "previous": {
     "title": "Data Access through Subscription",
-    "permalink": "/docs/5.0.0/Consumer/consumer_data_access_subscription"
+    "permalink": "/docs/Consumer/consumer_data_access_subscription"
   },
   "next": {
     "title": "Data Access through File Server",
-    "permalink": "/docs/5.0.0/Consumer/consumer_data_access_file_server"
+    "permalink": "/docs/Consumer/consumer_data_access_file_server"
   }
 }

@@ -7,7 +7,7 @@
   "source": "@site/docs/Consumer/consumer_data_discovery.md",
   "sourceDirName": "Consumer",
   "slug": "/Consumer/consumer_data_discovery",
-  "permalink": "/docs/Consumer/consumer_data_discovery",
+  "permalink": "/docs/next/Consumer/consumer_data_discovery",
   "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Consumer/consumer_data_discovery.md",
   "tags": [],
   "version": "current",
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Introduction",
-    "permalink": "/docs/Consumer/consumer"
+    "permalink": "/docs/next/Consumer/consumer"
   },
   "next": {
     "title": "Obtaining Access Token",
-    "permalink": "/docs/Consumer/consumer_obtaining_access_token"
+    "permalink": "/docs/next/Consumer/consumer_obtaining_access_token"
   }
 }

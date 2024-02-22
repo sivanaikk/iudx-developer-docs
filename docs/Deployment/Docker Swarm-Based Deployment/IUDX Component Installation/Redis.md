@@ -2,9 +2,15 @@
 sidebar_position: 5
 ---
 
+<div class="img_background">
+<div style={{textAlign: 'center'}}>
+
 
 ![Architecture](../../../resources/auth/Redis-arch.png)
+</div></div>
+ 
 - Redis is used as the latest-data store and will be deployed using Swarm stack YAML files.
+
 
 ### Installation
 

@@ -2,10 +2,13 @@
 sidebar_position: 5
 ---
 
+<div class="img_background">
 <div style={{textAlign: 'center'}}>
 
 ![Architecture](../../../resources/auth/zookeeper-arch.png)
 </div>
+</div>
+
 
 + ZooKeeper operates as a distributed file system and exposes a simple set of APIs that enable clients to read and write data to the file system.
 + Zookeeper performs service discovery of APIs using the data stored in Hazelcast cache.

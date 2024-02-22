@@ -7,7 +7,7 @@
   "source": "@site/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Keycloak.md",
   "sourceDirName": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation",
   "slug": "/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Keycloak",
-  "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Keycloak",
+  "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Keycloak",
   "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Keycloak.md",
   "tags": [],
   "version": "current",
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "ELK stack",
-    "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/ELK stack"
+    "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/ELK stack"
   },
   "next": {
     "title": "API Server",
-    "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/API Server"
+    "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/API Server"
   }
 }

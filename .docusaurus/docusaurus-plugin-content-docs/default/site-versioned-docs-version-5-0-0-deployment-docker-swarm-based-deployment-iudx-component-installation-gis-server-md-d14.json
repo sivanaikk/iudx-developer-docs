@@ -7,7 +7,7 @@
   "source": "@site/versioned_docs/version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/GIS-Server.md",
   "sourceDirName": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation",
   "slug": "/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/GIS-Server",
-  "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/GIS-Server",
+  "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/GIS-Server",
   "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/versioned_docs/version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/GIS-Server.md",
   "tags": [],
   "version": "5.0.0",
@@ -18,10 +18,10 @@
   "sidebar": "version-5.0.0/tutorialSidebar",
   "previous": {
     "title": "Data- Ingestion Server",
-    "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Data- Ingestion Server"
+    "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Data- Ingestion Server"
   },
   "next": {
     "title": "Advance Monitoring Stack",
-    "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Advance Monitoring Stack"
+    "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Advance Monitoring Stack"
   }
 }

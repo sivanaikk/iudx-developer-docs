@@ -7,7 +7,7 @@
   "source": "@site/versioned_docs/version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Redis.md",
   "sourceDirName": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation",
   "slug": "/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Redis",
-  "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Redis",
+  "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Redis",
   "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/versioned_docs/version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Redis.md",
   "tags": [],
   "version": "5.0.0",
@@ -18,10 +18,10 @@
   "sidebar": "version-5.0.0/tutorialSidebar",
   "previous": {
     "title": "PostgreSQL",
-    "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/PostgreSQL"
+    "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/PostgreSQL"
   },
   "next": {
     "title": "Zookeeper",
-    "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Zookeeper"
+    "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Zookeeper"
   }
 }

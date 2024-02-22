@@ -3,11 +3,11 @@
   "id": "Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Resource planning",
   "isDocsHomePage": false,
   "title": "Resource planning",
-  "description": "The resource planning for various IUDX components and the corresponding vm  is present  here. The planned resource along with instance type values need to be added in \\*.resources.yaml",
+  "description": "The resource planning of various IUDX components and the corresponding VM is present  here. The planned resources along with instance type values need to be added in \\*.resources.yaml",
   "source": "@site/docs/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Resource planning.md",
   "sourceDirName": "Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning",
   "slug": "/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Resource planning",
-  "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Resource planning",
+  "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Resource planning",
   "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Resource planning.md",
   "tags": [],
   "version": "current",
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Deployment Overview",
-    "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/Deployment Overview"
+    "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/Deployment Overview"
   },
   "next": {
     "title": "Provisioning Docker Swarm with overlay network",
-    "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Provisioning Docker Swarm with overlay network"
+    "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Provisioning Docker Swarm with overlay network"
   }
 }

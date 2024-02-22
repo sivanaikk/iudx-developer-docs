@@ -7,7 +7,7 @@
   "source": "@site/docs/Consumer/consumer_data_access_subscription.md",
   "sourceDirName": "Consumer",
   "slug": "/Consumer/consumer_data_access_subscription",
-  "permalink": "/docs/Consumer/consumer_data_access_subscription",
+  "permalink": "/docs/next/Consumer/consumer_data_access_subscription",
   "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Consumer/consumer_data_access_subscription.md",
   "tags": [],
   "version": "current",
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Data Access through APIs",
-    "permalink": "/docs/Consumer/consumer_data_access_APIs"
+    "permalink": "/docs/next/Consumer/consumer_data_access_APIs"
   },
   "next": {
     "title": "Data Access through Async APIs",
-    "permalink": "/docs/Consumer/consumer_data_access_async"
+    "permalink": "/docs/next/Consumer/consumer_data_access_async"
   }
 }

@@ -7,7 +7,7 @@
   "source": "@site/docs/registration.md",
   "sourceDirName": ".",
   "slug": "/registration",
-  "permalink": "/docs/registration",
+  "permalink": "/docs/next/registration",
   "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/registration.md",
   "tags": [],
   "version": "current",
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Fetching and Resetting Client Credentials",
-    "permalink": "/docs/client-credentials"
+    "permalink": "/docs/next/client-credentials"
   },
   "next": {
     "title": "Introduction",
-    "permalink": "/docs/Consumer/consumer"
+    "permalink": "/docs/next/Consumer/consumer"
   }
 }

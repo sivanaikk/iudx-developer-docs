@@ -5,15 +5,14 @@
         {
           "versionName": "current",
           "versionLabel": "Latest",
-          "versionPath": "/docs",
-          "tagsPath": "/docs/tags",
+          "versionPath": "/docs/next",
+          "tagsPath": "/docs/next/tags",
           "versionEditUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs",
           "versionEditUrlLocalized": "https://github.com/datakaveri/iudx-developer-docs/blob/main/i18n/en/docusaurus-plugin-content-docs/current",
-          "versionBanner": null,
+          "versionBanner": "unreleased",
           "versionBadge": true,
           "versionClassName": "docs-version-current",
-          "isLast": true,
-          "routePriority": -1,
+          "isLast": false,
           "sidebarFilePath": "/home/srinivas/iudx-developer-docs/sidebars.js",
           "contentPath": "/home/srinivas/iudx-developer-docs/docs",
           "contentPathLocalized": "/home/srinivas/iudx-developer-docs/i18n/en/docusaurus-plugin-content-docs/current",
@@ -28,7 +27,7 @@
               "source": "@site/docs/client-credentials.md",
               "sourceDirName": ".",
               "slug": "/client-credentials",
-              "permalink": "/docs/client-credentials",
+              "permalink": "/docs/next/client-credentials",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/client-credentials.md",
               "tags": [],
               "version": "current",
@@ -39,7 +38,7 @@
               "sidebar": "tutorialSidebar",
               "next": {
                 "title": "Registration",
-                "permalink": "/docs/registration"
+                "permalink": "/docs/next/registration"
               }
             },
             {
@@ -51,7 +50,7 @@
               "source": "@site/docs/Consumer/consumer.md",
               "sourceDirName": "Consumer",
               "slug": "/Consumer/consumer",
-              "permalink": "/docs/Consumer/consumer",
+              "permalink": "/docs/next/Consumer/consumer",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Consumer/consumer.md",
               "tags": [],
               "version": "current",
@@ -62,11 +61,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Registration",
-                "permalink": "/docs/registration"
+                "permalink": "/docs/next/registration"
               },
               "next": {
                 "title": "Discover Resources",
-                "permalink": "/docs/Consumer/consumer_data_discovery"
+                "permalink": "/docs/next/Consumer/consumer_data_discovery"
               }
             },
             {
@@ -78,7 +77,7 @@
               "source": "@site/docs/Consumer/consumer_data_access_APIs.md",
               "sourceDirName": "Consumer",
               "slug": "/Consumer/consumer_data_access_APIs",
-              "permalink": "/docs/Consumer/consumer_data_access_APIs",
+              "permalink": "/docs/next/Consumer/consumer_data_access_APIs",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Consumer/consumer_data_access_APIs.md",
               "tags": [],
               "version": "current",
@@ -89,11 +88,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Obtaining Access Token",
-                "permalink": "/docs/Consumer/consumer_obtaining_access_token"
+                "permalink": "/docs/next/Consumer/consumer_obtaining_access_token"
               },
               "next": {
                 "title": "Data Access through Subscription",
-                "permalink": "/docs/Consumer/consumer_data_access_subscription"
+                "permalink": "/docs/next/Consumer/consumer_data_access_subscription"
               }
             },
             {
@@ -105,7 +104,7 @@
               "source": "@site/docs/Consumer/consumer_data_access_async.md",
               "sourceDirName": "Consumer",
               "slug": "/Consumer/consumer_data_access_async",
-              "permalink": "/docs/Consumer/consumer_data_access_async",
+              "permalink": "/docs/next/Consumer/consumer_data_access_async",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Consumer/consumer_data_access_async.md",
               "tags": [],
               "version": "current",
@@ -116,11 +115,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Data Access through Subscription",
-                "permalink": "/docs/Consumer/consumer_data_access_subscription"
+                "permalink": "/docs/next/Consumer/consumer_data_access_subscription"
               },
               "next": {
                 "title": "Data Access through File Server",
-                "permalink": "/docs/Consumer/consumer_data_access_file_server"
+                "permalink": "/docs/next/Consumer/consumer_data_access_file_server"
               }
             },
             {
@@ -132,7 +131,7 @@
               "source": "@site/docs/Consumer/consumer_data_access_file_server.md",
               "sourceDirName": "Consumer",
               "slug": "/Consumer/consumer_data_access_file_server",
-              "permalink": "/docs/Consumer/consumer_data_access_file_server",
+              "permalink": "/docs/next/Consumer/consumer_data_access_file_server",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Consumer/consumer_data_access_file_server.md",
               "tags": [],
               "version": "current",
@@ -143,11 +142,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Data Access through Async APIs",
-                "permalink": "/docs/Consumer/consumer_data_access_async"
+                "permalink": "/docs/next/Consumer/consumer_data_access_async"
               },
               "next": {
                 "title": "Introduction",
-                "permalink": "/docs/Provider/provider"
+                "permalink": "/docs/next/Provider/provider"
               }
             },
             {
@@ -159,7 +158,7 @@
               "source": "@site/docs/Consumer/consumer_data_access_subscription.md",
               "sourceDirName": "Consumer",
               "slug": "/Consumer/consumer_data_access_subscription",
-              "permalink": "/docs/Consumer/consumer_data_access_subscription",
+              "permalink": "/docs/next/Consumer/consumer_data_access_subscription",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Consumer/consumer_data_access_subscription.md",
               "tags": [],
               "version": "current",
@@ -170,11 +169,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Data Access through APIs",
-                "permalink": "/docs/Consumer/consumer_data_access_APIs"
+                "permalink": "/docs/next/Consumer/consumer_data_access_APIs"
               },
               "next": {
                 "title": "Data Access through Async APIs",
-                "permalink": "/docs/Consumer/consumer_data_access_async"
+                "permalink": "/docs/next/Consumer/consumer_data_access_async"
               }
             },
             {
@@ -186,7 +185,7 @@
               "source": "@site/docs/Consumer/consumer_data_discovery.md",
               "sourceDirName": "Consumer",
               "slug": "/Consumer/consumer_data_discovery",
-              "permalink": "/docs/Consumer/consumer_data_discovery",
+              "permalink": "/docs/next/Consumer/consumer_data_discovery",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Consumer/consumer_data_discovery.md",
               "tags": [],
               "version": "current",
@@ -197,11 +196,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Introduction",
-                "permalink": "/docs/Consumer/consumer"
+                "permalink": "/docs/next/Consumer/consumer"
               },
               "next": {
                 "title": "Obtaining Access Token",
-                "permalink": "/docs/Consumer/consumer_obtaining_access_token"
+                "permalink": "/docs/next/Consumer/consumer_obtaining_access_token"
               }
             },
             {
@@ -213,7 +212,7 @@
               "source": "@site/docs/Consumer/consumer_obtaining_access_token.md",
               "sourceDirName": "Consumer",
               "slug": "/Consumer/consumer_obtaining_access_token",
-              "permalink": "/docs/Consumer/consumer_obtaining_access_token",
+              "permalink": "/docs/next/Consumer/consumer_obtaining_access_token",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Consumer/consumer_obtaining_access_token.md",
               "tags": [],
               "version": "current",
@@ -224,11 +223,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Discover Resources",
-                "permalink": "/docs/Consumer/consumer_data_discovery"
+                "permalink": "/docs/next/Consumer/consumer_data_discovery"
               },
               "next": {
                 "title": "Data Access through APIs",
-                "permalink": "/docs/Consumer/consumer_data_access_APIs"
+                "permalink": "/docs/next/Consumer/consumer_data_access_APIs"
               }
             },
             {
@@ -240,7 +239,7 @@
               "source": "@site/docs/Delegate/delegate.md",
               "sourceDirName": "Delegate",
               "slug": "/Delegate/delegate",
-              "permalink": "/docs/Delegate/delegate",
+              "permalink": "/docs/next/Delegate/delegate",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Delegate/delegate.md",
               "tags": [],
               "version": "current",
@@ -251,11 +250,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Manage Data Ingestion",
-                "permalink": "/docs/Provider/provider_register_resource_server"
+                "permalink": "/docs/next/Provider/provider_register_resource_server"
               },
               "next": {
                 "title": "Managing Policies and Delegations for different Providers",
-                "permalink": "/docs/Delegate/delegate_manage_policy"
+                "permalink": "/docs/next/Delegate/delegate_manage_policy"
               }
             },
             {
@@ -267,7 +266,7 @@
               "source": "@site/docs/Delegate/delegate_manage_policy.md",
               "sourceDirName": "Delegate",
               "slug": "/Delegate/delegate_manage_policy",
-              "permalink": "/docs/Delegate/delegate_manage_policy",
+              "permalink": "/docs/next/Delegate/delegate_manage_policy",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Delegate/delegate_manage_policy.md",
               "tags": [],
               "version": "current",
@@ -278,11 +277,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Introduction",
-                "permalink": "/docs/Delegate/delegate"
+                "permalink": "/docs/next/Delegate/delegate"
               },
               "next": {
                 "title": "Manage Catalogue Items",
-                "permalink": "/docs/Delegate/delegate_register_catalogue_item"
+                "permalink": "/docs/next/Delegate/delegate_register_catalogue_item"
               }
             },
             {
@@ -294,7 +293,7 @@
               "source": "@site/docs/Delegate/delegate_register_catalogue_item.md",
               "sourceDirName": "Delegate",
               "slug": "/Delegate/delegate_register_catalogue_item",
-              "permalink": "/docs/Delegate/delegate_register_catalogue_item",
+              "permalink": "/docs/next/Delegate/delegate_register_catalogue_item",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Delegate/delegate_register_catalogue_item.md",
               "tags": [],
               "version": "current",
@@ -305,11 +304,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Managing Policies and Delegations for different Providers",
-                "permalink": "/docs/Delegate/delegate_manage_policy"
+                "permalink": "/docs/next/Delegate/delegate_manage_policy"
               },
               "next": {
                 "title": "Manage Data Ingestion",
-                "permalink": "/docs/Delegate/delegate_register_resource_server"
+                "permalink": "/docs/next/Delegate/delegate_register_resource_server"
               }
             },
             {
@@ -321,7 +320,7 @@
               "source": "@site/docs/Delegate/delegate_register_resource_server.md",
               "sourceDirName": "Delegate",
               "slug": "/Delegate/delegate_register_resource_server",
-              "permalink": "/docs/Delegate/delegate_register_resource_server",
+              "permalink": "/docs/next/Delegate/delegate_register_resource_server",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Delegate/delegate_register_resource_server.md",
               "tags": [],
               "version": "current",
@@ -332,11 +331,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Manage Catalogue Items",
-                "permalink": "/docs/Delegate/delegate_register_catalogue_item"
+                "permalink": "/docs/next/Delegate/delegate_register_catalogue_item"
               },
               "next": {
                 "title": "IUDX Overview",
-                "permalink": "/docs/Deployment/Introduction"
+                "permalink": "/docs/next/Deployment/Introduction"
               }
             },
             {
@@ -344,11 +343,11 @@
               "id": "Deployment/Docker Swarm-Based Deployment/Deployment Overview",
               "isDocsHomePage": false,
               "title": "Deployment Overview",
-              "description": "IUDX platform can be deployed in Docker Swarm using the scripts and Swarm code present in this directory and sub-directories. Each component is deployed as a single instance in Swarm. The components can be scaled manually. IUDX platform exposes endpoints through two ports - one for HTTPS traffic which it passes to Nginx and Nginx routes to the appropriate service; one for Rabbitmq management and AMQPS streaming. The whole system is monitored using a monitoring stack module - Prometheus for metrics, promtail and Loki for logs, and Grafana for visualization and alerting. The overall architecture of Swarm deployment is summarized in the figure below.",
+              "description": "IUDX platform can be deployed in Docker Swarm using the scripts and Swarm code present in this directory and sub-directories. Each component is deployed as a single instance in Swarm. The components can be scaled manually. IUDX platform exposes endpoints through two ports - one for HTTPS traffic which it passes to Nginx and Nginx routes to the appropriate service; another for Rabbitmq management and AMQPS streaming. The whole system is monitored using a monitoring stack module - Prometheus for metrics, promtail and Loki for logs, and Grafana for visualization and alerting. The overall architecture of Swarm deployment is summarized in the figure below.",
               "source": "@site/docs/Deployment/Docker Swarm-Based Deployment/Deployment Overview.md",
               "sourceDirName": "Deployment/Docker Swarm-Based Deployment",
               "slug": "/Deployment/Docker Swarm-Based Deployment/Deployment Overview",
-              "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/Deployment Overview",
+              "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/Deployment Overview",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Docker Swarm-Based Deployment/Deployment Overview.md",
               "tags": [],
               "version": "current",
@@ -359,11 +358,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Prerequisites",
-                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/prerequisites"
+                "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/prerequisites"
               },
               "next": {
                 "title": "Resource planning",
-                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Resource planning"
+                "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Resource planning"
               }
             },
             {
@@ -375,7 +374,7 @@
               "source": "@site/docs/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Addons/Centralised-Nginx.md",
               "sourceDirName": "Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Addons",
               "slug": "/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Addons/Centralised-Nginx",
-              "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Addons/Centralised-Nginx",
+              "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Addons/Centralised-Nginx",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Addons/Centralised-Nginx.md",
               "tags": [],
               "version": "current",
@@ -386,11 +385,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Provisioning Node-exporter and docker daemon metrics",
-                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Addons/Provisioning Node-exporter and docker daemon metrics"
+                "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Addons/Provisioning Node-exporter and docker daemon metrics"
               },
               "next": {
                 "title": "Monitoring-stack",
-                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Addons/Monitoring-stack"
+                "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Addons/Monitoring-stack"
               }
             },
             {
@@ -402,7 +401,7 @@
               "source": "@site/docs/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Addons/Monitoring-stack.md",
               "sourceDirName": "Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Addons",
               "slug": "/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Addons/Monitoring-stack",
-              "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Addons/Monitoring-stack",
+              "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Addons/Monitoring-stack",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Addons/Monitoring-stack.md",
               "tags": [],
               "version": "current",
@@ -413,11 +412,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Centralised-Nginx",
-                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Addons/Centralised-Nginx"
+                "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Addons/Centralised-Nginx"
               },
               "next": {
                 "title": "Initiating the Deployment",
-                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Initiating the Deployment"
+                "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Initiating the Deployment"
               }
             },
             {
@@ -429,7 +428,7 @@
               "source": "@site/docs/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Addons/Provisioning Node-exporter and docker daemon metrics.md",
               "sourceDirName": "Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Addons",
               "slug": "/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Addons/Provisioning Node-exporter and docker daemon metrics",
-              "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Addons/Provisioning Node-exporter and docker daemon metrics",
+              "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Addons/Provisioning Node-exporter and docker daemon metrics",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Addons/Provisioning Node-exporter and docker daemon metrics.md",
               "tags": [],
               "version": "current",
@@ -440,11 +439,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Provisioning Docker Swarm with overlay network",
-                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Provisioning Docker Swarm with overlay network"
+                "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Provisioning Docker Swarm with overlay network"
               },
               "next": {
                 "title": "Centralised-Nginx",
-                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Addons/Centralised-Nginx"
+                "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Addons/Centralised-Nginx"
               }
             },
             {
@@ -456,7 +455,7 @@
               "source": "@site/docs/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Provisioning Docker Swarm with overlay network.md",
               "sourceDirName": "Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning",
               "slug": "/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Provisioning Docker Swarm with overlay network",
-              "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Provisioning Docker Swarm with overlay network",
+              "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Provisioning Docker Swarm with overlay network",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Provisioning Docker Swarm with overlay network.md",
               "tags": [],
               "version": "current",
@@ -467,11 +466,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Resource planning",
-                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Resource planning"
+                "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Resource planning"
               },
               "next": {
                 "title": "Provisioning Node-exporter and docker daemon metrics",
-                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Addons/Provisioning Node-exporter and docker daemon metrics"
+                "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Addons/Provisioning Node-exporter and docker daemon metrics"
               }
             },
             {
@@ -479,11 +478,11 @@
               "id": "Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Resource planning",
               "isDocsHomePage": false,
               "title": "Resource planning",
-              "description": "The resource planning for various IUDX components and the corresponding vm  is present  here. The planned resource along with instance type values need to be added in \\*.resources.yaml",
+              "description": "The resource planning of various IUDX components and the corresponding VM is present  here. The planned resources along with instance type values need to be added in \\*.resources.yaml",
               "source": "@site/docs/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Resource planning.md",
               "sourceDirName": "Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning",
               "slug": "/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Resource planning",
-              "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Resource planning",
+              "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Resource planning",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Resource planning.md",
               "tags": [],
               "version": "current",
@@ -494,11 +493,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Deployment Overview",
-                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/Deployment Overview"
+                "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/Deployment Overview"
               },
               "next": {
                 "title": "Provisioning Docker Swarm with overlay network",
-                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Provisioning Docker Swarm with overlay network"
+                "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Provisioning Docker Swarm with overlay network"
               }
             },
             {
@@ -510,7 +509,7 @@
               "source": "@site/docs/Deployment/Docker Swarm-Based Deployment/Introduction.md",
               "sourceDirName": "Deployment/Docker Swarm-Based Deployment",
               "slug": "/Deployment/Docker Swarm-Based Deployment/Introduction",
-              "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/Introduction",
+              "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/Introduction",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Docker Swarm-Based Deployment/Introduction.md",
               "tags": [],
               "version": "current",
@@ -521,11 +520,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "IUDX Overview",
-                "permalink": "/docs/Deployment/Introduction"
+                "permalink": "/docs/next/Deployment/Introduction"
               },
               "next": {
                 "title": "Prerequisites",
-                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/prerequisites"
+                "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/prerequisites"
               }
             },
             {
@@ -537,7 +536,7 @@
               "source": "@site/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/AAA Server.md",
               "sourceDirName": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation",
               "slug": "/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/AAA Server",
-              "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/AAA Server",
+              "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/AAA Server",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/AAA Server.md",
               "tags": [],
               "version": "current",
@@ -548,11 +547,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Auditing Server",
-                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Auditing Server"
+                "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Auditing Server"
               },
               "next": {
                 "title": "ACL-APD",
-                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/ACL-APD"
+                "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/ACL-APD"
               }
             },
             {
@@ -564,7 +563,7 @@
               "source": "@site/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/ACL-APD.md",
               "sourceDirName": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation",
               "slug": "/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/ACL-APD",
-              "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/ACL-APD",
+              "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/ACL-APD",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/ACL-APD.md",
               "tags": [],
               "version": "current",
@@ -575,11 +574,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "AAA Server",
-                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/AAA Server"
+                "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/AAA Server"
               },
               "next": {
                 "title": "Catalogue-Server",
-                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Catalogue-Server"
+                "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Catalogue-Server"
               }
             },
             {
@@ -591,7 +590,7 @@
               "source": "@site/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Advance Monitoring Stack.md",
               "sourceDirName": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation",
               "slug": "/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Advance Monitoring Stack",
-              "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Advance Monitoring Stack",
+              "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Advance Monitoring Stack",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Advance Monitoring Stack.md",
               "tags": [],
               "version": "current",
@@ -602,7 +601,7 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Data- Ingestion Server",
-                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Data- Ingestion Server"
+                "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Data- Ingestion Server"
               }
             },
             {
@@ -614,7 +613,7 @@
               "source": "@site/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/API Server.md",
               "sourceDirName": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation",
               "slug": "/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/API Server",
-              "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/API Server",
+              "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/API Server",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/API Server.md",
               "tags": [],
               "version": "current",
@@ -625,11 +624,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Keycloak",
-                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Keycloak"
+                "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Keycloak"
               },
               "next": {
                 "title": "Latest-Ingestion-Pipeline",
-                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Latest-Ingestion-Pipeline"
+                "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Latest-Ingestion-Pipeline"
               }
             },
             {
@@ -641,7 +640,7 @@
               "source": "@site/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Auditing Server.md",
               "sourceDirName": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation",
               "slug": "/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Auditing Server",
-              "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Auditing Server",
+              "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Auditing Server",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Auditing Server.md",
               "tags": [],
               "version": "current",
@@ -652,11 +651,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Latest-Ingestion-Pipeline",
-                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Latest-Ingestion-Pipeline"
+                "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Latest-Ingestion-Pipeline"
               },
               "next": {
                 "title": "AAA Server",
-                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/AAA Server"
+                "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/AAA Server"
               }
             },
             {
@@ -668,7 +667,7 @@
               "source": "@site/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Catalogue-Server.md",
               "sourceDirName": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation",
               "slug": "/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Catalogue-Server",
-              "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Catalogue-Server",
+              "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Catalogue-Server",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Catalogue-Server.md",
               "tags": [],
               "version": "current",
@@ -679,11 +678,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "ACL-APD",
-                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/ACL-APD"
+                "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/ACL-APD"
               },
               "next": {
                 "title": "Resource-Server",
-                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Resource-Server"
+                "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Resource-Server"
               }
             },
             {
@@ -695,7 +694,7 @@
               "source": "@site/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Data- Ingestion Server.md",
               "sourceDirName": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation",
               "slug": "/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Data- Ingestion Server",
-              "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Data- Ingestion Server",
+              "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Data- Ingestion Server",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Data- Ingestion Server.md",
               "tags": [],
               "version": "current",
@@ -706,11 +705,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "File Server",
-                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/File Server"
+                "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/File Server"
               },
               "next": {
                 "title": "Advance Monitoring Stack",
-                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Advance Monitoring Stack"
+                "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Advance Monitoring Stack"
               }
             },
             {
@@ -722,7 +721,7 @@
               "source": "@site/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/ELK stack.md",
               "sourceDirName": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation",
               "slug": "/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/ELK stack",
-              "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/ELK stack",
+              "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/ELK stack",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/ELK stack.md",
               "tags": [],
               "version": "current",
@@ -733,11 +732,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Zookeeper",
-                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Zookeeper"
+                "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Zookeeper"
               },
               "next": {
                 "title": "Keycloak",
-                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Keycloak"
+                "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Keycloak"
               }
             },
             {
@@ -749,7 +748,7 @@
               "source": "@site/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/File Server.md",
               "sourceDirName": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation",
               "slug": "/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/File Server",
-              "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/File Server",
+              "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/File Server",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/File Server.md",
               "tags": [],
               "version": "current",
@@ -760,23 +759,23 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Resource-Server",
-                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Resource-Server"
+                "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Resource-Server"
               },
               "next": {
                 "title": "Data- Ingestion Server",
-                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Data- Ingestion Server"
+                "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Data- Ingestion Server"
               }
             },
             {
               "unversionedId": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Immudb",
               "id": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Immudb",
               "isDocsHomePage": false,
-              "title": "Immudb",
-              "description": "Architecture",
+              "title": "<<<<<<< HEAD",
+              "description": ">>>>>> f91ced8c (updated md docs)",
               "source": "@site/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Immudb.md",
               "sourceDirName": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation",
               "slug": "/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Immudb",
-              "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Immudb",
+              "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Immudb",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Immudb.md",
               "tags": [],
               "version": "current",
@@ -787,11 +786,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Initiating the Deployment",
-                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Initiating the Deployment"
+                "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Initiating the Deployment"
               },
               "next": {
                 "title": "RabbitMQ",
-                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/RabbitMQ"
+                "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/RabbitMQ"
               }
             },
             {
@@ -803,7 +802,7 @@
               "source": "@site/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Initiating the Deployment.md",
               "sourceDirName": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation",
               "slug": "/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Initiating the Deployment",
-              "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Initiating the Deployment",
+              "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Initiating the Deployment",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Initiating the Deployment.md",
               "tags": [],
               "version": "current",
@@ -814,11 +813,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Monitoring-stack",
-                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Addons/Monitoring-stack"
+                "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Addons/Monitoring-stack"
               },
               "next": {
-                "title": "Immudb",
-                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Immudb"
+                "title": "<<<<<<< HEAD",
+                "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Immudb"
               }
             },
             {
@@ -830,7 +829,7 @@
               "source": "@site/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Keycloak.md",
               "sourceDirName": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation",
               "slug": "/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Keycloak",
-              "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Keycloak",
+              "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Keycloak",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Keycloak.md",
               "tags": [],
               "version": "current",
@@ -841,11 +840,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "ELK stack",
-                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/ELK stack"
+                "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/ELK stack"
               },
               "next": {
                 "title": "API Server",
-                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/API Server"
+                "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/API Server"
               }
             },
             {
@@ -857,7 +856,7 @@
               "source": "@site/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Latest-Ingestion-Pipeline.md",
               "sourceDirName": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation",
               "slug": "/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Latest-Ingestion-Pipeline",
-              "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Latest-Ingestion-Pipeline",
+              "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Latest-Ingestion-Pipeline",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Latest-Ingestion-Pipeline.md",
               "tags": [],
               "version": "current",
@@ -868,11 +867,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "API Server",
-                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/API Server"
+                "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/API Server"
               },
               "next": {
                 "title": "Auditing Server",
-                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Auditing Server"
+                "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Auditing Server"
               }
             },
             {
@@ -884,7 +883,7 @@
               "source": "@site/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/PostgreSQL.md",
               "sourceDirName": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation",
               "slug": "/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/PostgreSQL",
-              "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/PostgreSQL",
+              "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/PostgreSQL",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/PostgreSQL.md",
               "tags": [],
               "version": "current",
@@ -895,11 +894,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "RabbitMQ",
-                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/RabbitMQ"
+                "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/RabbitMQ"
               },
               "next": {
                 "title": "Redis",
-                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Redis"
+                "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Redis"
               }
             },
             {
@@ -911,7 +910,7 @@
               "source": "@site/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/RabbitMQ.md",
               "sourceDirName": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation",
               "slug": "/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/RabbitMQ",
-              "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/RabbitMQ",
+              "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/RabbitMQ",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/RabbitMQ.md",
               "tags": [],
               "version": "current",
@@ -921,12 +920,12 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Immudb",
-                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Immudb"
+                "title": "<<<<<<< HEAD",
+                "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Immudb"
               },
               "next": {
                 "title": "PostgreSQL",
-                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/PostgreSQL"
+                "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/PostgreSQL"
               }
             },
             {
@@ -938,7 +937,7 @@
               "source": "@site/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Redis.md",
               "sourceDirName": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation",
               "slug": "/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Redis",
-              "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Redis",
+              "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Redis",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Redis.md",
               "tags": [],
               "version": "current",
@@ -949,11 +948,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "PostgreSQL",
-                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/PostgreSQL"
+                "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/PostgreSQL"
               },
               "next": {
                 "title": "Zookeeper",
-                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Zookeeper"
+                "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Zookeeper"
               }
             },
             {
@@ -965,7 +964,7 @@
               "source": "@site/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Resource-Server.md",
               "sourceDirName": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation",
               "slug": "/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Resource-Server",
-              "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Resource-Server",
+              "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Resource-Server",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Resource-Server.md",
               "tags": [],
               "version": "current",
@@ -976,11 +975,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Catalogue-Server",
-                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Catalogue-Server"
+                "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Catalogue-Server"
               },
               "next": {
                 "title": "File Server",
-                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/File Server"
+                "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/File Server"
               }
             },
             {
@@ -992,7 +991,7 @@
               "source": "@site/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Zookeeper.md",
               "sourceDirName": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation",
               "slug": "/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Zookeeper",
-              "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Zookeeper",
+              "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Zookeeper",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Zookeeper.md",
               "tags": [],
               "version": "current",
@@ -1003,11 +1002,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Redis",
-                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Redis"
+                "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Redis"
               },
               "next": {
                 "title": "ELK stack",
-                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/ELK stack"
+                "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/ELK stack"
               }
             },
             {
@@ -1019,7 +1018,7 @@
               "source": "@site/docs/Deployment/Docker Swarm-Based Deployment/prerequisites.md",
               "sourceDirName": "Deployment/Docker Swarm-Based Deployment",
               "slug": "/Deployment/Docker Swarm-Based Deployment/prerequisites",
-              "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/prerequisites",
+              "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/prerequisites",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Docker Swarm-Based Deployment/prerequisites.md",
               "tags": [],
               "version": "current",
@@ -1030,11 +1029,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Introduction",
-                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/Introduction"
+                "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/Introduction"
               },
               "next": {
                 "title": "Deployment Overview",
-                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/Deployment Overview"
+                "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/Deployment Overview"
               }
             },
             {
@@ -1046,7 +1045,7 @@
               "source": "@site/docs/Deployment/Introduction.md",
               "sourceDirName": "Deployment",
               "slug": "/Deployment/Introduction",
-              "permalink": "/docs/Deployment/Introduction",
+              "permalink": "/docs/next/Deployment/Introduction",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Introduction.md",
               "tags": [],
               "version": "current",
@@ -1057,11 +1056,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Manage Data Ingestion",
-                "permalink": "/docs/Delegate/delegate_register_resource_server"
+                "permalink": "/docs/next/Delegate/delegate_register_resource_server"
               },
               "next": {
                 "title": "Introduction",
-                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/Introduction"
+                "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/Introduction"
               }
             },
             {
@@ -1073,7 +1072,7 @@
               "source": "@site/docs/Provider/provider.md",
               "sourceDirName": "Provider",
               "slug": "/Provider/provider",
-              "permalink": "/docs/Provider/provider",
+              "permalink": "/docs/next/Provider/provider",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Provider/provider.md",
               "tags": [],
               "version": "current",
@@ -1084,11 +1083,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Data Access through File Server",
-                "permalink": "/docs/Consumer/consumer_data_access_file_server"
+                "permalink": "/docs/next/Consumer/consumer_data_access_file_server"
               },
               "next": {
                 "title": "Manage Policies",
-                "permalink": "/docs/Provider/provider_manage_policies"
+                "permalink": "/docs/next/Provider/provider_manage_policies"
               }
             },
             {
@@ -1100,7 +1099,7 @@
               "source": "@site/docs/Provider/provider_manage_delegates.md",
               "sourceDirName": "Provider",
               "slug": "/Provider/provider_manage_delegates",
-              "permalink": "/docs/Provider/provider_manage_delegates",
+              "permalink": "/docs/next/Provider/provider_manage_delegates",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Provider/provider_manage_delegates.md",
               "tags": [],
               "version": "current",
@@ -1111,11 +1110,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Manage Policies",
-                "permalink": "/docs/Provider/provider_manage_policies"
+                "permalink": "/docs/next/Provider/provider_manage_policies"
               },
               "next": {
                 "title": "Manage Catalogue Items",
-                "permalink": "/docs/Provider/provider_register_catalogue_item"
+                "permalink": "/docs/next/Provider/provider_register_catalogue_item"
               }
             },
             {
@@ -1127,7 +1126,7 @@
               "source": "@site/docs/Provider/provider_manage_policies.md",
               "sourceDirName": "Provider",
               "slug": "/Provider/provider_manage_policies",
-              "permalink": "/docs/Provider/provider_manage_policies",
+              "permalink": "/docs/next/Provider/provider_manage_policies",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Provider/provider_manage_policies.md",
               "tags": [],
               "version": "current",
@@ -1138,11 +1137,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Introduction",
-                "permalink": "/docs/Provider/provider"
+                "permalink": "/docs/next/Provider/provider"
               },
               "next": {
                 "title": "Manage Delegations",
-                "permalink": "/docs/Provider/provider_manage_delegates"
+                "permalink": "/docs/next/Provider/provider_manage_delegates"
               }
             },
             {
@@ -1154,7 +1153,7 @@
               "source": "@site/docs/Provider/provider_register_catalogue_item.md",
               "sourceDirName": "Provider",
               "slug": "/Provider/provider_register_catalogue_item",
-              "permalink": "/docs/Provider/provider_register_catalogue_item",
+              "permalink": "/docs/next/Provider/provider_register_catalogue_item",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Provider/provider_register_catalogue_item.md",
               "tags": [],
               "version": "current",
@@ -1165,11 +1164,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Manage Delegations",
-                "permalink": "/docs/Provider/provider_manage_delegates"
+                "permalink": "/docs/next/Provider/provider_manage_delegates"
               },
               "next": {
                 "title": "Manage Data Ingestion",
-                "permalink": "/docs/Provider/provider_register_resource_server"
+                "permalink": "/docs/next/Provider/provider_register_resource_server"
               }
             },
             {
@@ -1181,7 +1180,7 @@
               "source": "@site/docs/Provider/provider_register_resource_server.md",
               "sourceDirName": "Provider",
               "slug": "/Provider/provider_register_resource_server",
-              "permalink": "/docs/Provider/provider_register_resource_server",
+              "permalink": "/docs/next/Provider/provider_register_resource_server",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Provider/provider_register_resource_server.md",
               "tags": [],
               "version": "current",
@@ -1192,11 +1191,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Manage Catalogue Items",
-                "permalink": "/docs/Provider/provider_register_catalogue_item"
+                "permalink": "/docs/next/Provider/provider_register_catalogue_item"
               },
               "next": {
                 "title": "Introduction",
-                "permalink": "/docs/Delegate/delegate"
+                "permalink": "/docs/next/Delegate/delegate"
               }
             },
             {
@@ -1208,7 +1207,7 @@
               "source": "@site/docs/registration.md",
               "sourceDirName": ".",
               "slug": "/registration",
-              "permalink": "/docs/registration",
+              "permalink": "/docs/next/registration",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/registration.md",
               "tags": [],
               "version": "current",
@@ -1219,11 +1218,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Fetching and Resetting Client Credentials",
-                "permalink": "/docs/client-credentials"
+                "permalink": "/docs/next/client-credentials"
               },
               "next": {
                 "title": "Introduction",
-                "permalink": "/docs/Consumer/consumer"
+                "permalink": "/docs/next/Consumer/consumer"
               }
             }
           ],
@@ -1479,14 +1478,15 @@
         {
           "versionName": "5.0.0",
           "versionLabel": "5.0.0",
-          "versionPath": "/docs/5.0.0",
-          "tagsPath": "/docs/5.0.0/tags",
+          "versionPath": "/docs",
+          "tagsPath": "/docs/tags",
           "versionEditUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/versioned_docs/version-5.0.0",
           "versionEditUrlLocalized": "https://github.com/datakaveri/iudx-developer-docs/blob/main/i18n/en/docusaurus-plugin-content-docs/version-5.0.0",
-          "versionBanner": "unmaintained",
+          "versionBanner": null,
           "versionBadge": true,
           "versionClassName": "docs-version-5.0.0",
-          "isLast": false,
+          "isLast": true,
+          "routePriority": -1,
           "sidebarFilePath": "/home/srinivas/iudx-developer-docs/versioned_sidebars/version-5.0.0-sidebars.json",
           "contentPath": "/home/srinivas/iudx-developer-docs/versioned_docs/version-5.0.0",
           "contentPathLocalized": "/home/srinivas/iudx-developer-docs/i18n/en/docusaurus-plugin-content-docs/version-5.0.0",
@@ -1501,7 +1501,7 @@
               "source": "@site/versioned_docs/version-5.0.0/client-credentials.md",
               "sourceDirName": ".",
               "slug": "/client-credentials",
-              "permalink": "/docs/5.0.0/client-credentials",
+              "permalink": "/docs/client-credentials",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/versioned_docs/version-5.0.0/client-credentials.md",
               "tags": [],
               "version": "5.0.0",
@@ -1512,7 +1512,7 @@
               "sidebar": "version-5.0.0/tutorialSidebar",
               "next": {
                 "title": "Registration",
-                "permalink": "/docs/5.0.0/registration"
+                "permalink": "/docs/registration"
               }
             },
             {
@@ -1524,7 +1524,7 @@
               "source": "@site/versioned_docs/version-5.0.0/Consumer/consumer.md",
               "sourceDirName": "Consumer",
               "slug": "/Consumer/consumer",
-              "permalink": "/docs/5.0.0/Consumer/consumer",
+              "permalink": "/docs/Consumer/consumer",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/versioned_docs/version-5.0.0/Consumer/consumer.md",
               "tags": [],
               "version": "5.0.0",
@@ -1535,11 +1535,11 @@
               "sidebar": "version-5.0.0/tutorialSidebar",
               "previous": {
                 "title": "Registration",
-                "permalink": "/docs/5.0.0/registration"
+                "permalink": "/docs/registration"
               },
               "next": {
                 "title": "Discover Resources",
-                "permalink": "/docs/5.0.0/Consumer/consumer_data_discovery"
+                "permalink": "/docs/Consumer/consumer_data_discovery"
               }
             },
             {
@@ -1551,7 +1551,7 @@
               "source": "@site/versioned_docs/version-5.0.0/Consumer/consumer_data_access_APIs.md",
               "sourceDirName": "Consumer",
               "slug": "/Consumer/consumer_data_access_APIs",
-              "permalink": "/docs/5.0.0/Consumer/consumer_data_access_APIs",
+              "permalink": "/docs/Consumer/consumer_data_access_APIs",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/versioned_docs/version-5.0.0/Consumer/consumer_data_access_APIs.md",
               "tags": [],
               "version": "5.0.0",
@@ -1562,11 +1562,11 @@
               "sidebar": "version-5.0.0/tutorialSidebar",
               "previous": {
                 "title": "Obtaining Access Token",
-                "permalink": "/docs/5.0.0/Consumer/consumer_obtaining_access_token"
+                "permalink": "/docs/Consumer/consumer_obtaining_access_token"
               },
               "next": {
                 "title": "Data Access through Subscription",
-                "permalink": "/docs/5.0.0/Consumer/consumer_data_access_subscription"
+                "permalink": "/docs/Consumer/consumer_data_access_subscription"
               }
             },
             {
@@ -1578,7 +1578,7 @@
               "source": "@site/versioned_docs/version-5.0.0/Consumer/consumer_data_access_async.md",
               "sourceDirName": "Consumer",
               "slug": "/Consumer/consumer_data_access_async",
-              "permalink": "/docs/5.0.0/Consumer/consumer_data_access_async",
+              "permalink": "/docs/Consumer/consumer_data_access_async",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/versioned_docs/version-5.0.0/Consumer/consumer_data_access_async.md",
               "tags": [],
               "version": "5.0.0",
@@ -1589,11 +1589,11 @@
               "sidebar": "version-5.0.0/tutorialSidebar",
               "previous": {
                 "title": "Data Access through Subscription",
-                "permalink": "/docs/5.0.0/Consumer/consumer_data_access_subscription"
+                "permalink": "/docs/Consumer/consumer_data_access_subscription"
               },
               "next": {
                 "title": "Data Access through File Server",
-                "permalink": "/docs/5.0.0/Consumer/consumer_data_access_file_server"
+                "permalink": "/docs/Consumer/consumer_data_access_file_server"
               }
             },
             {
@@ -1605,7 +1605,7 @@
               "source": "@site/versioned_docs/version-5.0.0/Consumer/consumer_data_access_file_server.md",
               "sourceDirName": "Consumer",
               "slug": "/Consumer/consumer_data_access_file_server",
-              "permalink": "/docs/5.0.0/Consumer/consumer_data_access_file_server",
+              "permalink": "/docs/Consumer/consumer_data_access_file_server",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/versioned_docs/version-5.0.0/Consumer/consumer_data_access_file_server.md",
               "tags": [],
               "version": "5.0.0",
@@ -1616,11 +1616,11 @@
               "sidebar": "version-5.0.0/tutorialSidebar",
               "previous": {
                 "title": "Data Access through Async APIs",
-                "permalink": "/docs/5.0.0/Consumer/consumer_data_access_async"
+                "permalink": "/docs/Consumer/consumer_data_access_async"
               },
               "next": {
                 "title": "Introduction",
-                "permalink": "/docs/5.0.0/Provider/provider"
+                "permalink": "/docs/Provider/provider"
               }
             },
             {
@@ -1632,7 +1632,7 @@
               "source": "@site/versioned_docs/version-5.0.0/Consumer/consumer_data_access_subscription.md",
               "sourceDirName": "Consumer",
               "slug": "/Consumer/consumer_data_access_subscription",
-              "permalink": "/docs/5.0.0/Consumer/consumer_data_access_subscription",
+              "permalink": "/docs/Consumer/consumer_data_access_subscription",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/versioned_docs/version-5.0.0/Consumer/consumer_data_access_subscription.md",
               "tags": [],
               "version": "5.0.0",
@@ -1643,11 +1643,11 @@
               "sidebar": "version-5.0.0/tutorialSidebar",
               "previous": {
                 "title": "Data Access through APIs",
-                "permalink": "/docs/5.0.0/Consumer/consumer_data_access_APIs"
+                "permalink": "/docs/Consumer/consumer_data_access_APIs"
               },
               "next": {
                 "title": "Data Access through Async APIs",
-                "permalink": "/docs/5.0.0/Consumer/consumer_data_access_async"
+                "permalink": "/docs/Consumer/consumer_data_access_async"
               }
             },
             {
@@ -1659,7 +1659,7 @@
               "source": "@site/versioned_docs/version-5.0.0/Consumer/consumer_data_discovery.md",
               "sourceDirName": "Consumer",
               "slug": "/Consumer/consumer_data_discovery",
-              "permalink": "/docs/5.0.0/Consumer/consumer_data_discovery",
+              "permalink": "/docs/Consumer/consumer_data_discovery",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/versioned_docs/version-5.0.0/Consumer/consumer_data_discovery.md",
               "tags": [],
               "version": "5.0.0",
@@ -1670,11 +1670,11 @@
               "sidebar": "version-5.0.0/tutorialSidebar",
               "previous": {
                 "title": "Introduction",
-                "permalink": "/docs/5.0.0/Consumer/consumer"
+                "permalink": "/docs/Consumer/consumer"
               },
               "next": {
                 "title": "Obtaining Access Token",
-                "permalink": "/docs/5.0.0/Consumer/consumer_obtaining_access_token"
+                "permalink": "/docs/Consumer/consumer_obtaining_access_token"
               }
             },
             {
@@ -1686,7 +1686,7 @@
               "source": "@site/versioned_docs/version-5.0.0/Consumer/consumer_obtaining_access_token.md",
               "sourceDirName": "Consumer",
               "slug": "/Consumer/consumer_obtaining_access_token",
-              "permalink": "/docs/5.0.0/Consumer/consumer_obtaining_access_token",
+              "permalink": "/docs/Consumer/consumer_obtaining_access_token",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/versioned_docs/version-5.0.0/Consumer/consumer_obtaining_access_token.md",
               "tags": [],
               "version": "5.0.0",
@@ -1697,11 +1697,11 @@
               "sidebar": "version-5.0.0/tutorialSidebar",
               "previous": {
                 "title": "Discover Resources",
-                "permalink": "/docs/5.0.0/Consumer/consumer_data_discovery"
+                "permalink": "/docs/Consumer/consumer_data_discovery"
               },
               "next": {
                 "title": "Data Access through APIs",
-                "permalink": "/docs/5.0.0/Consumer/consumer_data_access_APIs"
+                "permalink": "/docs/Consumer/consumer_data_access_APIs"
               }
             },
             {
@@ -1713,7 +1713,7 @@
               "source": "@site/versioned_docs/version-5.0.0/Delegate/delegate.md",
               "sourceDirName": "Delegate",
               "slug": "/Delegate/delegate",
-              "permalink": "/docs/5.0.0/Delegate/delegate",
+              "permalink": "/docs/Delegate/delegate",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/versioned_docs/version-5.0.0/Delegate/delegate.md",
               "tags": [],
               "version": "5.0.0",
@@ -1724,11 +1724,11 @@
               "sidebar": "version-5.0.0/tutorialSidebar",
               "previous": {
                 "title": "Manage Data Ingestion",
-                "permalink": "/docs/5.0.0/Provider/provider_register_resource_server"
+                "permalink": "/docs/Provider/provider_register_resource_server"
               },
               "next": {
                 "title": "Managing Policies and Delegations for different Providers",
-                "permalink": "/docs/5.0.0/Delegate/delegate_manage_policy"
+                "permalink": "/docs/Delegate/delegate_manage_policy"
               }
             },
             {
@@ -1740,7 +1740,7 @@
               "source": "@site/versioned_docs/version-5.0.0/Delegate/delegate_manage_policy.md",
               "sourceDirName": "Delegate",
               "slug": "/Delegate/delegate_manage_policy",
-              "permalink": "/docs/5.0.0/Delegate/delegate_manage_policy",
+              "permalink": "/docs/Delegate/delegate_manage_policy",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/versioned_docs/version-5.0.0/Delegate/delegate_manage_policy.md",
               "tags": [],
               "version": "5.0.0",
@@ -1751,11 +1751,11 @@
               "sidebar": "version-5.0.0/tutorialSidebar",
               "previous": {
                 "title": "Introduction",
-                "permalink": "/docs/5.0.0/Delegate/delegate"
+                "permalink": "/docs/Delegate/delegate"
               },
               "next": {
                 "title": "Manage Catalogue Items",
-                "permalink": "/docs/5.0.0/Delegate/delegate_register_catalogue_item"
+                "permalink": "/docs/Delegate/delegate_register_catalogue_item"
               }
             },
             {
@@ -1767,7 +1767,7 @@
               "source": "@site/versioned_docs/version-5.0.0/Delegate/delegate_register_catalogue_item.md",
               "sourceDirName": "Delegate",
               "slug": "/Delegate/delegate_register_catalogue_item",
-              "permalink": "/docs/5.0.0/Delegate/delegate_register_catalogue_item",
+              "permalink": "/docs/Delegate/delegate_register_catalogue_item",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/versioned_docs/version-5.0.0/Delegate/delegate_register_catalogue_item.md",
               "tags": [],
               "version": "5.0.0",
@@ -1778,11 +1778,11 @@
               "sidebar": "version-5.0.0/tutorialSidebar",
               "previous": {
                 "title": "Managing Policies and Delegations for different Providers",
-                "permalink": "/docs/5.0.0/Delegate/delegate_manage_policy"
+                "permalink": "/docs/Delegate/delegate_manage_policy"
               },
               "next": {
                 "title": "Manage Data Ingestion",
-                "permalink": "/docs/5.0.0/Delegate/delegate_register_resource_server"
+                "permalink": "/docs/Delegate/delegate_register_resource_server"
               }
             },
             {
@@ -1794,7 +1794,7 @@
               "source": "@site/versioned_docs/version-5.0.0/Delegate/delegate_register_resource_server.md",
               "sourceDirName": "Delegate",
               "slug": "/Delegate/delegate_register_resource_server",
-              "permalink": "/docs/5.0.0/Delegate/delegate_register_resource_server",
+              "permalink": "/docs/Delegate/delegate_register_resource_server",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/versioned_docs/version-5.0.0/Delegate/delegate_register_resource_server.md",
               "tags": [],
               "version": "5.0.0",
@@ -1805,11 +1805,11 @@
               "sidebar": "version-5.0.0/tutorialSidebar",
               "previous": {
                 "title": "Manage Catalogue Items",
-                "permalink": "/docs/5.0.0/Delegate/delegate_register_catalogue_item"
+                "permalink": "/docs/Delegate/delegate_register_catalogue_item"
               },
               "next": {
                 "title": "IUDX Overview",
-                "permalink": "/docs/5.0.0/Deployment/Introduction"
+                "permalink": "/docs/Deployment/Introduction"
               }
             },
             {
@@ -1821,7 +1821,7 @@
               "source": "@site/versioned_docs/version-5.0.0/Deployment/Docker Swarm-Based Deployment/Deployment Overview.md",
               "sourceDirName": "Deployment/Docker Swarm-Based Deployment",
               "slug": "/Deployment/Docker Swarm-Based Deployment/Deployment Overview",
-              "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/Deployment Overview",
+              "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/Deployment Overview",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/versioned_docs/version-5.0.0/Deployment/Docker Swarm-Based Deployment/Deployment Overview.md",
               "tags": [],
               "version": "5.0.0",
@@ -1832,11 +1832,11 @@
               "sidebar": "version-5.0.0/tutorialSidebar",
               "previous": {
                 "title": "Prerequisites",
-                "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/prerequisites"
+                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/prerequisites"
               },
               "next": {
                 "title": "Initiating the Deployment",
-                "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Initiating the Deployment"
+                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Initiating the Deployment"
               }
             },
             {
@@ -1848,7 +1848,7 @@
               "source": "@site/versioned_docs/version-5.0.0/Deployment/Docker Swarm-Based Deployment/Introduction.md",
               "sourceDirName": "Deployment/Docker Swarm-Based Deployment",
               "slug": "/Deployment/Docker Swarm-Based Deployment/Introduction",
-              "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/Introduction",
+              "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/Introduction",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/versioned_docs/version-5.0.0/Deployment/Docker Swarm-Based Deployment/Introduction.md",
               "tags": [],
               "version": "5.0.0",
@@ -1859,11 +1859,11 @@
               "sidebar": "version-5.0.0/tutorialSidebar",
               "previous": {
                 "title": "IUDX Overview",
-                "permalink": "/docs/5.0.0/Deployment/Introduction"
+                "permalink": "/docs/Deployment/Introduction"
               },
               "next": {
                 "title": "Prerequisites",
-                "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/prerequisites"
+                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/prerequisites"
               }
             },
             {
@@ -1875,7 +1875,7 @@
               "source": "@site/versioned_docs/version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/AAA Server.md",
               "sourceDirName": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation",
               "slug": "/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/AAA Server",
-              "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/AAA Server",
+              "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/AAA Server",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/versioned_docs/version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/AAA Server.md",
               "tags": [],
               "version": "5.0.0",
@@ -1886,11 +1886,11 @@
               "sidebar": "version-5.0.0/tutorialSidebar",
               "previous": {
                 "title": "Auditing Server",
-                "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Auditing Server"
+                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Auditing Server"
               },
               "next": {
                 "title": "ACL-APD",
-                "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/ACL-APD"
+                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/ACL-APD"
               }
             },
             {
@@ -1902,7 +1902,7 @@
               "source": "@site/versioned_docs/version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/ACL-APD.md",
               "sourceDirName": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation",
               "slug": "/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/ACL-APD",
-              "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/ACL-APD",
+              "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/ACL-APD",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/versioned_docs/version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/ACL-APD.md",
               "tags": [],
               "version": "5.0.0",
@@ -1913,11 +1913,11 @@
               "sidebar": "version-5.0.0/tutorialSidebar",
               "previous": {
                 "title": "AAA Server",
-                "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/AAA Server"
+                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/AAA Server"
               },
               "next": {
                 "title": "Catalogue-Server",
-                "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Catalogue-Server"
+                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Catalogue-Server"
               }
             },
             {
@@ -1929,7 +1929,7 @@
               "source": "@site/versioned_docs/version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Advance Monitoring Stack.md",
               "sourceDirName": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation",
               "slug": "/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Advance Monitoring Stack",
-              "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Advance Monitoring Stack",
+              "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Advance Monitoring Stack",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/versioned_docs/version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Advance Monitoring Stack.md",
               "tags": [],
               "version": "5.0.0",
@@ -1940,7 +1940,7 @@
               "sidebar": "version-5.0.0/tutorialSidebar",
               "previous": {
                 "title": "GIS-Server",
-                "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/GIS-Server"
+                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/GIS-Server"
               }
             },
             {
@@ -1952,7 +1952,7 @@
               "source": "@site/versioned_docs/version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/API Server.md",
               "sourceDirName": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation",
               "slug": "/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/API Server",
-              "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/API Server",
+              "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/API Server",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/versioned_docs/version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/API Server.md",
               "tags": [],
               "version": "5.0.0",
@@ -1963,11 +1963,11 @@
               "sidebar": "version-5.0.0/tutorialSidebar",
               "previous": {
                 "title": "Keycloak",
-                "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Keycloak"
+                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Keycloak"
               },
               "next": {
                 "title": "Latest-Ingestion-Pipeline",
-                "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Latest-Ingestion-Pipeline"
+                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Latest-Ingestion-Pipeline"
               }
             },
             {
@@ -1979,7 +1979,7 @@
               "source": "@site/versioned_docs/version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Auditing Server.md",
               "sourceDirName": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation",
               "slug": "/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Auditing Server",
-              "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Auditing Server",
+              "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Auditing Server",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/versioned_docs/version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Auditing Server.md",
               "tags": [],
               "version": "5.0.0",
@@ -1990,11 +1990,11 @@
               "sidebar": "version-5.0.0/tutorialSidebar",
               "previous": {
                 "title": "Latest-Ingestion-Pipeline",
-                "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Latest-Ingestion-Pipeline"
+                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Latest-Ingestion-Pipeline"
               },
               "next": {
                 "title": "AAA Server",
-                "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/AAA Server"
+                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/AAA Server"
               }
             },
             {
@@ -2006,7 +2006,7 @@
               "source": "@site/versioned_docs/version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Catalogue-Server.md",
               "sourceDirName": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation",
               "slug": "/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Catalogue-Server",
-              "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Catalogue-Server",
+              "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Catalogue-Server",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/versioned_docs/version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Catalogue-Server.md",
               "tags": [],
               "version": "5.0.0",
@@ -2017,11 +2017,11 @@
               "sidebar": "version-5.0.0/tutorialSidebar",
               "previous": {
                 "title": "ACL-APD",
-                "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/ACL-APD"
+                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/ACL-APD"
               },
               "next": {
                 "title": "Resource-Server",
-                "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Resource-Server"
+                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Resource-Server"
               }
             },
             {
@@ -2033,7 +2033,7 @@
               "source": "@site/versioned_docs/version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Data- Ingestion Server.md",
               "sourceDirName": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation",
               "slug": "/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Data- Ingestion Server",
-              "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Data- Ingestion Server",
+              "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Data- Ingestion Server",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/versioned_docs/version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Data- Ingestion Server.md",
               "tags": [],
               "version": "5.0.0",
@@ -2044,11 +2044,11 @@
               "sidebar": "version-5.0.0/tutorialSidebar",
               "previous": {
                 "title": "File Server",
-                "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/File Server"
+                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/File Server"
               },
               "next": {
                 "title": "GIS-Server",
-                "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/GIS-Server"
+                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/GIS-Server"
               }
             },
             {
@@ -2060,7 +2060,7 @@
               "source": "@site/versioned_docs/version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/ELK stack.md",
               "sourceDirName": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation",
               "slug": "/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/ELK stack",
-              "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/ELK stack",
+              "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/ELK stack",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/versioned_docs/version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/ELK stack.md",
               "tags": [],
               "version": "5.0.0",
@@ -2071,11 +2071,11 @@
               "sidebar": "version-5.0.0/tutorialSidebar",
               "previous": {
                 "title": "Zookeeper",
-                "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Zookeeper"
+                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Zookeeper"
               },
               "next": {
                 "title": "Keycloak",
-                "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Keycloak"
+                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Keycloak"
               }
             },
             {
@@ -2087,7 +2087,7 @@
               "source": "@site/versioned_docs/version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/File Server.md",
               "sourceDirName": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation",
               "slug": "/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/File Server",
-              "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/File Server",
+              "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/File Server",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/versioned_docs/version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/File Server.md",
               "tags": [],
               "version": "5.0.0",
@@ -2098,11 +2098,11 @@
               "sidebar": "version-5.0.0/tutorialSidebar",
               "previous": {
                 "title": "Resource-Server",
-                "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Resource-Server"
+                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Resource-Server"
               },
               "next": {
                 "title": "Data- Ingestion Server",
-                "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Data- Ingestion Server"
+                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Data- Ingestion Server"
               }
             },
             {
@@ -2114,7 +2114,7 @@
               "source": "@site/versioned_docs/version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/GIS-Server.md",
               "sourceDirName": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation",
               "slug": "/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/GIS-Server",
-              "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/GIS-Server",
+              "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/GIS-Server",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/versioned_docs/version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/GIS-Server.md",
               "tags": [],
               "version": "5.0.0",
@@ -2125,11 +2125,11 @@
               "sidebar": "version-5.0.0/tutorialSidebar",
               "previous": {
                 "title": "Data- Ingestion Server",
-                "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Data- Ingestion Server"
+                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Data- Ingestion Server"
               },
               "next": {
                 "title": "Advance Monitoring Stack",
-                "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Advance Monitoring Stack"
+                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Advance Monitoring Stack"
               }
             },
             {
@@ -2141,7 +2141,7 @@
               "source": "@site/versioned_docs/version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Immudb.md",
               "sourceDirName": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation",
               "slug": "/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Immudb",
-              "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Immudb",
+              "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Immudb",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/versioned_docs/version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Immudb.md",
               "tags": [],
               "version": "5.0.0",
@@ -2152,11 +2152,11 @@
               "sidebar": "version-5.0.0/tutorialSidebar",
               "previous": {
                 "title": "Initiating the Deployment",
-                "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Initiating the Deployment"
+                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Initiating the Deployment"
               },
               "next": {
                 "title": "RabbitMQ",
-                "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/RabbitMQ"
+                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/RabbitMQ"
               }
             },
             {
@@ -2168,7 +2168,7 @@
               "source": "@site/versioned_docs/version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Initiating the Deployment.md",
               "sourceDirName": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation",
               "slug": "/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Initiating the Deployment",
-              "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Initiating the Deployment",
+              "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Initiating the Deployment",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/versioned_docs/version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Initiating the Deployment.md",
               "tags": [],
               "version": "5.0.0",
@@ -2179,11 +2179,11 @@
               "sidebar": "version-5.0.0/tutorialSidebar",
               "previous": {
                 "title": "Deployment Overview",
-                "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/Deployment Overview"
+                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/Deployment Overview"
               },
               "next": {
                 "title": "Immudb",
-                "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Immudb"
+                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Immudb"
               }
             },
             {
@@ -2195,7 +2195,7 @@
               "source": "@site/versioned_docs/version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Keycloak.md",
               "sourceDirName": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation",
               "slug": "/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Keycloak",
-              "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Keycloak",
+              "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Keycloak",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/versioned_docs/version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Keycloak.md",
               "tags": [],
               "version": "5.0.0",
@@ -2206,11 +2206,11 @@
               "sidebar": "version-5.0.0/tutorialSidebar",
               "previous": {
                 "title": "ELK stack",
-                "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/ELK stack"
+                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/ELK stack"
               },
               "next": {
                 "title": "API Server",
-                "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/API Server"
+                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/API Server"
               }
             },
             {
@@ -2222,7 +2222,7 @@
               "source": "@site/versioned_docs/version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Latest-Ingestion-Pipeline.md",
               "sourceDirName": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation",
               "slug": "/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Latest-Ingestion-Pipeline",
-              "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Latest-Ingestion-Pipeline",
+              "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Latest-Ingestion-Pipeline",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/versioned_docs/version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Latest-Ingestion-Pipeline.md",
               "tags": [],
               "version": "5.0.0",
@@ -2233,11 +2233,11 @@
               "sidebar": "version-5.0.0/tutorialSidebar",
               "previous": {
                 "title": "API Server",
-                "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/API Server"
+                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/API Server"
               },
               "next": {
                 "title": "Auditing Server",
-                "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Auditing Server"
+                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Auditing Server"
               }
             },
             {
@@ -2249,7 +2249,7 @@
               "source": "@site/versioned_docs/version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/PostgreSQL.md",
               "sourceDirName": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation",
               "slug": "/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/PostgreSQL",
-              "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/PostgreSQL",
+              "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/PostgreSQL",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/versioned_docs/version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/PostgreSQL.md",
               "tags": [],
               "version": "5.0.0",
@@ -2260,11 +2260,11 @@
               "sidebar": "version-5.0.0/tutorialSidebar",
               "previous": {
                 "title": "RabbitMQ",
-                "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/RabbitMQ"
+                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/RabbitMQ"
               },
               "next": {
                 "title": "Redis",
-                "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Redis"
+                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Redis"
               }
             },
             {
@@ -2276,7 +2276,7 @@
               "source": "@site/versioned_docs/version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/RabbitMQ.md",
               "sourceDirName": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation",
               "slug": "/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/RabbitMQ",
-              "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/RabbitMQ",
+              "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/RabbitMQ",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/versioned_docs/version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/RabbitMQ.md",
               "tags": [],
               "version": "5.0.0",
@@ -2287,11 +2287,11 @@
               "sidebar": "version-5.0.0/tutorialSidebar",
               "previous": {
                 "title": "Immudb",
-                "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Immudb"
+                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Immudb"
               },
               "next": {
                 "title": "PostgreSQL",
-                "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/PostgreSQL"
+                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/PostgreSQL"
               }
             },
             {
@@ -2303,7 +2303,7 @@
               "source": "@site/versioned_docs/version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Redis.md",
               "sourceDirName": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation",
               "slug": "/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Redis",
-              "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Redis",
+              "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Redis",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/versioned_docs/version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Redis.md",
               "tags": [],
               "version": "5.0.0",
@@ -2314,11 +2314,11 @@
               "sidebar": "version-5.0.0/tutorialSidebar",
               "previous": {
                 "title": "PostgreSQL",
-                "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/PostgreSQL"
+                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/PostgreSQL"
               },
               "next": {
                 "title": "Zookeeper",
-                "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Zookeeper"
+                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Zookeeper"
               }
             },
             {
@@ -2330,7 +2330,7 @@
               "source": "@site/versioned_docs/version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Resource-Server.md",
               "sourceDirName": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation",
               "slug": "/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Resource-Server",
-              "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Resource-Server",
+              "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Resource-Server",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/versioned_docs/version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Resource-Server.md",
               "tags": [],
               "version": "5.0.0",
@@ -2341,11 +2341,11 @@
               "sidebar": "version-5.0.0/tutorialSidebar",
               "previous": {
                 "title": "Catalogue-Server",
-                "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Catalogue-Server"
+                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Catalogue-Server"
               },
               "next": {
                 "title": "File Server",
-                "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/File Server"
+                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/File Server"
               }
             },
             {
@@ -2357,7 +2357,7 @@
               "source": "@site/versioned_docs/version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Zookeeper.md",
               "sourceDirName": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation",
               "slug": "/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Zookeeper",
-              "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Zookeeper",
+              "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Zookeeper",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/versioned_docs/version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Zookeeper.md",
               "tags": [],
               "version": "5.0.0",
@@ -2368,11 +2368,11 @@
               "sidebar": "version-5.0.0/tutorialSidebar",
               "previous": {
                 "title": "Redis",
-                "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Redis"
+                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Redis"
               },
               "next": {
                 "title": "ELK stack",
-                "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/ELK stack"
+                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/ELK stack"
               }
             },
             {
@@ -2384,7 +2384,7 @@
               "source": "@site/versioned_docs/version-5.0.0/Deployment/Docker Swarm-Based Deployment/prerequisites.md",
               "sourceDirName": "Deployment/Docker Swarm-Based Deployment",
               "slug": "/Deployment/Docker Swarm-Based Deployment/prerequisites",
-              "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/prerequisites",
+              "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/prerequisites",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/versioned_docs/version-5.0.0/Deployment/Docker Swarm-Based Deployment/prerequisites.md",
               "tags": [],
               "version": "5.0.0",
@@ -2395,11 +2395,11 @@
               "sidebar": "version-5.0.0/tutorialSidebar",
               "previous": {
                 "title": "Introduction",
-                "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/Introduction"
+                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/Introduction"
               },
               "next": {
                 "title": "Deployment Overview",
-                "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/Deployment Overview"
+                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/Deployment Overview"
               }
             },
             {
@@ -2411,7 +2411,7 @@
               "source": "@site/versioned_docs/version-5.0.0/Deployment/Introduction.md",
               "sourceDirName": "Deployment",
               "slug": "/Deployment/Introduction",
-              "permalink": "/docs/5.0.0/Deployment/Introduction",
+              "permalink": "/docs/Deployment/Introduction",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/versioned_docs/version-5.0.0/Deployment/Introduction.md",
               "tags": [],
               "version": "5.0.0",
@@ -2422,11 +2422,11 @@
               "sidebar": "version-5.0.0/tutorialSidebar",
               "previous": {
                 "title": "Manage Data Ingestion",
-                "permalink": "/docs/5.0.0/Delegate/delegate_register_resource_server"
+                "permalink": "/docs/Delegate/delegate_register_resource_server"
               },
               "next": {
                 "title": "Introduction",
-                "permalink": "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/Introduction"
+                "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/Introduction"
               }
             },
             {
@@ -2438,7 +2438,7 @@
               "source": "@site/versioned_docs/version-5.0.0/Provider/provider.md",
               "sourceDirName": "Provider",
               "slug": "/Provider/provider",
-              "permalink": "/docs/5.0.0/Provider/provider",
+              "permalink": "/docs/Provider/provider",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/versioned_docs/version-5.0.0/Provider/provider.md",
               "tags": [],
               "version": "5.0.0",
@@ -2449,11 +2449,11 @@
               "sidebar": "version-5.0.0/tutorialSidebar",
               "previous": {
                 "title": "Data Access through File Server",
-                "permalink": "/docs/5.0.0/Consumer/consumer_data_access_file_server"
+                "permalink": "/docs/Consumer/consumer_data_access_file_server"
               },
               "next": {
                 "title": "Manage Policies",
-                "permalink": "/docs/5.0.0/Provider/provider_manage_policies"
+                "permalink": "/docs/Provider/provider_manage_policies"
               }
             },
             {
@@ -2465,7 +2465,7 @@
               "source": "@site/versioned_docs/version-5.0.0/Provider/provider_manage_delegates.md",
               "sourceDirName": "Provider",
               "slug": "/Provider/provider_manage_delegates",
-              "permalink": "/docs/5.0.0/Provider/provider_manage_delegates",
+              "permalink": "/docs/Provider/provider_manage_delegates",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/versioned_docs/version-5.0.0/Provider/provider_manage_delegates.md",
               "tags": [],
               "version": "5.0.0",
@@ -2476,11 +2476,11 @@
               "sidebar": "version-5.0.0/tutorialSidebar",
               "previous": {
                 "title": "Manage Policies",
-                "permalink": "/docs/5.0.0/Provider/provider_manage_policies"
+                "permalink": "/docs/Provider/provider_manage_policies"
               },
               "next": {
                 "title": "Manage Catalogue Items",
-                "permalink": "/docs/5.0.0/Provider/provider_register_catalogue_item"
+                "permalink": "/docs/Provider/provider_register_catalogue_item"
               }
             },
             {
@@ -2492,7 +2492,7 @@
               "source": "@site/versioned_docs/version-5.0.0/Provider/provider_manage_policies.md",
               "sourceDirName": "Provider",
               "slug": "/Provider/provider_manage_policies",
-              "permalink": "/docs/5.0.0/Provider/provider_manage_policies",
+              "permalink": "/docs/Provider/provider_manage_policies",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/versioned_docs/version-5.0.0/Provider/provider_manage_policies.md",
               "tags": [],
               "version": "5.0.0",
@@ -2503,11 +2503,11 @@
               "sidebar": "version-5.0.0/tutorialSidebar",
               "previous": {
                 "title": "Introduction",
-                "permalink": "/docs/5.0.0/Provider/provider"
+                "permalink": "/docs/Provider/provider"
               },
               "next": {
                 "title": "Manage Delegations",
-                "permalink": "/docs/5.0.0/Provider/provider_manage_delegates"
+                "permalink": "/docs/Provider/provider_manage_delegates"
               }
             },
             {
@@ -2519,7 +2519,7 @@
               "source": "@site/versioned_docs/version-5.0.0/Provider/provider_register_catalogue_item.md",
               "sourceDirName": "Provider",
               "slug": "/Provider/provider_register_catalogue_item",
-              "permalink": "/docs/5.0.0/Provider/provider_register_catalogue_item",
+              "permalink": "/docs/Provider/provider_register_catalogue_item",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/versioned_docs/version-5.0.0/Provider/provider_register_catalogue_item.md",
               "tags": [],
               "version": "5.0.0",
@@ -2530,11 +2530,11 @@
               "sidebar": "version-5.0.0/tutorialSidebar",
               "previous": {
                 "title": "Manage Delegations",
-                "permalink": "/docs/5.0.0/Provider/provider_manage_delegates"
+                "permalink": "/docs/Provider/provider_manage_delegates"
               },
               "next": {
                 "title": "Manage Data Ingestion",
-                "permalink": "/docs/5.0.0/Provider/provider_register_resource_server"
+                "permalink": "/docs/Provider/provider_register_resource_server"
               }
             },
             {
@@ -2546,7 +2546,7 @@
               "source": "@site/versioned_docs/version-5.0.0/Provider/provider_register_resource_server.md",
               "sourceDirName": "Provider",
               "slug": "/Provider/provider_register_resource_server",
-              "permalink": "/docs/5.0.0/Provider/provider_register_resource_server",
+              "permalink": "/docs/Provider/provider_register_resource_server",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/versioned_docs/version-5.0.0/Provider/provider_register_resource_server.md",
               "tags": [],
               "version": "5.0.0",
@@ -2557,11 +2557,11 @@
               "sidebar": "version-5.0.0/tutorialSidebar",
               "previous": {
                 "title": "Manage Catalogue Items",
-                "permalink": "/docs/5.0.0/Provider/provider_register_catalogue_item"
+                "permalink": "/docs/Provider/provider_register_catalogue_item"
               },
               "next": {
                 "title": "Introduction",
-                "permalink": "/docs/5.0.0/Delegate/delegate"
+                "permalink": "/docs/Delegate/delegate"
               }
             },
             {
@@ -2573,7 +2573,7 @@
               "source": "@site/versioned_docs/version-5.0.0/registration.md",
               "sourceDirName": ".",
               "slug": "/registration",
-              "permalink": "/docs/5.0.0/registration",
+              "permalink": "/docs/registration",
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/versioned_docs/version-5.0.0/registration.md",
               "tags": [],
               "version": "5.0.0",
@@ -2584,11 +2584,11 @@
               "sidebar": "version-5.0.0/tutorialSidebar",
               "previous": {
                 "title": "Fetching and Resetting Client Credentials",
-                "permalink": "/docs/5.0.0/client-credentials"
+                "permalink": "/docs/client-credentials"
               },
               "next": {
                 "title": "Introduction",
-                "permalink": "/docs/5.0.0/Consumer/consumer"
+                "permalink": "/docs/Consumer/consumer"
               }
             }
           ],

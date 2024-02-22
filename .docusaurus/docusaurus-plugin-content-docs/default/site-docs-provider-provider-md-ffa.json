@@ -7,7 +7,7 @@
   "source": "@site/docs/Provider/provider.md",
   "sourceDirName": "Provider",
   "slug": "/Provider/provider",
-  "permalink": "/docs/Provider/provider",
+  "permalink": "/docs/next/Provider/provider",
   "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Provider/provider.md",
   "tags": [],
   "version": "current",
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Data Access through File Server",
-    "permalink": "/docs/Consumer/consumer_data_access_file_server"
+    "permalink": "/docs/next/Consumer/consumer_data_access_file_server"
   },
   "next": {
     "title": "Manage Policies",
-    "permalink": "/docs/Provider/provider_manage_policies"
+    "permalink": "/docs/next/Provider/provider_manage_policies"
   }
 }

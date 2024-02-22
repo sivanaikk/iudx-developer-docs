@@ -7,7 +7,7 @@
   "source": "@site/docs/Delegate/delegate.md",
   "sourceDirName": "Delegate",
   "slug": "/Delegate/delegate",
-  "permalink": "/docs/Delegate/delegate",
+  "permalink": "/docs/next/Delegate/delegate",
   "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Delegate/delegate.md",
   "tags": [],
   "version": "current",
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Manage Data Ingestion",
-    "permalink": "/docs/Provider/provider_register_resource_server"
+    "permalink": "/docs/next/Provider/provider_register_resource_server"
   },
   "next": {
     "title": "Managing Policies and Delegations for different Providers",
-    "permalink": "/docs/Delegate/delegate_manage_policy"
+    "permalink": "/docs/next/Delegate/delegate_manage_policy"
   }
 }

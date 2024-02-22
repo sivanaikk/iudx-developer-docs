@@ -2,11 +2,12 @@
 sidebar_position: 13
 ---
 
+<div class="img_background">
 <div style={{textAlign: 'center'}}>
 
 ![Architecture](../../../../resources/auth/cat_overview.png)<br/>
 
-</div>
+</div></div>
 
 + The catalogue is IUDXs data discovery and dataset metadata publishing portal. It allows data providers to publish their data resources by making an IUDX vocabulary annotated meta-data document describing their datasource and affiliated terminologies. The datasources publish their data to the IUDX Resource Server. It allows consumers of such data to easily discover such resources by means of powerful queries and consume the data from Resource Servers in an automated and machine interpretable way.
 

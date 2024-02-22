@@ -128,357 +128,357 @@
   "/search-f46": {
     "component": "component---home-srinivas-iudx-developer-docs-node-modules-docusaurus-theme-search-typesense-src-theme-search-page-index-js-445-31a"
   },
-  "/docs/5.0.0-9ba": {
+  "/docs/next-dc4": {
     "component": "component---theme-doc-page-1-be-9be",
-    "versionMetadata": "versionMetadata---docs-5-0-0-c-9-b-8f8"
+    "versionMetadata": "versionMetadata---docs-next-935-7db"
   },
-  "/docs/5.0.0/client-credentials-1f1": {
+  "/docs/next/client-credentials-15b": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-5-0-0-client-credentials-0-ed-118"
+    "content": "content---docs-next-client-credentials-33-f-54f"
   },
-  "/docs/5.0.0/Consumer/consumer-b35": {
+  "/docs/next/Consumer/consumer-99e": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-5-0-0-consumer-consumer-2-ff-bce"
+    "content": "content---docs-next-consumer-consumerda-1-1af"
   },
-  "/docs/5.0.0/Consumer/consumer_data_access_APIs-70a": {
+  "/docs/next/Consumer/consumer_data_access_APIs-fd2": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-5-0-0-consumer-consumer-data-access-ap-isf-52-84d"
+    "content": "content---docs-next-consumer-consumer-data-access-ap-is-8-b-1-712"
   },
-  "/docs/5.0.0/Consumer/consumer_data_access_async-895": {
+  "/docs/next/Consumer/consumer_data_access_async-5d6": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-5-0-0-consumer-consumer-data-access-asyncf-22-311"
+    "content": "content---docs-next-consumer-consumer-data-access-asyncbaa-0d3"
   },
-  "/docs/5.0.0/Consumer/consumer_data_access_file_server-82f": {
+  "/docs/next/Consumer/consumer_data_access_file_server-f8e": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-5-0-0-consumer-consumer-data-access-file-server-554-9a4"
+    "content": "content---docs-next-consumer-consumer-data-access-file-server-4-c-1-c55"
   },
-  "/docs/5.0.0/Consumer/consumer_data_access_subscription-858": {
+  "/docs/next/Consumer/consumer_data_access_subscription-c84": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-5-0-0-consumer-consumer-data-access-subscription-7-b-7-896"
+    "content": "content---docs-next-consumer-consumer-data-access-subscription-151-eb9"
   },
-  "/docs/5.0.0/Consumer/consumer_data_discovery-53d": {
+  "/docs/next/Consumer/consumer_data_discovery-1a9": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-5-0-0-consumer-consumer-data-discoverya-59-25f"
+    "content": "content---docs-next-consumer-consumer-data-discovery-3-dc-604"
   },
-  "/docs/5.0.0/Consumer/consumer_obtaining_access_token-4bc": {
+  "/docs/next/Consumer/consumer_obtaining_access_token-728": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-5-0-0-consumer-consumer-obtaining-access-tokend-80-1ae"
+    "content": "content---docs-next-consumer-consumer-obtaining-access-token-168-2cf"
   },
-  "/docs/5.0.0/Delegate/delegate-ef1": {
+  "/docs/next/Delegate/delegate-a59": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-5-0-0-delegate-delegate-76-b-7b2"
+    "content": "content---docs-next-delegate-delegate-375-b3a"
   },
-  "/docs/5.0.0/Delegate/delegate_manage_policy-c2a": {
+  "/docs/next/Delegate/delegate_manage_policy-bbb": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-5-0-0-delegate-delegate-manage-policy-476-434"
+    "content": "content---docs-next-delegate-delegate-manage-policy-077-58c"
   },
-  "/docs/5.0.0/Delegate/delegate_register_catalogue_item-04d": {
+  "/docs/next/Delegate/delegate_register_catalogue_item-ce5": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-5-0-0-delegate-delegate-register-catalogue-item-55-e-866"
+    "content": "content---docs-next-delegate-delegate-register-catalogue-itema-55-277"
   },
-  "/docs/5.0.0/Delegate/delegate_register_resource_server-627": {
+  "/docs/next/Delegate/delegate_register_resource_server-149": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-5-0-0-delegate-delegate-register-resource-serverf-75-adc"
+    "content": "content---docs-next-delegate-delegate-register-resource-server-2-a-3-76f"
   },
-  "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/Deployment Overview-114": {
+  "/docs/next/Deployment/Docker Swarm-Based Deployment/Deployment Overview-ce4": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-5-0-0-deployment-docker-swarm-based-deployment-deployment-overview-70-b-374"
+    "content": "content---docs-next-deployment-docker-swarm-based-deployment-deployment-overview-47-f-d2d"
   },
-  "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/Introduction-4a9": {
+  "/docs/next/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Addons/Centralised-Nginx-d85": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-5-0-0-deployment-docker-swarm-based-deployment-introduction-5-e-8-b05"
+    "content": "content---docs-next-deployment-docker-swarm-based-deployment-infrastructure-provisioning-addons-centralised-nginx-27-b-2a8"
   },
-  "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/AAA Server-081": {
+  "/docs/next/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Addons/Monitoring-stack-a52": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-5-0-0-deployment-docker-swarm-based-deployment-iudx-component-installation-aaa-serverdd-7-ca0"
+    "content": "content---docs-next-deployment-docker-swarm-based-deployment-infrastructure-provisioning-addons-monitoring-stackeae-7be"
   },
-  "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/ACL-APD-6e3": {
+  "/docs/next/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Addons/Provisioning Node-exporter and docker daemon metrics-130": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-5-0-0-deployment-docker-swarm-based-deployment-iudx-component-installation-acl-apd-4-d-7-315"
+    "content": "content---docs-next-deployment-docker-swarm-based-deployment-infrastructure-provisioning-addons-provisioning-node-exporter-and-docker-daemon-metrics-83-d-ffa"
   },
-  "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Advance Monitoring Stack-1ad": {
+  "/docs/next/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Provisioning Docker Swarm with overlay network-22d": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-5-0-0-deployment-docker-swarm-based-deployment-iudx-component-installation-advance-monitoring-stack-81-b-923"
+    "content": "content---docs-next-deployment-docker-swarm-based-deployment-infrastructure-provisioning-provisioning-docker-swarm-with-overlay-networke-78-cec"
   },
-  "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/API Server-129": {
+  "/docs/next/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Resource planning-89d": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-5-0-0-deployment-docker-swarm-based-deployment-iudx-component-installation-api-server-25-f-dc6"
+    "content": "content---docs-next-deployment-docker-swarm-based-deployment-infrastructure-provisioning-resource-planning-94-b-13a"
   },
-  "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Auditing Server-130": {
+  "/docs/next/Deployment/Docker Swarm-Based Deployment/Introduction-333": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-5-0-0-deployment-docker-swarm-based-deployment-iudx-component-installation-auditing-server-792-b8a"
+    "content": "content---docs-next-deployment-docker-swarm-based-deployment-introduction-89-f-cc7"
   },
-  "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Catalogue-Server-27c": {
+  "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/AAA Server-baa": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-5-0-0-deployment-docker-swarm-based-deployment-iudx-component-installation-catalogue-server-98-d-a54"
+    "content": "content---docs-next-deployment-docker-swarm-based-deployment-iudx-component-installation-aaa-server-397-488"
   },
-  "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Data- Ingestion Server-f26": {
+  "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/ACL-APD-67a": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-5-0-0-deployment-docker-swarm-based-deployment-iudx-component-installation-data-ingestion-server-9-e-7-9b1"
+    "content": "content---docs-next-deployment-docker-swarm-based-deployment-iudx-component-installation-acl-apd-8-a-3-e43"
   },
-  "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/ELK stack-baf": {
+  "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Advance Monitoring Stack-636": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-5-0-0-deployment-docker-swarm-based-deployment-iudx-component-installation-elk-stackc-55-ab9"
+    "content": "content---docs-next-deployment-docker-swarm-based-deployment-iudx-component-installation-advance-monitoring-stack-93-a-cdd"
   },
-  "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/File Server-fda": {
+  "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/API Server-5a7": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-5-0-0-deployment-docker-swarm-based-deployment-iudx-component-installation-file-server-4-df-06c"
+    "content": "content---docs-next-deployment-docker-swarm-based-deployment-iudx-component-installation-api-server-56-b-e8a"
   },
-  "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/GIS-Server-269": {
+  "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Auditing Server-a71": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-5-0-0-deployment-docker-swarm-based-deployment-iudx-component-installation-gis-serverd-14-272"
+    "content": "content---docs-next-deployment-docker-swarm-based-deployment-iudx-component-installation-auditing-server-4-cf-86d"
   },
-  "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Immudb-a01": {
+  "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Catalogue-Server-4db": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-5-0-0-deployment-docker-swarm-based-deployment-iudx-component-installation-immudbd-4-f-95e"
+    "content": "content---docs-next-deployment-docker-swarm-based-deployment-iudx-component-installation-catalogue-serverf-2-d-b30"
   },
-  "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Initiating the Deployment-6e8": {
+  "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Data- Ingestion Server-298": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-5-0-0-deployment-docker-swarm-based-deployment-iudx-component-installation-initiating-the-deployment-4-e-1-168"
+    "content": "content---docs-next-deployment-docker-swarm-based-deployment-iudx-component-installation-data-ingestion-server-78-e-f7d"
   },
-  "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Keycloak-73d": {
+  "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/ELK stack-0b0": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-5-0-0-deployment-docker-swarm-based-deployment-iudx-component-installation-keycloake-7-d-b97"
+    "content": "content---docs-next-deployment-docker-swarm-based-deployment-iudx-component-installation-elk-stack-3-ad-eb0"
   },
-  "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Latest-Ingestion-Pipeline-81b": {
+  "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/File Server-32f": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-5-0-0-deployment-docker-swarm-based-deployment-iudx-component-installation-latest-ingestion-pipeline-782-d3b"
+    "content": "content---docs-next-deployment-docker-swarm-based-deployment-iudx-component-installation-file-serverc-5-c-8d2"
   },
-  "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/PostgreSQL-7ac": {
+  "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Immudb-b1f": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-5-0-0-deployment-docker-swarm-based-deployment-iudx-component-installation-postgre-sq-laf-7-8c9"
+    "content": "content---docs-next-deployment-docker-swarm-based-deployment-iudx-component-installation-immudb-896-b23"
   },
-  "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/RabbitMQ-a86": {
+  "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Initiating the Deployment-a44": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-5-0-0-deployment-docker-swarm-based-deployment-iudx-component-installation-rabbit-mq-733-2f6"
+    "content": "content---docs-next-deployment-docker-swarm-based-deployment-iudx-component-installation-initiating-the-deploymenta-0-a-acc"
   },
-  "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Redis-54e": {
+  "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Keycloak-f03": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-5-0-0-deployment-docker-swarm-based-deployment-iudx-component-installation-redis-516-5e7"
+    "content": "content---docs-next-deployment-docker-swarm-based-deployment-iudx-component-installation-keycloakc-1-e-c16"
   },
-  "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Resource-Server-ab6": {
+  "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Latest-Ingestion-Pipeline-45d": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-5-0-0-deployment-docker-swarm-based-deployment-iudx-component-installation-resource-server-7-c-0-9e8"
+    "content": "content---docs-next-deployment-docker-swarm-based-deployment-iudx-component-installation-latest-ingestion-pipeline-086-51c"
   },
-  "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Zookeeper-579": {
+  "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/PostgreSQL-986": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-5-0-0-deployment-docker-swarm-based-deployment-iudx-component-installation-zookeepercf-8-e41"
+    "content": "content---docs-next-deployment-docker-swarm-based-deployment-iudx-component-installation-postgre-sq-ld-20-133"
   },
-  "/docs/5.0.0/Deployment/Docker Swarm-Based Deployment/prerequisites-14e": {
+  "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/RabbitMQ-512": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-5-0-0-deployment-docker-swarm-based-deployment-prerequisites-425-7f8"
+    "content": "content---docs-next-deployment-docker-swarm-based-deployment-iudx-component-installation-rabbit-m-qce-0-22c"
   },
-  "/docs/5.0.0/Deployment/Introduction-4e4": {
+  "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Redis-b2c": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-5-0-0-deployment-introduction-590-1a0"
+    "content": "content---docs-next-deployment-docker-swarm-based-deployment-iudx-component-installation-redise-4-e-782"
   },
-  "/docs/5.0.0/Provider/provider-f8f": {
+  "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Resource-Server-539": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-5-0-0-provider-provider-817-4b4"
+    "content": "content---docs-next-deployment-docker-swarm-based-deployment-iudx-component-installation-resource-server-707-fe3"
   },
-  "/docs/5.0.0/Provider/provider_manage_delegates-0ba": {
+  "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Zookeeper-5bf": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-5-0-0-provider-provider-manage-delegatesd-44-7fc"
+    "content": "content---docs-next-deployment-docker-swarm-based-deployment-iudx-component-installation-zookeeperd-57-01b"
   },
-  "/docs/5.0.0/Provider/provider_manage_policies-f51": {
+  "/docs/next/Deployment/Docker Swarm-Based Deployment/prerequisites-07a": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-5-0-0-provider-provider-manage-policiese-41-544"
+    "content": "content---docs-next-deployment-docker-swarm-based-deployment-prerequisites-468-ea9"
   },
-  "/docs/5.0.0/Provider/provider_register_catalogue_item-f3c": {
+  "/docs/next/Deployment/Introduction-757": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-5-0-0-provider-provider-register-catalogue-itema-63-734"
+    "content": "content---docs-next-deployment-introduction-870-308"
   },
-  "/docs/5.0.0/Provider/provider_register_resource_server-686": {
+  "/docs/next/Provider/provider-8b6": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-5-0-0-provider-provider-register-resource-server-5-d-3-9b7"
+    "content": "content---docs-next-provider-providerffa-ca8"
   },
-  "/docs/5.0.0/registration-dc9": {
+  "/docs/next/Provider/provider_manage_delegates-c4f": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-5-0-0-registration-5-ca-02a"
+    "content": "content---docs-next-provider-provider-manage-delegates-3-a-8-bd1"
   },
-  "/docs-3e1": {
+  "/docs/next/Provider/provider_manage_policies-4f1": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-next-provider-provider-manage-policies-9-da-b31"
+  },
+  "/docs/next/Provider/provider_register_catalogue_item-5a4": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-next-provider-provider-register-catalogue-itemc-82-98d"
+  },
+  "/docs/next/Provider/provider_register_resource_server-9dc": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-next-provider-provider-register-resource-server-060-c65"
+  },
+  "/docs/next/registration-c90": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-next-registration-18-e-c1f"
+  },
+  "/docs-51f": {
     "component": "component---theme-doc-page-1-be-9be",
-    "versionMetadata": "versionMetadata---docs-935-398"
+    "versionMetadata": "versionMetadata---docsc-9-b-1e0"
   },
-  "/docs/client-credentials-502": {
+  "/docs/client-credentials-7f3": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-client-credentials-33-f-96c"
+    "content": "content---docs-client-credentials-0-ed-de7"
   },
-  "/docs/Consumer/consumer-572": {
+  "/docs/Consumer/consumer-df6": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-consumer-consumerda-1-d74"
+    "content": "content---docs-consumer-consumer-2-ff-484"
   },
-  "/docs/Consumer/consumer_data_access_APIs-dbf": {
+  "/docs/Consumer/consumer_data_access_APIs-cfa": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-consumer-consumer-data-access-ap-is-8-b-1-440"
+    "content": "content---docs-consumer-consumer-data-access-ap-isf-52-569"
   },
-  "/docs/Consumer/consumer_data_access_async-416": {
+  "/docs/Consumer/consumer_data_access_async-453": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-consumer-consumer-data-access-asyncbaa-a10"
+    "content": "content---docs-consumer-consumer-data-access-asyncf-22-322"
   },
-  "/docs/Consumer/consumer_data_access_file_server-340": {
+  "/docs/Consumer/consumer_data_access_file_server-0c4": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-consumer-consumer-data-access-file-server-4-c-1-e8a"
+    "content": "content---docs-consumer-consumer-data-access-file-server-554-554"
   },
-  "/docs/Consumer/consumer_data_access_subscription-16c": {
+  "/docs/Consumer/consumer_data_access_subscription-69d": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-consumer-consumer-data-access-subscription-151-b3d"
+    "content": "content---docs-consumer-consumer-data-access-subscription-7-b-7-1ff"
   },
-  "/docs/Consumer/consumer_data_discovery-e8c": {
+  "/docs/Consumer/consumer_data_discovery-95f": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-consumer-consumer-data-discovery-3-dc-5be"
+    "content": "content---docs-consumer-consumer-data-discoverya-59-126"
   },
-  "/docs/Consumer/consumer_obtaining_access_token-357": {
+  "/docs/Consumer/consumer_obtaining_access_token-87d": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-consumer-consumer-obtaining-access-token-168-86a"
+    "content": "content---docs-consumer-consumer-obtaining-access-tokend-80-f4e"
   },
-  "/docs/Delegate/delegate-619": {
+  "/docs/Delegate/delegate-82d": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-delegate-delegate-375-7c4"
+    "content": "content---docs-delegate-delegate-76-b-f05"
   },
-  "/docs/Delegate/delegate_manage_policy-423": {
+  "/docs/Delegate/delegate_manage_policy-92b": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-delegate-delegate-manage-policy-077-50c"
+    "content": "content---docs-delegate-delegate-manage-policy-476-c94"
   },
-  "/docs/Delegate/delegate_register_catalogue_item-ee2": {
+  "/docs/Delegate/delegate_register_catalogue_item-02e": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-delegate-delegate-register-catalogue-itema-55-d8e"
+    "content": "content---docs-delegate-delegate-register-catalogue-item-55-e-419"
   },
-  "/docs/Delegate/delegate_register_resource_server-cdf": {
+  "/docs/Delegate/delegate_register_resource_server-50c": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-delegate-delegate-register-resource-server-2-a-3-675"
+    "content": "content---docs-delegate-delegate-register-resource-serverf-75-9d5"
   },
-  "/docs/Deployment/Docker Swarm-Based Deployment/Deployment Overview-344": {
+  "/docs/Deployment/Docker Swarm-Based Deployment/Deployment Overview-191": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-deployment-docker-swarm-based-deployment-deployment-overview-47-f-7ca"
+    "content": "content---docs-deployment-docker-swarm-based-deployment-deployment-overview-70-b-102"
   },
-  "/docs/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Addons/Centralised-Nginx-6ca": {
+  "/docs/Deployment/Docker Swarm-Based Deployment/Introduction-1de": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-deployment-docker-swarm-based-deployment-infrastructure-provisioning-addons-centralised-nginx-27-b-e70"
+    "content": "content---docs-deployment-docker-swarm-based-deployment-introduction-5-e-8-971"
   },
-  "/docs/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Addons/Monitoring-stack-77e": {
+  "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/AAA Server-85e": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-deployment-docker-swarm-based-deployment-infrastructure-provisioning-addons-monitoring-stackeae-62f"
+    "content": "content---docs-deployment-docker-swarm-based-deployment-iudx-component-installation-aaa-serverdd-7-eda"
   },
-  "/docs/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Addons/Provisioning Node-exporter and docker daemon metrics-afe": {
+  "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/ACL-APD-462": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-deployment-docker-swarm-based-deployment-infrastructure-provisioning-addons-provisioning-node-exporter-and-docker-daemon-metrics-83-d-c9a"
+    "content": "content---docs-deployment-docker-swarm-based-deployment-iudx-component-installation-acl-apd-4-d-7-7d6"
   },
-  "/docs/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Provisioning Docker Swarm with overlay network-1e7": {
+  "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Advance Monitoring Stack-a8c": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-deployment-docker-swarm-based-deployment-infrastructure-provisioning-provisioning-docker-swarm-with-overlay-networke-78-8ff"
+    "content": "content---docs-deployment-docker-swarm-based-deployment-iudx-component-installation-advance-monitoring-stack-81-b-6eb"
   },
-  "/docs/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Resource planning-4e3": {
+  "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/API Server-973": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-deployment-docker-swarm-based-deployment-infrastructure-provisioning-resource-planning-94-b-365"
+    "content": "content---docs-deployment-docker-swarm-based-deployment-iudx-component-installation-api-server-25-f-c99"
   },
-  "/docs/Deployment/Docker Swarm-Based Deployment/Introduction-b07": {
+  "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Auditing Server-57a": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-deployment-docker-swarm-based-deployment-introduction-89-f-0b2"
+    "content": "content---docs-deployment-docker-swarm-based-deployment-iudx-component-installation-auditing-server-792-7a0"
   },
-  "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/AAA Server-7fd": {
+  "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Catalogue-Server-3af": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-deployment-docker-swarm-based-deployment-iudx-component-installation-aaa-server-397-084"
+    "content": "content---docs-deployment-docker-swarm-based-deployment-iudx-component-installation-catalogue-server-98-d-0ac"
   },
-  "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/ACL-APD-1ef": {
+  "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Data- Ingestion Server-258": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-deployment-docker-swarm-based-deployment-iudx-component-installation-acl-apd-8-a-3-26a"
+    "content": "content---docs-deployment-docker-swarm-based-deployment-iudx-component-installation-data-ingestion-server-9-e-7-60f"
   },
-  "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Advance Monitoring Stack-b85": {
+  "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/ELK stack-04e": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-deployment-docker-swarm-based-deployment-iudx-component-installation-advance-monitoring-stack-93-a-0ed"
+    "content": "content---docs-deployment-docker-swarm-based-deployment-iudx-component-installation-elk-stackc-55-9c6"
   },
-  "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/API Server-ba2": {
+  "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/File Server-050": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-deployment-docker-swarm-based-deployment-iudx-component-installation-api-server-56-b-8a3"
+    "content": "content---docs-deployment-docker-swarm-based-deployment-iudx-component-installation-file-server-4-df-460"
   },
-  "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Auditing Server-164": {
+  "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/GIS-Server-19c": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-deployment-docker-swarm-based-deployment-iudx-component-installation-auditing-server-4-cf-bd1"
+    "content": "content---docs-deployment-docker-swarm-based-deployment-iudx-component-installation-gis-serverd-14-74b"
   },
-  "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Catalogue-Server-cfc": {
+  "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Immudb-292": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-deployment-docker-swarm-based-deployment-iudx-component-installation-catalogue-serverf-2-d-584"
+    "content": "content---docs-deployment-docker-swarm-based-deployment-iudx-component-installation-immudbd-4-f-60b"
   },
-  "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Data- Ingestion Server-4bc": {
+  "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Initiating the Deployment-ebd": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-deployment-docker-swarm-based-deployment-iudx-component-installation-data-ingestion-server-78-e-bfa"
+    "content": "content---docs-deployment-docker-swarm-based-deployment-iudx-component-installation-initiating-the-deployment-4-e-1-1c7"
   },
-  "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/ELK stack-ede": {
+  "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Keycloak-900": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-deployment-docker-swarm-based-deployment-iudx-component-installation-elk-stack-3-ad-951"
+    "content": "content---docs-deployment-docker-swarm-based-deployment-iudx-component-installation-keycloake-7-d-2e6"
   },
-  "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/File Server-2ad": {
+  "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Latest-Ingestion-Pipeline-ae7": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-deployment-docker-swarm-based-deployment-iudx-component-installation-file-serverc-5-c-7a7"
+    "content": "content---docs-deployment-docker-swarm-based-deployment-iudx-component-installation-latest-ingestion-pipeline-782-cb2"
   },
-  "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Immudb-ca5": {
+  "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/PostgreSQL-5ba": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-deployment-docker-swarm-based-deployment-iudx-component-installation-immudb-896-430"
+    "content": "content---docs-deployment-docker-swarm-based-deployment-iudx-component-installation-postgre-sq-laf-7-f96"
   },
-  "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Initiating the Deployment-81a": {
+  "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/RabbitMQ-150": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-deployment-docker-swarm-based-deployment-iudx-component-installation-initiating-the-deploymenta-0-a-06f"
+    "content": "content---docs-deployment-docker-swarm-based-deployment-iudx-component-installation-rabbit-mq-733-999"
   },
-  "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Keycloak-788": {
+  "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Redis-1db": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-deployment-docker-swarm-based-deployment-iudx-component-installation-keycloakc-1-e-360"
+    "content": "content---docs-deployment-docker-swarm-based-deployment-iudx-component-installation-redis-516-8b8"
   },
-  "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Latest-Ingestion-Pipeline-66a": {
+  "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Resource-Server-92b": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-deployment-docker-swarm-based-deployment-iudx-component-installation-latest-ingestion-pipeline-086-251"
+    "content": "content---docs-deployment-docker-swarm-based-deployment-iudx-component-installation-resource-server-7-c-0-225"
   },
-  "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/PostgreSQL-d5d": {
+  "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Zookeeper-c74": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-deployment-docker-swarm-based-deployment-iudx-component-installation-postgre-sq-ld-20-4be"
+    "content": "content---docs-deployment-docker-swarm-based-deployment-iudx-component-installation-zookeepercf-8-ebb"
   },
-  "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/RabbitMQ-46b": {
+  "/docs/Deployment/Docker Swarm-Based Deployment/prerequisites-23d": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-deployment-docker-swarm-based-deployment-iudx-component-installation-rabbit-m-qce-0-5fa"
+    "content": "content---docs-deployment-docker-swarm-based-deployment-prerequisites-425-0c7"
   },
-  "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Redis-6bd": {
+  "/docs/Deployment/Introduction-7af": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-deployment-docker-swarm-based-deployment-iudx-component-installation-redise-4-e-bb2"
+    "content": "content---docs-deployment-introduction-590-1d1"
   },
-  "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Resource-Server-44f": {
+  "/docs/Provider/provider-77b": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-deployment-docker-swarm-based-deployment-iudx-component-installation-resource-server-707-f34"
+    "content": "content---docs-provider-provider-817-43e"
   },
-  "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Zookeeper-2ff": {
+  "/docs/Provider/provider_manage_delegates-06a": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-deployment-docker-swarm-based-deployment-iudx-component-installation-zookeeperd-57-89f"
+    "content": "content---docs-provider-provider-manage-delegatesd-44-308"
   },
-  "/docs/Deployment/Docker Swarm-Based Deployment/prerequisites-7d8": {
+  "/docs/Provider/provider_manage_policies-d31": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-deployment-docker-swarm-based-deployment-prerequisites-468-6b6"
+    "content": "content---docs-provider-provider-manage-policiese-41-d22"
   },
-  "/docs/Deployment/Introduction-6a0": {
+  "/docs/Provider/provider_register_catalogue_item-39f": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-deployment-introduction-870-efc"
+    "content": "content---docs-provider-provider-register-catalogue-itema-63-ceb"
   },
-  "/docs/Provider/provider-441": {
+  "/docs/Provider/provider_register_resource_server-f28": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-provider-providerffa-8d7"
+    "content": "content---docs-provider-provider-register-resource-server-5-d-3-247"
   },
-  "/docs/Provider/provider_manage_delegates-7ad": {
+  "/docs/registration-8f2": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-provider-provider-manage-delegates-3-a-8-31a"
-  },
-  "/docs/Provider/provider_manage_policies-131": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-provider-provider-manage-policies-9-da-f32"
-  },
-  "/docs/Provider/provider_register_catalogue_item-a65": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-provider-provider-register-catalogue-itemc-82-bcd"
-  },
-  "/docs/Provider/provider_register_resource_server-cea": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-provider-provider-register-resource-server-060-66f"
-  },
-  "/docs/registration-014": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-registration-18-e-079"
+    "content": "content---docs-registration-5-ca-132"
   },
   "/-deb": {
     "component": "component---site-src-pages-index-jsc-4-f-f99",
