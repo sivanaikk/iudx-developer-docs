@@ -1,0 +1,113 @@
+PUT <cos-prefix>__cat_instances
+{
+   "settings": {
+	"index.number_of_replicas": "1",
+  	"index.mapping.coerce": false,
+	"index.max_result_window": "50000",
+	"index.unassigned.node_left.delayed_timeout": "10m",
+ 	"number_of_shards": 1
+  },
+	"mappings": {
+  	"properties": {
+    	"ate": {
+      	"type": "text",
+      	"fields": {
+        	"keyword": {
+          	"type": "keyword",
+          	"ignore_above": 256
+        	}
+      	}
+    	},
+    	"coordinates": {
+      	"type": "float"
+    	},
+    	"cover": {
+      	"type": "text"
+    	},
+    	"datasets": {
+      	"type": "text",
+      	"fields": {
+        	"keyword": {
+          	"type": "keyword",
+          	"ignore_above": 256
+        	}
+      	}
+    	},
+    	"description": {
+      	"type": "text",
+      	"fields": {
+        	"keyword": {
+          	"type": "keyword",
+          	"ignore_above": 256
+        	}
+      	}
+    	},
+    	"domainId": {
+      	"type": "text",
+      	"fields": {
+        	"keyword": {
+          	"type": "keyword",
+          	"ignore_above": 256
+        	}
+      	}
+    	},
+    	"icon": {
+      	"type": "text"
+    	},
+    	"id": {
+      	"type": "text",
+      	"fields": {
+        	"keyword": {
+          	"type": "keyword",
+          	"ignore_above": 256
+        	}
+      	}
+    	},
+    	"instance": {
+      	"type": "text",
+      	"fields": {
+        	"keyword": {
+          	"type": "keyword",
+          	"ignore_above": 256
+        	}
+      	}
+    	},
+    	"instanceId": {
+      	"type": "text",
+      	"fields": {
+        	"keyword": {
+          	"type": "keyword",
+          	"ignore_above": 256
+        	}
+      	}
+    	},
+    	"label": {
+      	"type": "text",
+      	"fields": {
+        	"keyword": {
+          	"type": "keyword",
+          	"ignore_above": 256
+        	}
+      	}
+    	},
+    	"logo": {
+      	"type": "text"
+    	},
+    	"name": {
+      	"type": "keyword"
+    	},
+    	"sub_classes": {
+      	"type": "text",
+      	"fields": {
+        	"keyword": {
+          	"type": "keyword",
+          	"ignore_above": 256
+        	}
+      	}
+    	}
+  	}
+	}
+}
+
+
+

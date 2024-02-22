@@ -63,6 +63,16 @@ const FeatureList = [
       </>
     ),
   },
+  {
+    title: 'IUDX Platform Deployment',
+    link:"../../docs/deployment/introduction",
+    Svg: require('../../static/img/getting_started.svg').default,
+    description: (
+      <>
+        "Discover the ease and power of our platform."         
+      </>
+    ),
+  },
 ];
 
 function Feature({Svg, link, title, description}) {
