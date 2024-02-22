@@ -2,12 +2,13 @@
 sidebar_position: 2
 ---
 
+<div class="img_background">
 <div style={{textAlign: 'center'}}>
 
 ![Architecture](../../../../resources/auth/immudb.png)<br/>
-
 </div>
 
+</div>
 
 
 - Immudb is being used as an immutable database for storing the auditing and metering data.
