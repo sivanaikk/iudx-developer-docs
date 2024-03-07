@@ -92,7 +92,7 @@ sidebar_position: 2
 
 #### To check if the nginx stacks are deployed and running use command:
 ```
-docker stack ps nginx 
+docker stack ps nginx-stack 
 ```
 #### You can check any endpoint that the nginx handles. If the application server isn’t deployed then it throws an error of <div class="txt_color">`502: Bad Gateway`</div>
 ```
@@ -106,6 +106,6 @@ docker exec -it <nginx-container-id> /bin/bash
 ```
 - Check cert status:
 ```
-acme.sh –list
+acme.sh --list
 ```
 </details>

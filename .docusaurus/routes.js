@@ -100,7 +100,7 @@ export default [
   },
   {
     path: '/search',
-    component: ComponentCreator('/search','f46'),
+    component: ComponentCreator('/search','ea8'),
     exact: true
   },
   {

@@ -13,9 +13,9 @@
           "versionBadge": true,
           "versionClassName": "docs-version-current",
           "isLast": false,
-          "sidebarFilePath": "/home/srinivas/iudx-developer-docs/sidebars.js",
-          "contentPath": "/home/srinivas/iudx-developer-docs/docs",
-          "contentPathLocalized": "/home/srinivas/iudx-developer-docs/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "/home/karthick/Documents/iudx-developer-docs/sidebars.js",
+          "contentPath": "/home/karthick/Documents/iudx-developer-docs/docs",
+          "contentPathLocalized": "/home/karthick/Documents/iudx-developer-docs/i18n/en/docusaurus-plugin-content-docs/current",
           "mainDocId": "client-credentials",
           "docs": [
             {
@@ -1487,9 +1487,9 @@
           "versionClassName": "docs-version-5.0.0",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/home/srinivas/iudx-developer-docs/versioned_sidebars/version-5.0.0-sidebars.json",
-          "contentPath": "/home/srinivas/iudx-developer-docs/versioned_docs/version-5.0.0",
-          "contentPathLocalized": "/home/srinivas/iudx-developer-docs/i18n/en/docusaurus-plugin-content-docs/version-5.0.0",
+          "sidebarFilePath": "/home/karthick/Documents/iudx-developer-docs/versioned_sidebars/version-5.0.0-sidebars.json",
+          "contentPath": "/home/karthick/Documents/iudx-developer-docs/versioned_docs/version-5.0.0",
+          "contentPathLocalized": "/home/karthick/Documents/iudx-developer-docs/i18n/en/docusaurus-plugin-content-docs/version-5.0.0",
           "mainDocId": "client-credentials",
           "docs": [
             {

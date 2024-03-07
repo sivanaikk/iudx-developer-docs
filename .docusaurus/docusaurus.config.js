@@ -13,7 +13,7 @@ export default {
       "@docusaurus/preset-classic",
       {
         "docs": {
-          "sidebarPath": "/home/srinivas/iudx-developer-docs/sidebars.js",
+          "sidebarPath": "/home/karthick/Documents/iudx-developer-docs/sidebars.js",
           "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/",
           "lastVersion": "5.0.0",
           "versions": {
@@ -27,7 +27,7 @@ export default {
           "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blog/"
         },
         "theme": {
-          "customCss": "/home/srinivas/iudx-developer-docs/src/css/custom.css"
+          "customCss": "/home/karthick/Documents/iudx-developer-docs/src/css/custom.css"
         }
       }
     ]
