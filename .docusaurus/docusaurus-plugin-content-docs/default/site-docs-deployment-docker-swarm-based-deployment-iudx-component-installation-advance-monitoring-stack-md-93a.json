@@ -19,5 +19,9 @@
   "previous": {
     "title": "Data- Ingestion Server",
     "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Data- Ingestion Server"
+  },
+  "next": {
+    "title": "Introduction",
+    "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Introduction"
   }
 }

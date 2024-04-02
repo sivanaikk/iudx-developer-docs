@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/API Server",
+  "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/API Server",
+  "isDocsHomePage": false,
+  "title": "API Server",
+  "description": "Below is the general instructions for deploying all the below api servers:",
+  "source": "@site/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/API Server.md",
+  "sourceDirName": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation",
+  "slug": "/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/API Server",
+  "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/API Server",
+  "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/API Server.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Keycloak",
+    "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Keycloak"
+  },
+  "next": {
+    "title": "Latest-Ingestion-Pipeline",
+    "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Latest-Ingestion-Pipeline"
+  }
+}

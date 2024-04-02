@@ -128,7 +128,7 @@
   "/search-ea8": {
     "component": "component---home-karthick-documents-iudx-developer-docs-node-modules-docusaurus-theme-search-typesense-src-theme-search-page-index-jsb-50-650"
   },
-  "/docs/next-dc4": {
+  "/docs/next-c87": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-next-935-7db"
   },
@@ -287,6 +287,110 @@
   "/docs/next/Deployment/Introduction-757": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-next-deployment-introduction-870-308"
+  },
+  "/docs/next/Deployment/Kubernetes-Based Deployment/Deployment Overview-595": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-next-deployment-kubernetes-based-deployment-deployment-overviewcb-6-52d"
+  },
+  "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Centralised-Nginx-bae": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-next-deployment-kubernetes-based-deployment-infrastructure-provisioning-addons-centralised-nginxda-0-8a4"
+  },
+  "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Monitoring-stack-b44": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-next-deployment-kubernetes-based-deployment-infrastructure-provisioning-addons-monitoring-stackcf-6-dfd"
+  },
+  "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Provisioning Node-exporter and docker daemon metrics-800": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-next-deployment-kubernetes-based-deployment-infrastructure-provisioning-addons-provisioning-node-exporter-and-docker-daemon-metricsc-57-30d"
+  },
+  "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Provisioning Docker Swarm with overlay network-e48": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-next-deployment-kubernetes-based-deployment-infrastructure-provisioning-provisioning-docker-swarm-with-overlay-network-2-b-0-ca6"
+  },
+  "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Resource planning-d80": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-next-deployment-kubernetes-based-deployment-infrastructure-provisioning-resource-planningb-40-e02"
+  },
+  "/docs/next/Deployment/Kubernetes-Based Deployment/Introduction-621": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-next-deployment-kubernetes-based-deployment-introduction-973-fef"
+  },
+  "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/AAA Server-9ef": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-next-deployment-kubernetes-based-deployment-iudx-component-installation-aaa-server-7-a-8-452"
+  },
+  "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/ACL-APD-a6a": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-next-deployment-kubernetes-based-deployment-iudx-component-installation-acl-ap-deac-574"
+  },
+  "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Advance Monitoring Stack-de0": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-next-deployment-kubernetes-based-deployment-iudx-component-installation-advance-monitoring-stackae-1-1f5"
+  },
+  "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/API Server-234": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-next-deployment-kubernetes-based-deployment-iudx-component-installation-api-server-1-e-3-a45"
+  },
+  "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Auditing Server-8cd": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-next-deployment-kubernetes-based-deployment-iudx-component-installation-auditing-server-20-c-a0c"
+  },
+  "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Catalogue-Server-f23": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-next-deployment-kubernetes-based-deployment-iudx-component-installation-catalogue-server-5-e-6-c7d"
+  },
+  "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Data- Ingestion Server-ce7": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-next-deployment-kubernetes-based-deployment-iudx-component-installation-data-ingestion-serverb-88-27b"
+  },
+  "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/ELK stack-09d": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-next-deployment-kubernetes-based-deployment-iudx-component-installation-elk-stack-693-cf5"
+  },
+  "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/File Server-0f9": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-next-deployment-kubernetes-based-deployment-iudx-component-installation-file-server-978-104"
+  },
+  "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Immudb-b47": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-next-deployment-kubernetes-based-deployment-iudx-component-installation-immudb-997-775"
+  },
+  "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Initiating the Deployment-9df": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-next-deployment-kubernetes-based-deployment-iudx-component-installation-initiating-the-deployment-41-b-e05"
+  },
+  "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Keycloak-b25": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-next-deployment-kubernetes-based-deployment-iudx-component-installation-keycloak-76-b-8be"
+  },
+  "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Latest-Ingestion-Pipeline-bf0": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-next-deployment-kubernetes-based-deployment-iudx-component-installation-latest-ingestion-pipeline-7-ed-9fa"
+  },
+  "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/PostgreSQL-efb": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-next-deployment-kubernetes-based-deployment-iudx-component-installation-postgre-sq-ldf-6-b4b"
+  },
+  "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/RabbitMQ-a23": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-next-deployment-kubernetes-based-deployment-iudx-component-installation-rabbit-m-qe-47-976"
+  },
+  "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Redis-582": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-next-deployment-kubernetes-based-deployment-iudx-component-installation-redis-4-f-4-903"
+  },
+  "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Resource-Server-669": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-next-deployment-kubernetes-based-deployment-iudx-component-installation-resource-servere-7-c-6a1"
+  },
+  "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Zookeeper-39d": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-next-deployment-kubernetes-based-deployment-iudx-component-installation-zookeeperca-7-5b7"
+  },
+  "/docs/next/Deployment/Kubernetes-Based Deployment/prerequisites-da7": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-next-deployment-kubernetes-based-deployment-prerequisites-164-cd4"
   },
   "/docs/next/Provider/provider-8b6": {
     "component": "component---theme-doc-item-178-a40",

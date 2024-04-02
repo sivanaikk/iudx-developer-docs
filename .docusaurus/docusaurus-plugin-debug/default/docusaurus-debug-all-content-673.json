@@ -602,6 +602,10 @@
               "previous": {
                 "title": "Data- Ingestion Server",
                 "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Data- Ingestion Server"
+              },
+              "next": {
+                "title": "Introduction",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Introduction"
               }
             },
             {
@@ -1064,6 +1068,704 @@
               }
             },
             {
+              "unversionedId": "Deployment/Kubernetes-Based Deployment/Deployment Overview",
+              "id": "Deployment/Kubernetes-Based Deployment/Deployment Overview",
+              "isDocsHomePage": false,
+              "title": "Deployment Overview",
+              "description": "IUDX platform can be deployed in Docker Swarm using the scripts and Swarm code present in this directory and sub-directories. Each component is deployed as a single instance in Swarm. The components can be scaled manually. IUDX platform exposes endpoints through two ports - one for HTTPS traffic which it passes to Nginx and Nginx routes to the appropriate service; another for Rabbitmq management and AMQPS streaming. The whole system is monitored using a monitoring stack module - Prometheus for metrics, promtail and Loki for logs, and Grafana for visualization and alerting. The overall architecture of Swarm deployment is summarized in the figure below.",
+              "source": "@site/docs/Deployment/Kubernetes-Based Deployment/Deployment Overview.md",
+              "sourceDirName": "Deployment/Kubernetes-Based Deployment",
+              "slug": "/Deployment/Kubernetes-Based Deployment/Deployment Overview",
+              "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Deployment Overview",
+              "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Kubernetes-Based Deployment/Deployment Overview.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Prerequisites",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/prerequisites"
+              },
+              "next": {
+                "title": "Resource planning",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Resource planning"
+              }
+            },
+            {
+              "unversionedId": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Centralised-Nginx",
+              "id": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Centralised-Nginx",
+              "isDocsHomePage": false,
+              "title": "Centralised-Nginx",
+              "description": "+ It acts as reverse proxy doing TLS termination, rate limiting for all (HTTP) public/outward facing IUDX endpoints",
+              "source": "@site/docs/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Centralised-Nginx.md",
+              "sourceDirName": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons",
+              "slug": "/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Centralised-Nginx",
+              "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Centralised-Nginx",
+              "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Centralised-Nginx.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Provisioning Node-exporter and docker daemon metrics",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Provisioning Node-exporter and docker daemon metrics"
+              },
+              "next": {
+                "title": "Monitoring-stack",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Monitoring-stack"
+              }
+            },
+            {
+              "unversionedId": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Monitoring-stack",
+              "id": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Monitoring-stack",
+              "isDocsHomePage": false,
+              "title": "Monitoring-stack",
+              "description": "Installation",
+              "source": "@site/docs/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Monitoring-stack.md",
+              "sourceDirName": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons",
+              "slug": "/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Monitoring-stack",
+              "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Monitoring-stack",
+              "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Monitoring-stack.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Centralised-Nginx",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Centralised-Nginx"
+              },
+              "next": {
+                "title": "Initiating the Deployment",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Initiating the Deployment"
+              }
+            },
+            {
+              "unversionedId": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Provisioning Node-exporter and docker daemon metrics",
+              "id": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Provisioning Node-exporter and docker daemon metrics",
+              "isDocsHomePage": false,
+              "title": "Provisioning Node-exporter and docker daemon metrics",
+              "description": "1. Navigate to the below directory",
+              "source": "@site/docs/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Provisioning Node-exporter and docker daemon metrics.md",
+              "sourceDirName": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons",
+              "slug": "/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Provisioning Node-exporter and docker daemon metrics",
+              "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Provisioning Node-exporter and docker daemon metrics",
+              "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Provisioning Node-exporter and docker daemon metrics.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Provisioning Docker Swarm with overlay network",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Provisioning Docker Swarm with overlay network"
+              },
+              "next": {
+                "title": "Centralised-Nginx",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Centralised-Nginx"
+              }
+            },
+            {
+              "unversionedId": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Provisioning Docker Swarm with overlay network",
+              "id": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Provisioning Docker Swarm with overlay network",
+              "isDocsHomePage": false,
+              "title": "Provisioning Docker Swarm with overlay network",
+              "description": "Prerequisite",
+              "source": "@site/docs/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Provisioning Docker Swarm with overlay network.md",
+              "sourceDirName": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning",
+              "slug": "/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Provisioning Docker Swarm with overlay network",
+              "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Provisioning Docker Swarm with overlay network",
+              "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Provisioning Docker Swarm with overlay network.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Resource planning",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Resource planning"
+              },
+              "next": {
+                "title": "Provisioning Node-exporter and docker daemon metrics",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Provisioning Node-exporter and docker daemon metrics"
+              }
+            },
+            {
+              "unversionedId": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Resource planning",
+              "id": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Resource planning",
+              "isDocsHomePage": false,
+              "title": "Resource planning",
+              "description": "The resource planning of various IUDX components and the corresponding VM is present  here. The planned resources along with instance type values need to be added in \\*.resources.yaml",
+              "source": "@site/docs/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Resource planning.md",
+              "sourceDirName": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning",
+              "slug": "/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Resource planning",
+              "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Resource planning",
+              "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Resource planning.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Deployment Overview",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Deployment Overview"
+              },
+              "next": {
+                "title": "Provisioning Docker Swarm with overlay network",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Provisioning Docker Swarm with overlay network"
+              }
+            },
+            {
+              "unversionedId": "Deployment/Kubernetes-Based Deployment/Introduction",
+              "id": "Deployment/Kubernetes-Based Deployment/Introduction",
+              "isDocsHomePage": false,
+              "title": "Introduction",
+              "description": "Explore the essential guide for deploying and managing the IUDX platform's latest 5.0.0 release. This documentation provides concise, step-by-step instructions for both seasoned developers and newcomers.",
+              "source": "@site/docs/Deployment/Kubernetes-Based Deployment/Introduction.md",
+              "sourceDirName": "Deployment/Kubernetes-Based Deployment",
+              "slug": "/Deployment/Kubernetes-Based Deployment/Introduction",
+              "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Introduction",
+              "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Kubernetes-Based Deployment/Introduction.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Advance Monitoring Stack",
+                "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Advance Monitoring Stack"
+              },
+              "next": {
+                "title": "Prerequisites",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/prerequisites"
+              }
+            },
+            {
+              "unversionedId": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/AAA Server",
+              "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/AAA Server",
+              "isDocsHomePage": false,
+              "title": "AAA Server",
+              "description": "Architecture",
+              "source": "@site/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/AAA Server.md",
+              "sourceDirName": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation",
+              "slug": "/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/AAA Server",
+              "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/AAA Server",
+              "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/AAA Server.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 11,
+              "frontMatter": {
+                "sidebar_position": 11
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Auditing Server",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Auditing Server"
+              },
+              "next": {
+                "title": "ACL-APD",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/ACL-APD"
+              }
+            },
+            {
+              "unversionedId": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/ACL-APD",
+              "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/ACL-APD",
+              "isDocsHomePage": false,
+              "title": "ACL-APD",
+              "description": "Prerequisite:",
+              "source": "@site/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/ACL-APD.md",
+              "sourceDirName": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation",
+              "slug": "/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/ACL-APD",
+              "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/ACL-APD",
+              "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/ACL-APD.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 12,
+              "frontMatter": {
+                "sidebar_position": 12
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "AAA Server",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/AAA Server"
+              },
+              "next": {
+                "title": "Catalogue-Server",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Catalogue-Server"
+              }
+            },
+            {
+              "unversionedId": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Advance Monitoring Stack",
+              "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Advance Monitoring Stack",
+              "isDocsHomePage": false,
+              "title": "Advance Monitoring Stack",
+              "description": "Docker swarm stack for advance monitoring stack.",
+              "source": "@site/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Advance Monitoring Stack.md",
+              "sourceDirName": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation",
+              "slug": "/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Advance Monitoring Stack",
+              "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Advance Monitoring Stack",
+              "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Advance Monitoring Stack.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 18,
+              "frontMatter": {
+                "sidebar_position": 18
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Data- Ingestion Server",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Data- Ingestion Server"
+              }
+            },
+            {
+              "unversionedId": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/API Server",
+              "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/API Server",
+              "isDocsHomePage": false,
+              "title": "API Server",
+              "description": "Below is the general instructions for deploying all the below api servers:",
+              "source": "@site/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/API Server.md",
+              "sourceDirName": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation",
+              "slug": "/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/API Server",
+              "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/API Server",
+              "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/API Server.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 8,
+              "frontMatter": {
+                "sidebar_position": 8
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Keycloak",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Keycloak"
+              },
+              "next": {
+                "title": "Latest-Ingestion-Pipeline",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Latest-Ingestion-Pipeline"
+              }
+            },
+            {
+              "unversionedId": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Auditing Server",
+              "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Auditing Server",
+              "isDocsHomePage": false,
+              "title": "Auditing Server",
+              "description": "Prerequisites",
+              "source": "@site/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Auditing Server.md",
+              "sourceDirName": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation",
+              "slug": "/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Auditing Server",
+              "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Auditing Server",
+              "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Auditing Server.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 10,
+              "frontMatter": {
+                "sidebar_position": 10
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Latest-Ingestion-Pipeline",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Latest-Ingestion-Pipeline"
+              },
+              "next": {
+                "title": "AAA Server",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/AAA Server"
+              }
+            },
+            {
+              "unversionedId": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Catalogue-Server",
+              "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Catalogue-Server",
+              "isDocsHomePage": false,
+              "title": "Catalogue-Server",
+              "description": "Architecture",
+              "source": "@site/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Catalogue-Server.md",
+              "sourceDirName": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation",
+              "slug": "/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Catalogue-Server",
+              "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Catalogue-Server",
+              "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Catalogue-Server.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 13,
+              "frontMatter": {
+                "sidebar_position": 13
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "ACL-APD",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/ACL-APD"
+              },
+              "next": {
+                "title": "Resource-Server",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Resource-Server"
+              }
+            },
+            {
+              "unversionedId": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Data- Ingestion Server",
+              "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Data- Ingestion Server",
+              "isDocsHomePage": false,
+              "title": "Data- Ingestion Server",
+              "description": "Architecture",
+              "source": "@site/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Data- Ingestion Server.md",
+              "sourceDirName": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation",
+              "slug": "/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Data- Ingestion Server",
+              "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Data- Ingestion Server",
+              "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Data- Ingestion Server.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 16,
+              "frontMatter": {
+                "sidebar_position": 16
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "File Server",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/File Server"
+              },
+              "next": {
+                "title": "Advance Monitoring Stack",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Advance Monitoring Stack"
+              }
+            },
+            {
+              "unversionedId": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/ELK stack",
+              "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/ELK stack",
+              "isDocsHomePage": false,
+              "title": "ELK stack",
+              "description": "Architecture",
+              "source": "@site/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/ELK stack.md",
+              "sourceDirName": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation",
+              "slug": "/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/ELK stack",
+              "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/ELK stack",
+              "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/ELK stack.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "sidebar_position": 6
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Zookeeper",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Zookeeper"
+              },
+              "next": {
+                "title": "Keycloak",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Keycloak"
+              }
+            },
+            {
+              "unversionedId": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/File Server",
+              "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/File Server",
+              "isDocsHomePage": false,
+              "title": "File Server",
+              "description": "Architecture",
+              "source": "@site/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/File Server.md",
+              "sourceDirName": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation",
+              "slug": "/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/File Server",
+              "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/File Server",
+              "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/File Server.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 15,
+              "frontMatter": {
+                "sidebar_position": 15
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Resource-Server",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Resource-Server"
+              },
+              "next": {
+                "title": "Data- Ingestion Server",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Data- Ingestion Server"
+              }
+            },
+            {
+              "unversionedId": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Immudb",
+              "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Immudb",
+              "isDocsHomePage": false,
+              "title": "Immudb",
+              "description": "Architecture",
+              "source": "@site/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Immudb.md",
+              "sourceDirName": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation",
+              "slug": "/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Immudb",
+              "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Immudb",
+              "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Immudb.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Initiating the Deployment",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Initiating the Deployment"
+              },
+              "next": {
+                "title": "RabbitMQ",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/RabbitMQ"
+              }
+            },
+            {
+              "unversionedId": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Initiating the Deployment",
+              "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Initiating the Deployment",
+              "isDocsHomePage": false,
+              "title": "Initiating the Deployment",
+              "description": "All IUDX component deployment files are available in the datakaveri/iudx-deployment git repository.",
+              "source": "@site/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Initiating the Deployment.md",
+              "sourceDirName": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation",
+              "slug": "/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Initiating the Deployment",
+              "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Initiating the Deployment",
+              "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Initiating the Deployment.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Monitoring-stack",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Monitoring-stack"
+              },
+              "next": {
+                "title": "Immudb",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Immudb"
+              }
+            },
+            {
+              "unversionedId": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Keycloak",
+              "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Keycloak",
+              "isDocsHomePage": false,
+              "title": "Keycloak",
+              "description": "Architecture",
+              "source": "@site/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Keycloak.md",
+              "sourceDirName": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation",
+              "slug": "/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Keycloak",
+              "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Keycloak",
+              "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Keycloak.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 7,
+              "frontMatter": {
+                "sidebar_position": 7
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "ELK stack",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/ELK stack"
+              },
+              "next": {
+                "title": "API Server",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/API Server"
+              }
+            },
+            {
+              "unversionedId": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Latest-Ingestion-Pipeline",
+              "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Latest-Ingestion-Pipeline",
+              "isDocsHomePage": false,
+              "title": "Latest-Ingestion-Pipeline",
+              "description": "Architecture",
+              "source": "@site/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Latest-Ingestion-Pipeline.md",
+              "sourceDirName": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation",
+              "slug": "/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Latest-Ingestion-Pipeline",
+              "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Latest-Ingestion-Pipeline",
+              "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Latest-Ingestion-Pipeline.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 9,
+              "frontMatter": {
+                "sidebar_position": 9
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "API Server",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/API Server"
+              },
+              "next": {
+                "title": "Auditing Server",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Auditing Server"
+              }
+            },
+            {
+              "unversionedId": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/PostgreSQL",
+              "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/PostgreSQL",
+              "isDocsHomePage": false,
+              "title": "PostgreSQL",
+              "description": "Architecture",
+              "source": "@site/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/PostgreSQL.md",
+              "sourceDirName": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation",
+              "slug": "/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/PostgreSQL",
+              "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/PostgreSQL",
+              "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/PostgreSQL.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "RabbitMQ",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/RabbitMQ"
+              },
+              "next": {
+                "title": "Redis",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Redis"
+              }
+            },
+            {
+              "unversionedId": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/RabbitMQ",
+              "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/RabbitMQ",
+              "isDocsHomePage": false,
+              "title": "RabbitMQ",
+              "description": "Architecture",
+              "source": "@site/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/RabbitMQ.md",
+              "sourceDirName": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation",
+              "slug": "/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/RabbitMQ",
+              "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/RabbitMQ",
+              "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/RabbitMQ.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Immudb",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Immudb"
+              },
+              "next": {
+                "title": "PostgreSQL",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/PostgreSQL"
+              }
+            },
+            {
+              "unversionedId": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Redis",
+              "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Redis",
+              "isDocsHomePage": false,
+              "title": "Redis",
+              "description": "Architecture",
+              "source": "@site/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Redis.md",
+              "sourceDirName": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation",
+              "slug": "/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Redis",
+              "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Redis",
+              "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Redis.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "PostgreSQL",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/PostgreSQL"
+              },
+              "next": {
+                "title": "Zookeeper",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Zookeeper"
+              }
+            },
+            {
+              "unversionedId": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Resource-Server",
+              "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Resource-Server",
+              "isDocsHomePage": false,
+              "title": "Resource-Server",
+              "description": "Architecture",
+              "source": "@site/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Resource-Server.md",
+              "sourceDirName": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation",
+              "slug": "/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Resource-Server",
+              "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Resource-Server",
+              "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Resource-Server.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 14,
+              "frontMatter": {
+                "sidebar_position": 14
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Catalogue-Server",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Catalogue-Server"
+              },
+              "next": {
+                "title": "File Server",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/File Server"
+              }
+            },
+            {
+              "unversionedId": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Zookeeper",
+              "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Zookeeper",
+              "isDocsHomePage": false,
+              "title": "Zookeeper",
+              "description": "Architecture",
+              "source": "@site/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Zookeeper.md",
+              "sourceDirName": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation",
+              "slug": "/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Zookeeper",
+              "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Zookeeper",
+              "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Zookeeper.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Redis",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Redis"
+              },
+              "next": {
+                "title": "ELK stack",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/ELK stack"
+              }
+            },
+            {
+              "unversionedId": "Deployment/Kubernetes-Based Deployment/prerequisites",
+              "id": "Deployment/Kubernetes-Based Deployment/prerequisites",
+              "isDocsHomePage": false,
+              "title": "Prerequisites",
+              "description": "Basic knowledge on the following DevOps Technologies is recommended:",
+              "source": "@site/docs/Deployment/Kubernetes-Based Deployment/prerequisites.md",
+              "sourceDirName": "Deployment/Kubernetes-Based Deployment",
+              "slug": "/Deployment/Kubernetes-Based Deployment/prerequisites",
+              "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/prerequisites",
+              "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Kubernetes-Based Deployment/prerequisites.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Introduction",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Introduction"
+              },
+              "next": {
+                "title": "Deployment Overview",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Deployment Overview"
+              }
+            },
+            {
               "unversionedId": "Provider/provider",
               "id": "Provider/provider",
               "isDocsHomePage": false,
@@ -1465,6 +2167,142 @@
                           {
                             "type": "doc",
                             "id": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Advance Monitoring Stack"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "category",
+                    "label": "Kubernetes-Based Deployment",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "Deployment/Kubernetes-Based Deployment/Introduction"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "Deployment/Kubernetes-Based Deployment/prerequisites"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "Deployment/Kubernetes-Based Deployment/Deployment Overview"
+                      },
+                      {
+                        "type": "category",
+                        "label": "Infrastructure Provisioning",
+                        "collapsible": true,
+                        "collapsed": true,
+                        "items": [
+                          {
+                            "type": "doc",
+                            "id": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Resource planning"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Provisioning Docker Swarm with overlay network"
+                          },
+                          {
+                            "type": "category",
+                            "label": "Addons",
+                            "collapsible": true,
+                            "collapsed": true,
+                            "items": [
+                              {
+                                "type": "doc",
+                                "id": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Provisioning Node-exporter and docker daemon metrics"
+                              },
+                              {
+                                "type": "doc",
+                                "id": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Centralised-Nginx"
+                              },
+                              {
+                                "type": "doc",
+                                "id": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Monitoring-stack"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "category",
+                        "label": "IUDX Component Installation",
+                        "collapsible": true,
+                        "collapsed": true,
+                        "items": [
+                          {
+                            "type": "doc",
+                            "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Initiating the Deployment"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Immudb"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/RabbitMQ"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/PostgreSQL"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Redis"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Zookeeper"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/ELK stack"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Keycloak"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/API Server"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Latest-Ingestion-Pipeline"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Auditing Server"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/AAA Server"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/ACL-APD"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Catalogue-Server"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Resource-Server"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/File Server"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Data- Ingestion Server"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Advance Monitoring Stack"
                           }
                         ]
                       }

@@ -105,7 +105,7 @@ export default [
   },
   {
     path: '/docs/next',
-    component: ComponentCreator('/docs/next','dc4'),
+    component: ComponentCreator('/docs/next','c87'),
     routes: [
       {
         path: '/docs/next/client-credentials',
@@ -338,6 +338,162 @@ export default [
       {
         path: '/docs/next/Deployment/Introduction',
         component: ComponentCreator('/docs/next/Deployment/Introduction','757'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/next/Deployment/Kubernetes-Based Deployment/Deployment Overview',
+        component: ComponentCreator('/docs/next/Deployment/Kubernetes-Based Deployment/Deployment Overview','595'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Centralised-Nginx',
+        component: ComponentCreator('/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Centralised-Nginx','bae'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Monitoring-stack',
+        component: ComponentCreator('/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Monitoring-stack','b44'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Provisioning Node-exporter and docker daemon metrics',
+        component: ComponentCreator('/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Provisioning Node-exporter and docker daemon metrics','800'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Provisioning Docker Swarm with overlay network',
+        component: ComponentCreator('/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Provisioning Docker Swarm with overlay network','e48'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Resource planning',
+        component: ComponentCreator('/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Resource planning','d80'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/next/Deployment/Kubernetes-Based Deployment/Introduction',
+        component: ComponentCreator('/docs/next/Deployment/Kubernetes-Based Deployment/Introduction','621'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/AAA Server',
+        component: ComponentCreator('/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/AAA Server','9ef'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/ACL-APD',
+        component: ComponentCreator('/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/ACL-APD','a6a'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Advance Monitoring Stack',
+        component: ComponentCreator('/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Advance Monitoring Stack','de0'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/API Server',
+        component: ComponentCreator('/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/API Server','234'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Auditing Server',
+        component: ComponentCreator('/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Auditing Server','8cd'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Catalogue-Server',
+        component: ComponentCreator('/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Catalogue-Server','f23'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Data- Ingestion Server',
+        component: ComponentCreator('/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Data- Ingestion Server','ce7'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/ELK stack',
+        component: ComponentCreator('/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/ELK stack','09d'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/File Server',
+        component: ComponentCreator('/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/File Server','0f9'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Immudb',
+        component: ComponentCreator('/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Immudb','b47'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Initiating the Deployment',
+        component: ComponentCreator('/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Initiating the Deployment','9df'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Keycloak',
+        component: ComponentCreator('/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Keycloak','b25'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Latest-Ingestion-Pipeline',
+        component: ComponentCreator('/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Latest-Ingestion-Pipeline','bf0'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/PostgreSQL',
+        component: ComponentCreator('/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/PostgreSQL','efb'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/RabbitMQ',
+        component: ComponentCreator('/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/RabbitMQ','a23'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Redis',
+        component: ComponentCreator('/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Redis','582'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Resource-Server',
+        component: ComponentCreator('/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Resource-Server','669'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Zookeeper',
+        component: ComponentCreator('/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Zookeeper','39d'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/next/Deployment/Kubernetes-Based Deployment/prerequisites',
+        component: ComponentCreator('/docs/next/Deployment/Kubernetes-Based Deployment/prerequisites','da7'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },

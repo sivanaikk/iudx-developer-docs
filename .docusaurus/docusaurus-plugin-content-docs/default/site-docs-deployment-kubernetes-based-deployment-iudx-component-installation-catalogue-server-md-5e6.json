@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Catalogue-Server",
+  "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Catalogue-Server",
+  "isDocsHomePage": false,
+  "title": "Catalogue-Server",
+  "description": "Architecture",
+  "source": "@site/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Catalogue-Server.md",
+  "sourceDirName": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation",
+  "slug": "/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Catalogue-Server",
+  "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Catalogue-Server",
+  "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Catalogue-Server.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 13,
+  "frontMatter": {
+    "sidebar_position": 13
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ACL-APD",
+    "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/ACL-APD"
+  },
+  "next": {
+    "title": "Resource-Server",
+    "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Resource-Server"
+  }
+}

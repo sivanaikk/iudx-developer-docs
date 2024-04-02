@@ -206,6 +206,136 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Deployment/Kubernetes-Based Deployment/Deployment Overview",
+              "path": "/docs/next/Deployment/Kubernetes-Based Deployment/Deployment Overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Centralised-Nginx",
+              "path": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Centralised-Nginx",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Monitoring-stack",
+              "path": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Monitoring-stack",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Provisioning Node-exporter and docker daemon metrics",
+              "path": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Provisioning Node-exporter and docker daemon metrics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Provisioning Docker Swarm with overlay network",
+              "path": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Provisioning Docker Swarm with overlay network",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Resource planning",
+              "path": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Resource planning",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Deployment/Kubernetes-Based Deployment/Introduction",
+              "path": "/docs/next/Deployment/Kubernetes-Based Deployment/Introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/AAA Server",
+              "path": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/AAA Server",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/ACL-APD",
+              "path": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/ACL-APD",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Advance Monitoring Stack",
+              "path": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Advance Monitoring Stack",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/API Server",
+              "path": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/API Server",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Auditing Server",
+              "path": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Auditing Server",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Catalogue-Server",
+              "path": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Catalogue-Server",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Data- Ingestion Server",
+              "path": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Data- Ingestion Server",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/ELK stack",
+              "path": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/ELK stack",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/File Server",
+              "path": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/File Server",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Immudb",
+              "path": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Immudb",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Initiating the Deployment",
+              "path": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Initiating the Deployment",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Keycloak",
+              "path": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Keycloak",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Latest-Ingestion-Pipeline",
+              "path": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Latest-Ingestion-Pipeline",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/PostgreSQL",
+              "path": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/PostgreSQL",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/RabbitMQ",
+              "path": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/RabbitMQ",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Redis",
+              "path": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Redis",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Resource-Server",
+              "path": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Resource-Server",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Zookeeper",
+              "path": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Zookeeper",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Deployment/Kubernetes-Based Deployment/prerequisites",
+              "path": "/docs/next/Deployment/Kubernetes-Based Deployment/prerequisites",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Provider/provider",
               "path": "/docs/next/Provider/provider",
               "sidebar": "tutorialSidebar"
