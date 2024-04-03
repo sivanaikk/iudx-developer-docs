@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Delegate/delegate_register_catalogue_item",
+  "id": "version-5.0.0/Delegate/delegate_register_catalogue_item",
+  "isDocsHomePage": false,
+  "title": "Manage Catalogue Items",
+  "description": "",
+  "source": "@site/versioned_docs/version-5.0.0/Delegate/delegate_register_catalogue_item.md",
+  "sourceDirName": "Delegate",
+  "slug": "/Delegate/delegate_register_catalogue_item",
+  "permalink": "/docs/Delegate/delegate_register_catalogue_item",
+  "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/versioned_docs/version-5.0.0/Delegate/delegate_register_catalogue_item.md",
+  "tags": [],
+  "version": "5.0.0",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "version-5.0.0/tutorialSidebar",
+  "previous": {
+    "title": "Managing Policies and Delegations for different Providers",
+    "permalink": "/docs/Delegate/delegate_manage_policy"
+  },
+  "next": {
+    "title": "Manage Data Ingestion",
+    "permalink": "/docs/Delegate/delegate_register_resource_server"
+  }
+}

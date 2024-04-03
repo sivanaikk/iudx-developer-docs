@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/PostgreSQL",
+  "id": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/PostgreSQL",
+  "isDocsHomePage": false,
+  "title": "PostgreSQL",
+  "description": "Architecture",
+  "source": "@site/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/PostgreSQL.md",
+  "sourceDirName": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation",
+  "slug": "/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/PostgreSQL",
+  "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/PostgreSQL",
+  "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/PostgreSQL.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "RabbitMQ",
+    "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/RabbitMQ"
+  },
+  "next": {
+    "title": "Redis",
+    "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Redis"
+  }
+}
