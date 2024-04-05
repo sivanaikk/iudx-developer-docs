@@ -7,8 +7,12 @@ sidebar_position: 6
 ![Architecture](../../../resources/auth/ElasticStack-arch.png)
 </div></div>
 
-+ Deploys Elasticsearch, Logstash, and Kibana. 
-+ Elasticsearch is used as a meta-data and data store. Logstash acts as the data pipeline between RabbitMQ and Elasticsearch. Kibana is used for visualization and management of the ELK stack.
+- Deploys ElasticSearch, Logstash, and Kibana
+- Elasticsearch is being used as a meta-data and data store. Logstash is being used as the data pipeline between RabbitMQ and Elasticsearch. Kibana is being used for visualisation and management of the ELK stack.
+- The current architecture in IUDX deploys Elasticsearch in a clustered mode with 3-mcd nodes + 1-data node (with autoscaling of the data nodes). 1 Kibana instance. 2 Logstash instances.
+- Will be deploying using bitnami helm charts
+- The current architecture also consists of a custom autoscaler. 
+
 
 ### Prerequisite
 
@@ -19,177 +23,126 @@ RabbitMQ needs to be up for Logstash to connect.
 1. Navigate to the below directory:
 
     ```
-    cd iudx-deployment/Docker-Swarm-deployment/single-node/elk/
+    cd iudx-deployment/K8s-deployment/Charts/elk
     ```
 
-2. Assign the node label if not assigned during swarm installation using:
-
-    ```
-    docker node update --label-add database_node=true <node_name>
-    ```
-
-3. Make a copy of the sample secrets directory by running the following command:
+2. Make a copy of the sample secrets directory by running the following command:
 
     ```
     cp -r example-secrets/secrets .
     ```
 
-4. Generate the passwords:
+3. Run the create-secrets script to automatically generate safe random passwords for all elk users using the following command:
 
     ```
     ./create-secrets.sh
     ```
+    **Secrets are generated in the secrets/passwords directory for all users.**
 
-5. For AWS-S3 Snapshot and Restore, define the `s3-access-key` and `s3-secret-key` in the file `secrets/passwords/snapshot-credentials.env` as shown below:
+4. Appropriately define the azure storage access-key and account-name in the secrets/passwords/snapshot-credentials file
 
-    ```env
-    ELASTICSEARCH_KEYS=s3.client.default.access_key=<s3-access-key>,s3.client.default.secret_key=<s3-secret-key>
     ```
+    azure.client.default.account=<storage_account_name>,azure.client.default.key=<access-key>
+    ```
+5. copy the example resource values YAML file to resource-values.yaml.
     
-
-6. For Azure-Blob-Storage, define the `storage-account-name` and `storage-access-key` in `secrets/passwords/snapshot-credentials.env` as shown below:
-
-    ```env
-    ELASTICSEARCH_KEYS=azure.client.default.account=<storage_account_name>,azure.client.default.key=<access-key>
     ```
-
-7. Generate keystores for Kibana and Logstash:
-
+    cp example-aws-resource-values.yaml resource-values.yaml
     ```
-    ./generate-keystore.sh
-    ```
-
-8. Generate certs using below:
-
-    ```
-    ./generate-certs.sh
-    ```
-
-9. Define approriate domain for Kibana in `kibana/kibana.yaml`
-   
-   ```
-    secrets/
-    ├── keystores
-    │   ├── kibana.keystore
-    │   └── logstash.keystore
-    ├── passwords
-    │   ├── elasticsearch-cat-password
-    │   ├── elasticsearch-fs-password
-    │   ├── elasticsearch-rs-password
-    │   ├── elasticsearch-su-password
-    │   ├── es-password.env
-    │   ├── kibana-admin-password
-    │   ├── kibana-admin-username
-    │   ├── kibana-system-password
-    │   ├── logstash-internal-password
-    │   ├── logstash-rabbitmq-password
-    │   ├── logstash-rabbitmq-username
-    │   ├── logstash-system-password
-    │   └── snapshot-credentials.env
-    └── pki
-        ├── elastic-certificates.p12
-        ├── elastic-stack-ca.p12
-        ├── s3-access-key
-        └── s3-secret-key
-   ```
-
-
-10. Deifine approriate domain for kibana in kibana/kibana.yaml
-
-11. Define Appropriate values of resources in ‘database-stack.resources.yml’ as shown in the sample file **[example-database-stack.resources.yaml](https://github.com/datakaveri/iudx-deployment/blob/5.0.0/Docker-Swarm-deployment/single-node/elk/example-database-stack.resources.yaml)**
-
-    + CPU requests and limits
-    + RAM requests and limits
-    + PID limit
+6. Define Appropriate values of resources in `elasticsearch/es-resource-values.yaml`, `logstash/ls-resource-values.yaml`, and `kibana/kibana-resource-values.yaml` as shown in sample resource-values files present in the **[elasticsearch/](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/K8s-deployment/Charts/elk/elasticsearch)**, **[logstash/](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/K8s-deployment/Charts/elk/logstash)**, and **[kibana/](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/K8s-deployment/Charts/elk/kibana)** directories respectively.
     
+    - CPU requests and limits
+    - RAM requests and limits, 
+    - Java heap size
+    - nodeSelector
+    - Storage class name
+    - cert-manager issuer and ingress hostname (Kibana)
 
-12. Deploy ELK stack as follows:
+7. Define Appropriate nodeSelector value in the **[elasticsearch/autoscale-croES_JAVA_OPTSn.yml](https://github.com/datakaveri/iudx-deployment/blob/5.0.0/K8s-deployment/Charts/elk/elasticsearch/autoscale-cron.yml)**.
 
+### ElasticSearch Installation Guide
+
+To install ElasticSearch on a Kubernetes (K8s) cluster, follow these steps:
+
+1. Execute the `es-install.sh` script using the following command:
     ```
-    cp example-database-stack.resources.yaml database-stack.resources.yaml
-
-    docker stack deploy -c database-stack.yaml -c database-stack.resources.yaml database
-    ```
-
-### Configuration
-
-After elasticsearch is up, account generator needs to be deployed(only on clean deployment)
-
-1.  Bring up the account generator stack (only on clean deployment): 
-
-    ```
-    docker stack deploy -c account-generator.yaml tmp
-    ```
-
-2.  Monitor logs to ensure creation:
-    ```
-    docker service logs tmp_account-generator -f
+    ./es-install.sh
     ```
 
-3. Remove the stack after successful account generator:
-    ```
-    docker stack rm tmp
-    ```
+2. **Generate Keystores**: The installation script generates keystores using `generate-keystores.sh`. It creates 2 Keystore files for Logstash and Kibana in the `secrets/keystores/` directory.
 
-### Tests
+3. Generates CA signed certs from ./elasticsearch/generate-certs.sh
 
-1. Create a Test Index
-   1. Create a test index called `iudx__test-itms`. Refer [here](https://github.com/datakaveri/iudx-deployment/blob/5.0.0/K8s-deployment/Charts/elk/tests/create-index.txt) for the command.
+4. A namespace named `elastic` is created in the Kubernetes cluster.
 
-2. RMQ-ELK Pipeline Test
+5. The required secrets are created on Kubernetes from the generated keystores.
 
-    1. Test the publishing of messages to exchange and routing to queue through a Python script
+6. Deploys the helm charts with following releases:
+    1. Release ‘elasticsearch-mcd’ consists of elasticsearch nodes with the master, coordinator, and data roles. 3 nodes by default.
+    2. Release ‘elasticsearch-data’ consists of elasticsearch nodes with only data and coordinator roles. 1 node by default (autoscaled).
+    3. Release ‘es-exporter’ is an elasticsearch metrics exporter for Prometheus.
+    4. es-autoscaler-cron cron job in K8s which autoscales the es-data-nodes.
 
-       1. Create Python Virtual Environment
-          ```
-          # Create venv
-          python3 -m venv ~/.venv/iudx-tests
+### Logstash Installation Guide
 
-          # Go into venv
-          source ~/.venv/iudx-tests/bin/activate
-          ```
+To deploy Logstash, follow these steps:
 
-       2. Install All Necessary Packages from `requirements.txt`
-          ```
-          pip install -r requirements.txt
-          ```
+1. Create ls-resources-values.yaml File:
+    
+     ```
+     #For Azure:
+     cp example-azure-ls-resource-values.yaml ls-resource-values.yaml
+     #For AWS:
+     cp example-aws-ls-resource-values.yaml ls-resource-values.yaml
+     ```
 
-       3. Configure Test Exchanges
+2. Create a file named `.logstash.env` under the `secrets` directory with the following values:
+     ```
+     RABBITMQ_VHOST=IUDX
+     INDEX_PREFIX=iudx
+     ```
 
-          | VHOST | Exchange Name | Type of Exchange |
-          |-------|---------------|------------------|
-          | IUDX  | test-itms      | topic            |
+3. Adjust resource limits and requests in `ls-resource-values.yaml` file as per your requirements.
 
-       4. Configure Exchange-Queue Binding:
+4.  Run the following command to deploy Logstash:
+     ```
+     ./logstash-install.sh
+     ```
 
-          | VHOST | Exchange   | Queue     | Routing   |
-          |-------|------------|-----------|-----------|
-          | IUDX  | test-itms  | database  | key       |
-          | IUDX  | test-itms  | redis-latest | key     |
+- This script deploys the Helm chart with the release name 'logstash'.
 
-       5. Configure Parameters in the Python Script:
-          ```
-          username = ''
-          password = ''
-          host = ''
-          # public AMQPS port 
-          port = 
-          ```
+### Kibana Installation Guide
 
-       6. Run the Python Scripts
+To install Kibana on the Kubernetes (K8s) cluster, follow these steps:
 
-       7. Refer **[here](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/K8s-deployment/Charts/databroker/tests)** for more information.
+1. Create kibana-resources-values.yaml File:
+     
+     ```
+     #For Azure:
+     cp example-azure-kibana-resource-values.yaml kibana-resource-values.yaml
+     #For AWS:
+     cp example-aws-kibana-resource-values.yaml kibana-resource-values.yaml
+     ```
 
-    b. Test if the Messages have Reached Elasticsearch
-       1. Use the count command in Kibana console->Management-> dev tools. The count should match the number of messages published.
-         ```sql
-         GET iudx__test-itms/_count
-         ```
+2. Adjust resource values and limits in the resource file (`kibana-resource-values.yaml`) as required.
+3. Add Kibana hostname in the resource file.
+4. Execute the following command to install Kibana:
+     ```
+     ./kibana-install.sh
+     ```
 
-    c. Check for No Error Logs at Logstash during the Publication.
+   This script creates the required secrets on Kubernetes from the generated secrets and deploys the Helm chart with the release name 'kibana'.
 
-### Notes
- 1. Kibana UI can be accessed from **https://< kibana-domain-name >** 
- 2. Kibana is tls secured through centralised nginx.
- 3. To check if the elk stacks are deployed and running: `docker stack ps database`
- 4. For more information on installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/Docker-Swarm-deployment/single-node/elk)**.
+- Kibana UI can be accessed from: `https://<kibana-hostname>`
+- To check Helm release info, use the following command:
+     ```
+     helm list -n elastic
+     ```
+- To check if the ELK pods are deployed and running, use the following command:
+     ```
+     kubectl get pods -n elastic
+     ```
+
+For more detailed installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/K8s-deployment/Charts/elk#install-elk)**.
+
+

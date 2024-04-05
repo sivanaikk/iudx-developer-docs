@@ -15,67 +15,59 @@ sidebar_position: 3
 
 ### Prerequisite
 
-1. Generate Certificates for the Databroker Domain
+Let's Encrypt Certificate Generation for DNS Verification:
 
-2. Generating Let's Encrypt Wildcard Certificates
+:::note
+**To generate TLS certificates using Let's Encrypt, you'll need DNS provider credentials of the domain to add a TXT record for DNS verification.**
+:::note
 
-    1. Install the required Let's Encrypt on Ubuntu VM. Please refer to the **[official instructions](https://letsencrypt.org/getting-started/)** up to step 6.
+Follow the steps below:
 
-    2. Needed 2 wildcard domains, similar to the example:
-       1. `*.iudx.io` (for the rest of the server)**
-       2. `*.catalogue.iudx.io` (for the catalogue server)**
+  1. Install required Certbot on an Ubuntu VM, preferably the bootstrap machine from which the Kubernetes workload is deployed. Refer to the instructions **[here](https://certbot.eff.org/instructions?ws=other&os=ubuntufocal)** up to step 6.
 
-    3. Generate wildcard certificates through DNS verification:
-        ```
-        sudo certbot certonly --manual --preferred-challenges dns -d <wildcard(*)**-qualified-domain-name
-        ```
-    4. Add the email-address to notify expiry
+  2. Run the following command to generate a certificate for RabbitMQ through DNS verification:
+    
+    ```
+    sudo certbot certonly --manual --preferred-challenges dns -d <rabbitmq-fully-qualified-domain-name>
+    ```
 
-    5. Add the TXT record needed for DNS verification of certificate in the dns provider
+  3. Add an email address for expiry notification during the certificate generation process.
 
-    6. After successful verification the certificate is generated and a message is given on location of the letsencrypt certificate
+  4. Follow the instructions provided by Certbot to add the TXT record needed for DNS verification of the certificate in your DNS provider. This typically involves adding a specific TXT record with a verification key provided by Certbot.
 
+  5. Wait until the TXT record is reflected in your DNS provider's system. You can use online DNS verification tools to verify the TXT record. Ensure that the TTL and value match the ones you specified while creating the TXT record.
+
+  6. Once the TXT record is verified, press Enter to continue the DNS verification process by Let's Encrypt.
+
+  7. After successful verification, Let's Encrypt will generate the certificate. The location of the Let's Encrypt certificate will be provided in the output message.
+
+- **[Azure App Certificate](https://learn.microsoft.com/en-us/azure/app-service/configure-ssl-certificate?tabs=apex%2Cportal)** Serv
+- **[AWS Certificate](https://learn.microsoft.com/en-us/azure/app-service/configure-ssl-certificate?tabs=apex%2Cportal)** Service
 
 ### Installation
 
 1. Navigate to the below directory: 
     ```
-    cd iudx-deployment/Docker-Swarm-deployment/single-node/databroker/
+    cd iudx-deployment/K8s-deployment/Charts/databroker
     ```
    
-2. Assign the node label if not assigned during swarm installation using: 
+2. Make a copy of sample secrets directory and add appropriate values to all files: 
     ``` 
-    docker node update --label-add databroker_node=true <node_name
-    ```
-
-3. Make a copy of sample secrets directory by running the following command:
-    ```
     cp -r example-secrets/secrets .
     ```
 
-4. Generate secrets
+3. Generate secrets
     ```
     ./create-secrets.sh
     ```
+4. If required, edit the config `secrets/init-config.json` to suit the needs for users, exchanges, queues, bindings, and policies. Define the following config:
 
-5. Copy certificate files to secrets directory as shown below:
-    ```
-    cp /etc/letsencrypt/live/<domain-name>/chain.pem  secrets/pki/rabbitmq-ca-cert.pem
-
-    cp /etc/letsencrypt/live/<domain-name>/fullchain.pem  secrets/pki/rabbitmq-server-cert.pem
-
-    cp /etc/letsencrypt/live/<domain-name>/privkey.pem secrets/pki/rabbitmq-server-key.pem
-    ```
-
-6. If required, edit the config - secrets/init-config.json to suit the needs for users, exchanges, queues, bindings and policies.
-Folder structure for RabbitMQ secrets is as follows
-
-7. Folder structure for RabbitMQ secrets is as follows
+5. Folder structure for RabbitMQ secrets is as follows
    ```
-    secrets/
-    ├── init-config.json
-    ├── passwords
+        secrets/
+    ├── credentials
     │   ├── admin-password
+    │   ├── auditing-password
     │   ├── cat-password
     │   ├── di-password
     │   ├── fs-password
@@ -83,77 +75,85 @@ Folder structure for RabbitMQ secrets is as follows
     │   ├── lip-password
     │   ├── logstash-password
     │   ├── profanity-cat-password
-    │   └── rs-password
+    │   ├── rabbitmq-erlang-cookie
+    │   ├── rs-password
+    │   ├── rs-proxy-adapter-password
+    │   └── rs-proxy-password
+    ├── init-config.json
     └── pki
-        ├── rabbitmq-ca-cert.pem
-        ├── rabbitmq-server-cert.pem
-        └── rabbitmq-server-key.pem
-        └── rabbitmq-server-key.pem
+        ├── ca.crt
+        ├── tls.crt
+        └── tls.key
    ```
 
-8. Define Appropriate values of resources in `databroker-stack.resources.yaml` for as shown in sample resource-values file **[example-databroker-stack.resources.yaml](https://github.com/datakaveri/iudx-deployment/blob/5.0.0/Docker-Swarm-deployment/single-node/databroker/example-databroker-stack.resources.yaml)**
+6. Generating secrets and certificates.
+   - Copy certificates generated from previous step to folder secrets/pki 
+
+     ```
+     cp /etc/letsencrypt/live/<domain-name>/chain.pem  secrets/pki/ca.crt
+
+     cp /etc/letsencrypt/live/<domain-name>/fullchain.pem  secrets/pki/tls.crt
+
+     cp /etc/letsencrypt/live/<domain-name>/privkey.pem secrets/pki/tls.key
+
+    ```
+7. copy the example resource values YAML file to resource-values.yaml.
+    
+    ```
+    cp example-aws-resource-values.yaml resource-values.yaml
+    ```
+
+8. Define Appropriate values of resources in `resource-values.yaml` for as shown in sample resource-values file for **[aws](https://github.com/datakaveri/iudx-deployment/blob/5.0.0/K8s-deployment/Charts/databroker/example-aws-resource-values.yaml)** and **[azure](https://github.com/datakaveri/iudx-deployment/blob/5.0.0/K8s-deployment/Charts/databroker/example-azure-resource-values.yaml)**.
 
     + CPU requests and limits
     + RAM requests and limits
-    + PID limit
-  
 
-9. We can deploy RabbitMQ using the following command 
+9. Define Appropriate values of loadbalancer configuration -
+  	- Loadbalancer annotations
+
+    :::note
+    **Don’t replace “loadBalancerIP” placeholder.**
+    :::
+    in `external-client-service.yaml` as shown in sample service files to **[aws](https://github.com/datakaveri/iudx-deployment/blob/5.0.0/K8s-deployment/Charts/databroker/external-client-aws-service.yaml)** and **[azure](https://github.com/datakaveri/iudx-deployment/blob/5.0.0/K8s-deployment/Charts/databroker/external-client-azure-service.yaml)**.
+
+10. To install the `rabbitmq` chart:
     ```
-    cp example-databroker-stack.resources.yaml databroker-stack.resources.yaml 
-
-    docker stack deploy -c databroker-stack.yaml -c databroker-stack.resources.yaml  databroker
+    ./install.sh
     ```
-   Expect the following output on successful deployment
+11. The command deploys RabbitMQ on the Kubernetes cluster in a 3 node configuration. The Parameters section lists the parameters that can be configured during installation. The script will:
+
+- Create a namespace **rabbitmq**
+- Create required secrets
+- Deploy RabbitMQ statefulset and services
+- Deploy an init job which creates users, vhosts, users, exchanges, queues, and bindings  
+   
+  :::note
+  **Pods will take some time to come up to boot completely and also probe delays also add up some delay.**
+  :::
+
+
+12. Check if RMQ pods are ready and check logs of an init-setup job which creates required vhosts, users, exchanges, queues and bindings.
     ```
-    Creating secret databroker_backup-ssh-pubkey
-    Creating secret databroker_rabbitmq-admin-passwd
-    Creating secret databroker_rabbitmq-ca-cert.pem
-    Creating secret databroker_rabbitmq-server-cert.pem
-    Creating secret databroker_rabbitmq-server-key.pem
-    Creating secret databroker_rabbitmq-definitions.json
-    Creating secret databroker_backup-ssh-privkey
-    Creating config databroker_rabbitmq-config
-    Creating service databroker_backup
-    Creating service databroker_rabbitmq
+    # check if RMQ is in ready state
+    kubectl get pods -n rabbitmq
+    # check the logs of init-setup
+    kubectl logs -f -n rabbitmq <rmq-init-setup-job-name>
     ```
 
-10. In order to verify the installation, use the following commands
-    
-     ```
-     docker stack ls
 
-     NAME     	SERVICES   ORCHESTRATOR
-     databroker   2      	Swarm
-     ```
-
-    Use this command to display information about the services in the 'databroker' stack:
-
-        
-    | ID            | NAME                    | IMAGE                         | NODE         | DESIRED STATE | CURRENT STATE          | ERROR | PORTS                                                  |
-    |---------------|-------------------------|-------------------------------|--------------|---------------|------------------------|-------|--------------------------------------------------------|
-    | 5zq8uo4bk8vi  | databroker_rabbitmq.1  | rabbitmq:3.8.11-management    | single-node  | Running       | Running 4 minutes ago  |       | *:24567-5671/tcp,*:24567-5671/tcp,*:28042-15672/tcp,*:28042-15672/tcp,*:28041-15671/tcp,*:28041-15671/tcp,*:24568-5672/tcp,*:24568-5672/tcp |
-
-   RabbitMQ UI can be accessed from **https://< rabbitmq-domain :28041/**
+ - RabbitMQ UI can be accessed from **https://< rmq-hostname >:< external-client-https-port >**
    <div style={{textAlign: 'center'}}>
 
   ![Architecture](../../../../resources/auth/rabbitmQ.png)
 
    </div>
-11. Bring up the account generator stack **(clean deployment or whenever any change in init-config)** for RMQ vhosts, users, exchanges, queues, policies creation
-     ```
-     docker stack deploy -c rmq-init-setup.yaml  rmq-tmp
-     ```
 
-12. Monitor logs to ensure creation of vhosts, users, queues
-     ```
-     docker service logs rmq-tmp_rmq-init-setup -f
-     ```
- 
-13. Remove stack, once vhosts, users, exchanges, queues, policies are created
-     ```
-     docker stack rm rmq-tmp
-     ```
+- Change the admin password of RMQ to logstash rabbitmq internal password
+- To check if the rabbitmq pods are deployed and running:
+    ```
+    kubectl get pods -n rabbitmq
+    ```
+- For more information on installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/K8s-deployment/Charts/databroker#rabbitmq-cluster-in-k8s-as-a-statefulset)**.
 
 ### Manual Configuration from RMQ Management UI
 
@@ -245,7 +245,7 @@ This is an alternative to steps 10 and 11 of the installation. Steps 10 and 11 a
     | IUDX            | database                      | database                     |                                    | 0        |
 
 
-### Tests
+### Testing
 
 1. Navigate to the below directory :
     ```

@@ -10,38 +10,46 @@ sidebar_position: 5
 </div>
 
 
-+ ZooKeeper operates as a distributed file system and exposes a simple set of APIs that enable clients to read and write data to the file system.
-+ Zookeeper performs service discovery of APIs using the data stored in Hazelcast cache.
-+ Before running any API servers or monitoring stack, Zookeeper has to be running.
+- Three pod HA zookeeper deployed using helm chart 
+- Zookeeper is mainly used for discovery of different vertx pods of vertx based server (eg: resource server) and K8s. - Hazelcast stores the vertx cluster info.
+
 
 ### Installation
 
 1. Navigate to the below directory:
 
     ```
-    cd iudx-deployment/Docker-Swarm-deployment/single-node/zookeeper/
+    cd iudx-deployment/K8s-deployment/Charts/zookeeper
+    ```
+2. copy the example resource values YAML file to resource-values.yaml.
+    
+    ```
+    cp example-aws-resource-values.yaml resource-values.yaml
     ```
 
-2. Define appropriate values for resources in `zookeeper-stack.resources.yaml` as shown in the sample file **[example-zookeeper-stack.resources.yaml](https://github.com/datakaveri/iudx-deployment/blob/5.0.0/Docker-Swarm-deployment/single-node/zookeeper/example-zookeeper-stack.resources.yaml)**
-
+3. Define Appropriate values of resources in `resource-values.yaml` as shown in sample resource-values file for **[aws](https://github.com/datakaveri/iudx-deployment/blob/5.0.0/K8s-deployment/Charts/zookeeper/example-aws-resource-values.yaml)** and **[azure](https://github.com/datakaveri/iudx-deployment/blob/5.0.0/K8s-deployment/Charts/zookeeper/example-azure-resource-values.yaml)**.
+    
     - CPU requests and limits
-    - RAM requests and limits
-    - PID limit
+    - RAM requests and limits, 
+    - Instance-type for nodeSelector
+    - StorageClassName
+    - Size of the persistent volume required 
 
-    
-
-3. Deploy the Zookeeper stack as follows:
+4. To install redis on the k8s cluster, run the install script using the following command: 
 
     ```
-    cp example-zookeeper-stack.resources.yaml zookeeper-stack.resources.yaml
-
-    docker stack deploy -c zookeeper-stack.yaml -c zookeeper-stack.resources.yaml zookeeper
+    ./install.sh
     ```
+    The script does following:
+    - It adds bitnami helm repo
+    - It creates zookeeper namespace
+    - It installs HA 3 pod zookeeper cluster.
 
-### Notes
-
-1. To check if the Zookeeper stacks are deployed and running: `docker stack ps zookeeper`
-    
-
-2. For more information on installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/Docker-Swarm-deployment/single-node/zookeeper#introduction)**.
-
+- To check helm release info: 
+    ```
+    helm list -n zookeeper
+    ```
+- To check if the di pods are deployed and running: 
+    ```
+    kubectl get pods -n zookeeper
+    ```

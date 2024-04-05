@@ -9,7 +9,16 @@ sidebar_position: 5
 ![Architecture](../../../resources/auth/Redis-arch.png)
 </div></div>
  
-- Redis is used as the latest-data store and will be deployed using Swarm stack YAML files.
+
+- Redis is being used as the latest-data store.
+- Deploys a 6-node Redis Cluster with sharding, having 3 master and 3 slaves by default.
+
+- All masters serve as read-write points. All slaves replicate the masters they are attached to.
+- The current architecture also consists of a custom autoscaler. Which auto-scales based on cpu usage of the nodes. 
+    - If the cpu usage of a master is higher than the configured threshold. A master along with a slave will be added to the cluster and the shards will be rebalanced across all masters.
+    - If the cpu usage of a slave is higher than the configured threshold. A single slave node will be added and attached to the same master of the slave node that had triggered the scale up.
+- Will be deployed using a bitnami helm chart.
+
 
 
 ### Installation
@@ -17,84 +26,60 @@ sidebar_position: 5
 1. Navigate to the below directory:
 
     ```
-    cd iudx-deployment/Docker-Swarm-deployment/single-node/redis/
+    cd iudx-deployment/K8s-deployment/Charts/redis
     ```
 
-2. Assign the node label if not assigned during Swarm installation:
-
-    ```
-    docker node update --label-add redis-node=true <node_name>
-    ```
-
-3. Generate passwords:
+2. Run the create-secrets script to automatically generate safe random password for the redis user using the following command:
 
     ```
     ./create-secrets.sh
     ```
+    **Secrets are generated in the secrets/ directory.**
 
-    Secrets directory after generation of passwords:
-
+3. copy the example resource values YAML file to resource-values.yaml.
+    
     ```
-    secrets/
-    └── passwords
-        └── admin-password
+    cp example-aws-resource-values.yaml resource-values.yaml
     ```
 
-4. Define Appropriate values of resources in `redis-rejson-stack.resources.yml` as shown in the sample file **[example-redis-rejson-stack.resources.yml](https://github.com/datakaveri/iudx-deployment/blob/5.0.0/Docker-Swarm-deployment/single-node/redis/example-redis-rejson-stack.resources.yaml)**.
+4. Define Appropriate values of resources in `resource-values.yaml` as shown in sample resource-values file for **[aws](https://github.com/datakaveri/iudx-deployment/blob/5.0.0/K8s-deployment/Charts/redis/example-aws-resource-values.yaml)** and **[azure](https://github.com/datakaveri/iudx-deployment/blob/5.0.0/K8s-deployment/Charts/redis/example-azure-resource-values.yaml)**.
     
     - CPU requests and limits
     - RAM requests and limits, 
-    - PID limit 
+    - Instance-type for nodeSelector
+    - StorageClassName
+    - Size of the persistent volume required 
 
-5. Deploy Redis stack:
+
+5. To install redis on the k8s cluster, run the install script using the following command: 
 
     ```
-    cp example-redis-rejson-stack.resources.yaml redis-rejson-stack.resources.yaml
-
-    docker stack deploy -c redis-rejson-stack.yaml -c redis-rejson-stack.resources.yaml redis
+    ./install.sh
     ```
+    - Creates namespace redis in K8s.
+    - Creates the required secrets on K8s from the generated passwords.
+    - Deploys the helm chart with the release name ‘redis’.
+    - Deploys redis autoscaler cron-job which autoscales the redis deployment by adding master/slave nodes depending on the requirement.
 
-### Tests
 
-1. Login and Execute Commands in Redis
+- To check helm release info: ‘helm list -n redis
+- To check if the redis pods are deployed and running: ‘kubectl get pods -n redis
+- For more information on installation instructions, refer here 
 
-    1. Exec into the Redis container:
+### Testing
 
-        ```
-        docker exec -it <redis-container> bash
-        ```
+1. Test if redis cluster is formed properly
 
-    2. Login to Redis:
-
-        ```
-        redis-cli -a `cat $REDIS_PASSWORD_FILE`
-        ```
-    3. Execute commands
-    
-       1. To list down all keys:
+    1. Login into redis cluster
 
         ```
-        keys *
-        ```
-       2. To list down the access control lists (ACL):
+        kubectl exec -it -n redis redis-redis-cluster-0 bash
 
-        ```
-        acl list
+        redis-cli -h localhost -a `cat $REDIS_PASSWORD_FILE` cluster info
         ```
 
-
-### Notes
-
-1. To check if the redis stacks are deployed and running: `docker stack ps redis`
-    
-2. The docker image 'ghcr.io/datakaveri/redis-rejson' is tagged in accordance with this format: `<redis-version>:<rejson-version>`.
-
-3. The following users, along with their respective passwords, roles/access, and services, are created using the passwords present at files in the `secrets/passwords/` directory:
-
-| Username | Password                        | Role/Access                        | Services                              |
-|----------|---------------------------------|-----------------------------------|---------------------------------------|
-| default  | secrets/passwords/admin-password | Superuser                         | Used by Resource Server and Latest ingestion pipeline |
-
-For more detailed installation instructions, please refer to the documentation **[here](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/Docker-Swarm-deployment/single-node/redis#introduction).**
-
-
+    <div className="img_background">
+    <div style={{textAlign: 'center'}}>
+        <img src="../../../resources/auth/redis_test" alt="Architecture" />
+    </div>
+    </div>

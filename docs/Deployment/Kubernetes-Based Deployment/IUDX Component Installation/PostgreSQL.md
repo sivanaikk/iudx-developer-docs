@@ -9,182 +9,129 @@ sidebar_position: 4
 </div></div>
 
 - PostgreSQL is being used as a credentials and policy data store.
-- Will be deploying using swarm stack yaml files
+- Pgpool proxy is used as a middleware that works between psql servers and db clients for managing the connections.
+- Deploys a clustered postgreSQL having 3 instances. 1 master 2 replicas. (Master for read-write and replicas for    read-only). Also deploy 2 instances of pgpool proxy with horizontal pod autoscaling.
+- Will be deployed using a bitnami helm chart.
+
 
 ### Installation
 
 1. Navigate to the directory:
 
     ```
-    cd iudx-deployment/Docker-Swarm-deployment/single-node/postgres/
+    cd iudx-deployment/K8s-deployment/Charts/postgresql
     ```
 
-2. Assign the node label if not assigned during swarm installation using:
+2. Make a copy of the sample secrets directory by running the following command:
 
     ```
-    docker node update --label-add postgres-db-node=true <node_name>
+    cp -r example-secrets/secrets .
     ```
 
-3. To generate the passwords:
+3. Run the create-secrets script to automatically generate safe random passwords for all psql users using the following command:
 
     ```
     ./create-secrets.sh
     ```
 
-    **Secrets directory after generation of passwords:**
+    **Secrets are generated in the secrets/passwords directory for all users.**
 
-    ```
-    secrets/
-    └── passwords
-        ├── postgres-auth-password
-        ├── postgres-keycloak-password
-        ├── postgresql-password
-        └── postgres-rs-password
-    ```
-
-4. Define appropriate values of resources in `postgres-stack.resources.yml` as shown in the sample file **[example-postgres-stack.resources.yml](https://github.com/datakaveri/iudx-deployment/blob/5.0.0/Docker-Swarm-deployment/single-node/postgres/example-postgres-stack.resources.yaml)**.
+4. Define appropriate values of resources in `resource-values.yaml` as shown in the sample resource-values file for **[aws](https://github.com/datakaveri/iudx-deployment/blob/5.0.0/K8s-deployment/Charts/postgresql/example-aws-resource-values.yaml)** and **[azure](https://github.com/datakaveri/iudx-deployment/blob/5.0.0/K8s-deployment/Charts/postgresql/example-azure-resource-values.yaml)**.
 
     + CPU requests and limits
     + RAM requests and limits
-    + PID limit
-    
+    + Instance-type for nodeSelector
+    + StorageClassName
+    + Size of the persistent volume required 
+    + connections related settings
 
-5. Deploy PostgreSQL stack as follows:
+6. Before install, make sure sufficient worker nodes  with enough free resources are present to deploy the 5 pods. The install script assumes the whole postgres installation is possible in 150s.
+
+7. To install postgresql on the k8s cluster, run the install script using the following command::
 
     ```
-    cp example-postgres-stack.resources.yaml postgres-stack.resources.yaml
-
-    cp example-postgres-stack.custom.yaml postgres-stack.custom.yaml
-
-    docker stack deploy -c postgres-stack.yaml -c postgres-stack.resources.yaml -c postgres-stack.custom.yaml postgres
+    ./install.sh
     ```
+    - Creates namespace postgres in K8s.
+    - Creates the required secrets on K8s from the generated passwords.
+    - Creates required configmaps
+    - Initialise asynchronous postgres replication cluster with initdb scripts
+    - Delete and install  cluster with synchronous replication
+    - Deploys the helm chart with the release name ‘psql’.
 
 
-6. The RS and Auth schema is created using the Flyway tool. Follow the steps below:
+6. Install postgres client on rancher/bootstrap machine 
 
-    1. Bind/publish/expose the PostgreSQL port `5432` to the host VM temporarily.
-
-    2. Clone the iudx-aaa-server repository and perform the following commands:
+    1. Updates packages and install prerequisite packages
 
         ```
-        git clone -b 5.0.0 https://github.com/datakaveri/iudx-aaa-server.git && cd iudx-aaa-server
+        sudo apt-get update -y  && sudo apt install gnupg gnupg2 gnupg1 -y
         ```
-            
-        1. Update `flyway.conf` with the required data as follows:
+
+    2. The latest version of PostgreSQL is not included in the Ubuntu default repository, so you will need to add the PostgreSQL official repository to the APT.
+
+        ```
+        sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
+        ```
+    3. Next, download and add the PostgreSQL GPG key using the following command:
+
+        ```
+        wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
+        ```
+    4. Update repository and instal psql 14 client: 
+
+        ```
+        sudo apt-get update -y && sudo apt install postgresql-client-14 -y
+        ```
+
+- To check helm release info: ‘helm list -n postgres’
+- To check if the psql pods are deployed and running: ‘kubectl get pods -n postgres’
+- For more information on installation instructions, refer here.
+
+
+### Testing
+
+1. Test if init-setup needed for IUDX is done
+
+    1. Port forward the pgpool (postgres proxy) on one terminal:
+
+        ```
+        kubectl port-forward -n postgres svc/psql-postgresql-ha-pgpool 5432
+        ```
+
+    2. In another terminal, login to postgres :
+
+        ```
+        PGPASSWORD=`kubectl get secrets -n postgres psql-passwords -o jsonpath='{.data.postgresql-password}' | base64 -d` psql -U postgres -h localhost
+        ```
+    3. Test if postgres cluster is formed properly , two nodes must be in quorum
         
-            ```
-            flyway.url=jdbc:postgresql://127.0.0.1:5432/postgres
-            flyway.user=postgres
-            flyway.password=<value in secrets/passwords/postgresql-password>
-            flyway.schemas=aaa
-            flyway.placeholders.authUser=iudx_auth_user
+        ```
+        select * from pg_stat_replication;
+        ```
+    4. Test if required dbs (iudx_rs, iudx_keycloak, postgres) and users (postgres, iudx_keycloak_user, iudx_rs_user, iudx_auth_user) exists
+
+        1. List the number of database: 
+             ```
+            # to list the number of database
+            \l
             ```
 
-        2. Run the info command to test the configuration. Then, run the migrate command to set up the database:
+        <div style={{textAlign: 'center'}}>
 
-        <div class="txt_color">
-        Prerequisite :
+        ![Architecture](../../../../resources/auth/ls.png)<br/>
+        
         </div>
+
+        2. List the number of users:
+
+            ```
+            # to list the number of users
+            \du
+            ```
+
+        <div style={{textAlign: 'center'}}>
+
+        ![Architecture](../../../../resources/auth/user_ls.png)<br/>
         
-        **[Download](https://maven.apache.org/download.cgi)** and **[Install](https://maven.apache.org/install.html)** Maven.
-
-        ```
-        mvn flyway:info -Dflyway.configFiles=flyway.conf
-        mvn flyway:migrate -Dflyway.configFiles=flyway.conf
-        ```
-
-    Refer **[here](https://github.com/datakaveri/iudx-aaa-server#flyway-database-setup)** for more information.
-
-7. Similarly, do the same for the resource server:
-
-    ```
-    git clone -b 5.0.0 https://github.com/datakaveri/iudx-resource-server.git && cd iudx-resource-server
-    ```
-
-    1. Update `flyway.conf` for the resource server:
-
-        ```
-        flyway.url=jdbc:postgresql://127.0.0.1:5432/iudx_rs
-        flyway.user=postgres
-        flyway.password=<value in secrets/passwords/postgresql-password>
-        flyway.schemas=public
-        flyway.placeholders.rsUser=iudx_rs_user
-        flyway.cleanDisabled=true
-        flyway.baselineOnMigrate=false
-        ```
-
-    2. Run the info command and then the migrate command to set up the database:
-
-        ```
-        mvn flyway:info -Dflyway.configFiles=flyway.conf
-        mvn flyway:migrate -Dflyway.configFiles=flyway.conf
-        ```
-
-
-8. Login to PostgreSQL:
-
-    1. Exec into the container:
-
-        ```
-        docker exec -it <postgres-container> bash
-        ```
-
-    2. Login to PostgreSQL:
-
-        ```
-        PGPASSWORD=`cat secrets/passwords/postgresql-password` psql -U postgres -h localhost
-        ```
-
-8. Test if required dbs (iudx_rs, iudx_keycloak, postgres) and users (postgres, iudx_keycloak_user, iudx_rs_user, iudx_auth_user) exists
-
-    1. List the number of databases:
-
-        ```
-        # to list the number of dbs
-        \l
-        ```
-
-    <div style={{textAlign: 'center'}}>
-
-    ![Architecture](../../../../resources/auth/ls.png)<br/>
-    
-    </div>
-
-    
-    2. List the number of users:
-
-        ```
-        # to list the number of users
-        \du
-        ```
-
-    <div style={{textAlign: 'center'}}>
-
-    ![Architecture](../../../../resources/auth/user_ls.png)<br/>
-    
-    </div>
-9. Redploy stack without exposing `5432` port:
-    ```
-    docker stack rm postgres
-
-    docker stack deploy -c postgres-stack.yaml -c postgres-stack.resources.yaml postgres
-    ```
-
-### Notes
-
-1. To check if the PostgreSQL stacks are deployed and running, use the following command:
-
-    ```
-    docker stack ps postgres
-    ```
-2. Following users using the passwords present at secrets/passwords/ directory and dbs are created accordingly
-
-| Username           | Password                                       | Role/Access                                                 | Services                |
-|--------------------|------------------------------------------------|-------------------------------------------------------------|-------------------------|
-| iudx_rs_user       | `secrets/passwords/postgres-rs-password`      | SELECT, INSERT, DELETE, UPDATE on tables of iudx_rs Database | Used by resource server  |
-| iudx_keycloak_user | `secrets/passwords/postgres-keycloak-password` | Owner of iudx_keycloak database                              | Used by Keycloak server  |
-| iudx_auth_user     | `secrets/passwords/postgres-auth-password`    | Access given while setting up auth server                   | Used by auth server      |
-| postgres           | `secrets/passwords/postgresql-password`       | Superuser                                                    | Used to set users and RBAC|
-
-
-For more information on installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/Docker-Swarm-deployment/single-node/postgres#introduction)**.
+        </div>
