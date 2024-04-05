@@ -73,41 +73,62 @@ Create a static COS cat index in Elasticsearch through Kibana.
 ### Installation
 
 1. Navigate to the below directory:
-    ```
-    iudx-deployment/Docker-Swarm-deployment/single-node/catalogue/
-    ```
-2. Assign the node label if not assigned during swarm installation using:
 
     ```
-    docker node update --label-add cat-node=true <node_name>
+    cd iudx-deployment/K8s-deployment/Charts/catalogue
     ```
 
-3. Make a copy of the sample secrets directory by running the following command: ‘cp -r example-secrets/secrets .’
+2. Make a copy of the sample secrets directory by running the following command:
+
     ```
     cp -r example-secrets/secrets .
     ```
 
-4. Provide a correct config file for bringing up catalogue-server. Substitute appropriate values using commands whatever mentioned in config files.
+3. Provide a correct config file (`secrets/config.json`) for bringing up the catalogue-server. No need to define `secrets/profanity-config/config.json` and leave as is (don’t delete the file). Substitute appropriate values using commands mentioned in config files.
 
-5. Configure the .cat.env file, refer to example-env
+4. Configure the `secrets/.cat.env` file with appropriate values in the placeholders `<...>`.
 
-6. Define appropriate values of resources in `cat-stack.resources.yml` as shown in the sample file **[example-cat-stack.resources.yml](https://github.com/datakaveri/iudx-deployment/blob/5.0.0/Docker-Swarm-deployment/single-node/catalogue/example-cat-stack.resources.yaml)**.
-
-    + CPU requests and limits
-    + RAM requests and limits
-    + PID limit
-    
-
-7. To install catalogue server stack, use the following command:
+5. Define Resource Values in resource-values.yaml as shown in sample resource-values file for **[aws](https://github.com/datakaveri/iudx-deployment/blob/4.5.0/K8s-deployment/Charts/catalogue/example-aws-resource-values.yaml)** and **[azure](https://github.com/datakaveri/iudx-deployment/blob/4.5.0/K8s-deployment/Charts/catalogue/example-azure-resource-values.yaml )**.
 
     ```
-    cp example-cat-stack.resources.yaml cat-stack.resources.yaml
-    docker stack deploy -c cat-stack.yaml -c cat-stack.resources.yaml cat
+    #For Azure
+    cp example-azure-resource-values.yaml resource-values.yaml
+    #For AWS
+    cp example-aws-resource-values.yaml resource-values.yaml
+    ```
+    Configure the following -
+      - CPU of all catalogue-server verticles 
+      - RAM of all catalogue-server verticles 
+      - ingress.hostname
+      - cert-manager issuer
+
+
+6. To install catalogue-server on the k8s cluster, run the install script:
+    ```
+    ./install.sh
     ```
 
-### Notes
+    This script will:
+    - Create a namespace `cat` on K8s.
+    - Create required ConfigMap and Secrets on K8s.
+    - Deploy all catalogue-server vertices.
 
-1. cat-server api documentation can be accessed from **https://< cop-domain >/cat/apis**.
-2. To check if the cat-server are deployed and running: `docker stack ps cat`
-3. For more information on installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/Docker-Swarm-deployment/single-node/catalogue)**.
-4. For more information about the catalogue-server, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/Docker-Swarm-deployment/single-node/catalogue).**
+- To check Helm Release Info:
+    ```
+    helm list -n cat
+    ```
+- To check if the catalogue-server pods are deployed and running:
+    ```
+    kubectl get pods -n cat
+    ```
+- For more information on installation instructions, refer [here](link_to_documentation).
+- For more information about the catalogue-server, refer [here](link_to_documentation).
+
+### Testing
+
+- Catalogue-server API documentation can be accessed from `https://<cos-domain>/cat/apis`.
+- Check the logs of all pods in `cat` namespace, there should not be any error log. If it's there, please address as specified/indicated by the log:
+    ```
+    kubectl logs -f -n cat <cat-pod-name>
+    ```
+

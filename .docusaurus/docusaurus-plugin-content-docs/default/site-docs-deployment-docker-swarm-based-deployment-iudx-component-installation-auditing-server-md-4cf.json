@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Auditing Server",
+  "id": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Auditing Server",
+  "isDocsHomePage": false,
+  "title": "Auditing Server",
+  "description": "Prerequisites",
+  "source": "@site/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Auditing Server.md",
+  "sourceDirName": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation",
+  "slug": "/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Auditing Server",
+  "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Auditing Server",
+  "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Auditing Server.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Latest-Ingestion-Pipeline",
+    "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Latest-Ingestion-Pipeline"
+  },
+  "next": {
+    "title": "AAA Server",
+    "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/AAA Server"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Resource-Server",
+  "id": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Resource-Server",
+  "isDocsHomePage": false,
+  "title": "Resource-Server",
+  "description": "Architecture",
+  "source": "@site/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Resource-Server.md",
+  "sourceDirName": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation",
+  "slug": "/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Resource-Server",
+  "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Resource-Server",
+  "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Resource-Server.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 14,
+  "frontMatter": {
+    "sidebar_position": 14
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Catalogue-Server",
+    "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Catalogue-Server"
+  },
+  "next": {
+    "title": "File Server",
+    "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/File Server"
+  }
+}

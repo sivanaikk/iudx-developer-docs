@@ -11,40 +11,59 @@ sidebar_position: 9
 
 + Will be deploying using swarm stack yaml files.
 
-### Installation
 
-1. Navigate to the below directory: 
-    ```
-    cd iudx-deployment/Docker-Swarm-deployment/single-node/lip/
-    ```
+### Installation:
 
-2. Assign the node label if not assigned during swarm installation using:
+1. Navigate to the below directory:
     ```
-    docker node update --label-add lip-node=true <node_name>
+    cd iudx-deployment/K8s-deployment/Charts/latest-ingestion-pipeline
     ```
 
-3. Make a copy of the sample secrets directory by running the following command:
+2. Make a copy of the sample secrets directory by running the following command:
     ```
     cp -r example-secrets/secrets .
     ```
 
-    1. Provide a correct config file for bringing up the LIP server. Substitute appropriate values using commands mentioned in config files.
+3. Substitute appropriate values using commands whatever mentioned in config files. Configure the `secrets/.lip.env` file with appropriate values in the place holders `<...>`.
 
-    2. Configure the `secrets/.lip.env` file with appropriate values in the placeholders `<...>`.
-
-4. Define appropriate values of resources in `lip-stack.resources.yml` as shown in the sample file **[example-lip-stack.resources.yml](https://github.com/datakaveri/iudx-deployment/blob/5.0.0/Docker-Swarm-deployment/single-node/lip/example-lip-stack.resources.yaml)**.
-
-    
-    + PID limit
-   
-
-5. To install the latest ingestion pipeline stack, use the following commands:
+4. copy the example resource values YAML file to resource-values.yaml.
 
     ```
-    cp example-lip-stack.resources.yaml lip-stack.resources.yaml
+    #For Azure
+    cp example-azure-resource-values.yaml resource-values.yaml
+    #For AWS
+    cp example-aws-resource-values.yaml resource-values.yaml
 
-    docker stack deploy -c lip-stack.yaml -c lip-stack.resources.yaml lip
     ```
+
+5. Defining Appropriate values of resources in `resource-values.yaml` as shown in sample resource-values file for **[aws](https://github.com/datakaveri/iudx-deployment/blob/4.5.0/K8s-deployment/Charts/latest-ingestion-pipeline/example-aws-resource-values.yaml)** and **[azure](https://github.com/datakaveri/iudx-deployment/blob/4.5.0/K8s-deployment/Charts/latest-ingestion-pipeline/example-azure-resource-values.yaml)**
+
+    - CPU of all latest-ingestion-pipeline verticles
+    - RAM of all latest-ingestion-pipeline verticles 
+
+
+6. To install latest-ingestion-pipeline on the k8s cluster, run the install script using the following command:
+    ```
+    ./install.sh
+    ```
+    This script will create the follwing :
+
+    - Create a namespace `lip` on K8s.
+    - Create required ConfigMap and Secrets on K8s.
+    - Deploy all latest-ingestion-pipeline vertices.
+
+
+- To check Helm release info:
+    ```
+    helm list -n lip
+    ```
+- To check if the latest-ingestion-pipeline pods are deployed and running:
+    ```
+    kubectl get pods -n lip
+    ```
+- For more detailed installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/K8s-deployment/Charts/latest-ingestion-pipeline#introduction)**.
+- For more information about the latest-ingestion-pipeline, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/K8s-deployment/Charts/latest-ingestion-pipeline#introduction)**.
+
 
 ### Tests
 1. RMQ-LIP Pipeline Test
@@ -97,30 +116,27 @@ sidebar_position: 9
 
     b. Test if the Messages have Reached the Redis
        
-       1. Exec into the container
+       1. Exec into redis container
            ```
-           docker exec -it <redis-container> bash
-           ```
-
-       2. Login to Redis as follows
-           ```
-           redis-cli -a `cat $REDIS_PASSWORD_FILE`
+            kubectl exec -it -n redis redis-redis-cluster-0 bash
            ```
 
-       3. See if that packet has come to Redis
+       2. Login to redis server through redis-cli
+           ```
+            redis-cli -a `cat $REDIS_PASSWORD_FILE` -h localhost -c
+           ```
+
+       3. See if that packet has come to Redis  
            ```
            # get packets 
            json.get test_itms
            ```
 
-    c. Check the logs of the LIP container; there should not be any error log. If there is, please take necessary actions as specified/indicated by the log.
+    c. There are no error logs at latest ingestion pipeline pods  during the publication..
     
-       ```    
-       docker logs -f <lip-container-id>
-       ```
+    
+1. Check the logs of all pods in lip namespace, there should not be any error log. If it's there , please do necessary as specified/indicated by the log.
 
-### Notes
-
-1. To check if the lip-server are deployed and running: `docker stack ps lip`
-2. For more information on installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/master/Docker-Swarm-deployment/single-node/lip).**
-3. For more information about the auth-server, refer **[here](https://github.com/datakaveri/latest-ingestion-pipeline#latest-ingestion-pipeline).**
+    ```
+    kubectl logs -f -n lip <lip-pod-name>
+    ```

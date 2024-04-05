@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Deployment/Introduction",
+  "id": "Deployment/Introduction",
+  "isDocsHomePage": false,
+  "title": "IUDX Overview",
+  "description": "The IUDX platform consists of various IUDX-built services and open-source components. The overview IUDX platform with components is shown in the below figure.",
+  "source": "@site/docs/Deployment/Introduction.md",
+  "sourceDirName": "Deployment",
+  "slug": "/Deployment/Introduction",
+  "permalink": "/docs/next/Deployment/Introduction",
+  "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Introduction.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Manage Data Ingestion",
+    "permalink": "/docs/next/Delegate/delegate_register_resource_server"
+  },
+  "next": {
+    "title": "Introduction",
+    "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/Introduction"
+  }
+}

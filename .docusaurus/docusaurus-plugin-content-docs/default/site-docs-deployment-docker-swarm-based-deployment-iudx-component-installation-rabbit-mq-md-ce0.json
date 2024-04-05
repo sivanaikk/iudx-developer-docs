@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/RabbitMQ",
+  "id": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/RabbitMQ",
+  "isDocsHomePage": false,
+  "title": "RabbitMQ",
+  "description": "Architecture",
+  "source": "@site/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/RabbitMQ.md",
+  "sourceDirName": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation",
+  "slug": "/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/RabbitMQ",
+  "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/RabbitMQ",
+  "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/RabbitMQ.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Immudb",
+    "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Immudb"
+  },
+  "next": {
+    "title": "PostgreSQL",
+    "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/PostgreSQL"
+  }
+}

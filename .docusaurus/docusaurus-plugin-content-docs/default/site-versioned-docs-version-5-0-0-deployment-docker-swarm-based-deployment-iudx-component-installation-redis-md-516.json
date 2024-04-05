@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Redis",
+  "id": "version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Redis",
+  "isDocsHomePage": false,
+  "title": "Redis",
+  "description": "Redis is used as the latest-data store and will be deployed using Swarm stack YAML files.",
+  "source": "@site/versioned_docs/version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Redis.md",
+  "sourceDirName": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation",
+  "slug": "/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Redis",
+  "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Redis",
+  "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/versioned_docs/version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Redis.md",
+  "tags": [],
+  "version": "5.0.0",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "version-5.0.0/tutorialSidebar",
+  "previous": {
+    "title": "PostgreSQL",
+    "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/PostgreSQL"
+  },
+  "next": {
+    "title": "Zookeeper",
+    "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Zookeeper"
+  }
+}

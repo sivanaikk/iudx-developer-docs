@@ -2,34 +2,30 @@
 sidebar_position: 8
 ---
 
-Below is the general instructions for deploying all the below api servers:
+Before deploying each API server, ensure the following services are connected internally over the cluster’s private network using the provided service names:
 
- 1. For each api servers, following services are connected internally over overlay network using below service names 
-
-| Service Description    | Service DNS Name          | Port |
-|------------------------|---------------------------|------|
-| Elasticsearch          | tasks.elasticsearch       | 9200 |
-| AMQP/Databroker Port   | tasks.rabbitmq            | 5672 |
-| Databroker HTTP Port    | tasks.rabbitmq            | 15672|
-| Redis                  | tasks.redis-rejson        | 6379 |
-| Postgres               | tasks.postgres             | 5432 |
-| Immudb                 | tasks.immudb               | 5432 |
-| Zookeeper              | tasks.zookeeper            | NA   |
+| Service Description     | Service DNS Name                                     | Port |
+|-------------------------|------------------------------------------------------|------|
+| Elasticsearch           | elasticsearch-mcd-hl.elastic.svc.cluster.local       | 9200 |
+| AMQP/Databroker Port    | rabbitmq.rabbitmq.svc.cluster.local                  | 5672 |
+| Databroker HTTP Port    | rabbitmq-internal-client.rabbitmq.svc.cluster.local  | 15672|
+| Redis                   | redis-redis-cluster.redis.svc.cluster.local          | 6379 |
+| Postgres                | psql-postgresql-ha-pgpool.postgres.svc.cluster.local| 5432 |
+| Immudb                  | immudb.immudb.svc.cluster.local                     | 5432 |
+| Zookeeper               | zookeeper.zookeeper.svc.cluster.local                | NA   |
 
 ### Disclaimer
 
-If the credentials in the JSON config file contain the following special characters, add escape characters ('\'):
+- Ensure to add escape characters (`\`) if the credentials have special characters in the JSON config file:
+  - Backspace should be replaced with `\b`.
+  - Form feed should be replaced with `\f`.
+  - Newline should be replaced with `\n`.
+  - Carriage return should be replaced with `\r`.
+  - Tab should be replaced with `\t`.
+  - Double quote should be replaced with `\"`.
+  - Backslash should be replaced with `\\`.
+  - Reference: **[JSON Escape Characters](https://www.tutorialspoint.com/json_simple/json_simple_escape_characters.htm)**
 
-   - **Backspace** to be replaced with `\b`
-   - **Form feed** to be replaced with `\f`
-   - **Newline** to be replaced with `\n`
-   - **Carriage return** to be replaced with `\r`
-   - **Tab** to be replaced with `\t`
-   - **Double quote** to be replaced with `\`
-   - **Backslash** to be replaced with `\\`
+- The AAA server and Catalogue server must be HTTPS secured with proper valid certificates on their public domain access. This is essential as other API servers connect to them for information, and the web client of those servers might fail if not.
 
 
-  Click **[here](https://www.tutorialspoint.com/json_simple/json_simple_escape_characters.htm)** for the reference
-
-
-The AAA server and Catalogue server must be HTTPS secured with proper valid certificates  on its public domain access .  This is because all other api servers connect to get some information and webclient of those servers might fail if not .

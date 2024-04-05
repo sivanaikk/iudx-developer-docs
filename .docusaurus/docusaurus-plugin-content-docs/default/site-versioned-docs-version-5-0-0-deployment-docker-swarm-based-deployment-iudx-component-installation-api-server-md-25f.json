@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/API Server",
+  "id": "version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/API Server",
+  "isDocsHomePage": false,
+  "title": "API Server",
+  "description": "A general instructions for all api servers below before deploying it",
+  "source": "@site/versioned_docs/version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/API Server.md",
+  "sourceDirName": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation",
+  "slug": "/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/API Server",
+  "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/API Server",
+  "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/versioned_docs/version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/API Server.md",
+  "tags": [],
+  "version": "5.0.0",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8
+  },
+  "sidebar": "version-5.0.0/tutorialSidebar",
+  "previous": {
+    "title": "Keycloak",
+    "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Keycloak"
+  },
+  "next": {
+    "title": "Latest-Ingestion-Pipeline",
+    "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Latest-Ingestion-Pipeline"
+  }
+}

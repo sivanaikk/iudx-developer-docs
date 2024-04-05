@@ -1,0 +1,20 @@
+{
+  "unversionedId": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Onboarding Server",
+  "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Onboarding Server",
+  "isDocsHomePage": false,
+  "title": "Onboarding Server",
+  "description": "Prerequisites",
+  "source": "@site/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Onboarding Server.md",
+  "sourceDirName": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation",
+  "slug": "/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Onboarding Server",
+  "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Onboarding Server",
+  "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Onboarding Server.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Advance Monitoring Stack",
+    "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Advance Monitoring Stack"
+  }
+}

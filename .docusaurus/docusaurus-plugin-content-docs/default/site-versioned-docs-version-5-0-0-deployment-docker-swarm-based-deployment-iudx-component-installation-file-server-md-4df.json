@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/File Server",
+  "id": "version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/File Server",
+  "isDocsHomePage": false,
+  "title": "File Server",
+  "description": "Will be deploying using swarm stack yaml files",
+  "source": "@site/versioned_docs/version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/File Server.md",
+  "sourceDirName": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation",
+  "slug": "/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/File Server",
+  "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/File Server",
+  "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/versioned_docs/version-5.0.0/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/File Server.md",
+  "tags": [],
+  "version": "5.0.0",
+  "sidebarPosition": 15,
+  "frontMatter": {
+    "sidebar_position": 15
+  },
+  "sidebar": "version-5.0.0/tutorialSidebar",
+  "previous": {
+    "title": "Resource-Server",
+    "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Resource-Server"
+  },
+  "next": {
+    "title": "Data- Ingestion Server",
+    "permalink": "/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Data- Ingestion Server"
+  }
+}
