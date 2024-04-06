@@ -11,14 +11,14 @@
   "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Data- Ingestion Server.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 16,
+  "sidebarPosition": 19,
   "frontMatter": {
-    "sidebar_position": 16
+    "sidebar_position": 19
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "File Server",
-    "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/File Server"
+    "title": "GIS Server",
+    "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/GIS Server"
   },
   "next": {
     "title": "Advance Monitoring Stack",

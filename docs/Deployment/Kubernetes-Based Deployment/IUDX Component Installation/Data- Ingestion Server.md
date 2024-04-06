@@ -1,5 +1,5 @@
 ---
-sidebar_position: 16
+sidebar_position: 19
 ---
 
 <div class="img_background">
@@ -13,48 +13,64 @@ sidebar_position: 16
 
 + Will be deploying using swarm stack yaml files
 
+
 ### Installation
 
-1. Navigate to the directory:
-   
+1. Navigate to the below directory: 
     ```
-    cd iudx-deployment/Docker-Swarm-deployment/single-node/data-ingestion-server/
-    ```
-
-2. Assign the node label if not assigned during swarm installation:
-   
-    ```
-    docker node update --label-add di-node=true <node_name>
+    cd iudx-deployment/K8s-deployment/Charts/data-ingestion
     ```
 
-3. Make a copy of the sample secrets directory by running the following command:
-   
+2. Make a copy of the sample secrets directory:
     ```
     cp -r example-secrets/secrets .
     ```
 
-4. Provide a correct config file for bringing up Data-Ingestion server. Substitute appropriate values using commands mentioned in config files.
+3. Provide a correct config file for bringing up the Data Ingestion Server. Substitute appropriate values using commands mentioned in config files.
 
-5. Configure the `.di.env` file, referring to `example-env`.
+4. Configure the `secrets/.di.env` file with appropriate values in the placeholders `<...>`.
 
-6. Define appropriate values of resources in in `di-stack.resources.yml` as shown in the sample file **[example-di-stack.resources.yaml](https://github.com/datakaveri/iudx-deployment/blob/5.0.0/Docker-Swarm-deployment/single-node/data-ingestion-server/example-di-stack.resources.yaml)**.
+5. Define appropriate values of resources in `resource-values.yaml` as shown in the sample resource-values file for **[AWS](https://github.com/datakaveri/iudx-deployment/blob/4.5.0/K8s-deployment/Charts/data-ingestion/example-aws-resource-values.yaml)** and **[Azure](https://github.com/datakaveri/iudx-deployment/blob/4.5.0/K8s-deployment/Charts/data-ingestion/example-azure-resource-values.yaml)**:
 
-    - CPU requests and limits
-    - RAM requests and limits
-    - PID limit
-
-   
-7. To install Data-Ingestion server stack, use the following command:
-
-    ```   
-    cp example-di-stack.resources.yaml di-stack.resources.yaml
-
-    docker stack deploy -c di-stack.yaml -c di-stack.resources.yaml di
+    ```
+    # For Azure
+    cp example-azure-resource-values.yaml resource-values.yaml
+    # For AWS
+    cp example-aws-resource-values.yaml resource-values.yaml
     ```
 
-### Notes
+    - Configure the following:
+      - CPU and RAM for all Data Ingestion verticles.
+      - `Ingress.hostname` 
+      - Cert-manager issuer.
 
-1. di-server api documentation can be accessed from **https://< di-domain >/apis**
-2. To check if the di-server are deployed and running: `docker stack ps di`
-3. For more information on installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/Docker-Swarm-deployment/single-node/data-ingestion-server#install)**.
-4. For more information about the di-server, refer **[here](https://github.com/datakaveri/iudx-data-ingestion-server#iudx-data-ingestion-server)**.
+6. To install the Data Ingestion Server on the Kubernetes cluster, run the install script:
+    ```
+    ./install.sh
+    ```
+
+    This script will:
+    - Create a namespace `di` on Kubernetes.
+    - Create required ConfigMap and Secrets on Kubernetes.
+    - Deploy all Data Ingestion server verticles.
+
+- To check Helm release info:
+    ```
+    helm list -n di
+    ```
+
+- To check if the Data Ingestion Server pods are deployed and running:
+    ```
+    kubectl get pods -n di
+    ```
+
+- For more information on installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/K8s-deployment/Charts/data-ingestion#introduction)**.
+- For more information about the Data Ingestion Server, refer **[here](https://github.com/datakaveri/iudx-gis-interface/tree/4.5.0)**.
+
+### Testsing:
+
+- Data Ingestion Server API documentation can be accessed from `https://<di-domain>/apis`.
+- Check the logs of all pods in `di` namespace; there should not be any error log. If any errors are present, address them as specified/indicated by the log:
+    ```
+    kubectl logs -f -n di <di-pod-name>
+    ```

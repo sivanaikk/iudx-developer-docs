@@ -21,7 +21,7 @@
     "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/ACL-APD"
   },
   "next": {
-    "title": "Resource-Server",
-    "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Resource-Server"
+    "title": "Onboarding Server",
+    "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Onboarding Server"
   }
 }

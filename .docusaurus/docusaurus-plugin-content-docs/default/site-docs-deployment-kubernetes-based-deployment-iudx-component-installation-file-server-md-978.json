@@ -11,17 +11,17 @@
   "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/File Server.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 15,
+  "sidebarPosition": 17,
   "frontMatter": {
-    "sidebar_position": 15
+    "sidebar_position": 17
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Resource-Server",
-    "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Resource-Server"
+    "title": "Resource-Server Proxy",
+    "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Resource-Server Proxy"
   },
   "next": {
-    "title": "Data- Ingestion Server",
-    "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Data- Ingestion Server"
+    "title": "GIS Server",
+    "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/GIS Server"
   }
 }

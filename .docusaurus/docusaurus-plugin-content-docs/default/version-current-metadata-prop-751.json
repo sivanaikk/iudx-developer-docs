@@ -435,13 +435,28 @@
                   },
                   {
                     "type": "link",
+                    "label": "Onboarding Server",
+                    "href": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Onboarding Server"
+                  },
+                  {
+                    "type": "link",
                     "label": "Resource-Server",
                     "href": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Resource-Server"
                   },
                   {
                     "type": "link",
+                    "label": "Resource-Server Proxy",
+                    "href": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Resource-Server Proxy"
+                  },
+                  {
+                    "type": "link",
                     "label": "File Server",
                     "href": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/File Server"
+                  },
+                  {
+                    "type": "link",
+                    "label": "GIS Server",
+                    "href": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/GIS Server"
                   },
                   {
                     "type": "link",
@@ -455,8 +470,13 @@
                   },
                   {
                     "type": "link",
-                    "label": "Onboarding Server",
-                    "href": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Onboarding Server"
+                    "label": "Geo Server",
+                    "href": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Geo Server"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Data Market Place",
+                    "href": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Data Market Place"
                   }
                 ]
               }

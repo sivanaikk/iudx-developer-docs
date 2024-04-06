@@ -271,6 +271,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Data Market Place",
+              "path": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Data Market Place",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Data- Ingestion Server",
               "path": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Data- Ingestion Server",
               "sidebar": "tutorialSidebar"
@@ -283,6 +288,16 @@
             {
               "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/File Server",
               "path": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/File Server",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Geo Server",
+              "path": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Geo Server",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/GIS Server",
+              "path": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/GIS Server",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -328,6 +343,11 @@
             {
               "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Resource-Server",
               "path": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Resource-Server",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Resource-Server Proxy",
+              "path": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Resource-Server Proxy",
               "sidebar": "tutorialSidebar"
             },
             {

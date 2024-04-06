@@ -1,5 +1,5 @@
 ---
-sidebar_position: 15
+sidebar_position: 17
 ---
 <div style={{textAlign: 'center'}}>
 
@@ -12,46 +12,69 @@ sidebar_position: 15
 
 + Will be deploying using swarm stack yaml files
 
-### Installation
 
-1. Navigate to the directory `iudx-deployment/Docker-Swarm-deployment/single-node/file-server/`:
+#### Prerequisites:
 
+Create a static cos cat index in Elasticsearch through Kibana.
+- Create a static cat index with the name "< cos-prefix>__file-metadata" in Kibana by going to UI -> Dev Tools using the following github **[link](https://github.com/karthickp432001/iudx-developer-docs/blob/main/mapping/file-server-code.json)**.
+
+### Installation:
+
+1. Navigate to the below directory :
     ```
-    cd iudx-deployment/Docker-Swarm-deployment/single-node/file-server/
-    ```
-
-2. Assign the node label if not assigned during swarm installation:
-
-    ```
-    docker node update --label-add file-server-node=true <node_name>
-    ```
-
-3. To generate the passwords:
-
-    ```
-    ./create-secrets.sh
+    cd iudx-deployment/K8s-deployment/Charts/file-server
     ```
 
-4. Provide a correct config file for bringing up file-server. Substitute appropriate values using commands whatever mentioned in config files.
-
-5. Configure the .file-server.env file, refer to example-env
-
-6. Define Appropriate values of resources in `file-server-stack.resources.yml` as shown in the sample file **[example-file-server-stack.resources.yml](https://github.com/datakaveri/iudx-deployment/blob/5.0.0/Docker-Swarm-deployment/single-node/file-server/example-file-server-stack.resources.yaml)**.
-
-    + CPU requests and limits
-    + RAM requests and limits
-    + PID limit 
-    
-
-    
+2. Make a copy of the sample secrets directory:
     ```
-    cp example-file-server-stack.resources.yaml file-server-stack.resources.yaml
-
-    docker stack deploy -c file-server-stack.yaml -c file-server-stack.resources.yaml file-server
+    cp -r example-secrets/secrets .
     ```
-### Notes
 
-1. File-server api documentation can be accessed from **https://< file-server-domain >/apis**
-2. To check if the file-server are deployed and running: `docker stack ps file-server`
-3. For more information on installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/Docker-Swarm-deployment/single-node/file-server#install)**.
-4. For more information about the file-server, refer **[here](https://github.com/datakaveri/iudx-file-server#iudx-file-server)**.
+3. Provide a correct config file for bringing up the File Server. Substitute appropriate values using commands mentioned in config files.
+
+4. Configure the `secrets/.file-server.env` file with appropriate values in the placeholders `<...>`.
+
+5. Define appropriate values of resources in `resource-values.yaml` as shown in the sample resource-values file for **[AWS](https://github.com/datakaveri/iudx-deployment/blob/5.0.0/K8s-deployment/Charts/rs-proxy/example-aws-resource-values.yaml)** and **[Azure](https://github.com/datakaveri/iudx-deployment/blob/5.0.0/K8s-deployment/Charts/rs-proxy/example-azure-resource-values.yaml)**:
+
+    ```
+    # For Azure
+    cp example-azure-resource-values.yaml resource-values.yaml
+    # For AWS
+    cp example-aws-resource-values.yaml resource-values.yaml
+    ```
+
+    - Configure the following:
+      - CPU and RAM for all File Server verticles.
+      - `Ingress.hostname` 
+      - Cert-manager issuer.
+
+6. To install the File Server on the Kubernetes cluster, run the install script:
+    ```
+    ./install.sh
+    ```
+
+    This script will:
+    - Create a namespace `file-server` on Kubernetes.
+    - Create required ConfigMap and Secrets on Kubernetes.
+    - Deploy all File Server verticles.
+
+- To check Helm release info:
+    ```
+    helm list -n file-server
+    ```
+
+- To check if the File Server pods are deployed and running:
+    ```
+    kubectl get pods -n file-server
+    ```
+
+- For more information on installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/K8s-deployment/Charts/rs-proxy#introduction)**.
+- For more information about the File Server, refer **[here](https://github.com/datakaveri/iudx-rs-proxy/tree/4.5.0#iudx-resource-proxy-server)**.
+
+### Testing:
+
+- File Server API documentation can be accessed from `https://<file-server-domain>/apis`.
+- Check the logs of all pods in `file-server` namespace; there should not be any error log. If any errors are present, address them as specified/indicated by the log:
+    ```
+    kubectl logs -f -n fs <fs-server-pod-name>
+    ```

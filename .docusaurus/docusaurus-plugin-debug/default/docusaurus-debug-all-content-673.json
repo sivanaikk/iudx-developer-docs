@@ -1315,7 +1315,7 @@
               "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Advance Monitoring Stack",
               "isDocsHomePage": false,
               "title": "Advance Monitoring Stack",
-              "description": "Docker swarm stack for advance monitoring stack.",
+              "description": "Installation",
               "source": "@site/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Advance Monitoring Stack.md",
               "sourceDirName": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation",
               "slug": "/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Advance Monitoring Stack",
@@ -1323,9 +1323,9 @@
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Advance Monitoring Stack.md",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 18,
+              "sidebarPosition": 20,
               "frontMatter": {
-                "sidebar_position": 18
+                "sidebar_position": 20
               },
               "sidebar": "tutorialSidebar",
               "previous": {
@@ -1333,8 +1333,8 @@
                 "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Data- Ingestion Server"
               },
               "next": {
-                "title": "Onboarding Server",
-                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Onboarding Server"
+                "title": "Geo Server",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Geo Server"
               }
             },
             {
@@ -1414,8 +1414,31 @@
                 "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/ACL-APD"
               },
               "next": {
-                "title": "Resource-Server",
-                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Resource-Server"
+                "title": "Onboarding Server",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Onboarding Server"
+              }
+            },
+            {
+              "unversionedId": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Data Market Place",
+              "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Data Market Place",
+              "isDocsHomePage": false,
+              "title": "Data Market Place",
+              "description": "The dmp-apdschema created using flyway using following steps:",
+              "source": "@site/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Data Market Place.md",
+              "sourceDirName": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation",
+              "slug": "/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Data Market Place",
+              "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Data Market Place",
+              "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Data Market Place.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 22,
+              "frontMatter": {
+                "sidebar_position": 22
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Geo Server",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Geo Server"
               }
             },
             {
@@ -1431,14 +1454,14 @@
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Data- Ingestion Server.md",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 16,
+              "sidebarPosition": 19,
               "frontMatter": {
-                "sidebar_position": 16
+                "sidebar_position": 19
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "File Server",
-                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/File Server"
+                "title": "GIS Server",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/GIS Server"
               },
               "next": {
                 "title": "Advance Monitoring Stack",
@@ -1485,14 +1508,68 @@
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/File Server.md",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 15,
+              "sidebarPosition": 17,
               "frontMatter": {
-                "sidebar_position": 15
+                "sidebar_position": 17
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Resource-Server",
-                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Resource-Server"
+                "title": "Resource-Server Proxy",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Resource-Server Proxy"
+              },
+              "next": {
+                "title": "GIS Server",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/GIS Server"
+              }
+            },
+            {
+              "unversionedId": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Geo Server",
+              "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Geo Server",
+              "isDocsHomePage": false,
+              "title": "Geo Server",
+              "description": "Prerequisites",
+              "source": "@site/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Geo Server.md",
+              "sourceDirName": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation",
+              "slug": "/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Geo Server",
+              "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Geo Server",
+              "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Geo Server.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 21,
+              "frontMatter": {
+                "sidebar_position": 21
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Advance Monitoring Stack",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Advance Monitoring Stack"
+              },
+              "next": {
+                "title": "Data Market Place",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Data Market Place"
+              }
+            },
+            {
+              "unversionedId": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/GIS Server",
+              "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/GIS Server",
+              "isDocsHomePage": false,
+              "title": "GIS Server",
+              "description": "Installation",
+              "source": "@site/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/GIS Server.md",
+              "sourceDirName": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation",
+              "slug": "/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/GIS Server",
+              "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/GIS Server",
+              "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/GIS Server.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 18,
+              "frontMatter": {
+                "sidebar_position": 18
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "File Server",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/File Server"
               },
               "next": {
                 "title": "Data- Ingestion Server",
@@ -1620,11 +1697,18 @@
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Onboarding Server.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
+              "sidebarPosition": 14,
+              "frontMatter": {
+                "sidebar_position": 14
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Advance Monitoring Stack",
-                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Advance Monitoring Stack"
+                "title": "Catalogue-Server",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Catalogue-Server"
+              },
+              "next": {
+                "title": "Resource-Server",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Resource-Server"
               }
             },
             {
@@ -1721,14 +1805,41 @@
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Resource-Server.md",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 14,
+              "sidebarPosition": 15,
               "frontMatter": {
-                "sidebar_position": 14
+                "sidebar_position": 15
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Catalogue-Server",
-                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Catalogue-Server"
+                "title": "Onboarding Server",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Onboarding Server"
+              },
+              "next": {
+                "title": "Resource-Server Proxy",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Resource-Server Proxy"
+              }
+            },
+            {
+              "unversionedId": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Resource-Server Proxy",
+              "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Resource-Server Proxy",
+              "isDocsHomePage": false,
+              "title": "Resource-Server Proxy",
+              "description": "Installation:",
+              "source": "@site/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Resource-Server Proxy.md",
+              "sourceDirName": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation",
+              "slug": "/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Resource-Server Proxy",
+              "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Resource-Server Proxy",
+              "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Resource-Server Proxy.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 16,
+              "frontMatter": {
+                "sidebar_position": 16
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Resource-Server",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Resource-Server"
               },
               "next": {
                 "title": "File Server",
@@ -2314,11 +2425,23 @@
                           },
                           {
                             "type": "doc",
+                            "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Onboarding Server"
+                          },
+                          {
+                            "type": "doc",
                             "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Resource-Server"
                           },
                           {
                             "type": "doc",
+                            "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Resource-Server Proxy"
+                          },
+                          {
+                            "type": "doc",
                             "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/File Server"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/GIS Server"
                           },
                           {
                             "type": "doc",
@@ -2330,7 +2453,11 @@
                           },
                           {
                             "type": "doc",
-                            "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Onboarding Server"
+                            "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Geo Server"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Data Market Place"
                           }
                         ]
                       }

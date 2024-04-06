@@ -11,17 +11,17 @@
   "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Resource-Server.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 14,
+  "sidebarPosition": 15,
   "frontMatter": {
-    "sidebar_position": 14
+    "sidebar_position": 15
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Catalogue-Server",
-    "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Catalogue-Server"
+    "title": "Onboarding Server",
+    "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Onboarding Server"
   },
   "next": {
-    "title": "File Server",
-    "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/File Server"
+    "title": "Resource-Server Proxy",
+    "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Resource-Server Proxy"
   }
 }

@@ -105,7 +105,7 @@ export default [
   },
   {
     path: '/docs/next',
-    component: ComponentCreator('/docs/next','592'),
+    component: ComponentCreator('/docs/next','802'),
     routes: [
       {
         path: '/docs/next/client-credentials',
@@ -420,6 +420,12 @@ export default [
         'sidebar': "tutorialSidebar"
       },
       {
+        path: '/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Data Market Place',
+        component: ComponentCreator('/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Data Market Place','d46'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
         path: '/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Data- Ingestion Server',
         component: ComponentCreator('/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Data- Ingestion Server','ce7'),
         exact: true,
@@ -434,6 +440,18 @@ export default [
       {
         path: '/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/File Server',
         component: ComponentCreator('/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/File Server','0f9'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Geo Server',
+        component: ComponentCreator('/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Geo Server','8e3'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/GIS Server',
+        component: ComponentCreator('/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/GIS Server','b9a'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
@@ -488,6 +506,12 @@ export default [
       {
         path: '/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Resource-Server',
         component: ComponentCreator('/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Resource-Server','669'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Resource-Server Proxy',
+        component: ComponentCreator('/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Resource-Server Proxy','86c'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },

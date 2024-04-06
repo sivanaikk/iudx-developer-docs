@@ -11,10 +11,17 @@
   "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Onboarding Server.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "sidebarPosition": 14,
+  "frontMatter": {
+    "sidebar_position": 14
+  },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Advance Monitoring Stack",
-    "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Advance Monitoring Stack"
+    "title": "Catalogue-Server",
+    "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Catalogue-Server"
+  },
+  "next": {
+    "title": "Resource-Server",
+    "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Resource-Server"
   }
 }
