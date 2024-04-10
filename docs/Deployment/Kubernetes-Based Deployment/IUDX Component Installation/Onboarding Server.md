@@ -60,7 +60,8 @@ sidebar_position: 14
 - For more information on installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/K8s-deployment/Charts/onboarding-server#introduction)**.
 - For more information about the onboarding-server, refer **[here](https://github.com/datakaveri/iudx-onboarding-server)**.
 
-### Testing
+<details>
+<summary><div class="style">Testing</div></summary>
 
 - Onboarding-server API documentation can be accessed from `https://<cos-domain>/onboarding/apis`.
 - Check the logs of all pods in `onboarding` namespace, there should not be any error log. If it's there, please address as specified/indicated by the log:
@@ -68,3 +69,4 @@ sidebar_position: 14
     kubectl logs -f -n onboarding <onboarding-pod-name>
     ```
 
+</details>

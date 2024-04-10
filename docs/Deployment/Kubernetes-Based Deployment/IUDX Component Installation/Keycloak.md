@@ -181,7 +181,8 @@ Once Keycloak is configured, the Keycloak host, port, client IDs and client secr
     - Cos/DX admin user used for setting up AAA trustee user, creating Cos/dx item, and approving resource server admins.
 
 
-### Testing
+<details>
+<summary><div class="style">Testing</div></summary>
 
 To verify the reverse proxy or load balancer configuration for Keycloak, follow these steps:
 
@@ -205,3 +206,4 @@ To verify the reverse proxy or load balancer configuration for Keycloak, follow 
 
 These tests ensure that the reverse proxy or load balancer configuration is correctly set up for Keycloak.
 
+</details>

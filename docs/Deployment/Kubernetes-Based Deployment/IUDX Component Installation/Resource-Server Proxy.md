@@ -55,10 +55,13 @@ sidebar_position: 16
 - For more information on installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/K8s-deployment/Charts/rs-proxy#introduction)**.
 - For more information about the rs-proxy, refer **[here](https://github.com/datakaveri/iudx-rs-proxy/tree/4.5.0#iudx-resource-proxy-server)**.
 
-#### Tests:
+<details>
+<summary><div class="style">Testing</div></summary>
 
 - rs-proxy API documentation can be accessed from `https://<rs-proxy-hostname>/apis`.
 - Check the logs of all pods in `rs-proxy` namespace; there should not be any error log. If any errors are present, address them as specified/indicated by the log:
     ```
     kubectl logs -f -n rs-proxy <rs-proxy-pod-name>
     ```
+
+</details>

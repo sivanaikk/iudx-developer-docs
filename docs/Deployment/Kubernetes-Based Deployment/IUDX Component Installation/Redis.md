@@ -66,7 +66,8 @@ sidebar_position: 5
 - To check if the redis pods are deployed and running: ‘kubectl get pods -n redis
 - For more information on installation instructions, refer here 
 
-### Testing
+<details>
+<summary><div class="style">Testing</div></summary>
 
 1. Test if redis cluster is formed properly
 
@@ -80,6 +81,8 @@ sidebar_position: 5
 
     <div className="img_background">
     <div style={{textAlign: 'center'}}>
-        <img src="../../../resources/auth/redis_test" alt="Architecture" />
+        <img src="../../../../resources/auth/redis_test.png" alt="Architecture" />
     </div>
     </div>
+
+</details>

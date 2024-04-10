@@ -67,10 +67,13 @@ sidebar_position: 19
 - For more information on installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/K8s-deployment/Charts/data-ingestion#introduction)**.
 - For more information about the Data Ingestion Server, refer **[here](https://github.com/datakaveri/iudx-gis-interface/tree/4.5.0)**.
 
-### Testsing:
+<details>
+<summary><div class="style">Testing</div></summary>
 
 - Data Ingestion Server API documentation can be accessed from `https://<di-domain>/apis`.
 - Check the logs of all pods in `di` namespace; there should not be any error log. If any errors are present, address them as specified/indicated by the log:
     ```
     kubectl logs -f -n di <di-pod-name>
     ```
+
+</details>

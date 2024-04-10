@@ -78,13 +78,21 @@ sidebar_position: 21
     ```
 - For more information about the geoserver, refer **[here](https://github.com/datakaveri/iudx-onboarding-server)**.
 
-### Testing
+
+
+<details>
+<summary><div class="style">Testing</div></summary>
 
 - Catalogue-server API documentation can be accessed from:
-    ```
+     ```
     https://<cos-domain>/api
-    ```
+     ```
 - Check the logs of all pods in `ugix-geoserver` namespace; there should not be any error log. If any errors are present, address them as specified/indicated by the log:
+
     ```
     kubectl logs -f -n ugix-geoserver <geoserver-pod-name>
     ```
+    
+</details>
+
+

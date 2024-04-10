@@ -71,10 +71,13 @@ Create a static cos cat index in Elasticsearch through Kibana.
 - For more information on installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/K8s-deployment/Charts/rs-proxy#introduction)**.
 - For more information about the File Server, refer **[here](https://github.com/datakaveri/iudx-rs-proxy/tree/4.5.0#iudx-resource-proxy-server)**.
 
-### Testing:
+<details>
+<summary><div class="style">Testing</div></summary>
 
 - File Server API documentation can be accessed from `https://<file-server-domain>/apis`.
 - Check the logs of all pods in `file-server` namespace; there should not be any error log. If any errors are present, address them as specified/indicated by the log:
     ```
     kubectl logs -f -n fs <fs-server-pod-name>
     ```
+    
+</details>

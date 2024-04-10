@@ -233,7 +233,8 @@ Due to low nginx rate limits, Kibana dashboard might display the following error
 
 6. Please refer **[official elastic docs](https://www.elastic.co/guide/en/cloud/current/ec-s3-snapshotting.html)** for detailed instructions.
 
-### Tests
+<details>
+<summary><div class="style">Testing</div></summary>
 
 1. Create a Test Index
    1. Create a test index called `iudx__test-itms`. Refer [here](https://github.com/datakaveri/iudx-deployment/blob/5.0.0/K8s-deployment/Charts/elk/tests/create-index.txt) for the command.
@@ -289,3 +290,5 @@ Due to low nginx rate limits, Kibana dashboard might display the following error
          ```
 
     c. Check for No Error Logs at Logstash during the Publication.
+
+</details>

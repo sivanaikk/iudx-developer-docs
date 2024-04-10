@@ -13,6 +13,7 @@ sidebar_position: 2
 - Deployed as a non-clustered single instance.
 - Will be deployed using stack yaml files.
 
+
 ### Installation
 
 1. Navigate to the below directory:
@@ -104,7 +105,7 @@ sidebar_position: 2
 - **[Immuclient docs](https://docs.immudb.io/1.4.1/connecting/clitools.html#immuclient)**
 
 <details>
-<summary><div class="test_color">Testing</div></summary>
+<summary><div class="style">Testing</div></summary>
 
 1. Login to immudb using immuclient.
     ```

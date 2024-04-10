@@ -69,10 +69,14 @@ sidebar_position: 15
 - For more information on installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/K8s-deployment/Charts/resource-server#introduction)**.
 - For more information about the Resource-Server, refer **[here](link-to-resource-server-information)**.
 
-### Testing:
+<details>
+<summary><div class="style">Testing</div></summary>
 
 - Resource-Server API documentation can be accessed from `https://<rs-domain>/apis`.
 - Check the logs of all pods in `rs` namespace; there should not be any error log. If any errors are present, address them as specified/indicated by the log:
     ```
     kubectl logs -f -n rs <rs-pod-name>
     ```
+
+    
+</details>

@@ -89,7 +89,8 @@ sidebar_position: 4
 - For more information on installation instructions, refer here.
 
 
-### Testing
+<details>
+<summary><div class="style">Testing</div></summary>
 
 1. Test if init-setup needed for IUDX is done
 
@@ -135,3 +136,5 @@ sidebar_position: 4
         ![Architecture](../../../../resources/auth/user_ls.png)<br/>
         
         </div>
+
+</details>

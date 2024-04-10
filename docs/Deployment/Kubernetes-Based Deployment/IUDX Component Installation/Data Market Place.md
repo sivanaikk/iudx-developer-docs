@@ -59,7 +59,8 @@ The dmp-apdschema created using flyway using following steps:
     kubectl get pods -n dmp-apd
     ```
 
-### Testing
+<details>
+<summary><div class="style">Testing</div></summary>
 
 - Catalogue-server API documentation can be accessed from:
     ```
@@ -69,3 +70,6 @@ The dmp-apdschema created using flyway using following steps:
     ```
     kubectl logs -f -n dmp-apd <dmp-apd-pod-name>
     ```
+
+    
+</details>

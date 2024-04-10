@@ -65,7 +65,9 @@ sidebar_position: 9
 - For more information about the latest-ingestion-pipeline, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/K8s-deployment/Charts/latest-ingestion-pipeline#introduction)**.
 
 
-### Tests
+<details>
+<summary><div class="style">Testing</div></summary>
+
 1. RMQ-LIP Pipeline Test
 
     a. Test the publishing of messages to exchange and routing to queue through a Python script
@@ -140,3 +142,5 @@ sidebar_position: 9
     ```
     kubectl logs -f -n lip <lip-pod-name>
     ```
+
+</details>

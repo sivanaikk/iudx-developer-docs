@@ -102,7 +102,9 @@ sidebar_position: 11
 - For more information on installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/K8s-deployment/Charts/auth-server#introduction)**.
 - For more information about the auth-server, refer **[here](https://github.com/datakaveri/iudx-aaa-server/tree/4.5.0#india-urban-data-exchange-iudx-authentication-authorization-and-accounting-aaa-server)**.
 
-### Tests
+
+<details>
+<summary><div class="style">Testing</div></summary>
 
 1. Auth-server API documentation can be accessed from `https://<cos-domain>/auth/apis`.
 2. Verify the endpoint `/auth/v1/cert` displays the public key of the JWT keystore generated above.
@@ -112,3 +114,4 @@ sidebar_position: 11
     kubectl logs -f -n aaa <aaa-pod-name>
     ```
 
+</details>

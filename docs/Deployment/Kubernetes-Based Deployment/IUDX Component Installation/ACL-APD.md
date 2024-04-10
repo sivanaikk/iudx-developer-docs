@@ -104,7 +104,8 @@ For all the auth APIs used here, please use the Postman collection + env found *
 - For more information on installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/K8s-deployment/Charts/acl-apd)**.
 - For more information about the catalogue-server, refer **[here](https://github.com/datakaveri/iudx-acl-apd/tree/1.0.0)**.
 
-## Testing
+<details>
+<summary><div class="style">Testing</div></summary>
 
 - ACL APD API documentation can be accessed from `https://<acl-apd-domain>/apis`.
 - Check the logs of all pods in `acl-apd` namespace, there should not be any error log. If it's there, please address as specified/indicated by the log:
@@ -112,3 +113,4 @@ For all the auth APIs used here, please use the Postman collection + env found *
     kubectl logs -f -n acl-apd <acl-apd-pod-name>
     ```
 
+</details>

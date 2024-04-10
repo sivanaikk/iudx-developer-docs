@@ -55,10 +55,14 @@ sidebar_position: 18
 - For more information on installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/K8s-deployment/Charts/gis-interface#introduction)**.
 - For more information about the GIS Interface Server, refer **[here](https://github.com/datakaveri/iudx-gis-interface/tree/4.5.0)**.
 
-### Testing:
+
+<details>
+<summary><div class="style">Testing</div></summary>
 
 - GIS Interface Server API documentation can be accessed from `https://<gis-hostname>/apis`.
 - Check the logs of all pods in `gis` namespace; there should not be any error log. If any errors are present, address them as specified/indicated by the log:
     ```
     kubectl logs -f -n gis <gis-pod-name>
     ```
+    
+</details>

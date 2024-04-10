@@ -124,7 +124,8 @@ Create a static COS cat index in Elasticsearch through Kibana.
 - For more information on installation instructions, refer [here](link_to_documentation).
 - For more information about the catalogue-server, refer [here](link_to_documentation).
 
-### Testing
+<details>
+<summary><div class="style">Testing</div></summary>
 
 - Catalogue-server API documentation can be accessed from `https://<cos-domain>/cat/apis`.
 - Check the logs of all pods in `cat` namespace, there should not be any error log. If it's there, please address as specified/indicated by the log:
@@ -132,3 +133,4 @@ Create a static COS cat index in Elasticsearch through Kibana.
     kubectl logs -f -n cat <cat-pod-name>
     ```
 
+</details>
