@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 2
 ---
 
 # Deployment Overview
@@ -11,6 +11,29 @@ IUDX platform can be deployed in Docker Swarm using the scripts and Swarm code p
 
 ![Architecture](../../../resources/auth/Overview-Deloyment-IUDX-Swarm.png)<br/>
 </div></div>
+    Fig1. The above diagram depicts the overview of the complete IUDX system in a kubernetes environment 
+
+
+* IUDX Catalogue server - where a consumer discovers different datasets available . 
+* AAA server - where a user (consumer/provider,data ingester/delegate) can get set/request policies, and get a token. Use the token to publish/consume the data from resource server if the data resides in IUDX or through resource server proxy and adapter in front of the data sources. 
+* IUDX platform supports following input  data flow,
+    * A data ingester ( delegate ) can push the data from the downstream source (ICCC) to databroker (Rabbitmq) Which then is consumed by Logstash, latest ingestion pipeline and push it to the Meta Data/Data Store (Elasticsearch) and Latest Data store (Redis).
+* IUDX platform supports following output data flows,
+    * Get data through standardised Resource server APIs
+
+    * Get live streaming data through Rabbitmq using resource server Subscription
+    * An adapter can reside near the data source, and the queries made through the resource proxy server are passed through Rabbitmq to the adapter . The adapter in turn queries the datasource and pushes the results back into rabbitmq and resource proxy server consumes from Rabbitmq and sends back to user
+* IUDX AAA platform manages the identities of users through
+Keycloak
+* IUDX AAA platform manages the policies, APDs through credentials/Policy Data store
+* IUDX platform is monitored through micrometer, prometheus for metrics and promtail, Loki for logs and Grafana for Visualisation and email alerting through SMTP server
+* All HTTPS request are processed through Network Load-Balancer-> Nginx ingress with rate limiting set to protect against overwhelming of IUDX platform
+* The Rabbitmq specific co communication i.e. streaming of data through AMQPS and HTTPS management interface is through another network Load-Balancer
+* The IUDX platform uses velero as backup system
+Please watch the videos
+What is IUDX? to get overview of IUDX
+IUDX Architecture Overview for deep drive of IUDX architecture
+Get more resources on IUDX at IUDX Developer Section
 
 ## Features
 

@@ -3,109 +3,60 @@ sidebar_position: 2
 ---
 
 
+### Introduction
 
 + It acts as reverse proxy doing TLS termination, rate limiting for all (HTTP) public/outward facing IUDX endpoints
 
-+ Nginx will be deployed using stack yaml files.
-
 + It does proxy for catalogue server, resource server (rs), AAA (Authorization, Authentication and Accounting), grafana and kibana.
 
-### Prerequisite
 
-1. Need DNS provider credentials of the domain  to add TXT record for  Let’s Encrypt Certificate generation
+Nginx setup using helm chart
 
-### Installation
-
-1. Navigate to the below directory 
+1. Navigate to the directory [iudx-deployment/K8s-deployment/K8s-cluster/addons/ingress-controller](https://github.com/datakaveri/iudx-deployment/tree/4.5.0/K8s-deployment/K8s-cluster/addons/ingress-controller)
     ```
-    cd iudx-deployment/Docker-Swarm-deployment/single-node/nginx/
+    cd iudx-deployment/K8s-deployment/K8s-cluster/addons/ingress-controller
     ```
-  
+2. Define Appropriate values of resources in resource-values.yaml -
+    * CPU requests and limits
+    * RAM requests and limits <br/>
 
-   2. Assign the node label if not assigned during swarm installation using: 
+    Refer [here](https://github.com/datakaveri/iudx-deployment/blob/4.5.0/K8s-deployment/K8s-cluster/addons/cluster-autoscaler/rancher/example-resource-values.yaml)
 
-   ```
-   docker node update --label-add nginx-node=true <node_name> 
+3. Define resource values for memcached and ingress-nginx in respective directories in `resource-values.yaml` as per the resource planning done in the previous step. Please see the example of 'resource-values.yaml' reference for ingress-nginx, memcached present in their respective directories for aws and azure cloud. 
+
+    ``` 
+    cp iudx-deployment/K8s-deployment/K8s-cluster/addons/ingress-controller/ingress-nginx/example-aws-resource-values.yaml iudx-deployment/K8s-deployment/K8s-cluster/addons/ingress-controller/ingress-nginx/resource-values.yaml
     ```
-   
+4. Configure values for the below attibutes in `resource-values.yaml` file
 
-   3. Make a copy of example-configs directory:
-
+    * **`node.kubernetes.io/instance-type:<instance-type>`**
+    * **`service.beta.kubernetes.io/aws-load-balancer-type:<load-balancer-type>`**
+    * **`service.beta.kubernetes.io/aws-load-balancer-eip-allocations:<Allocation ID of EIP>`**
+    * **`service.beta.kubernetes.io/aws-load-balancer-subnets:<subnet-id>`**
+5. Install Nginx using script using below command
     ```
-    cp -r example-configs/conf . 
+    ./install.sh
     ```
 
-   ****
-4. Make a copy of example-secrets directory:
+:::note Info
+**Why memcache is used?**
 
-   
-    ```
-   cp -r example-secrets/secrets . 
-   ```
-
-5. For each nginx server configuration in conf/ direcotory that would be used (some of the config might not be used for particular deployment, in that case no need to do any changes for those configs and also no changes for error.conf, default.conf file), substitute appropriate domain name next to `server_name` directive and path of certificates (by default points to self signed certificates)<br/> For example:- If cos domain is `cos-domain.iudx.org` , then substitute it in conf/cos.conf as follows
-
-    <div class="boxBorder">
-
-    **server_name**          &nbsp;&nbsp;&nbsp;&nbsp;cos-domain.iudx.org;<br/>
-    **ssl_certificate**      &nbsp;&nbsp;&nbsp;&nbsp;/etc/nginx/certs/cos-domain.iudx.org/cert.pem;<br/>
-    **ssl_certificate_key**  &nbsp;/etc/nginx/certs/cos-domain.iudx.org/key.pem; 
-    </div>  
-    <br/>
-6. For each domain that needs a certificate generated, add domain names in \[conf/acme-config.json] (./example-configs/conf/acme-config.json) 
-    <br/>Example:-  
-
-                                                                                  
-   | {"hostnames": [ <br/>    "cos-domain.iudx.org",  <br/>   "databroker-domain.iudx.org"]} |
-    | ------------------------------------------------------------------------------ |
-
-
-   
-
-:::note
-**If this needs to be tried on a local machine, you can use self signed certificates (default-ssl) and not generate certificates through acme by putting an empty array for hostnames in acme-config.json.**
+Whenever we use Nginx, we ought to set rate limit to restrict the number of requests being forwarded or sent to a server. However, when we deploy nginx in cluster manner i.e., nginx being deployed on different nodes maintaining rate limit would be a task. So, in order to address this issue we are using memcache solution here to aggregate all the requests of individual nginx server in memache to track rate limit.
 :::
 
-7. Define Appropriate values of resources in in `nginx-stack.resources.yaml` for nginx as shown in sample resource-values file **[example-nginx-stack.resources.yaml](https://github.com/datakaveri/iudx-deployment/blob/5.0.0/Docker-Swarm-deployment/single-node/nginx/example-nginx-stack.resources.yaml)**
+<details>    
+<summary><div class="style">Testing</div></summary>
 
-      - CPU requests and limits
+ Navigate to **[iudx-deployment/K8s-deployment/K8s-cluster/addons/ingress-controller/tests](https://github.com/datakaveri/iudx-deployment/tree/master/K8s-deployment/K8s-cluster/addons/ingress-controller/tests)** directory
 
-      - RAM requests and limits
-
-      - PID limit
-
-
-
-8. Deploy nginx stack as follows: 
-
-    ```  
-    cp example-nginx-stack.resources.yaml nginx-stack.resources.yaml
-
-    docker stack deploy -c nginx-stack.yaml -c nginx-stack.resources.yaml nginx-stack 
-    ```
-    - Nginx URL for respective service: **https://<service-domain-name\>**
-
-    - For more information on installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/Docker-Swarm-deployment/single-node/nginx)**.
-
-<details>
-<summary><div class="test_color">Testing</div></summary>
-
-#### To check if the nginx stacks are deployed and running use command:
-```
-docker stack ps nginx-stack 
-```
-#### You can check any endpoint that the nginx handles. If the application server isn’t deployed then it throws an error of <div class="txt_color">`502: Bad Gateway`</div>
-```
-curl https://<api-serverdomain>/apis 
-```
-#### To check certificates are generated for all requested domains:
-- Exec inside the nginx-acme container:
+ Run `connectivity-test.sh` script to check nginx test parameters
 
 ```
-docker exec -it <nginx-container-id> /bin/bash
+./connectivity-test.sh 
 ```
-- Check cert status:
-```
-acme.sh --list
-```
+
+
 </details>
+ 
+
+
