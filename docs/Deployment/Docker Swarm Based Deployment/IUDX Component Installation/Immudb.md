@@ -90,7 +90,8 @@ sidebar_position: 2
 
 2. Connect to immudb server using immuclient:
     - Login to the immuclient container.
-    - In the container, change the directory path to `/app/immuclient`.
+    - In the container, change the directory path to `/app`.
+    - Execut immuclient command as `./immuclient`
     - Run the below command, It will prompt for a password. Upon successful login, the immudb server can be accessed:
         ```
         login <user_name>

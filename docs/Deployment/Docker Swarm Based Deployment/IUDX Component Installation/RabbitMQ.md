@@ -254,10 +254,10 @@ This is an alternative to steps 10 and 11 of the installation. Steps 10 and 11 a
 
         ```
         # Create venv env
-        python3 -m venv /home/iudx/.venv/iudx-tests
+        python3 -m venv $HOME/.venv/iudx-tests
 
         # go into venv
-        source /home/iudx/.venv/iudx-tests/bin/activate
+        source $HOME/.venv/iudx-tests/bin/activate
         ```
 
     2. Install all necessary packages from the `requirements.txt` file:

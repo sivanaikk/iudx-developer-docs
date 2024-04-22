@@ -39,7 +39,7 @@ Install ansible on your local machine. There are two possible ways,<br/>
     ```
 
 :::note
-**Configure the `inventory.yml` with appropriate node labels. If you do not want to do system updates, comment them in the following file `files/packages-docker-install.sh` . If issues persist, remove `set -e` flag**
+**Configure the `inventory.yml` with appropriate node labels. If you do not want to do system updates, comment them in the following file `files/packages-docker-install.sh` . If issues persist, remove `set -e` flag. You can learn more about values in inline comments of `inventory.yaml`**
 :::
 
 5. For single node setup,
@@ -47,7 +47,7 @@ Install ansible on your local machine. There are two possible ways,<br/>
    1. If the execution of ansible and the docker swarm creation node are on the same node  **   (i.e. localhost)** the command to use is as shown below: 
 
       ```ansible
-      ansible-playbook -v deploy-swarm.yaml -i inventory.yaml --ask-become-pass --connection=local 
+      ansible-playbook -v deploy-swarm.yaml -i inventory.yaml --ask-become-pass --connection=local
       ```
 
    2. If the execution of ansible and the docker swarm creation node are on different nodes **(i.e. 2 different VMs with different IP address)** the command to use is as shown below: 
