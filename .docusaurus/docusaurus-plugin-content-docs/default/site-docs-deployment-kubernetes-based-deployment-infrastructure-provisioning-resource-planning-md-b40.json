@@ -3,7 +3,7 @@
   "id": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Resource planning",
   "isDocsHomePage": false,
   "title": "Resource planning",
-  "description": "The resource planning of various IUDX components and the corresponding VM is present  here. The planned resources along with instance type values need to be added in \\*.resources.yaml",
+  "description": "1. Create a resource Plan of various IUDX components to provision necessary VM types,",
   "source": "@site/docs/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Resource planning.md",
   "sourceDirName": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning",
   "slug": "/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Resource planning",
@@ -17,11 +17,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Deployment Overview",
-    "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Deployment Overview"
+    "title": "Prerequisites",
+    "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/prerequisites"
   },
   "next": {
-    "title": "Provisioning Docker Swarm with overlay network",
-    "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Provisioning Docker Swarm with overlay network"
+    "title": "Infrastructure setup on AWS using Rancher",
+    "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Infrastructure setup on AWS using Rancher"
   }
 }

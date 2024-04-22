@@ -11,17 +11,17 @@
   "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Kubernetes-Based Deployment/Deployment Overview.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 3,
+  "sidebarPosition": 2,
   "frontMatter": {
-    "sidebar_position": 3
+    "sidebar_position": 2
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Prerequisites",
-    "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/prerequisites"
+    "title": "Introduction",
+    "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Introduction"
   },
   "next": {
-    "title": "Resource planning",
-    "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Resource planning"
+    "title": "Prerequisites",
+    "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/prerequisites"
   }
 }

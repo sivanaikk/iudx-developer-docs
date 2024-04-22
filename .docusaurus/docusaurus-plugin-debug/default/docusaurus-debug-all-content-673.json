@@ -1080,18 +1080,18 @@
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Kubernetes-Based Deployment/Deployment Overview.md",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 3,
+              "sidebarPosition": 2,
               "frontMatter": {
-                "sidebar_position": 3
+                "sidebar_position": 2
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Prerequisites",
-                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/prerequisites"
+                "title": "Introduction",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Introduction"
               },
               "next": {
-                "title": "Resource planning",
-                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Resource planning"
+                "title": "Prerequisites",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/prerequisites"
               }
             },
             {
@@ -1099,7 +1099,7 @@
               "id": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Centralised-Nginx",
               "isDocsHomePage": false,
               "title": "Centralised-Nginx",
-              "description": "+ It acts as reverse proxy doing TLS termination, rate limiting for all (HTTP) public/outward facing IUDX endpoints",
+              "description": "Introduction",
               "source": "@site/docs/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Centralised-Nginx.md",
               "sourceDirName": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons",
               "slug": "/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Centralised-Nginx",
@@ -1113,25 +1113,133 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Provisioning Node-exporter and docker daemon metrics",
-                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Provisioning Node-exporter and docker daemon metrics"
+                "title": "Cluster-autoscaler for Rancher",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Cluster-autoscaler for Rancher"
               },
               "next": {
-                "title": "Monitoring-stack",
-                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Monitoring-stack"
+                "title": "Velero backup",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Velero backup"
               }
             },
             {
-              "unversionedId": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Monitoring-stack",
-              "id": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Monitoring-stack",
+              "unversionedId": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/CertManager",
+              "id": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/CertManager",
               "isDocsHomePage": false,
-              "title": "Monitoring-stack",
-              "description": "Installation",
-              "source": "@site/docs/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Monitoring-stack.md",
+              "title": "CertManager",
+              "description": "1. Navigate to the directory- iudx-deployment/K8s-deployment/K8s-cluster/addons/Certmanager",
+              "source": "@site/docs/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/CertManager.md",
               "sourceDirName": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons",
-              "slug": "/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Monitoring-stack",
-              "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Monitoring-stack",
-              "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Monitoring-stack.md",
+              "slug": "/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/CertManager",
+              "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/CertManager",
+              "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/CertManager.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Velero backup",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Velero backup"
+              },
+              "next": {
+                "title": "Storage",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Storage"
+              }
+            },
+            {
+              "unversionedId": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Cluster-autoscaler for Rancher",
+              "id": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Cluster-autoscaler for Rancher",
+              "isDocsHomePage": false,
+              "title": "Cluster-autoscaler for Rancher",
+              "description": "Before proceeding further, run add-helm-repositories.sh script to add helm chart repositories from the directory where script resides using below command",
+              "source": "@site/docs/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Cluster-autoscaler for Rancher.md",
+              "sourceDirName": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons",
+              "slug": "/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Cluster-autoscaler for Rancher",
+              "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Cluster-autoscaler for Rancher",
+              "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Cluster-autoscaler for Rancher.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Infrastructure setup on Azure using Rancher",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Infrastructure setup on Azure using Rancher"
+              },
+              "next": {
+                "title": "Centralised-Nginx",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Centralised-Nginx"
+              }
+            },
+            {
+              "unversionedId": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Monitoring Stack",
+              "id": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Monitoring Stack",
+              "isDocsHomePage": false,
+              "title": "Monitoring Stack",
+              "description": "1. Navigate to the directory iudx-deployment/K8s-deployment/K8s-cluster/addons/mon-stack",
+              "source": "@site/docs/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Monitoring Stack.md",
+              "sourceDirName": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons",
+              "slug": "/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Monitoring Stack",
+              "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Monitoring Stack",
+              "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Monitoring Stack.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "sidebar_position": 6
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Storage",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Storage"
+              },
+              "next": {
+                "title": "Initiating the Deployment",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Initiating the Deployment"
+              }
+            },
+            {
+              "unversionedId": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Storage",
+              "id": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Storage",
+              "isDocsHomePage": false,
+              "title": "Storage",
+              "description": "1. Navigate to the directory iudx-deployment/K8s-deployment/K8s-cluster/addons/storage/aws",
+              "source": "@site/docs/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Storage.md",
+              "sourceDirName": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons",
+              "slug": "/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Storage",
+              "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Storage",
+              "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Storage.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "CertManager",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/CertManager"
+              },
+              "next": {
+                "title": "Monitoring Stack",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Monitoring Stack"
+              }
+            },
+            {
+              "unversionedId": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Velero backup",
+              "id": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Velero backup",
+              "isDocsHomePage": false,
+              "title": "Velero backup",
+              "description": "* Access to a Kubernetes cluster, v1.12 or later, with DNS and container networking enabled.",
+              "source": "@site/docs/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Velero backup.md",
+              "sourceDirName": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons",
+              "slug": "/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Velero backup",
+              "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Velero backup",
+              "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Velero backup.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 3,
@@ -1144,48 +1252,21 @@
                 "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Centralised-Nginx"
               },
               "next": {
-                "title": "Initiating the Deployment",
-                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Initiating the Deployment"
+                "title": "CertManager",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/CertManager"
               }
             },
             {
-              "unversionedId": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Provisioning Node-exporter and docker daemon metrics",
-              "id": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Provisioning Node-exporter and docker daemon metrics",
+              "unversionedId": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Infrastructure setup on AWS using Rancher",
+              "id": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Infrastructure setup on AWS using Rancher",
               "isDocsHomePage": false,
-              "title": "Provisioning Node-exporter and docker daemon metrics",
-              "description": "1. Navigate to the below directory",
-              "source": "@site/docs/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Provisioning Node-exporter and docker daemon metrics.md",
-              "sourceDirName": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons",
-              "slug": "/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Provisioning Node-exporter and docker daemon metrics",
-              "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Provisioning Node-exporter and docker daemon metrics",
-              "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Provisioning Node-exporter and docker daemon metrics.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Provisioning Docker Swarm with overlay network",
-                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Provisioning Docker Swarm with overlay network"
-              },
-              "next": {
-                "title": "Centralised-Nginx",
-                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Centralised-Nginx"
-              }
-            },
-            {
-              "unversionedId": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Provisioning Docker Swarm with overlay network",
-              "id": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Provisioning Docker Swarm with overlay network",
-              "isDocsHomePage": false,
-              "title": "Provisioning Docker Swarm with overlay network",
-              "description": "Prerequisite",
-              "source": "@site/docs/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Provisioning Docker Swarm with overlay network.md",
+              "title": "Infrastructure setup on AWS using Rancher",
+              "description": "Prerequisites",
+              "source": "@site/docs/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Infrastructure setup on AWS using Rancher.md",
               "sourceDirName": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning",
-              "slug": "/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Provisioning Docker Swarm with overlay network",
-              "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Provisioning Docker Swarm with overlay network",
-              "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Provisioning Docker Swarm with overlay network.md",
+              "slug": "/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Infrastructure setup on AWS using Rancher",
+              "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Infrastructure setup on AWS using Rancher",
+              "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Infrastructure setup on AWS using Rancher.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
@@ -1198,8 +1279,35 @@
                 "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Resource planning"
               },
               "next": {
-                "title": "Provisioning Node-exporter and docker daemon metrics",
-                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Provisioning Node-exporter and docker daemon metrics"
+                "title": "Infrastructure setup on Azure using Rancher",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Infrastructure setup on Azure using Rancher"
+              }
+            },
+            {
+              "unversionedId": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Infrastructure setup on Azure using Rancher",
+              "id": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Infrastructure setup on Azure using Rancher",
+              "isDocsHomePage": false,
+              "title": "Infrastructure setup on Azure using Rancher",
+              "description": "",
+              "source": "@site/docs/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Infrastructure setup on Azure using Rancher.md",
+              "sourceDirName": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning",
+              "slug": "/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Infrastructure setup on Azure using Rancher",
+              "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Infrastructure setup on Azure using Rancher",
+              "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Infrastructure setup on Azure using Rancher.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Infrastructure setup on AWS using Rancher",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Infrastructure setup on AWS using Rancher"
+              },
+              "next": {
+                "title": "Cluster-autoscaler for Rancher",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Cluster-autoscaler for Rancher"
               }
             },
             {
@@ -1207,7 +1315,7 @@
               "id": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Resource planning",
               "isDocsHomePage": false,
               "title": "Resource planning",
-              "description": "The resource planning of various IUDX components and the corresponding VM is present  here. The planned resources along with instance type values need to be added in \\*.resources.yaml",
+              "description": "1. Create a resource Plan of various IUDX components to provision necessary VM types,",
               "source": "@site/docs/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Resource planning.md",
               "sourceDirName": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning",
               "slug": "/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Resource planning",
@@ -1221,12 +1329,12 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Deployment Overview",
-                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Deployment Overview"
+                "title": "Prerequisites",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/prerequisites"
               },
               "next": {
-                "title": "Provisioning Docker Swarm with overlay network",
-                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Provisioning Docker Swarm with overlay network"
+                "title": "Infrastructure setup on AWS using Rancher",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Infrastructure setup on AWS using Rancher"
               }
             },
             {
@@ -1234,7 +1342,7 @@
               "id": "Deployment/Kubernetes-Based Deployment/Introduction",
               "isDocsHomePage": false,
               "title": "Introduction",
-              "description": "Explore the essential guide for deploying and managing the IUDX platform's latest 5.0.0 release. This documentation provides concise, step-by-step instructions for both seasoned developers and newcomers.",
+              "description": "Explore the essential guide for deploying and managing the IUDX platform's latest 5.5.0 release. This documentation provides concise, step-by-step instructions for both seasoned developers and newcomers.",
               "source": "@site/docs/Deployment/Kubernetes-Based Deployment/Introduction.md",
               "sourceDirName": "Deployment/Kubernetes-Based Deployment",
               "slug": "/Deployment/Kubernetes-Based Deployment/Introduction",
@@ -1252,8 +1360,8 @@
                 "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Advance Monitoring Stack"
               },
               "next": {
-                "title": "Prerequisites",
-                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/prerequisites"
+                "title": "Deployment Overview",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Deployment Overview"
               }
             },
             {
@@ -1622,8 +1730,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Monitoring-stack",
-                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Monitoring-stack"
+                "title": "Monitoring Stack",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Monitoring Stack"
               },
               "next": {
                 "title": "Immudb",
@@ -1878,7 +1986,7 @@
               "id": "Deployment/Kubernetes-Based Deployment/prerequisites",
               "isDocsHomePage": false,
               "title": "Prerequisites",
-              "description": "Basic knowledge on the following DevOps Technologies is recommended:",
+              "description": "Basic knowledge on following DevOps Technologies",
               "source": "@site/docs/Deployment/Kubernetes-Based Deployment/prerequisites.md",
               "sourceDirName": "Deployment/Kubernetes-Based Deployment",
               "slug": "/Deployment/Kubernetes-Based Deployment/prerequisites",
@@ -1886,18 +1994,18 @@
               "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Kubernetes-Based Deployment/prerequisites.md",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 2,
+              "sidebarPosition": 3,
               "frontMatter": {
-                "sidebar_position": 2
+                "sidebar_position": 3
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Introduction",
-                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Introduction"
-              },
-              "next": {
                 "title": "Deployment Overview",
                 "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Deployment Overview"
+              },
+              "next": {
+                "title": "Resource planning",
+                "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Resource planning"
               }
             },
             {
@@ -2319,11 +2427,11 @@
                       },
                       {
                         "type": "doc",
-                        "id": "Deployment/Kubernetes-Based Deployment/prerequisites"
+                        "id": "Deployment/Kubernetes-Based Deployment/Deployment Overview"
                       },
                       {
                         "type": "doc",
-                        "id": "Deployment/Kubernetes-Based Deployment/Deployment Overview"
+                        "id": "Deployment/Kubernetes-Based Deployment/prerequisites"
                       },
                       {
                         "type": "category",
@@ -2337,7 +2445,11 @@
                           },
                           {
                             "type": "doc",
-                            "id": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Provisioning Docker Swarm with overlay network"
+                            "id": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Infrastructure setup on AWS using Rancher"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Infrastructure setup on Azure using Rancher"
                           },
                           {
                             "type": "category",
@@ -2347,7 +2459,7 @@
                             "items": [
                               {
                                 "type": "doc",
-                                "id": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Provisioning Node-exporter and docker daemon metrics"
+                                "id": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Cluster-autoscaler for Rancher"
                               },
                               {
                                 "type": "doc",
@@ -2355,7 +2467,19 @@
                               },
                               {
                                 "type": "doc",
-                                "id": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Monitoring-stack"
+                                "id": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Velero backup"
+                              },
+                              {
+                                "type": "doc",
+                                "id": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/CertManager"
+                              },
+                              {
+                                "type": "doc",
+                                "id": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Storage"
+                              },
+                              {
+                                "type": "doc",
+                                "id": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Monitoring Stack"
                               }
                             ]
                           }

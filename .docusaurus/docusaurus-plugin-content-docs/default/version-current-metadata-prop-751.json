@@ -308,13 +308,13 @@
               },
               {
                 "type": "link",
-                "label": "Prerequisites",
-                "href": "/docs/next/Deployment/Kubernetes-Based Deployment/prerequisites"
+                "label": "Deployment Overview",
+                "href": "/docs/next/Deployment/Kubernetes-Based Deployment/Deployment Overview"
               },
               {
                 "type": "link",
-                "label": "Deployment Overview",
-                "href": "/docs/next/Deployment/Kubernetes-Based Deployment/Deployment Overview"
+                "label": "Prerequisites",
+                "href": "/docs/next/Deployment/Kubernetes-Based Deployment/prerequisites"
               },
               {
                 "type": "category",
@@ -329,8 +329,13 @@
                   },
                   {
                     "type": "link",
-                    "label": "Provisioning Docker Swarm with overlay network",
-                    "href": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Provisioning Docker Swarm with overlay network"
+                    "label": "Infrastructure setup on AWS using Rancher",
+                    "href": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Infrastructure setup on AWS using Rancher"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Infrastructure setup on Azure using Rancher",
+                    "href": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Infrastructure setup on Azure using Rancher"
                   },
                   {
                     "type": "category",
@@ -340,8 +345,8 @@
                     "items": [
                       {
                         "type": "link",
-                        "label": "Provisioning Node-exporter and docker daemon metrics",
-                        "href": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Provisioning Node-exporter and docker daemon metrics"
+                        "label": "Cluster-autoscaler for Rancher",
+                        "href": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Cluster-autoscaler for Rancher"
                       },
                       {
                         "type": "link",
@@ -350,8 +355,23 @@
                       },
                       {
                         "type": "link",
-                        "label": "Monitoring-stack",
-                        "href": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Monitoring-stack"
+                        "label": "Velero backup",
+                        "href": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Velero backup"
+                      },
+                      {
+                        "type": "link",
+                        "label": "CertManager",
+                        "href": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/CertManager"
+                      },
+                      {
+                        "type": "link",
+                        "label": "Storage",
+                        "href": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Storage"
+                      },
+                      {
+                        "type": "link",
+                        "label": "Monitoring Stack",
+                        "href": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Monitoring Stack"
                       }
                     ]
                   }

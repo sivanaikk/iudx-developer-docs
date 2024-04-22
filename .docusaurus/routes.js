@@ -105,7 +105,7 @@ export default [
   },
   {
     path: '/docs/next',
-    component: ComponentCreator('/docs/next','802'),
+    component: ComponentCreator('/docs/next','3ec'),
     routes: [
       {
         path: '/docs/next/client-credentials',
@@ -354,20 +354,44 @@ export default [
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Monitoring-stack',
-        component: ComponentCreator('/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Monitoring-stack','b44'),
+        path: '/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/CertManager',
+        component: ComponentCreator('/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/CertManager','ad4'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Provisioning Node-exporter and docker daemon metrics',
-        component: ComponentCreator('/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Provisioning Node-exporter and docker daemon metrics','800'),
+        path: '/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Cluster-autoscaler for Rancher',
+        component: ComponentCreator('/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Cluster-autoscaler for Rancher','178'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Provisioning Docker Swarm with overlay network',
-        component: ComponentCreator('/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Provisioning Docker Swarm with overlay network','e48'),
+        path: '/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Monitoring Stack',
+        component: ComponentCreator('/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Monitoring Stack','f2e'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Storage',
+        component: ComponentCreator('/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Storage','664'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Velero backup',
+        component: ComponentCreator('/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Velero backup','bd4'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Infrastructure setup on AWS using Rancher',
+        component: ComponentCreator('/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Infrastructure setup on AWS using Rancher','91c'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Infrastructure setup on Azure using Rancher',
+        component: ComponentCreator('/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Infrastructure setup on Azure using Rancher','665'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },

@@ -216,18 +216,38 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Monitoring-stack",
-              "path": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Monitoring-stack",
+              "id": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/CertManager",
+              "path": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/CertManager",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Provisioning Node-exporter and docker daemon metrics",
-              "path": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Provisioning Node-exporter and docker daemon metrics",
+              "id": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Cluster-autoscaler for Rancher",
+              "path": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Cluster-autoscaler for Rancher",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Provisioning Docker Swarm with overlay network",
-              "path": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Provisioning Docker Swarm with overlay network",
+              "id": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Monitoring Stack",
+              "path": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Monitoring Stack",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Storage",
+              "path": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Storage",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Velero backup",
+              "path": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Velero backup",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Infrastructure setup on AWS using Rancher",
+              "path": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Infrastructure setup on AWS using Rancher",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Infrastructure setup on Azure using Rancher",
+              "path": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Infrastructure setup on Azure using Rancher",
               "sidebar": "tutorialSidebar"
             },
             {
