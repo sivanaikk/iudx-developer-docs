@@ -1288,7 +1288,7 @@
               "id": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Infrastructure setup on Azure using Rancher",
               "isDocsHomePage": false,
               "title": "Infrastructure setup on Azure using Rancher",
-              "description": "",
+              "description": "Prerequisites",
               "source": "@site/docs/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Infrastructure setup on Azure using Rancher.md",
               "sourceDirName": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning",
               "slug": "/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Infrastructure setup on Azure using Rancher",
