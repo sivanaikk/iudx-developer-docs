@@ -90,14 +90,19 @@ From Directed Acyclic Graph (DAG), the components can be deployed as following i
 | **[Elasticsearch](./IUDX%20Component%20Installation/ELK%20stack.md)**             | 8.7.0          |
 | **[Logstash](./IUDX%20Component%20Installation/ELK%20stack.md)**                  | 8.7.0          |
 | **[Kibana](./IUDX%20Component%20Installation/ELK%20stack.md)**                    | 8.7.0          |
+| **[Keycloak](./IUDX%20Component%20Installation/Keycloak.md)**||
 | **[Latest Ingestion Pipeline](./IUDX%20Component%20Installation/Latest-Ingestion-Pipeline.md)** | 5.0.0-9adc1d8  |
 | **[Auditing server](./IUDX%20Component%20Installation/Auditing%20Server.md)**           | 1.0.0-db57a99  |
 | **[AAA-server](./IUDX%20Component%20Installation/AAA%20Server.md)**                | 5.0.0-**[70d4b4d](https://github.com/datakaveri/iudx-aaa-server/pkgs/container/aaa-depl/172028140?tag=5.0.0-70d4b4d)**  |
+| **[ACL-APD](./IUDX%20Component%20Installation/ACL-APD.md)** | version |
 | **[Catalogue API server](./IUDX%20Component%20Installation/Catalogue-Server.md)**      | 5.0.0-**[ab8dcd7](https://github.com/datakaveri/iudx-catalogue-server/pkgs/container/cat-prod/169481629?tag=5.0.0-ab8dcd7)**  |
+| **[Onboarding Server](./IUDX%20Component%20Installation/Onboarding%20Server.md)** | version |
 | **[Resource API server](./IUDX%20Component%20Installation/Resource-Server.md)**       | 5.0.0-**[28d218f](https://github.com/datakaveri/iudx-resource-server/pkgs/container/rs-depl/168389192?tag=5.0.0-28d218f)**  |
+| **[Resource proxy server](./IUDX%20Component%20Installation/Resource )** | version |
 | **[File server](./IUDX%20Component%20Installation/File%20Server.md)**               | 5.0.0-43db6ce |
+| **[GIS Interface server](./IUDX%20Comserverponent%20Installation/File%20Server.md)** | version |
 | **[Data Ingestion server](./IUDX%20Component%20Installation/Data-%20Ingestion%20Server.md)**     | 5.0.0-fa953b3  |
 | **[Advance Monitoring Stack](./IUDX%20Component%20Installation/Advance%20Monitoring%20Stack.md)**   | 4.0.0-2        |
-
-
+| **[OGC Resource server](./IUDX%20Component%20Installation/File%20Server.md)** | version |
+| **[Data Marketplace apd](./IUDX%20Component%20Installation/File%20Server.md)** | version |
         
