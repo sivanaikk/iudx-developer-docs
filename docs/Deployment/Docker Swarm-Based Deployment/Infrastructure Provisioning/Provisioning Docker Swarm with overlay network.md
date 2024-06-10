@@ -21,7 +21,6 @@ Install ansible on your local machine. There are two possible ways,<br/>
 
     ```
     cd iudx-deployment && git checkout 5.0.0 
-
     ```
 
     
@@ -47,13 +46,15 @@ Install ansible on your local machine. There are two possible ways,<br/>
    1. If the execution of ansible and the docker swarm creation node are on the same node  **   (i.e. localhost)** the command to use is as shown below: 
 
       ```ansible
-      ansible-playbook -v deploy-swarm.yaml -i inventory.yaml --ask-become-pass --connection=local 
+      ansible-playbook -v deploy-swarm.yaml -i inventory.yaml --ask-become-pass --connection=local 
       ```
-
+      :::note
+      **In the `inventory.yaml` file replace the `private_subnet` with appropriate private subnet** 
+      :::
    2. If the execution of ansible and the docker swarm creation node are on different nodes **(i.e. 2 different VMs with different IP address)** the command to use is as shown below: 
 
       ```ansible
-      ansible-playbook -v deploy-swarm.yaml -i inventory.yaml 
+      ansible-playbook -v deploy-swarm.yaml -i inventory.yaml 
       ```
 
 
