@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Geo Server",
+  "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Geo Server",
+  "isDocsHomePage": false,
+  "title": "Geo Server",
+  "description": "Prerequisites",
+  "source": "@site/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Geo Server.md",
+  "sourceDirName": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation",
+  "slug": "/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Geo Server",
+  "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Geo Server",
+  "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Geo Server.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 21,
+  "frontMatter": {
+    "sidebar_position": 21
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Advance Monitoring Stack",
+    "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Advance Monitoring Stack"
+  },
+  "next": {
+    "title": "Data Market Place",
+    "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Data Market Place"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Resource planning",
+  "id": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Resource planning",
+  "isDocsHomePage": false,
+  "title": "Resource planning",
+  "description": "1. Create a resource Plan of various IUDX components to provision necessary VM types,",
+  "source": "@site/docs/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Resource planning.md",
+  "sourceDirName": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning",
+  "slug": "/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Resource planning",
+  "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Resource planning",
+  "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Resource planning.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Prerequisites",
+    "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/prerequisites"
+  },
+  "next": {
+    "title": "Infrastructure setup on AWS using Rancher",
+    "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Infrastructure setup on AWS using Rancher"
+  }
+}

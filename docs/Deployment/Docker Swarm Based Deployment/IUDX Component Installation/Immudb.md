@@ -39,7 +39,15 @@ sidebar_position: 2
     ./create-secrets.sh
     ```
     :::note
+
     Secrets are generated in the secrets/passwords directory for all users.
+
+    create .audit.env hidden file under secrets directory and add the below details.
+    
+    **`IMMUCLIENT_IMMUDB_ADDRESS=tasks.Immudb`<br/>**
+    **`IMMUCLIENT_AUDIT_USERNAME=auditing_user`<br/>**
+    **`IMMUCLIENT_AUDIT_PASSWORD=<secrets/password/auditing-password>`**
+
     :::
 5. Define appropriate values of resources in immudb-stack.resources.yaml as shown in sample resource-values file **[example-immudb-stack.resources.yaml](https://github.com/datakaveri/iudx-deployment/blob/5.0.0/Docker-Swarm-deployment/single-node/immudb/example-immudb-stack.resources.yaml)**
 
@@ -107,11 +115,11 @@ sidebar_position: 2
         tables
         ```
 
-</details>
-
 3. To check if the immudb stacks are deployed and running, execute the command:
     ```
     docker stack ps immudb
     ```
 
 4. For more detailed installation instructions, refer **[here](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/Docker-Swarm-deployment/single-node/immudb#introduction)**.
+
+</details>
