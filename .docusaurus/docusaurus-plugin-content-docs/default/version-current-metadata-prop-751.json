@@ -1,0 +1,509 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Latest",
+  "banner": "unreleased",
+  "badge": true,
+  "className": "docs-version-current",
+  "isLast": false,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "link",
+        "label": "Fetching and Resetting Client Credentials",
+        "href": "/docs/next/client-credentials"
+      },
+      {
+        "type": "link",
+        "label": "Registration",
+        "href": "/docs/next/registration"
+      },
+      {
+        "type": "category",
+        "label": "Getting Started: Consumer",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Introduction",
+            "href": "/docs/next/Consumer/consumer"
+          },
+          {
+            "type": "link",
+            "label": "Discover Resources",
+            "href": "/docs/next/Consumer/consumer_data_discovery"
+          },
+          {
+            "type": "link",
+            "label": "Obtaining Access Token",
+            "href": "/docs/next/Consumer/consumer_obtaining_access_token"
+          },
+          {
+            "type": "link",
+            "label": "Data Access through APIs",
+            "href": "/docs/next/Consumer/consumer_data_access_APIs"
+          },
+          {
+            "type": "link",
+            "label": "Data Access through Subscription",
+            "href": "/docs/next/Consumer/consumer_data_access_subscription"
+          },
+          {
+            "type": "link",
+            "label": "Data Access through Async APIs",
+            "href": "/docs/next/Consumer/consumer_data_access_async"
+          },
+          {
+            "type": "link",
+            "label": "Data Access through File Server",
+            "href": "/docs/next/Consumer/consumer_data_access_file_server"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Getting Started: Provider",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Introduction",
+            "href": "/docs/next/Provider/provider"
+          },
+          {
+            "type": "link",
+            "label": "Manage Policies",
+            "href": "/docs/next/Provider/provider_manage_policies"
+          },
+          {
+            "type": "link",
+            "label": "Manage Delegations",
+            "href": "/docs/next/Provider/provider_manage_delegates"
+          },
+          {
+            "type": "link",
+            "label": "Manage Catalogue Items",
+            "href": "/docs/next/Provider/provider_register_catalogue_item"
+          },
+          {
+            "type": "link",
+            "label": "Manage Data Ingestion",
+            "href": "/docs/next/Provider/provider_register_resource_server"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Getting Started: Delegate",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Introduction",
+            "href": "/docs/next/Delegate/delegate"
+          },
+          {
+            "type": "link",
+            "label": "Managing Policies and Delegations for different Providers",
+            "href": "/docs/next/Delegate/delegate_manage_policy"
+          },
+          {
+            "type": "link",
+            "label": "Manage Catalogue Items",
+            "href": "/docs/next/Delegate/delegate_register_catalogue_item"
+          },
+          {
+            "type": "link",
+            "label": "Manage Data Ingestion",
+            "href": "/docs/next/Delegate/delegate_register_resource_server"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "IUDX Deployment",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "IUDX Overview",
+            "href": "/docs/next/Deployment/Introduction"
+          },
+          {
+            "type": "category",
+            "label": "Docker Swarm-Based Deployment",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Introduction",
+                "href": "/docs/next/Deployment/Docker Swarm-Based Deployment/Introduction"
+              },
+              {
+                "type": "link",
+                "label": "Prerequisites",
+                "href": "/docs/next/Deployment/Docker Swarm-Based Deployment/prerequisites"
+              },
+              {
+                "type": "link",
+                "label": "Deployment Overview",
+                "href": "/docs/next/Deployment/Docker Swarm-Based Deployment/Deployment Overview"
+              },
+              {
+                "type": "category",
+                "label": "Infrastructure Provisioning",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "Resource planning",
+                    "href": "/docs/next/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Resource planning"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Provisioning Docker Swarm with overlay network",
+                    "href": "/docs/next/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Provisioning Docker Swarm with overlay network"
+                  },
+                  {
+                    "type": "category",
+                    "label": "Addons",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "link",
+                        "label": "Provisioning Node-exporter and docker daemon metrics",
+                        "href": "/docs/next/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Addons/Provisioning Node-exporter and docker daemon metrics"
+                      },
+                      {
+                        "type": "link",
+                        "label": "Centralised-Nginx",
+                        "href": "/docs/next/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Addons/Centralised-Nginx"
+                      },
+                      {
+                        "type": "link",
+                        "label": "Monitoring-stack",
+                        "href": "/docs/next/Deployment/Docker Swarm-Based Deployment/Infrastructure Provisioning/Addons/Monitoring-stack"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "IUDX Component Installation",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "Initiating the Deployment",
+                    "href": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Initiating the Deployment"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Immudb",
+                    "href": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Immudb"
+                  },
+                  {
+                    "type": "link",
+                    "label": "RabbitMQ",
+                    "href": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/RabbitMQ"
+                  },
+                  {
+                    "type": "link",
+                    "label": "PostgreSQL",
+                    "href": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/PostgreSQL"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Redis",
+                    "href": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Redis"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Zookeeper",
+                    "href": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Zookeeper"
+                  },
+                  {
+                    "type": "link",
+                    "label": "ELK stack",
+                    "href": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/ELK stack"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Keycloak",
+                    "href": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Keycloak"
+                  },
+                  {
+                    "type": "link",
+                    "label": "API Server",
+                    "href": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/API Server"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Latest-Ingestion-Pipeline",
+                    "href": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Latest-Ingestion-Pipeline"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Auditing Server",
+                    "href": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Auditing Server"
+                  },
+                  {
+                    "type": "link",
+                    "label": "AAA Server",
+                    "href": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/AAA Server"
+                  },
+                  {
+                    "type": "link",
+                    "label": "ACL-APD",
+                    "href": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/ACL-APD"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Catalogue-Server",
+                    "href": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Catalogue-Server"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Resource-Server",
+                    "href": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Resource-Server"
+                  },
+                  {
+                    "type": "link",
+                    "label": "File Server",
+                    "href": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/File Server"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Data- Ingestion Server",
+                    "href": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Data- Ingestion Server"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Advance Monitoring Stack",
+                    "href": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Advance Monitoring Stack"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "Kubernetes-Based Deployment",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Introduction",
+                "href": "/docs/next/Deployment/Kubernetes-Based Deployment/Introduction"
+              },
+              {
+                "type": "link",
+                "label": "Deployment Overview",
+                "href": "/docs/next/Deployment/Kubernetes-Based Deployment/Deployment Overview"
+              },
+              {
+                "type": "link",
+                "label": "Prerequisites",
+                "href": "/docs/next/Deployment/Kubernetes-Based Deployment/prerequisites"
+              },
+              {
+                "type": "category",
+                "label": "Infrastructure Provisioning",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "Resource planning",
+                    "href": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Resource planning"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Infrastructure setup on AWS using Rancher",
+                    "href": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Infrastructure setup on AWS using Rancher"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Infrastructure setup on Azure using Rancher",
+                    "href": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Infrastructure setup on Azure using Rancher"
+                  },
+                  {
+                    "type": "category",
+                    "label": "Addons",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "link",
+                        "label": "Cluster-autoscaler for Rancher",
+                        "href": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Cluster-autoscaler for Rancher"
+                      },
+                      {
+                        "type": "link",
+                        "label": "Centralised-Nginx",
+                        "href": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Centralised-Nginx"
+                      },
+                      {
+                        "type": "link",
+                        "label": "Velero backup",
+                        "href": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Velero backup"
+                      },
+                      {
+                        "type": "link",
+                        "label": "CertManager",
+                        "href": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/CertManager"
+                      },
+                      {
+                        "type": "link",
+                        "label": "Storage",
+                        "href": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Storage"
+                      },
+                      {
+                        "type": "link",
+                        "label": "Monitoring Stack",
+                        "href": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Monitoring Stack"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "IUDX Component Installation",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "Initiating the Deployment",
+                    "href": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Initiating the Deployment"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Immudb",
+                    "href": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Immudb"
+                  },
+                  {
+                    "type": "link",
+                    "label": "RabbitMQ",
+                    "href": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/RabbitMQ"
+                  },
+                  {
+                    "type": "link",
+                    "label": "PostgreSQL",
+                    "href": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/PostgreSQL"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Redis",
+                    "href": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Redis"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Zookeeper",
+                    "href": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Zookeeper"
+                  },
+                  {
+                    "type": "link",
+                    "label": "ELK stack",
+                    "href": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/ELK stack"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Keycloak",
+                    "href": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Keycloak"
+                  },
+                  {
+                    "type": "link",
+                    "label": "API Server",
+                    "href": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/API Server"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Latest-Ingestion-Pipeline",
+                    "href": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Latest-Ingestion-Pipeline"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Auditing Server",
+                    "href": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Auditing Server"
+                  },
+                  {
+                    "type": "link",
+                    "label": "AAA Server",
+                    "href": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/AAA Server"
+                  },
+                  {
+                    "type": "link",
+                    "label": "ACL-APD",
+                    "href": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/ACL-APD"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Catalogue-Server",
+                    "href": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Catalogue-Server"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Onboarding Server",
+                    "href": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Onboarding Server"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Resource-Server",
+                    "href": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Resource-Server"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Resource-Server Proxy",
+                    "href": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Resource-Server Proxy"
+                  },
+                  {
+                    "type": "link",
+                    "label": "File Server",
+                    "href": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/File Server"
+                  },
+                  {
+                    "type": "link",
+                    "label": "GIS Server",
+                    "href": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/GIS Server"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Data- Ingestion Server",
+                    "href": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Data- Ingestion Server"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Advance Monitoring Stack",
+                    "href": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Advance Monitoring Stack"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Geo Server",
+                    "href": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Geo Server"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Data Market Place",
+                    "href": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Data Market Place"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

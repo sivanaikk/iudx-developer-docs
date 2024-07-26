@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Resource-Server",
+  "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Resource-Server",
+  "isDocsHomePage": false,
+  "title": "Resource-Server",
+  "description": "Architecture",
+  "source": "@site/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Resource-Server.md",
+  "sourceDirName": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation",
+  "slug": "/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Resource-Server",
+  "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Resource-Server",
+  "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Resource-Server.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 15,
+  "frontMatter": {
+    "sidebar_position": 15
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Onboarding Server",
+    "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Onboarding Server"
+  },
+  "next": {
+    "title": "Resource-Server Proxy",
+    "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Resource-Server Proxy"
+  }
+}

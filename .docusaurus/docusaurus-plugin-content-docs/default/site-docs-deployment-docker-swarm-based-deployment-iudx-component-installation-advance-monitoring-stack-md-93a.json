@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Advance Monitoring Stack",
+  "id": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Advance Monitoring Stack",
+  "isDocsHomePage": false,
+  "title": "Advance Monitoring Stack",
+  "description": "Docker swarm stack for advance monitoring stack.",
+  "source": "@site/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Advance Monitoring Stack.md",
+  "sourceDirName": "Deployment/Docker Swarm-Based Deployment/IUDX Component Installation",
+  "slug": "/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Advance Monitoring Stack",
+  "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Advance Monitoring Stack",
+  "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Advance Monitoring Stack.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 18,
+  "frontMatter": {
+    "sidebar_position": 18
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Data- Ingestion Server",
+    "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Data- Ingestion Server"
+  },
+  "next": {
+    "title": "Introduction",
+    "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Introduction"
+  }
+}

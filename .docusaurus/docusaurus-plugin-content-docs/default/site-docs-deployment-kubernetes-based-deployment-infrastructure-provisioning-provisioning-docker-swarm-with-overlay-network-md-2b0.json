@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Provisioning Docker Swarm with overlay network",
+  "id": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Provisioning Docker Swarm with overlay network",
+  "isDocsHomePage": false,
+  "title": "Provisioning Docker Swarm with overlay network",
+  "description": "Prerequisite",
+  "source": "@site/docs/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Provisioning Docker Swarm with overlay network.md",
+  "sourceDirName": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning",
+  "slug": "/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Provisioning Docker Swarm with overlay network",
+  "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Provisioning Docker Swarm with overlay network",
+  "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Provisioning Docker Swarm with overlay network.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Resource planning",
+    "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Resource planning"
+  },
+  "next": {
+    "title": "Provisioning Node-exporter and docker daemon metrics",
+    "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Provisioning Node-exporter and docker daemon metrics"
+  }
+}

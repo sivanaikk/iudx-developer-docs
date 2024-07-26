@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/ACL-APD",
+  "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/ACL-APD",
+  "isDocsHomePage": false,
+  "title": "ACL-APD",
+  "description": "Prerequisites",
+  "source": "@site/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/ACL-APD.md",
+  "sourceDirName": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation",
+  "slug": "/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/ACL-APD",
+  "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/ACL-APD",
+  "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/ACL-APD.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 12,
+  "frontMatter": {
+    "sidebar_position": 12
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "AAA Server",
+    "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/AAA Server"
+  },
+  "next": {
+    "title": "Catalogue-Server",
+    "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Catalogue-Server"
+  }
+}

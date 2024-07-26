@@ -60,14 +60,14 @@ sidebar_position: 3
 
 5. Copy certificate files to secrets directory as shown below:
     ```
-    cp /etc/letsencrypt/live/<domain-name/chain.pem  secrets/pki/rabbitmq-ca-cert.pem
+    cp /etc/letsencrypt/live/<domain-name>/chain.pem  secrets/pki/rabbitmq-ca-cert.pem
 
-    cp /etc/letsencrypt/live/<domain-name/fullchain.pem  secrets/pki/rabbitmq-server-cert.pem
+    cp /etc/letsencrypt/live/<domain-name>/fullchain.pem  secrets/pki/rabbitmq-server-cert.pem
 
-    cp /etc/letsencrypt/live/<domain-name/privkey.pem secrets/pki/rabbitmq-server-key.pem
+    cp /etc/letsencrypt/live/<domain-name>/privkey.pem secrets/pki/rabbitmq-server-key.pem
     ```
 
-6. If required,> edit the config - secrets/init-config.json to suit the needs for users, exchanges, queues, bindings and policies.
+6. If required, edit the config - secrets/init-config.json to suit the needs for users, exchanges, queues, bindings and policies.
 Folder structure for RabbitMQ secrets is as follows
 
 7. Folder structure for RabbitMQ secrets is as follows
@@ -101,6 +101,7 @@ Folder structure for RabbitMQ secrets is as follows
 9. We can deploy RabbitMQ using the following command 
     ```
     cp example-databroker-stack.resources.yaml databroker-stack.resources.yaml 
+
     docker stack deploy -c databroker-stack.yaml -c databroker-stack.resources.yaml  databroker
     ```
    Expect the following output on successful deployment
@@ -139,7 +140,7 @@ Folder structure for RabbitMQ secrets is as follows
   ![Architecture](../../../../resources/auth/rabbitmQ.png)
 
    </div>
-11. Bring up the account generator stack (clean deployment or whenever any change in init-config)** for RMQ vhosts, users, exchanges, queues, policies creation
+11. Bring up the account generator stack **(clean deployment or whenever any change in init-config)** for RMQ vhosts, users, exchanges, queues, policies creation
      ```
      docker stack deploy -c rmq-init-setup.yaml  rmq-tmp
      ```
@@ -246,8 +247,10 @@ This is an alternative to steps 10 and 11 of the installation. Steps 10 and 11 a
 
 ### Tests
 
-1. Navigate to the **[iudx-deployment/K8s-deployment/Charts/databroker/tests](https://github.com/datakaveri/iudx-deployment/tree/5.0.0/K8s-deployment/Charts/databroker/tests)** directory.
-
+1. Navigate to the below directory :
+    ```
+    cd iudx-deployment/K8s-deployment/Charts/databroker/tests
+    ```
 2. Test the publishing of messages to exchange and routing to queue through a Python script.
 
     1. Create a Python virtual environment on the Rancher/Bootstrap machine:
@@ -283,7 +286,7 @@ This is an alternative to steps 10 and 11 of the installation. Steps 10 and 11 a
 
     <br/>
 
-    5. Configure the following parameters in the Python script (you can use admin user and password)**:
+    5. Configure the following parameters in the Python script **(you can use admin user and password)**:
 
         ```
         username = ""

@@ -6,6 +6,10 @@ sidebar_position: 1
    ```
    cd iudx-deployment/Docker-Swarm-deployment/single-node/infrastructure/ 
    ```
+   :::note
+   
+   Replace `ansible_user` with user having sudo privileges in **inventory.yaml** file
+   :::
 
 2. Install & start node-exporter, also update targets for node-exporter and docker daemon metrics in the prometheus-node.
    ```                                                                               

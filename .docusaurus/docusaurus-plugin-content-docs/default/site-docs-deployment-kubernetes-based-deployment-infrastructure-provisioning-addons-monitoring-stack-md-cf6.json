@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Monitoring-stack",
+  "id": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Monitoring-stack",
+  "isDocsHomePage": false,
+  "title": "Monitoring-stack",
+  "description": "Installation",
+  "source": "@site/docs/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Monitoring-stack.md",
+  "sourceDirName": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons",
+  "slug": "/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Monitoring-stack",
+  "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Monitoring-stack",
+  "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Monitoring-stack.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Centralised-Nginx",
+    "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Centralised-Nginx"
+  },
+  "next": {
+    "title": "Initiating the Deployment",
+    "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Initiating the Deployment"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Deployment/Kubernetes-Based Deployment/Introduction",
+  "id": "Deployment/Kubernetes-Based Deployment/Introduction",
+  "isDocsHomePage": false,
+  "title": "Introduction",
+  "description": "Explore the essential guide for deploying and managing the IUDX platform's latest 5.5.0 release. This documentation provides concise, step-by-step instructions for both seasoned developers and newcomers.",
+  "source": "@site/docs/Deployment/Kubernetes-Based Deployment/Introduction.md",
+  "sourceDirName": "Deployment/Kubernetes-Based Deployment",
+  "slug": "/Deployment/Kubernetes-Based Deployment/Introduction",
+  "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Introduction",
+  "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Kubernetes-Based Deployment/Introduction.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Advance Monitoring Stack",
+    "permalink": "/docs/next/Deployment/Docker Swarm-Based Deployment/IUDX Component Installation/Advance Monitoring Stack"
+  },
+  "next": {
+    "title": "Deployment Overview",
+    "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Deployment Overview"
+  }
+}

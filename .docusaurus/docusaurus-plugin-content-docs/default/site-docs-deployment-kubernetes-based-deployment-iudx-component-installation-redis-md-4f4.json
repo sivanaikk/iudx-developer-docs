@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Redis",
+  "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Redis",
+  "isDocsHomePage": false,
+  "title": "Redis",
+  "description": "Architecture",
+  "source": "@site/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Redis.md",
+  "sourceDirName": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation",
+  "slug": "/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Redis",
+  "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Redis",
+  "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Redis.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "PostgreSQL",
+    "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/PostgreSQL"
+  },
+  "next": {
+    "title": "Zookeeper",
+    "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Zookeeper"
+  }
+}

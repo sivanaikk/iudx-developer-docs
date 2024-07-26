@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Keycloak",
+  "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Keycloak",
+  "isDocsHomePage": false,
+  "title": "Keycloak",
+  "description": "Architecture",
+  "source": "@site/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Keycloak.md",
+  "sourceDirName": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation",
+  "slug": "/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Keycloak",
+  "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Keycloak",
+  "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Keycloak.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ELK stack",
+    "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/ELK stack"
+  },
+  "next": {
+    "title": "API Server",
+    "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/API Server"
+  }
+}

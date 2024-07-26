@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Deployment/Kubernetes-Based Deployment/prerequisites",
+  "id": "Deployment/Kubernetes-Based Deployment/prerequisites",
+  "isDocsHomePage": false,
+  "title": "Prerequisites",
+  "description": "Basic knowledge on following DevOps Technologies",
+  "source": "@site/docs/Deployment/Kubernetes-Based Deployment/prerequisites.md",
+  "sourceDirName": "Deployment/Kubernetes-Based Deployment",
+  "slug": "/Deployment/Kubernetes-Based Deployment/prerequisites",
+  "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/prerequisites",
+  "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Kubernetes-Based Deployment/prerequisites.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Deployment Overview",
+    "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Deployment Overview"
+  },
+  "next": {
+    "title": "Resource planning",
+    "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Resource planning"
+  }
+}

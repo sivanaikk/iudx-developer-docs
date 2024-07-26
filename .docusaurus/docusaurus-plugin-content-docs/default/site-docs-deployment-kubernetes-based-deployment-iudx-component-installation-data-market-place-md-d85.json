@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Data Market Place",
+  "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Data Market Place",
+  "isDocsHomePage": false,
+  "title": "Data Market Place",
+  "description": "The dmp-apdschema created using flyway using following steps:",
+  "source": "@site/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Data Market Place.md",
+  "sourceDirName": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation",
+  "slug": "/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Data Market Place",
+  "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Data Market Place",
+  "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Data Market Place.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 22,
+  "frontMatter": {
+    "sidebar_position": 22
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Geo Server",
+    "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Geo Server"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/File Server",
+  "id": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation/File Server",
+  "isDocsHomePage": false,
+  "title": "File Server",
+  "description": "Architecture",
+  "source": "@site/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/File Server.md",
+  "sourceDirName": "Deployment/Kubernetes-Based Deployment/IUDX Component Installation",
+  "slug": "/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/File Server",
+  "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/File Server",
+  "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/File Server.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 17,
+  "frontMatter": {
+    "sidebar_position": 17
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Resource-Server Proxy",
+    "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/Resource-Server Proxy"
+  },
+  "next": {
+    "title": "GIS Server",
+    "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/IUDX Component Installation/GIS Server"
+  }
+}

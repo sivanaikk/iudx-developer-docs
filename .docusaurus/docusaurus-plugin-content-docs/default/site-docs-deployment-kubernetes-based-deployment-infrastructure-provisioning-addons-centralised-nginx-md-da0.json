@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Centralised-Nginx",
+  "id": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Centralised-Nginx",
+  "isDocsHomePage": false,
+  "title": "Centralised-Nginx",
+  "description": "Introduction",
+  "source": "@site/docs/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Centralised-Nginx.md",
+  "sourceDirName": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons",
+  "slug": "/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Centralised-Nginx",
+  "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Centralised-Nginx",
+  "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Centralised-Nginx.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Cluster-autoscaler for Rancher",
+    "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Cluster-autoscaler for Rancher"
+  },
+  "next": {
+    "title": "Velero backup",
+    "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Velero backup"
+  }
+}

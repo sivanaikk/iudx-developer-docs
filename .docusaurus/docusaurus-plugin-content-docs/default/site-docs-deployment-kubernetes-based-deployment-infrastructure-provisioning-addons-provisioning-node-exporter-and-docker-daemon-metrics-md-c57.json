@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Provisioning Node-exporter and docker daemon metrics",
+  "id": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Provisioning Node-exporter and docker daemon metrics",
+  "isDocsHomePage": false,
+  "title": "Provisioning Node-exporter and docker daemon metrics",
+  "description": "1. Navigate to the below directory",
+  "source": "@site/docs/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Provisioning Node-exporter and docker daemon metrics.md",
+  "sourceDirName": "Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons",
+  "slug": "/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Provisioning Node-exporter and docker daemon metrics",
+  "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Provisioning Node-exporter and docker daemon metrics",
+  "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Provisioning Node-exporter and docker daemon metrics.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Provisioning Docker Swarm with overlay network",
+    "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Provisioning Docker Swarm with overlay network"
+  },
+  "next": {
+    "title": "Centralised-Nginx",
+    "permalink": "/docs/next/Deployment/Kubernetes-Based Deployment/Infrastructure Provisioning/Addons/Centralised-Nginx"
+  }
+}
